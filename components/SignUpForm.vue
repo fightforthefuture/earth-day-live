@@ -22,8 +22,29 @@
           { rel: 'stylesheet', href: 'https://actionnetwork.org/css/style-embed-v3.css' }
         ]
       }
+    },
+    mounted() {
+      document.addEventListener('can_embed_loaded', () => {
+        const optInGroups = document.getElementById('d_sharing').querySelectorAll('li')
+
+        if (optInGroups.length > 1) {
+          const optInText = optInGroups[1].querySelectorAll('label')[0].innerText;
+          const partnerGroupName = optInText.replace('Opt in to updates from ', '')
+          const partnerDisclaimer = document.createElement('p')
+          partnerDisclaimer.classList.add('splash-page-disclaimer')
+          partnerDisclaimer.innerHTML = `You may receive updates from <i>${partnerGroupName}</i>, who shared this form with you.`
+          document.querySelector('.splash-page-signup-form-wrapper').appendChild(partnerDisclaimer)
+        }
+      })
+
+      document.addEventListener('can_embed_submitted', () => {
+        document.querySelectorAll('.splash-page-disclaimer').forEach((disclaimer) => {
+          disclaimer.style.display = 'none'
+        })
+      })
     }
   }
+
 </script>
 
 <style>
