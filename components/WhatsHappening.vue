@@ -30,8 +30,5 @@
 .section-title {
   text-align: center;
 }
-.separator {
-  margin: auto;
-}
 
 </style>

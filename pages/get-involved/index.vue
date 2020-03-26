@@ -98,4 +98,12 @@
   .are-you-with-us-signup-wrapper .logo-earth-day-live {
     max-width: 150px;
   }
+
+  .description {
+    text-align: justify;
+  }
+
+  .separator {
+    margin-bottom: 10px;
+  }
 </style>

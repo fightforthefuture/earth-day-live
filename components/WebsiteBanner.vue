@@ -49,9 +49,6 @@ export default {
     text-align: center;
   }
 
-  .separator {
-    margin: auto;
-  }
   .widget-code {
     background-color: #fff;
     text-align: left;

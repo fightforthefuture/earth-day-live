@@ -36,10 +36,6 @@
     text-align: center;
   }
 
-  .separator {
-    margin: auto;
-  }
-
   .banner-ad {
     width: 100%;
     margin-bottom: 10px;
