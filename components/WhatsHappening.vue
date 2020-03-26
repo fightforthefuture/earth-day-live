@@ -1,6 +1,6 @@
 <template>
     <section id="whats-happening">
-      <div class="col-md-8 offset-md-2">
+      <div class="col-md-6 offset-md-3">
         <h1 class="section-title">
           The Century for the Earth
         </h1>
@@ -24,7 +24,7 @@
 #whats-happening {
   background-color: #f8f8f8;
   text-align: center;
-  padding: 75px;
+  padding: 75px 20px;
 }
 
 .section-title {

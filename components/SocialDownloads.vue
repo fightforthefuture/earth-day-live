@@ -1,12 +1,12 @@
 <template>
-  <section id="website-banner">
-    <div class="col-md-6 offset-md-3">
+  <section id="social-downloads">
+    <div class="col-md-8 offset-md-2">
       <h1 class="section-title">
-        Sites: add the Earth Day Live banner
+        Everyone: Spread the word on social media
       </h1>
       <img class="separator" src="~assets/images/separator.jpg" alt="Separator" />
       <p class="description">
-        Add our widget to your site. It's a small (but powerful!) notice to your site's users that something BIG is happening for Earth Day.
+        On social media? Share these Earth Day Live graphics on your corner of the Internet to get the word out.
       </p>
     </div>
   </section>
@@ -14,14 +14,14 @@
 
 <script>
     export default {
-        name: "WebsiteBanner"
+        name: "SocialDownloads"
     }
 </script>
 
 <style scoped>
-  #website-banner {
-    background-color: #efefef;
-    padding: 75px 20px;
+  #social-downloads {
+    background-color: #f8f8f8;
+    padding: 75px;
     text-align: center;
   }
 

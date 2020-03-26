@@ -15,15 +15,27 @@
     </div>
     <WhatsHappening />
     <WebsiteBanner />
+    <BannerAds />
+    <SocialDownloads />
+    <AreYouWithUs />
+    <div class="are-you-with-us-signup-wrapper">
+      <div class="col-md-8 offset-md-2">
+        <hr class="white-separator">
+        <Logo />
+      </div>
+    </div>
   </div>
 </template>
 
 <script>
   import Logo from '~/components/Logo.vue'
   import ImReadyButton from '~/components/ImReadyButton.vue'
-  import PageFooter from '~/components/PageFooter.vue'
   import WhatsHappening from '~/components/WhatsHappening.vue'
   import WebsiteBanner from '~/components/WebsiteBanner.vue'
+  import BannerAds from '~/components/BannerAds.vue'
+  import SocialDownloads from '~/components/SocialDownloads.vue'
+  import AreYouWithUs from '~/components/AreYouWithUs.vue'
+  import SignUpForm from '~/components/SignUpForm.vue'
 
   export default {
     components: {
@@ -31,7 +43,10 @@
       ImReadyButton,
       WhatsHappening,
       WebsiteBanner,
-      PageFooter
+      BannerAds,
+      SocialDownloads,
+      AreYouWithUs,
+      SignUpForm,
     }
   }
 
@@ -60,5 +75,24 @@
     color: #fff;
     letter-spacing: 1px;
     padding-bottom: 50px;
+  }
+  .are-you-with-us-signup-wrapper {
+    background: url('~assets/images/earth-day-live-gradient.jpg') no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    padding-top: 500px;
+    margin-top: -500px;
+    text-align: center;
+  }
+  .white-separator {
+    width: 80%;
+    background-color: #fff;
+    margin: auto;
+  }
+  .are-you-with-us-signup-wrapper .logo-eclipse,
+  .are-you-with-us-signup-wrapper .logo-earth-day-live {
+    max-width: 150px;
   }
 </style>

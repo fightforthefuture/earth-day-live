@@ -1,8 +1,8 @@
 <template>
-  <section id="website-banner">
+  <section id="banner-ads">
     <div class="col-md-6 offset-md-3">
       <h1 class="section-title">
-        Sites: add the Earth Day Live banner
+        Use these banner ads
       </h1>
       <img class="separator" src="~assets/images/separator.jpg" alt="Separator" />
       <p class="description">
@@ -14,13 +14,13 @@
 
 <script>
     export default {
-        name: "WebsiteBanner"
+        name: "BannerAds"
     }
 </script>
 
 <style scoped>
-  #website-banner {
-    background-color: #efefef;
+  #banner-ads {
+    background-color: #f8f8f8;
     padding: 75px 20px;
     text-align: center;
   }
