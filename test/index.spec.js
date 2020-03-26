@@ -8,7 +8,16 @@ beforeAll(() => {
 });
 
 describe('Index page', () => {
-  test('true is truthy', () => {
-    expect(true).toBeTruthy();
+  test('is a Vue instance', () => {
+    expect(wrapper.isVueInstance()).toBeTruthy()
   })
+
+  test('contains a h1 element', () => {
+    expect(wrapper.contains('h1')).toBe(true)
+  });
+
+  test('contains a h1 with class title', () => {
+    const title = wrapper.find('h1');
+    expect(title.classes('title')).toBe(true)
+  });
 })
