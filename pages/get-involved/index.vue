@@ -14,7 +14,7 @@
       </div>
     </div>
     <WhatsHappening />
-    <PageFooter />
+    <WebsiteBanner />
   </div>
 </template>
 
@@ -23,12 +23,14 @@
   import ImReadyButton from '~/components/ImReadyButton.vue'
   import PageFooter from '~/components/PageFooter.vue'
   import WhatsHappening from '~/components/WhatsHappening.vue'
+  import WebsiteBanner from '~/components/WebsiteBanner.vue'
 
   export default {
     components: {
       Logo,
       ImReadyButton,
       WhatsHappening,
+      WebsiteBanner,
       PageFooter
     }
   }
@@ -36,11 +38,6 @@
 </script>
 
 <style>
-
-  body {
-    background-color: #e3e9ec;
-  }
-
   .container-fluid {
     margin: 0 auto;
     display: flex;
