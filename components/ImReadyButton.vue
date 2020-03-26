@@ -32,7 +32,7 @@ export default {
 .im-ready-button {
   text-transform: uppercase;
   color: #fff;
-  background-color: #151515;
+  background-color: #190825;
   font-family: titling-gothic-fb, sans-serif;
   padding: 20px 100px;
   border: none;

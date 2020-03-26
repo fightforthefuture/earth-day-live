@@ -50,7 +50,7 @@
 <style>
   .splash-page-signup-form-wrapper {
     margin-top: -100px;
-    background-color: #240e34;
+    background-color: #190825;
     padding: 20px;
     color: #fff;
     text-align: center;
@@ -64,11 +64,11 @@
 
   #can-form-area-digital-earth-day {
     border: none !important;
-    background-color: #240e34;
+    background-color: #190825;
   }
   #can-form-area-digital-earth-day #can_embed_form {
     border: none !important;
-    background-color: #240e34 !important;
+    background-color: #190825 !important;
   }
 
   #can_embed_form_inner h2:first-child {
@@ -114,7 +114,7 @@
 
   #can_embed_form #form_col1 input {
     padding: 25px 20px !important;
-    color: #240e34 !important;
+    color: #190825 !important;
   }
 
   #can_embed_form #form_col1 input.error_input::placeholder {
@@ -139,7 +139,7 @@
   }
 
   #can-form-area-digital-earth-day #can_embed_form #can_thank_you {
-    background-color: #240e34 !important;
+    background-color: #190825 !important;
   }
 
   #can-form-area-digital-earth-day #can_embed_form #can_thank_you h1 {

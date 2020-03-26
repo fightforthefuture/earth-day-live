@@ -1,6 +1,6 @@
 <template>
   <section id="social-downloads">
-    <div class="col-md-8 offset-md-2">
+    <div class="col-md-6 offset-md-3">
       <h1 class="section-title">
         Everyone: Spread the word on social media
       </h1>

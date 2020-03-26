@@ -1,5 +1,6 @@
 <template>
   <div>
+    <GetInvolvedNav />
     <div class="container-fluid">
       <div>
         <logo />
@@ -28,6 +29,7 @@
 </template>
 
 <script>
+  import GetInvolvedNav from '~/components/GetInvolvedNav.vue'
   import Logo from '~/components/Logo.vue'
   import ImReadyButton from '~/components/ImReadyButton.vue'
   import WhatsHappening from '~/components/WhatsHappening.vue'
@@ -39,6 +41,7 @@
 
   export default {
     components: {
+      GetInvolvedNav,
       Logo,
       ImReadyButton,
       WhatsHappening,
@@ -64,7 +67,7 @@
     -moz-background-size: cover;
     -o-background-size: cover;
     background-size: cover;
-    padding-bottom: 130px;
+    padding-bottom: 50px;
   }
 
   .title {
