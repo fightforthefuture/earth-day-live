@@ -1,0 +1,22 @@
+<template>
+  <div>
+    <h1>
+      The Century for the Earth
+    </h1>
+    <p>
+      On April 22-24, the 50th anniversary of Earth Day, millions of people around the world are going online for a three-day mobilization to stop the climate emergency.
+      Join us for three days of action — from teach-ins, musical performances, divestment, and more. All you need is an internet connection.
+      Together, we can transform our world into one that is not only safe and sustainable, but flourishes for generations to come.
+    </p>
+  </div>
+</template>
+
+<script>
+    export default {
+        name: "WhatsHappening.vue"
+    }
+</script>
+
+<style scoped>
+
+</style>

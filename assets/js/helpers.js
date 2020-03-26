@@ -39,3 +39,13 @@ export function createMetaTags(tags = {}) {
 
   return Object.values(meta)
 }
+
+// Smooth scroll animation to an element by ID
+export function smoothScrollToElement(el, duration) {
+  duration = typeof duration !== 'undefined' ? duration : 500
+  el = typeof el === 'string' ? document.querySelector(el) : el
+
+  if (el) {
+    smoothScrollTo(el.offsetLeft, el.offsetTop, duration)
+  }
+}

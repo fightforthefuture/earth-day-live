@@ -8,19 +8,27 @@
             Strike, divest, and vote to save humanity and our planet.
           </h1>
         </div>
+        <div class="col-md-6 offset-md-3">
+          <ImReadyButton />
+        </div>
       </div>
     </div>
+    <WhatsHappening />
     <PageFooter />
   </div>
 </template>
 
 <script>
   import Logo from '~/components/Logo.vue'
+  import ImReadyButton from '~/components/ImReadyButton.vue'
   import PageFooter from '~/components/PageFooter.vue'
+  import WhatsHappening from '~/components/WhatsHappening.vue'
 
   export default {
     components: {
       Logo,
+      ImReadyButton,
+      WhatsHappening,
       PageFooter
     }
   }
@@ -54,7 +62,6 @@
     font-weight: 300;
     color: #fff;
     letter-spacing: 1px;
-    padding-bottom: 30px;
+    padding-bottom: 50px;
   }
-
 </style>
