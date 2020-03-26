@@ -6,8 +6,15 @@
       </h1>
       <img class="separator" src="~assets/images/separator.jpg" alt="Separator" />
       <p class="description">
-        Add our widget to your site. It's a small (but powerful!) notice to your site's users that something BIG is happening for Earth Day.
+        Do you run a site or blog? Use these banner ads to get the word out about Earth Day Live. There are tons of
+        <a href="https://drive.google.com/drive/folders/1D5xxm1n1TsEmzNRgrOrMTSoi1el1jtV1" target="_blank">ad sizes to choose from here</a>.
       </p>
+      <a href="https://drive.google.com/drive/folders/1D5xxm1n1TsEmzNRgrOrMTSoi1el1jtV1" target="_blank">
+        <img class="banner-ad" src="~assets/images/banner-ad-600x628.png" alt="Ready to help save the world? (Banner Ad 600x628)">
+      </a>
+      <a href="https://drive.google.com/drive/folders/1D5xxm1n1TsEmzNRgrOrMTSoi1el1jtV1" target="_blank">
+        <img class="banner-ad" src="~assets/images/banner-ad-970x90.png" alt="Ready to help save the world? (Banner Ad 970x90)">
+      </a>
     </div>
   </section>
 </template>
@@ -31,5 +38,10 @@
 
   .separator {
     margin: auto;
+  }
+
+  .banner-ad {
+    width: 100%;
+    margin-bottom: 10px;
   }
 </style>

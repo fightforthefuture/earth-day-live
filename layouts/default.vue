@@ -52,6 +52,14 @@ p {
   font-family: neue-haas-grotesk-display, sans-serif;
   font-size: 1.2em;
 }
+a {
+  color: #fd6f37;
+  text-decoration: underline;
+}
+
+a:hover {
+  color: #190825;
+}
 
 *,
 *:before,
