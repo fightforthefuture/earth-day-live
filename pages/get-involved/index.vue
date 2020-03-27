@@ -50,13 +50,20 @@
       SocialDownloads,
       AreYouWithUs,
       SignUpForm,
-    }
+    },
+    head () {
+      return {
+        script: [
+          { src: 'https://widget.earthdaylive2020.org/widget.js' }
+        ],
+      }
+    },
   }
 
 </script>
 
 <style>
-  .get-involved-container {
+  .container-fluid.get-involved-container {
     margin: 0 auto;
     display: flex;
     justify-content: center;
@@ -103,7 +110,14 @@
     text-align: justify;
   }
 
+  .description-center {
+    margin: auto;
+  }
+
   .separator {
     margin-bottom: 10px;
+  }
+  #EARTH_DAY_LIVE {
+    display: none;
   }
 </style>

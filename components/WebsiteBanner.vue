@@ -6,31 +6,71 @@
       </h1>
       <img class="separator" src="~assets/images/separator.jpg" alt="Separator" />
       <p class="description">
-        Add our widget to your site. It's a small (but powerful!) notice to your site's users that something BIG is happening for Earth Day.
+        Spread the word about Earth Day Live with a small, but powerful, banner. On April 22, expand the banner fullscreen so your website can join the mobilization — digitally!
       </p>
-      <div class="row">
+      <p class="description">
+        Simply add this line of JavaScript to any page on your site to join Earth Day Live:
+      </p>
+      <div class="row widget-code-wrapper">
         <div class="col-md-9 widget-code">
           <code>
             {{ widget_link }}
           </code>
         </div>
         <div class="col-md-3 widget-code-button-wrapper">
-          <button>
+          <button @click="showWidget">
             Try it out
             <img class="circle-arrow" src="~assets/images/circle-arrow.svg" alt="Arrow" />
           </button>
         </div>
+      </div>
+      <div>
+        <p class="description-center">
+          The widget will appear on your page as a closable footer just like you see it here (<a href="https://widget.earthdaylive2020.org/demo.html" target="_blank">demo</a>):
+        </p>
+        <img class="widget-example" src="~assets/images/widget-example-1.png" alt="Website Banner Example 1" />
+        <p class="description-center">
+          Then on April 22, the widget can expand it show your site supporting Earth Day Live (<a href="https://widget.earthdaylive2020.org/demo.html?fullPage" target="_blank">demo</a>):
+        </p>
+        <img class="widget-example" src="~assets/images/widget-example-2.png" alt="Website Banner Example 2" />
+        <p class="description-center">
+          A closable overlay option is included as part of the widget (<a href="https://widget.earthdaylive2020.org/demo.html?fullPage&showCloseButton=1" target="_blank">demo</a>):
+        </p>
+        <img class="widget-example" src="~assets/images/widget-example-3.png" alt="Website Banner Example 3" />
+        <p class="description">
+          Visit our <a href="https://github.com/fightforthefuture/earth-day-live-widget" targer="_blank">GitHub page</a> to learn how you can further customize the user experience or behavior of the widget.
+          Please feel free to create your own custom way to drive awareness of the Global #ClimateStrike on your site.
+        </p>
+        <p class="description">
+          If you use your site to spread the word in any way, please let us know by
+          <a href="#are-you-with-us" @click.prevent="scrollTo('#are-you-with-us')">filling in the form below</a>.
+          This is super important so we can help amplify your impact and mobilize as many people as possible to help stop the climate crisis.
+        </p>
       </div>
     </div>
   </section>
 </template>
 
 <script>
+import { smoothScrollToElement } from '~/assets/js/helpers'
+
 export default {
   name: "WebsiteBanner",
   data() {
     return {
-      widget_link: "<script src=\"https://assets.earthdaylive2020.net/widget.js\" async><\/script>"
+      widget_link: "<script src=\"https://widget.earthdaylive2020.org/widget.js\" async><\/script>"
+    }
+  },
+  methods: {
+    scrollTo(hash) {
+      const duration = 500
+      smoothScrollToElement(hash, duration)
+      setTimeout(() => {
+        location.hash = hash
+      }, duration)
+    },
+    showWidget() {
+      document.getElementById('EARTH_DAY_LIVE').style.display = 'block';
     }
   }
 }
@@ -47,6 +87,10 @@ export default {
 
   .section-title {
     text-align: center;
+  }
+
+  .widget-code-wrapper {
+    margin-bottom: 20px;
   }
 
   .widget-code {
@@ -76,6 +120,12 @@ export default {
     margin-top: -2px;
     margin-left: 10px;
   }
+
+  .widget-example {
+    width: 80%;
+    margin: 20px auto;
+  }
+
   @media only screen and (max-width: 600px) {
     .widget-code-button-wrapper {
       padding-right: 0;
