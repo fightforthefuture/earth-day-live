@@ -2,10 +2,10 @@
     <nav class="navbar">
       <div class="container">
         <a id="whats-happening" @click.prevent="scrollTo('#whats-happening')">What's Happening?</a>
-        <a @click.prevent="scrollTo('#website-banner')">Website Banner</a>
-        <a @click.prevent="scrollTo('#banner-ads')">Banner Ads</a>
-        <a @click.prevent="scrollTo('#social-downloads')">Social Downloads</a>
-        <a @click.prevent="scrollTo('#are-you-with-us')">Are you with us?</a>
+        <a id="website-banner" @click.prevent="scrollTo('#website-banner')">Website Banner</a>
+        <a id="banner-ads" @click.prevent="scrollTo('#banner-ads')">Banner Ads</a>
+        <a id="social-downloads" @click.prevent="scrollTo('#social-downloads')">Social Downloads</a>
+        <a id="are-you-with-us" @click.prevent="scrollTo('#are-you-with-us')">Are you with us?</a>
       </div>
     </nav>
 </template>
