@@ -1,7 +1,7 @@
 <template>
     <nav class="navbar">
       <div class="container">
-        <a @click.prevent="scrollTo('#whats-happening')">What's Happening?</a>
+        <a id="whats-happening" @click.prevent="scrollTo('#whats-happening')">What's Happening?</a>
         <a @click.prevent="scrollTo('#website-banner')">Website Banner</a>
         <a @click.prevent="scrollTo('#banner-ads')">Banner Ads</a>
         <a @click.prevent="scrollTo('#social-downloads')">Social Downloads</a>
