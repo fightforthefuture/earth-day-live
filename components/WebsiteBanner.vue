@@ -115,6 +115,10 @@ export default {
     background-image: linear-gradient(to right, #f26146 0%, #fb722c 35%, #f65b5a 65%, #f85371 100%) !important;
   }
 
+  .widget-code-button-wrapper button:hover {
+    cursor: pointer;
+  }
+  
   .widget-code-button-wrapper .circle-arrow {
     width: 30px;
     margin-top: -2px;
