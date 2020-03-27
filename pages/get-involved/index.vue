@@ -1,7 +1,7 @@
 <template>
   <div>
     <GetInvolvedNav />
-    <div class="container-fluid">
+    <div class="container-fluid get-involved-container">
       <div>
         <logo />
         <div class="col-md-8 offset-md-2">
@@ -56,7 +56,7 @@
 </script>
 
 <style>
-  .container-fluid {
+  .get-involved-container {
     margin: 0 auto;
     display: flex;
     justify-content: center;
