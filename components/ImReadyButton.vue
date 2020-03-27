@@ -44,4 +44,10 @@ export default {
   cursor: pointer;
 }
 
+@media only screen and (max-width: 600px) {
+  .im-ready-button {
+    padding: 20px 60px;
+  }
+}
+
 </style>

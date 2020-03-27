@@ -76,4 +76,9 @@ export default {
     margin-top: -2px;
     margin-left: 10px;
   }
+  @media only screen and (max-width: 600px) {
+    .widget-code-button-wrapper {
+      padding-right: 0;
+    }
+  }
 </style>

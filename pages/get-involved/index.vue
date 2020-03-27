@@ -4,7 +4,7 @@
     <div class="container-fluid">
       <div>
         <logo />
-        <div class="col-md-6 offset-md-3">
+        <div class="col-md-8 offset-md-2">
           <h1 class="title">
             Strike, divest, and vote to save humanity and our planet.
           </h1>
