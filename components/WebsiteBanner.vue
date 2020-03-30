@@ -30,7 +30,7 @@
         </p>
         <img class="widget-example" src="~assets/images/EDL-mockup-banner.png" alt="Website Banner Example 1" />
         <p class="description-center">
-          Then on April 22, the widget can expand it show your site supporting Earth Day Live (<a href="https://widget.earthdaylive2020.org/demo.html?fullPage" target="_blank">demo</a>):
+          Then on April 22, the widget can expand to show your site supporting Earth Day Live (<a href="https://widget.earthdaylive2020.org/demo.html?fullPage" target="_blank">demo</a>):
         </p>
         <img class="widget-example" src="~assets/images/EDL-mockup-overlay.png" alt="Website Banner Example 2" />
         <p class="description-center">
