@@ -1,11 +1,11 @@
 <template>
     <nav class="navbar">
       <div class="container">
-        <a id="whats-happening" @click.prevent="scrollTo('#whats-happening')">What's Happening?</a>
-        <a id="website-banner" @click.prevent="scrollTo('#website-banner')">Website Banner</a>
-        <a id="banner-ads" @click.prevent="scrollTo('#banner-ads')">Banner Ads</a>
-        <a id="social-downloads" @click.prevent="scrollTo('#social-downloads')">Social Downloads</a>
-        <a id="are-you-with-us" @click.prevent="scrollTo('#are-you-with-us')">Are you with us?</a>
+        <a id="whats-happening-nav" @click.prevent="scrollTo('#whats-happening')">What's Happening?</a>
+        <a id="website-banner-nav" @click.prevent="scrollTo('#website-banner')">Website Banner</a>
+        <a id="banner-ads-nav" @click.prevent="scrollTo('#banner-ads')">Banner Ads</a>
+        <a id="social-downloads-nav" @click.prevent="scrollTo('#social-downloads')">Social Downloads</a>
+        <a id="are-you-with-us-nav" @click.prevent="scrollTo('#are-you-with-us')">Are you with us?</a>
       </div>
     </nav>
 </template>
