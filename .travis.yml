@@ -1,0 +1,10 @@
+language: node_js
+node_js:
+  - "stable"
+script:
+  - "npm run pretest"
+  - "npm run test"
+  - "npm run build"
+cache:
+  directories:
+    - "node_modules"

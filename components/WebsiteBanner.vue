@@ -58,7 +58,7 @@ export default {
   name: "WebsiteBanner",
   data() {
     return {
-      widget_link: "<script src=\"https://widget.earthdaylive2020.org/widget.js\" async><\/script>"
+      widget_link: "<script src=\"https://widget.earthdaylive2020.org/widget.js\" async><\/script>" //eslint-disable-line
     }
   },
   methods: {

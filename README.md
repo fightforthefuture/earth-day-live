@@ -1,4 +1,4 @@
-# earth-day-live
+# earth-day-live [![Build Status](https://travis-ci.com/fightforthefuture/earth-day-live.svg?branch=master)](https://travis-ci.com/fightforthefuture/earth-day-live)
 
 > Earth Day Live will mobilize millions to fight for the future of our planet.
 

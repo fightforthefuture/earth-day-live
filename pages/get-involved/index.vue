@@ -49,7 +49,7 @@
       BannerAds,
       SocialDownloads,
       AreYouWithUs,
-      SignUpForm,
+      SignUpForm, //eslint-disable-line
     },
   }
 
