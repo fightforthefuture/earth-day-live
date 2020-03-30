@@ -34,6 +34,7 @@
 
   .section-title {
     text-align: center;
+    text-transform: uppercase;
   }
 
   .banner-ad {

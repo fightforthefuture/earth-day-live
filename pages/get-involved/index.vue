@@ -6,7 +6,7 @@
         <logo />
         <div class="col-md-8 offset-md-2">
           <h1 class="title">
-            Strike, divest, and vote to save humanity and our planet.
+            Spread the word to help save the world.
           </h1>
         </div>
         <div class="col-md-6 offset-md-3">
@@ -50,13 +50,6 @@
       SocialDownloads,
       AreYouWithUs,
       SignUpForm,
-    },
-    head () {
-      return {
-        script: [
-          { src: 'https://widget.earthdaylive2020.org/widget.js' }
-        ],
-      }
     },
   }
 

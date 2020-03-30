@@ -46,4 +46,10 @@ export default {
 .navbar a {
   padding-bottom: 5px;
 }
+
+@media only screen and (max-width: 600px) {
+  .navbar {
+    display: none;
+  }
+}
 </style>

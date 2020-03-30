@@ -34,6 +34,7 @@ export default {
 
   .section-title {
     text-align: center;
+    text-transform: uppercase;
   }
   .separator {
     margin: auto;

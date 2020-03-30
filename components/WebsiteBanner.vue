@@ -2,11 +2,11 @@
   <section id="website-banner">
     <div class="col-md-6 offset-md-3">
       <h1 class="section-title">
-        Sites: add the Earth Day Live banner
+        Share our banner
       </h1>
       <img class="separator" src="~assets/images/separator.jpg" alt="Separator" />
       <p class="description">
-        Spread the word about Earth Day Live with a small, but powerful, banner. On April 22, expand the banner fullscreen so your website can join the mobilization — digitally!
+        Spread the word about Earth Day Live with a small, but powerful, banner. On Earth Day, expand the banner full screen so your website can join the mobilization!
       </p>
       <p class="description">
         Simply add this line of JavaScript to any page on your site to join Earth Day Live:
@@ -28,18 +28,18 @@
         <p class="description-center">
           The widget will appear on your page as a closable footer just like you see it here (<a href="https://widget.earthdaylive2020.org/demo.html" target="_blank">demo</a>):
         </p>
-        <img class="widget-example" src="~assets/images/widget-example-1.png" alt="Website Banner Example 1" />
+        <img class="widget-example" src="~assets/images/EDL-mockup-banner.png" alt="Website Banner Example 1" />
         <p class="description-center">
           Then on April 22, the widget can expand it show your site supporting Earth Day Live (<a href="https://widget.earthdaylive2020.org/demo.html?fullPage" target="_blank">demo</a>):
         </p>
-        <img class="widget-example" src="~assets/images/widget-example-2.png" alt="Website Banner Example 2" />
+        <img class="widget-example" src="~assets/images/EDL-mockup-overlay.png" alt="Website Banner Example 2" />
         <p class="description-center">
           A closable overlay option is included as part of the widget (<a href="https://widget.earthdaylive2020.org/demo.html?fullPage&showCloseButton=1" target="_blank">demo</a>):
         </p>
-        <img class="widget-example" src="~assets/images/widget-example-3.png" alt="Website Banner Example 3" />
+        <img class="widget-example" src="~assets/images/EDL-mockup-full.png" alt="Website Banner Example 3" />
         <p class="description">
           Visit our <a href="https://github.com/fightforthefuture/earth-day-live-widget" targer="_blank">GitHub page</a> to learn how you can further customize the user experience or behavior of the widget.
-          Please feel free to create your own custom way to drive awareness of the Global #ClimateStrike on your site.
+          Please feel free to create your own custom way to drive awareness of Earth Day Live on your site.
         </p>
         <p class="description">
           If you use your site to spread the word in any way, please let us know by
@@ -70,7 +70,7 @@ export default {
       }, duration)
     },
     showWidget() {
-      document.getElementById('EARTH_DAY_LIVE').style.display = 'block';
+      window.open('https://widget.earthdaylive2020.org/demo.html', '_blank')
     }
   }
 }
@@ -87,6 +87,7 @@ export default {
 
   .section-title {
     text-align: center;
+    text-transform: uppercase;
   }
 
   .widget-code-wrapper {
@@ -118,7 +119,7 @@ export default {
   .widget-code-button-wrapper button:hover {
     cursor: pointer;
   }
-  
+
   .widget-code-button-wrapper .circle-arrow {
     width: 30px;
     margin-top: -2px;

@@ -2,7 +2,7 @@
   <section id="social-downloads">
     <div class="col-md-6 offset-md-3">
       <h1 class="section-title">
-        Everyone: Spread the word on social media
+        Spread the word
       </h1>
       <img class="separator" src="~assets/images/separator.jpg" alt="Separator" />
       <p class="description">
@@ -46,6 +46,7 @@
 
   .section-title {
     text-align: center;
+    text-transform: uppercase;
   }
 
   .social-downloads-button {

@@ -2,13 +2,14 @@
     <section id="whats-happening">
       <div class="col-md-6 offset-md-3">
         <h1 class="section-title">
-          The Century for the Earth
+          What's Happening?
         </h1>
         <img class="separator" src="~assets/images/separator.jpg" alt="Separator" />
         <p class="description">
-          On April 22-24, the 50th anniversary of Earth Day, millions of people around the world are going online for a three-day mobilization to stop the climate emergency.
-          Join us for three days of action — from teach-ins, musical performances, divestment, and more. All you need is an internet connection.
-          Together, we can transform our world into one that is not only safe and sustainable, but flourishes for generations to come.
+          April 22 will be the 50th anniversary of Earth Day.
+          That’s why we’re launching a massive livestream from April 22-24 where millions of people can tune in with activists, celebrities, musicians, and more in an epic celebration of our planet.
+          Together, we’ll call on our leaders to take emergency action and drive donations to benefit the COVID-19 relief effort.
+          Here are all the ways you can spread the word and make this as big as possible.
         </p>
       </div>
     </section>
@@ -29,6 +30,7 @@
 
 .section-title {
   text-align: center;
+  text-transform: uppercase;
 }
 
 </style>
