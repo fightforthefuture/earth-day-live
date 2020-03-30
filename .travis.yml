@@ -1,3 +1,10 @@
 language: node_js
 node_js:
-  - 10.15.1
+  - "stable"
+script:
+  - "npm run pretest"
+  - "npm run test"
+  - "npm run build"
+cache:
+  directories:
+    - "node_modules"
