@@ -14,6 +14,6 @@ deploy:
   secret_access_key:
     secure: $GCS_SECRET_KEY
   bucket: $GCS_BUCKET
-  local-dir: dist
+  local-dir: /home/travis/build/fightforthefuture/earth-day-live/dist
   on:
     repo: fightforthefuture/earth-day-live
