@@ -30,7 +30,7 @@
       name: "SocialDownloads",
       methods: {
         goToSocialDownloads() {
-          window.open("https://drive.google.com/drive/u/2/folders/1vb5cOeosTzj3Nfl4GpmUgNbm2_MKQTRM", "_blank");
+          window.open("https://drive.google.com/drive/folders/1ZxlFc8B3r8R-XVI23iDt8YBEA5LLpXjK", "_blank");
         }
       }
     }
