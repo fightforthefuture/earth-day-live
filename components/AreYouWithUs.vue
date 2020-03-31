@@ -7,7 +7,7 @@
         </h1>
         <img class="separator" src="~assets/images/separator.jpg" alt="Separator" />
         <p class="description">
-          Together, we can transform our world into one that is not only safe and sustainable, but flourishes for generations to come.
+          Together, we can transform our world into one that is safe, sustainable, and flourishes for generations to come.
         </p>
       </div>
       <SignUpForm />

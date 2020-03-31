@@ -16,7 +16,7 @@
           Join us for three days of action — from teach-ins, musical performances, divestment, and more. All you need is an internet connection.
           </h4>
           <h4 class="subtitle">
-          Together, we can transform our world into one that is not only safe and sustainable, but flourishes for generations to come.
+          Together, we can transform our world into one that is safe, sustainable, and flourishes for generations to come.
           </h4>
         </div>
       </div>
