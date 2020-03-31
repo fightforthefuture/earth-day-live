@@ -1,6 +1,6 @@
 <template>
   <footer class="page-footer">
-    <p>Made with &#10084; for the future of our planet.</p>
+    <p>Made with &#10084; for the future of humanity and our planet.</p>
   </footer>
 </template>
 
