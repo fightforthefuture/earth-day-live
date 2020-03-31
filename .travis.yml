@@ -4,7 +4,7 @@ node_js:
 script:
 - npm run pretest
 - npm run test
-- npm run build
+- npm run generate
 cache:
   directories:
   - node_modules
