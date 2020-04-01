@@ -28,6 +28,7 @@ export default {
 
 <style scoped>
 .navbar {
+  position: relative;
   background-color: #190825;
   color: #fff;
   font-family: titling-gothic-fb, sans-serif;

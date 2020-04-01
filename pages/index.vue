@@ -2,7 +2,11 @@
   <div>
     <div class="container-fluid">
       <div>
-        <logo />
+        <!-- The video -->
+        <video autoplay muted loop id="backgroundVideo">
+        <source src="~assets/images/animation-back.mp4" type="video/mp4">
+        </video>
+        <logo class="logo" />
         <div class="col-md-6 offset-md-3">
           <h1 class="title">
             Strike, divest, and vote to save humanity and our planet.
@@ -53,12 +57,6 @@ body {
   justify-content: center;
   align-items: center;
   text-align: center;
-  background: url('~assets/images/earth-day-live-gradient.jpg') no-repeat center center fixed;
-  -webkit-background-size: cover;
-  -moz-background-size: cover;
-  -o-background-size: cover;
-  background-size: cover;
-  padding-bottom: 130px;
 }
 
 .title {
@@ -78,5 +76,22 @@ body {
   color: #fff;
   word-spacing: 5px;
   padding-bottom: 20px;
+}
+
+#backgroundVideo {
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  min-width: 100%;
+  min-height: 100%;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  padding-bottom: 130px;
+}
+
+.logo {
+  position: relative;
 }
 </style>

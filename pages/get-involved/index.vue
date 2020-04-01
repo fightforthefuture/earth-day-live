@@ -2,6 +2,10 @@
   <div>
     <GetInvolvedNav />
     <div class="container-fluid get-involved-container">
+      <!-- The video -->
+      <video autoplay muted loop id="backgroundVideo">
+      <source src="~assets/images/animation-back.mp4" type="video/mp4">
+      </video>
       <div>
         <logo />
         <div class="col-md-8 offset-md-2">
@@ -62,12 +66,12 @@
     justify-content: center;
     align-items: center;
     text-align: center;
-    background: url('~assets/images/earth-day-live-gradient.jpg') no-repeat center center fixed;
-    -webkit-background-size: cover;
+    /* background: url('~assets/images/earth-day-live-gradient.jpg') no-repeat center center fixed; */
+    /* -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
     background-size: cover;
-    padding-bottom: 50px;
+    padding-bottom: 50px; */
   }
 
   .title {
@@ -113,4 +117,22 @@
   #EARTH_DAY_LIVE {
     display: none;
   }
+
+#backgroundVideo {
+  padding-top: 30px;
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  min-width: 100%;
+  min-height: 100%;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  padding-bottom: 130px;
+}
+
+.logo {
+  position: relative;
+}
 </style>
