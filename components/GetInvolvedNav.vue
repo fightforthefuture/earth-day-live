@@ -1,23 +1,16 @@
 <template>
-    <nav class="navbar">
-      <div class="container">
-        <a id="whats-happening-nav" @click.prevent="scrollTo('#whats-happening')">
-            {{ $t('common.whatsHappening') }}
-        </a>
-        <a id="website-banner-nav" @click.prevent="scrollTo('#website-banner')">
-            {{ translate.websiteBanner }}
-        </a>
-        <a id="banner-ads-nav" @click.prevent="scrollTo('#banner-ads')">
-          {{ translate.bannerAds }}
-        </a>
-        <a id="social-downloads-nav" @click.prevent="scrollTo('#social-downloads')">
-          {{ translate.socialDownloads }}
-        </a>
-        <a id="are-you-with-us-nav" @click.prevent="scrollTo('#are-you-with-us')">
-          {{ translate.withUs }}
-        </a>
-      </div>
-    </nav>
+  <b-navbar toggleable="lg" variant="dark" type="dark">
+    <b-navbar-toggle target="nav-collapse" id="hamburger-button"></b-navbar-toggle>
+    <b-collapse id="nav-collapse" is-nav>
+      <b-navbar-nav class="container">
+        <b-nav-item id="whats-happening-nav" @click.prevent="scrollTo('#whats-happening')">{{ $t('common.whatsHappening') }}</b-nav-item>
+        <b-nav-item id="website-banner-nav" @click.prevent="scrollTo('#website-banner')">{{ translate.websiteBanner }}</b-nav-item>
+        <b-nav-item id="banner-ads-nav" @click.prevent="scrollTo('#banner-ads')">{{ translate.bannerAds }}</b-nav-item>
+        <b-nav-item id="social-downloads-nav" @click.prevent="scrollTo('#social-downloads')">{{ translate.socialDownloads }}</b-nav-item>
+        <b-nav-item id="are-you-with-us-nav" @click.prevent="scrollTo('#are-you-with-us')">{{ translate.withUs }}</b-nav-item>
+      </b-navbar-nav>
+    </b-collapse>
+  </b-navbar>
 </template>
 <script>
 import { smoothScrollToElement } from '~/assets/js/helpers'
@@ -41,8 +34,7 @@ export default {
 
 <style scoped>
 .navbar {
-  background-color: #190825;
-  color: #fff;
+  background-color: #190825 !important;
   font-family: titling-gothic-fb, sans-serif;
   text-transform: uppercase;
   padding: 15px;
@@ -56,13 +48,17 @@ export default {
   background-position: center bottom;
 }
 
-.navbar a {
-  padding-bottom: 5px;
+.nav-link {
+  padding: 0;
+  color: #fff !important;
+  text-decoration: none;
 }
 
-@media only screen and (max-width: 600px) {
-  .navbar {
-    display: none;
-  }
+.navbar-nav {
+  padding: 0 15px;
+}
+
+.navbar a {
+  padding-bottom: 5px;
 }
 </style>
