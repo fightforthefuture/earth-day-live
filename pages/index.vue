@@ -3,8 +3,8 @@
     <div class="container-fluid">
       <div>
         <!-- The video -->
-        <video autoplay muted loop id="backgroundVideo">
-        <source src="~assets/images/animation-back.mp4" type="video/mp4">
+        <video autoplay muted loop class="backgroundVideo">
+          <source src="~assets/images/animation-back.mp4" type="video/mp4">
         </video>
         <logo class="logo" />
         <div class="col-md-6 offset-md-3">
@@ -31,67 +31,77 @@
 </template>
 
 <script>
-import Logo from '~/components/Logo.vue'
-import SignUpForm from '~/components/SignUpForm.vue'
-import PageFooter from '~/components/PageFooter.vue'
+  import Logo from '~/components/Logo.vue'
+  import SignUpForm from '~/components/SignUpForm.vue'
+  import PageFooter from '~/components/PageFooter.vue'
 
-export default {
-  components: {
-    Logo,
-    SignUpForm,
-    PageFooter
+  export default {
+    components: {
+      Logo,
+      SignUpForm,
+      PageFooter
+    }
   }
-}
-
 </script>
 
 <style>
+  body {
+    background-color: #e3e9ec;
+  }
 
-body {
- background-color: #e3e9ec;
-}
+  .container-fluid {
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+  }
 
-.container-fluid {
-  margin: 0 auto;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  text-align: center;
-}
+  .title {
+    margin: 0 auto;
+    font-family: titling-gothic-fb, sans-serif;
+    display: block;
+    font-weight: 300;
+    color: #fff;
+    letter-spacing: 1px;
+    padding-bottom: 30px;
+  }
 
-.title {
-  margin: 0 auto;
-  font-family: titling-gothic-fb, sans-serif;
-  display: block;
-  font-weight: 300;
-  color: #fff;
-  letter-spacing: 1px;
-  padding-bottom: 30px;
-}
+  .subtitle {
+    margin: 0 auto;
+    font-family: neue-haas-grotesk-display, sans-serif;
+    font-weight: 300;
+    color: #fff;
+    word-spacing: 5px;
+    padding-bottom: 20px;
+  }
 
-.subtitle {
-  margin: 0 auto;
-  font-family: neue-haas-grotesk-display, sans-serif;
-  font-weight: 300;
-  color: #fff;
-  word-spacing: 5px;
-  padding-bottom: 20px;
-}
+  .backgroundVideo {
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    min-width: 100%;
+    min-height: 100%;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    padding-bottom: 80px;
+  }
 
-#backgroundVideo {
-  position: absolute;
-  right: 0;
-  bottom: 0;
-  min-width: 100%;
-  min-height: 100%;
-  -webkit-background-size: cover;
-  -moz-background-size: cover;
-  -o-background-size: cover;
-  background-size: cover;
-  padding-bottom: 130px;
-}
+  .logo {
+    position: relative;
+  }
 
-.logo {
-  position: relative;
-}
+  @media screen and (max-width: 1050px) and (min-width: 480px) {
+    .backgroundVideo {
+      padding-bottom: 315px;
+    }
+  }
+
+  @media screen and (max-width: 480px) {
+    .backgroundVideo {
+      bottom: -505px;
+    }
+  }
 </style>

@@ -28,13 +28,13 @@ export default {
 
 <style scoped>
 .navbar {
-  position: relative;
   background-color: #190825;
   color: #fff;
   font-family: titling-gothic-fb, sans-serif;
   text-transform: uppercase;
   padding: 15px;
   font-size: 0.8em;
+  z-index: 1;
 }
 
 .navbar a:hover {

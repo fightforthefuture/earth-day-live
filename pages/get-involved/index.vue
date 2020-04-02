@@ -3,8 +3,8 @@
     <GetInvolvedNav />
     <div class="container-fluid get-involved-container">
       <!-- The video -->
-      <video autoplay muted loop id="backgroundVideo">
-      <source src="~assets/images/animation-back.mp4" type="video/mp4">
+      <video autoplay muted loop class="backgroundVideo">
+        <source src="~assets/images/animation-back.mp4" type="video/mp4">
       </video>
       <div>
         <logo />
@@ -56,7 +56,6 @@
       SignUpForm, //eslint-disable-line
     },
   }
-
 </script>
 
 <style>
@@ -67,11 +66,11 @@
     align-items: center;
     text-align: center;
     /* background: url('~assets/images/earth-day-live-gradient.jpg') no-repeat center center fixed; */
-    /* -webkit-background-size: cover;
+    -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
     background-size: cover;
-    padding-bottom: 50px; */
+    padding-bottom: 50px;
   }
 
   .title {
@@ -118,21 +117,34 @@
     display: none;
   }
 
-#backgroundVideo {
-  padding-top: 30px;
-  position: absolute;
-  right: 0;
-  bottom: 0;
-  min-width: 100%;
-  min-height: 100%;
-  -webkit-background-size: cover;
-  -moz-background-size: cover;
-  -o-background-size: cover;
-  background-size: cover;
-  padding-bottom: 130px;
-}
+  .backgroundVideo {
+    padding-top: 30px;
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    min-width: 100%;
+    min-height: 100%;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    padding-bottom: 190px;
+  }
 
-.logo {
-  position: relative;
-}
+  .logo {
+    position: relative;
+  }
+
+  @media screen and (max-width: 1050px) and (min-width: 480px) {
+    .backgroundVideo {
+      padding-bottom: 650px;
+    }
+  }
+
+  @media screen and (max-width: 480px) {
+    .backgroundVideo {
+      padding-bottom: 0px;
+      margin-bottom: -75px;
+    }
+  }
 </style>
