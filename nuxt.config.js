@@ -35,7 +35,8 @@ export default {
   ** Plugins to load before mounting the App
   */
   plugins: [
-    { src: '~plugins/ga.js', mode: 'client' }
+    { src: '~plugins/ga.js', mode: 'client' },
+    "~/plugins/i18n.js"
   ],
   /*
   ** Nuxt.js dev-modules

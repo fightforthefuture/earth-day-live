@@ -1,11 +1,11 @@
 <template>
   <div>
     <button class="im-ready-button" @click.prevent="scrollTo('#website-banner')">
-      I'm Ready
+      {{ translate.readyButton }}
     </button>
     <div class="arrow-down-wrapper">
       <a @click.prevent="scrollTo('#website-banner')">
-        <img src="~assets/images/arrow-down.svg" alt="Scroll Down" />
+        <img src="~assets/images/arrow-down.svg" :alt="translate.readyButtonAlt" />
       </a>
     </div>
   </div>
@@ -16,6 +16,9 @@ import { smoothScrollToElement } from '~/assets/js/helpers'
 
 export default {
   name: "ImReadyButton",
+  data() {
+    return { translate: this.$t('getInvolved.readyButton') }
+  },
   methods: {
     scrollTo(hash) {
       const duration = 500

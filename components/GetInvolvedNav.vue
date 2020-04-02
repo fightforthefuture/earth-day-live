@@ -1,11 +1,21 @@
 <template>
     <nav class="navbar">
       <div class="container">
-        <a id="whats-happening-nav" @click.prevent="scrollTo('#whats-happening')">What's Happening?</a>
-        <a id="website-banner-nav" @click.prevent="scrollTo('#website-banner')">Website Banner</a>
-        <a id="banner-ads-nav" @click.prevent="scrollTo('#banner-ads')">Banner Ads</a>
-        <a id="social-downloads-nav" @click.prevent="scrollTo('#social-downloads')">Social Downloads</a>
-        <a id="are-you-with-us-nav" @click.prevent="scrollTo('#are-you-with-us')">Are you with us?</a>
+        <a id="whats-happening-nav" @click.prevent="scrollTo('#whats-happening')">
+            {{ $t('common.whatsHappening') }}
+        </a>
+        <a id="website-banner-nav" @click.prevent="scrollTo('#website-banner')">
+            {{ translate.websiteBanner }}
+        </a>
+        <a id="banner-ads-nav" @click.prevent="scrollTo('#banner-ads')">
+          {{ translate.bannerAds }}
+        </a>
+        <a id="social-downloads-nav" @click.prevent="scrollTo('#social-downloads')">
+          {{ translate.socialDownloads }}
+        </a>
+        <a id="are-you-with-us-nav" @click.prevent="scrollTo('#are-you-with-us')">
+          {{ translate.withUs }}
+        </a>
       </div>
     </nav>
 </template>
@@ -14,6 +24,9 @@ import { smoothScrollToElement } from '~/assets/js/helpers'
 
 export default {
   name: "GetInvolvedNav",
+  data() {
+    return { translate: this.$t('getInvolved.nav') }
+  },
   methods: {
     scrollTo(hash) {
       const duration = 500
