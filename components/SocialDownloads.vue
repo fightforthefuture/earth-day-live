@@ -2,23 +2,23 @@
   <section id="social-downloads">
     <div class="col-md-6 offset-md-3">
       <h1 class="section-title">
-        Spread the word
+        {{ translate.title }}
       </h1>
       <img class="separator" src="~assets/images/separator.jpg" alt="Separator" />
       <p class="description">
-        On social media? Share these Earth Day Live graphics on your corner of the Internet to get the word out.
+        {{ translate.description }}
       </p>
 
       <button class="social-downloads-button" @click="goToSocialDownloads">
-        Download now
-        <img class="circle-arrow" src="~assets/images/circle-arrow.svg" alt="Arrow" />
+        {{ translate.download }}
+        <img class="circle-arrow" src="~assets/images/circle-arrow.svg" :alt="$t('getInvolved.common.arrowAlt')" />
       </button>
       <div class="row">
         <div class="col-md-6">
-          <img class="social-downloads-mockup" src="~assets/images/instagram-post-mockup.png" alt="Instagram Post">
+          <img class="social-downloads-mockup" src="~assets/images/instagram-post-mockup.png" :alt="translate.postAlt">
         </div>
         <div class="col-md-6">
-          <img class="social-downloads-mockup" src="~assets/images/instagram-story-mockup.png" alt="Instagram Story">
+          <img class="social-downloads-mockup" src="~assets/images/instagram-story-mockup.png" :alt="translate.storyAlt">
         </div>
       </div>
     </div>
@@ -26,15 +26,17 @@
 </template>
 
 <script>
-    export default {
-      name: "SocialDownloads",
-      methods: {
-        goToSocialDownloads() {
-          window.open("https://drive.google.com/drive/folders/1ZxlFc8B3r8R-XVI23iDt8YBEA5LLpXjK", "_blank");
-        }
-      }
+export default {
+  name: "SocialDownloads",
+  data() {
+    return { translate: this.$t('getInvolved.socialDownloads') }
+  },
+  methods: {
+    goToSocialDownloads() {
+      window.open("https://drive.google.com/drive/folders/1ZxlFc8B3r8R-XVI23iDt8YBEA5LLpXjK", "_blank");
     }
-
+  }
+}
 </script>
 
 <style scoped>

@@ -1,0 +1,77 @@
+{
+  "common": {
+    "whatsHappening": "What's Happening?"
+  },
+  "home": {
+    "title": "Strike, divest, and vote to save humanity and our planet.",
+    "subtitle1": "On April 22-24, the 50th anniversary of Earth Day, millions of people around the world are going online for a three-day mobilization to stop the climate emergency.",
+    "subtitle2": "Join us for three days of action — from teach-ins, musical performances, divestment, and more. All you need is an internet connection.",
+    "subtitle3": "Together, we can transform our world into one that is not only safe and sustainable, but flourishes for generations to come."
+  },
+  "getInvolved": {
+    "title": "Spread the word to help save the world.",
+    "common": {
+      "separatorAlt": "Separator",
+      "arrowAlt": "Arrow"
+    },
+    "nav": {
+      "websiteBanner": "Website Banner",
+      "bannerAds": "Banner Ads",
+      "socialDownloads": "Social Downloads",
+      "withUs": "Are you with us?"
+    },
+    "logo": {
+      "eclipseAlt": "Eclipse",
+      "edlAlt": "Earth Day Live"
+    },
+    "readyButton": {
+      "readyButton": "I'm Ready",
+      "scrollDownAlt": "Scroll Down"
+    },
+    "whatsHappening": {
+      "description": "April 22 will be the 50th anniversary of Earth Day. That’s why we’re launching a massive livestream from April 22-24 where millions of people can tune in with activists, celebrities, musicians, and more in an epic celebration of our planet. In the midst of this global crisis, it's more important than ever to unite and support each other. Together, we'll support the relief effort and fight for a better world on the other side of the pandemic. Here are all the ways you can spread the word and make this as big as possible."
+    },
+    "websiteBanner": {
+      "title": "Share our banner",
+      "body1": "Spread the word about Earth Day Live with a small, but powerful, banner. On Earth Day, expand the banner full screen so your website can join the mobilization!",
+      "body2": "Simply add this line of JavaScript to any page on your site to join Earth Day Live:",
+      "tryIt": "Try it out",
+      "demo": "demo",
+      "center1": "The widget will appear on your page as a closable footer just like you see it here",
+      "center2": "Then on April 22, the widget can expand to show your site supporting Earth Day Live",
+      "center3": "A closable overlay option is included as part of the widget",
+      "body3": {
+        "preLink": "Visit our",
+        "linkText": "GitHub page",
+        "postLink": "to learn how you can further customize the user experience or behavior of the widget. Please feel free to create your own custom way to drive awareness of Earth Day Live on your site."
+      },
+      "body4": {
+        "preLink": "If you use your site to spread the word in any way, please let us know by",
+        "linkText": "filling in the form below",
+        "postLink": ". This is super important so we can help amplify your impact and mobilize as many people as possible to help stop the climate crisis."
+      }
+    },
+    "bannerAds": {
+      "title": "Use these banner ads",
+      "description": "Do you run a site or blog? Use these banner ads to get the word out about Earth Day Live. There are tons of",
+      "linkText": "ad sizes to choose from here",
+      "smallAlt": "Ready to help save the world? (Banner Ad 600x628)",
+      "largeAlt": "Ready to help save the world? (Banner Ad 970x90)"
+    },
+    "socialDownloads": {
+      "title": "Spread the word",
+      "description": "On social media? Share these Earth Day Live graphics on your corner of the Internet to get the word out.",
+      "download": "Download now",
+      "postAlt": "Instagram Post",
+      "storyAlt": "Instagram Story"
+    },
+    "withUs": {
+      "title": "Are you with us?",
+      "description": "Together, we can transform our world into one that is not only safe and sustainable, but flourishes for generations to come."
+    },
+    "spignUpForm": {
+      "disclaimer": "You may receive updates from <i>US Climate Strike</i>, the sponsor of this form"
+    }
+  },
+  "footer": "Made with \u2764 for the future of humanity and our planet."
+}

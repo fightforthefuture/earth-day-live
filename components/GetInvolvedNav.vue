@@ -3,11 +3,11 @@
     <b-navbar-toggle target="nav-collapse" id="hamburger-button"></b-navbar-toggle>
     <b-collapse id="nav-collapse" is-nav>
       <b-navbar-nav class="container">
-        <b-nav-item id="whats-happening-nav" @click.prevent="scrollTo('#whats-happening')">What's Happening?</b-nav-item>
-        <b-nav-item id="website-banner-nav" @click.prevent="scrollTo('#website-banner')">Website Banner</b-nav-item>
-        <b-nav-item id="banner-ads-nav" @click.prevent="scrollTo('#banner-ads')">Banner Ads</b-nav-item>
-        <b-nav-item id="social-downloads-nav" @click.prevent="scrollTo('#social-downloads')">Social Downloads</b-nav-item>
-        <b-nav-item id="are-you-with-us-nav" @click.prevent="scrollTo('#are-you-with-us')">Are you with us?</b-nav-item>
+        <b-nav-item id="whats-happening-nav" @click.prevent="scrollTo('#whats-happening')">{{ $t('common.whatsHappening') }}</b-nav-item>
+        <b-nav-item id="website-banner-nav" @click.prevent="scrollTo('#website-banner')">{{ translate.websiteBanner }}</b-nav-item>
+        <b-nav-item id="banner-ads-nav" @click.prevent="scrollTo('#banner-ads')">{{ translate.bannerAds }}</b-nav-item>
+        <b-nav-item id="social-downloads-nav" @click.prevent="scrollTo('#social-downloads')">{{ translate.socialDownloads }}</b-nav-item>
+        <b-nav-item id="are-you-with-us-nav" @click.prevent="scrollTo('#are-you-with-us')">{{ translate.withUs }}</b-nav-item>
       </b-navbar-nav>
     </b-collapse>
   </b-navbar>
@@ -17,6 +17,9 @@ import { smoothScrollToElement } from '~/assets/js/helpers'
 
 export default {
   name: "GetInvolvedNav",
+  data() {
+    return { translate: this.$t('getInvolved.nav') }
+  },
   methods: {
     scrollTo(hash) {
       const duration = 500

@@ -2,14 +2,14 @@
   <section id="website-banner">
     <div class="col-md-6 offset-md-3">
       <h1 class="section-title">
-        Share our banner
+        {{ translate.title }}
       </h1>
-      <img class="separator" src="~assets/images/separator.jpg" alt="Separator" />
+      <img class="separator" src="~assets/images/separator.jpg" :alt="$t('getInvolved.common.separatorAlt')" />
       <p class="description">
-        Spread the word about Earth Day Live with a small, but powerful, banner. On Earth Day, expand the banner full screen so your website can join the mobilization!
+        {{ translate.body1 }}
       </p>
       <p class="description">
-        Simply add this line of JavaScript to any page on your site to join Earth Day Live:
+        {{ translate.body2 }}
       </p>
       <div class="row widget-code-wrapper">
         <div class="col-md-9 widget-code">
@@ -19,32 +19,31 @@
         </div>
         <div class="col-md-3 widget-code-button-wrapper">
           <button @click="showWidget">
-            Try it out
-            <img class="circle-arrow" src="~assets/images/circle-arrow.svg" alt="Arrow" />
+            {{ translate.tryIt }}
+            <img class="circle-arrow" src="~assets/images/circle-arrow.svg" :alt="$t('getInvolved.common.arrowAlt')" />
           </button>
         </div>
       </div>
       <div>
         <p class="description-center">
-          The widget will appear on your page as a closable footer just like you see it here (<a href="https://widget.earthdaylive2020.org/demo.html" target="_blank">demo</a>):
+          {{ translate.center1 }} (<a href="https://widget.earthdaylive2020.org/demo.html" target="_blank">{{ translate.demo }}</a>)
         </p>
         <img class="widget-example" src="~assets/images/EDL-mockup-banner.png" alt="Website Banner Example 1" />
         <p class="description-center">
-          Then on April 22, the widget can expand to show your site supporting Earth Day Live (<a href="https://widget.earthdaylive2020.org/demo.html?fullPage" target="_blank">demo</a>):
+          {{ translate.center2 }} (<a href="https://widget.earthdaylive2020.org/demo.html?fullPage" target="_blank">{{ translate.demo }}</a>):
         </p>
         <img class="widget-example" src="~assets/images/EDL-mockup-overlay.png" alt="Website Banner Example 2" />
         <p class="description-center">
-          A closable overlay option is included as part of the widget (<a href="https://widget.earthdaylive2020.org/demo.html?fullPage&showCloseButton=1" target="_blank">demo</a>):
+          {{ translate.center3 }} (<a href="https://widget.earthdaylive2020.org/demo.html?fullPage&showCloseButton=1" target="_blank">{{ translate.demo }}</a>):
         </p>
         <img class="widget-example" src="~assets/images/EDL-mockup-full.png" alt="Website Banner Example 3" />
         <p class="description">
-          Visit our <a href="https://github.com/fightforthefuture/earth-day-live-widget" targer="_blank">GitHub page</a> to learn how you can further customize the user experience or behavior of the widget.
-          Please feel free to create your own custom way to drive awareness of Earth Day Live on your site.
+          {{ translate.body3.preLink }}
+          <a href="https://github.com/fightforthefuture/earth-day-live-widget" target="_blank">{{ translate.body3.linkText }}</a> {{ translate.body3.postLink }}
         </p>
         <p class="description">
-          If you use your site to spread the word in any way, please let us know by
-          <a href="#are-you-with-us" @click.prevent="scrollTo('#are-you-with-us')">filling in the form below</a>.
-          This is super important so we can help amplify your impact and mobilize as many people as possible to help stop the climate crisis.
+          {{ translate.body4.preLink }}
+          <a href="#are-you-with-us" @click.prevent="scrollTo('#are-you-with-us')">{{ translate.body4.linkText }}</a>{{ translate.body4.postLink }}
         </p>
       </div>
     </div>
@@ -58,6 +57,7 @@ export default {
   name: "WebsiteBanner",
   data() {
     return {
+      translate: this.$t('getInvolved.websiteBanner'),
       widget_link: "<script src=\"https://widget.earthdaylive2020.org/widget.js\" async><\/script>" //eslint-disable-line
     }
   },

@@ -5,18 +5,18 @@
         <logo />
         <div class="col-md-6 offset-md-3">
           <h1 class="title">
-            Strike, divest, and vote to save humanity and our planet.
+            {{ translate.title }}
           </h1>
         </div>
         <div class="col-md-6 offset-md-3">
           <h4 class="subtitle">
-          On April 22-24, the 50th anniversary of Earth Day, millions of people around the world are going online for a three-day mobilization to stop the climate emergency.
+            {{ translate.subtitle1 }}
           </h4>
           <h4 class="subtitle">
-          Join us for three days of action — from teach-ins, musical performances, divestment, and more. All you need is an internet connection.
+            {{ translate.subtitle2 }}
           </h4>
           <h4 class="subtitle">
-          Together, we can transform our world into one that is not only safe and sustainable, but flourishes for generations to come.
+            {{ translate.subtitle3 }}
           </h4>
         </div>
       </div>
@@ -32,13 +32,17 @@ import SignUpForm from '~/components/SignUpForm.vue'
 import PageFooter from '~/components/PageFooter.vue'
 
 export default {
+  data() {
+    return {
+      translate: this.$t('home')
+    }
+  },
   components: {
     Logo,
     SignUpForm,
     PageFooter
   }
 }
-
 </script>
 
 <style>
