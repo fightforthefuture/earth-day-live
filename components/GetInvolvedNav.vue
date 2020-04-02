@@ -1,13 +1,16 @@
 <template>
-    <nav class="navbar">
-      <div class="container">
-        <a id="whats-happening-nav" @click.prevent="scrollTo('#whats-happening')">What's Happening?</a>
-        <a id="website-banner-nav" @click.prevent="scrollTo('#website-banner')">Website Banner</a>
-        <a id="banner-ads-nav" @click.prevent="scrollTo('#banner-ads')">Banner Ads</a>
-        <a id="social-downloads-nav" @click.prevent="scrollTo('#social-downloads')">Social Downloads</a>
-        <a id="are-you-with-us-nav" @click.prevent="scrollTo('#are-you-with-us')">Are you with us?</a>
-      </div>
-    </nav>
+  <b-navbar toggleable="lg" variant="dark" type="dark">
+    <b-navbar-toggle target="nav-collapse" id="hamburger-button"></b-navbar-toggle>
+    <b-collapse id="nav-collapse" is-nav>
+      <b-navbar-nav class="container">
+        <b-nav-item id="whats-happening-nav" @click.prevent="scrollTo('#whats-happening')">What's Happening?</b-nav-item>
+        <b-nav-item id="website-banner-nav" @click.prevent="scrollTo('#website-banner')">Website Banner</b-nav-item>
+        <b-nav-item id="banner-ads-nav" @click.prevent="scrollTo('#banner-ads')">Banner Ads</b-nav-item>
+        <b-nav-item id="social-downloads-nav" @click.prevent="scrollTo('#social-downloads')">Social Downloads</b-nav-item>
+        <b-nav-item id="are-you-with-us-nav" @click.prevent="scrollTo('#are-you-with-us')">Are you with us?</b-nav-item>
+      </b-navbar-nav>
+    </b-collapse>
+  </b-navbar>
 </template>
 <script>
 import { smoothScrollToElement } from '~/assets/js/helpers'
@@ -28,8 +31,7 @@ export default {
 
 <style scoped>
 .navbar {
-  background-color: #190825;
-  color: #fff;
+  background-color: #190825 !important;
   font-family: titling-gothic-fb, sans-serif;
   text-transform: uppercase;
   padding: 15px;
@@ -43,13 +45,17 @@ export default {
   background-position: center bottom;
 }
 
-.navbar a {
-  padding-bottom: 5px;
+.nav-link {
+  padding: 0;
+  color: #fff !important;
+  text-decoration: none;
 }
 
-@media only screen and (max-width: 600px) {
-  .navbar {
-    display: none;
-  }
+.navbar-nav {
+  padding: 0 15px;
+}
+
+.navbar a {
+  padding-bottom: 5px;
 }
 </style>
