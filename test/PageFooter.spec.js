@@ -1,4 +1,4 @@
-import { shallowMount } from '@vue/test-utils'
+import { shallowMount } from './utils/test-utils'
 import PageFooter from '@/components/PageFooter.vue'
 
 describe('PageFooter', () => {

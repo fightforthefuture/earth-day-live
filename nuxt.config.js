@@ -35,8 +35,7 @@ export default {
   ** Plugins to load before mounting the App
   */
   plugins: [
-    { src: '~plugins/ga.js', mode: 'client' },
-    "~/plugins/i18n.js"
+    { src: '~plugins/ga.js', mode: 'client' }
   ],
   /*
   ** Nuxt.js dev-modules
@@ -49,6 +48,20 @@ export default {
   modules: [
     // Doc: https://bootstrap-vue.js.org
     'bootstrap-vue/nuxt',
+    [
+      'nuxt-i18n',
+      {
+        locale: ["en"],  // Default locale
+        defaultLocale: "en",  // The locale to use if the current locale can't be found
+        vueI18n: {
+          locale: "en",  // Default locale
+          fallbackLocale: "en",  // The locale to use if the current locale can't be found
+          messages: {
+            en: require("./i18n/en.json")
+          }
+        }
+      }
+    ]
   ],
   /*
   ** Build configuration
