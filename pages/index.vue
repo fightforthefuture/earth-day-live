@@ -101,7 +101,8 @@
 
   @media screen and (max-width: 480px) {
     .backgroundVideo {
-      bottom: -505px;
+      bottom: unset;
+      height: 1467px;
     }
   }
 </style>
