@@ -70,7 +70,9 @@
       "description": "Together, we can transform our world into one that is not only safe and sustainable, but flourishes for generations to come."
     },
     "signUpForm": {
-      "disclaimer": "You may receive updates from <i>US Climate Strike</i>, the sponsor of this form"
+      "disclaimer1": "You may receive updates from",
+      "disclaimer2": " US Climate Strike",
+      "disclaimer3": ", the sponsor of this form"
     }
   },
   "footer": "Made with \u2764 for the future of humanity and our planet."
