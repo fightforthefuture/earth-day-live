@@ -51,13 +51,15 @@ export default {
     [
       'nuxt-i18n',
       {
-        locale: ["en"],  // Default locale
+        strategy: "prefix_except_default",
+        locales: ["en", "es"],
         defaultLocale: "en",  // The locale to use if the current locale can't be found
         vueI18n: {
           locale: "en",  // Default locale
-          fallbackLocale: "en",  // The locale to use if the current locale can't be found
+          fallbackLocale: "en",
           messages: {
-            en: require("./i18n/en.json")
+            en: require("./i18n/en.json"),
+            es: require("./i18n/es.json")
           }
         }
       }
