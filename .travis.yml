@@ -1,10 +1,19 @@
 language: node_js
 node_js:
-  - "stable"
+- stable
 script:
-  - "npm run pretest"
-  - "npm run test"
-  - "npm run build"
+- npm run pretest
+- npm run test
+- npm run generate
 cache:
   directories:
-    - "node_modules"
+  - node_modules
+deploy:
+  provider: gcs
+  access_key_id: $GCS_ACCESS_KEY
+  secret_access_key: $GCS_SECRET_KEY
+  bucket: $GCS_BUCKET
+  skip_cleanup: true
+  local-dir: dist
+  on:
+    repo: fightforthefuture/earth-day-live

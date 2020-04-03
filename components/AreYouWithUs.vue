@@ -3,11 +3,11 @@
     <section id="are-you-with-us">
       <div class="col-md-6 offset-md-3">
         <h1 class="section-title">
-          Are you with us?
+         {{ translate.title }}
         </h1>
-        <img class="separator" src="~assets/images/separator.jpg" alt="Separator" />
+        <img class="separator" src="~assets/images/separator.jpg" :alt="$t('getInvolved.common.separatorAlt')" />
         <p class="description">
-          Together, we can transform our world into one that is not only safe and sustainable, but flourishes for generations to come.
+          {{ translate.description }}
         </p>
       </div>
       <SignUpForm />
@@ -18,7 +18,10 @@
 <script>
 import SignUpForm from '~/components/SignUpForm.vue'
 export default {
-    name: "AreYouWithUs",
+  name: "AreYouWithUs",
+  data() {
+    return { translate: this.$t('getInvolved.withUs') }
+  },
   components: {
     SignUpForm,
   }

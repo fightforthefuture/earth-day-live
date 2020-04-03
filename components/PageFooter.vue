@@ -1,13 +1,13 @@
 <template>
   <footer class="page-footer">
-    <p>Made with &#10084; for the future of our planet.</p>
+    <p>{{ $t('footer') }}</p>
   </footer>
 </template>
 
 <script>
-    export default {
-        name: "PageFooter"
-    }
+export default {
+  name: "PageFooter"
+}
 </script>
 
 <style scoped>

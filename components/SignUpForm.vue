@@ -4,46 +4,49 @@
       <div class="splash-page-signup-form-wrapper">
         <div id='can-form-area-digital-earth-day'>
         </div>
-        <p class="splash-page-disclaimer">You may receive updates from <i>US Climate Strike</i>, the sponsor of this form</p>
+        <p class="splash-page-disclaimer">{{ translate.disclaimer }}</p>
       </div>
     </div>
   </div>
 </template>
 
 <script>
-  export default {
-    name: 'SignUpForm',
-    head () {
-      return {
-        script: [
-          { src: 'https://actionnetwork.org/widgets/v3/form/digital-earth-day?format=js&source=widget' }
-        ],
-        link: [
-          { rel: 'stylesheet', href: 'https://actionnetwork.org/css/style-embed-v3.css' }
-        ]
-      }
-    },
-    mounted() {
-      document.addEventListener('can_embed_loaded', () => {
-        const optInGroups = document.getElementById('d_sharing').querySelectorAll('li')
-
-        if (optInGroups.length > 1) {
-          const optInText = optInGroups[1].querySelectorAll('label')[0].innerText;
-          const partnerGroupName = optInText.replace('Opt in to updates from ', '')
-          const partnerDisclaimer = document.createElement('p')
-          partnerDisclaimer.classList.add('splash-page-disclaimer')
-          partnerDisclaimer.innerHTML = `You may receive updates from <i>${partnerGroupName}</i>, who shared this form with you.`
-          document.querySelector('.splash-page-signup-form-wrapper').appendChild(partnerDisclaimer)
-        }
-      })
-
-      document.addEventListener('can_embed_submitted', () => {
-        document.querySelectorAll('.splash-page-disclaimer').forEach((disclaimer) => {
-          disclaimer.style.display = 'none'
-        })
-      })
+export default {
+  name: 'SignUpForm',
+  head () {
+    return {
+      script: [
+        { src: 'https://actionnetwork.org/widgets/v3/form/digital-earth-day?format=js&source=widget' }
+      ],
+      link: [
+        { rel: 'stylesheet', href: 'https://actionnetwork.org/css/style-embed-v3.css' }
+      ]
     }
+  },
+  data() {
+    return { translate: this.$t('getInvolved.signUpForm') }
+  },
+  mounted() {
+    document.addEventListener('can_embed_loaded', () => {
+      const optInGroups = document.getElementById('d_sharing').querySelectorAll('li')
+
+      if (optInGroups.length > 1) {
+        const optInText = optInGroups[1].querySelectorAll('label')[0].innerText
+        const partnerGroupName = optInText.replace('Opt in to updates from ', '')
+        const partnerDisclaimer = document.createElement('p')
+        partnerDisclaimer.classList.add('splash-page-disclaimer')
+        partnerDisclaimer.innerHTML = `You may receive updates from <i>${partnerGroupName}</i>, who shared this form with you.`
+        document.querySelector('.splash-page-signup-form-wrapper').appendChild(partnerDisclaimer)
+      }
+    })
+
+    document.addEventListener('can_embed_submitted', () => {
+      document.querySelectorAll('.splash-page-disclaimer').forEach((disclaimer) => {
+        disclaimer.style.display = 'none'
+      })
+    })
   }
+}
 
 </script>
 

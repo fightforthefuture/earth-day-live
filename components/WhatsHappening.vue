@@ -2,23 +2,27 @@
     <section id="whats-happening">
       <div class="col-md-6 offset-md-3">
         <h1 class="section-title">
-          What's Happening?
+          {{ $t('common.whatsHappening') }}
         </h1>
-        <img class="separator" src="~assets/images/separator.jpg" alt="Separator" />
+        <img class="separator" src="~assets/images/separator.jpg" :alt="$t('getInvolved.common.separatorAlt')" />
         <p class="description">
+<<<<<<< HEAD
           April 22 will be the 50th anniversary of Earth Day.
           That’s why we’re launching a massive livestream from April 22-24 where millions of people can tune in with activists, celebrities, musicians, and more in an epic celebration of our planet.
           In the midst of this global crisis, it's more important than ever to unite and support each other. Together, we'll support the relief effort and fight for a better world on the other side of the pandemic.
           Here are all the ways you can help.
+=======
+          {{ $t('getInvolved.whatsHappening.description') }}
+>>>>>>> master
         </p>
       </div>
     </section>
 </template>
 
 <script>
-    export default {
-        name: "WhatsHappening.vue"
-    }
+export default {
+  name: "WhatsHappening.vue"
+}
 </script>
 
 <style scoped>

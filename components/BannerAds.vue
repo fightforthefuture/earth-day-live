@@ -2,27 +2,30 @@
   <section id="banner-ads">
     <div class="col-md-6 offset-md-3">
       <h1 class="section-title">
-        Use these banner ads
+        {{ translate.title }}
       </h1>
-      <img class="separator" src="~assets/images/separator.jpg" alt="Separator" />
+      <img class="separator" src="~assets/images/separator.jpg" :alt="$t('getInvolved.common.separatorAlt')" />
       <p class="description">
-        Do you run a site or blog? Use these banner ads to get the word out about Earth Day Live. There are tons of
-        <a href="https://drive.google.com/drive/folders/1D5xxm1n1TsEmzNRgrOrMTSoi1el1jtV1" target="_blank">ad sizes to choose from here</a>.
+        {{ translate.description }}
+        <a href="https://drive.google.com/drive/folders/1D5xxm1n1TsEmzNRgrOrMTSoi1el1jtV1" target="_blank">{{ translate.linkText }}</a>.
       </p>
       <a href="https://drive.google.com/drive/folders/1D5xxm1n1TsEmzNRgrOrMTSoi1el1jtV1" target="_blank">
-        <img class="banner-ad" src="~assets/images/banner-ad-600x628.png" alt="Ready to help save the world? (Banner Ad 600x628)">
+        <img class="banner-ad" src="~assets/images/banner-ad-600x628.png" :alt="translate.smallAlt">
       </a>
       <a href="https://drive.google.com/drive/folders/1D5xxm1n1TsEmzNRgrOrMTSoi1el1jtV1" target="_blank">
-        <img class="banner-ad" src="~assets/images/banner-ad-970x90.png" alt="Ready to help save the world? (Banner Ad 970x90)">
+        <img class="banner-ad" src="~assets/images/banner-ad-970x90.png" :alt="translate.largeAlt">
       </a>
     </div>
   </section>
 </template>
 
 <script>
-    export default {
-        name: "BannerAds"
-    }
+export default {
+  name: "BannerAds",
+  data() {
+    return { translate: this.$t('getInvolved.bannerAds') }
+  }
+}
 </script>
 
 <style scoped>
