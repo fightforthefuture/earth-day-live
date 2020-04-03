@@ -1,3 +1,4 @@
+/* eslint-disable no-restricted-modules */
 import { BootstrapVue } from "bootstrap-vue";
 import { createLocalVue, shallowMount, mount } from "@vue/test-utils";
 import en from "../../i18n/en.json";

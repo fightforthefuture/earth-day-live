@@ -20,5 +20,11 @@ module.exports = {
         "vue"
     ],
     "rules": {
+        "no-restricted-modules": [
+            "error", {
+                "name": "@vue/test-utils",
+                "message": "Please use ./test/utils/test-utils.js instead."
+            }
+        ]
     }
 };
