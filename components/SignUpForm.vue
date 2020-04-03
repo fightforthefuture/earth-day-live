@@ -4,7 +4,11 @@
       <div class="splash-page-signup-form-wrapper">
         <div id='can-form-area-digital-earth-day'>
         </div>
-        <p class="splash-page-disclaimer">{{ translate.disclaimer }}</p>
+        <p class="splash-page-disclaimer">
+          {{ translate.disclaimer1 }}
+          <i>{{ translate.disclaimer2 }}</i>
+          {{ translate.disclaimer3 }}
+        </p>
       </div>
     </div>
   </div>
