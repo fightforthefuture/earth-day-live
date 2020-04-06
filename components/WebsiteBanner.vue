@@ -32,11 +32,11 @@
         <p class="description-center">
           {{ translate.center2 }} (<a href="https://widget.earthdaylive2020.org/demo.html?fullPage" target="_blank">{{ translate.demo }}</a>):
         </p>
-        <img class="widget-example" src="~assets/images/EDL-mockup-overlay.png" alt="Website Banner Example 2" />
+        <img class="widget-example" src="~assets/images/EDL-mockup-full.png" alt="Website Banner Full" />
         <p class="description-center">
           {{ translate.center3 }} (<a href="https://widget.earthdaylive2020.org/demo.html?fullPage&showCloseButton=1" target="_blank">{{ translate.demo }}</a>):
         </p>
-        <img class="widget-example" src="~assets/images/EDL-mockup-full.png" alt="Website Banner Example 3" />
+        <img class="widget-example" src="~assets/images/EDL-mockup-overlay.png" alt="Website Banner Closeable Overlay" />
         <p class="description">
           {{ translate.body3.preLink }}
           <a href="https://github.com/fightforthefuture/earth-day-live-widget" target="_blank">{{ translate.body3.linkText }}</a> {{ translate.body3.postLink }}
