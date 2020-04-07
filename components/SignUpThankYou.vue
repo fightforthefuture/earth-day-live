@@ -36,9 +36,8 @@
       },
       mounted() {
         document.addEventListener('can_embed_submitted', () => {
-          document.querySelectorAll('.splash-page-disclaimer').forEach((disclaimer) => {
-            disclaimer.style.display = 'none'
-          })
+          document.querySelector('.splash-page-signup-form-container').style.display = 'none'
+          document.querySelector('.signup-thank-you-wrapper').style.display = 'block'
         })
       },
       methods: {
@@ -55,10 +54,12 @@
 
 <style scoped>
 .signup-thank-you-wrapper {
+  margin-top: -100px;
   background-color: #190825;
   padding: 50px;
   color: #fff;
   text-align: center;
+  display: none;
 }
 
 .signup-thank-you-title {
