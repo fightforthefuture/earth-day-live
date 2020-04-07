@@ -3,7 +3,7 @@
     <h1 class="signup-thank-you-title">{{ translate.title }}</h1>
     <p>{{ translate.description }}</p>
     <div class="row registration-pledge-wrapper">
-      <div class="col-sm-6 registration-pledge-col">
+      <div class="col-md-6 registration-pledge-col">
         <div class="registration-pledge">
           <h3 class="registration-pledge-title">{{ translate.registerNotSureTitle }}</h3>
           <p class="registration-pledge-description">{{ translate.registerNotSureDescription1 }} <span>{{ translate.registerNotSureDescription2 }}</span></p>
@@ -13,7 +13,7 @@
           </button>
         </div>
       </div>
-      <div class="col-sm-6 registration-pledge-col">
+      <div class="col-md-6 registration-pledge-col">
         <div class="registration-pledge">
           <h3 class="registration-pledge-title">{{ translate.registeredTitle }}</h3>
           <p class="registration-pledge-description">{{ translate.registeredDescription1 }} <span>{{ translate.registeredDescription2 }}</span></p>
@@ -119,6 +119,21 @@ button {
 .circle-arrow,
 .circle-green-arrow {
   max-width: 30px;
+}
+@media (max-width: 1200px) {
+  .registration-pledge-wrapper {
+    padding: 10px;
+  }
+
+  button {
+    font-size: 1.2em;
+  }
+}
+
+@media (max-width: 767px) {
+  .registration-pledge-col {
+    margin-bottom: 10px;
+  }
 }
 
 </style>
