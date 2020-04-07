@@ -22,16 +22,20 @@ describe('WidgetInstructions', () => {
       expect(wrapper.findAll('div').at(1).classes('widget-instructions-list')).toBe(true);
     });
 
+    test('contains WordPress instruction items', () => {
+      expect(wrapper.findAll(BListGroupItem).at(0).text().toLowerCase()).toContain('wordpress');
+    });
+
     test('contains Squarespace instruction items', () => {
-      expect(wrapper.findAll(BListGroupItem).at(0).text().toLowerCase()).toContain('squarespace');
+      expect(wrapper.findAll(BListGroupItem).at(1).text().toLowerCase()).toContain('squarespace');
     });
 
     test('contains Tumblr instruction items', () => {
-      expect(wrapper.findAll(BListGroupItem).at(1).text().toLowerCase()).toContain('tumblr');
+      expect(wrapper.findAll(BListGroupItem).at(2).text().toLowerCase()).toContain('tumblr');
     });
 
     test('contains Shopify instruction items', () => {
-      expect(wrapper.findAll(BListGroupItem).at(2).text().toLowerCase()).toContain('shopify');
+      expect(wrapper.findAll(BListGroupItem).at(3).text().toLowerCase()).toContain('shopify');
     });
 
   });
