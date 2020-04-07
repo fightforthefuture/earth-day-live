@@ -76,6 +76,18 @@
       "disclaimer1": "You may receive updates from",
       "disclaimer2": " US Climate Strike",
       "disclaimer3": ", the sponsor of this form"
+    },
+    "signUpThankYou": {
+      "title": "Thanks for joining Earth Day Live!",
+      "description": "It couldn't be more important to vote for the future of our planet in 2020. If we all take that pledge, we can help save the world. So, are you registered to vote?",
+      "registerNotSureTitle": "Hmmm...",
+      "registerNotSureDescription1": "I'll vote for the future of the planet but",
+      "registerNotSureDescription2": "I might not be registered.",
+      "registerNotSureButton": "Check Registration",
+      "registeredTitle": "Yes!",
+      "registeredDescription1": "I'll vote for the future of the planet and",
+      "registeredDescription2": "I'm already registered.",
+      "registeredButton": "Invite a friend"
     }
   },
   "footer": "Made with \u2764 for the future of humanity and our planet."
