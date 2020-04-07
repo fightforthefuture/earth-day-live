@@ -89,6 +89,12 @@
       "registeredDescription1": "I'll vote for the future of the planet and",
       "registeredDescription2": "I'm already registered.",
       "registeredButton": "Invite a friend"
+    },
+    "signUpShare": {
+      "subTitle": "Can you share with your friends:",
+      "facebook": "Share on Facebook",
+      "twitter": "Share on Twitter",
+      "linkedIn": "Share on LinkedIn"
     }
   },
   "footer": "Made with \u2764 for the future of humanity and our planet."

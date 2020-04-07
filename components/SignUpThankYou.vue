@@ -24,13 +24,19 @@
         </div>
       </div>
     </div>
+    <SignUpShare />
   </div>
 </template>
 
 <script>
     import { smoothScrollToElement } from '~/assets/js/helpers'
+    import SignUpShare from "./SignUpShare"
+
     export default {
       name: "SignUpThankYou",
+      components: {
+        SignUpShare
+      },
       data() {
         return { translate: this.$t('getInvolved.signUpThankYou') }
       },
@@ -59,7 +65,7 @@
   padding: 50px;
   color: #fff;
   text-align: center;
-  display: none;
+  display: none; /*Comment this out for local dev / testing */
 }
 
 .signup-thank-you-title {
