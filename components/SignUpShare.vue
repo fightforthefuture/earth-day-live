@@ -73,6 +73,10 @@
   background-color: #463057;
 }
 
+.share-sub-title p {
+  margin-bottom: 0;
+}
+
 .share-icons-wrapper {
   display: flex;
   justify-content: space-around;
