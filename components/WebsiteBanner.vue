@@ -32,9 +32,15 @@
           <b-list-group horizontal="lg">
             <b-list-group-item class="flex-fill" @click="goToInstructions('https://docs.google.com/document/d/116ZqH8l68HaolxQQIxIuLwCuo-7EjnrCC_Cu76B3sEA/')">
               {{ translate.squarespace }}
+              <img class="arrow-side" src="~assets/images/arrow-side.svg" :alt="$t('getInvolved.common.arrowAlt')" />
             </b-list-group-item>
             <b-list-group-item class="flex-fill" @click="goToInstructions('https://docs.google.com/document/d/1BvUz4f6hSrOcLhNSIBq4GUTeeA9Cvb6vdis3F0-Tnuo/')">
               {{ translate.tumblr }}
+              <img class="arrow-side" src="~assets/images/arrow-side.svg" :alt="$t('getInvolved.common.arrowAlt')" />
+            </b-list-group-item>
+            <b-list-group-item class="flex-fill" @click="goToInstructions('https://docs.google.com/document/d/1TCxjUFn8yAv3KLBAEjR0QtQiMu2uMaqjNh-gUBMQybc/')">
+              {{ translate.shopify }}
+              <img class="arrow-side" src="~assets/images/arrow-side.svg" :alt="$t('getInvolved.common.arrowAlt')" />
             </b-list-group-item>
           </b-list-group>
         </div>
@@ -168,6 +174,11 @@ export default {
 
   .list-group-item:last-child {
     border-right: none;
+  }
+
+  .arrow-side {
+    max-width: 10px;
+    padding-bottom: 4px;
   }
 
   @media only screen and (max-width: 600px) {
