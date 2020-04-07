@@ -10,6 +10,9 @@ export default {
   head() {
     return {
       title: 'Earth Day Live',
+      script: [
+        { src: 'https://register.rockthevote.com/assets/rtv-iframe.js' }
+      ],
       meta: [
         { hid: 'og:title', property: 'og:title', content: 'Will you join Earth Day Live?' },
         { hid: 'og:description', property: 'og:description', content: 'On April 22-24, millions around the world are taking to the web to celebrate the 50th anniversary of Earth Day.' },

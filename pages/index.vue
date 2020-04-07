@@ -22,6 +22,8 @@
       </div>
     </div>
     <SignUpForm />
+    <CheckMyRegistrationForm />
+    <RegisterToVoteForm />
     <PageFooter />
   </div>
 </template>
@@ -30,6 +32,8 @@
 import Logo from '~/components/Logo.vue'
 import SignUpForm from '~/components/SignUpForm.vue'
 import PageFooter from '~/components/PageFooter.vue'
+import CheckMyRegistrationForm from '~/components/CheckMyRegistrationForm.vue'
+import RegisterToVoteForm from '~/components/RegisterToVoteForm.vue'
 
 export default {
   data() {
@@ -40,7 +44,9 @@ export default {
   components: {
     Logo,
     SignUpForm,
-    PageFooter
+    PageFooter,
+    CheckMyRegistrationForm,
+    RegisterToVoteForm
   }
 }
 </script>
