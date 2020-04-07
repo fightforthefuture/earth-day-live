@@ -5,7 +5,7 @@
 </template>
 
 <script>
-
+import { smoothScrollToElement } from '~/assets/js/helpers'
 export default {
   head() {
     return {
@@ -25,6 +25,11 @@ export default {
       ]
     }
   },
+  mounted() {
+    if (this.$route.hash) {
+      smoothScrollToElement(this.$route.hash, 500)
+    }
+  }
 }
 </script>
 
