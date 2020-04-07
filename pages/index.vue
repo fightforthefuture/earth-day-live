@@ -30,7 +30,6 @@
 import Logo from '~/components/Logo.vue'
 import SignUpForm from '~/components/SignUpForm.vue'
 import PageFooter from '~/components/PageFooter.vue'
-import SignUpThankYou from '~/components/SignUpThankYou.vue'
 
 export default {
   data() {
@@ -41,7 +40,6 @@ export default {
   components: {
     Logo,
     SignUpForm,
-    SignUpThankYou,
     PageFooter
   }
 }

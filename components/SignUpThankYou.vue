@@ -28,6 +28,7 @@
 </template>
 
 <script>
+    import { smoothScrollToElement } from '~/assets/js/helpers'
     export default {
       name: "SignUpThankYou",
       data() {
