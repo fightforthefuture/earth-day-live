@@ -6,6 +6,9 @@ export default ({ app }) => {
   */
   if (process.env.NODE_ENV !== 'production') return
 
+  /*
+  ** The global site tag (gtag.js) is a JavaScript tagging framework.
+  */
   window.dataLayer = window.dataLayer || [];
   function gtag(){dataLayer.push(arguments);}
   gtag('js', new Date());
