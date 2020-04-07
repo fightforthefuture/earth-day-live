@@ -5,6 +5,10 @@
     </p>
     <div class="widget-instructions-list">
       <b-list-group horizontal="lg">
+        <b-list-group-item class="flex-fill" @click="goToInstructions('https://docs.google.com/document/d/1NEt5JgIKmDqxc7uq56Cfz1TDtgkj7Zq5rre6qn5RW1o/')">
+          {{ translate.wordpress }}
+          <img class="arrow-side" src="~assets/images/arrow-side.svg" :alt="$t('getInvolved.common.arrowAlt')" />
+        </b-list-group-item>
         <b-list-group-item class="flex-fill" @click="goToInstructions('https://docs.google.com/document/d/116ZqH8l68HaolxQQIxIuLwCuo-7EjnrCC_Cu76B3sEA/')">
           {{ translate.squarespace }}
           <img class="arrow-side" src="~assets/images/arrow-side.svg" :alt="$t('getInvolved.common.arrowAlt')" />
@@ -17,6 +21,7 @@
           {{ translate.shopify }}
           <img class="arrow-side" src="~assets/images/arrow-side.svg" :alt="$t('getInvolved.common.arrowAlt')" />
         </b-list-group-item>
+
       </b-list-group>
     </div>
   </div>
