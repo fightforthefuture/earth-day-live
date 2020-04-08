@@ -26,7 +26,7 @@
 <style scoped>
 
   #participants {
-    background-color: #fff;
+    background-color: #f8f8f8;
     padding: 75px 20px;
     text-align: center;
   }

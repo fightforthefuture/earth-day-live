@@ -59,7 +59,7 @@ h5 {
 
 p {
   font-family: neue-haas-grotesk-display, sans-serif;
-  font-size: 1.2em;
+  font-size: 1.3em;
 }
 a {
   color: #fd6f37;
