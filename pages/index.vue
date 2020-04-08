@@ -22,7 +22,6 @@
       </div>
     </div>
     <SignUpForm />
-    <CheckMyRegistrationForm />
     <RegisterToVoteForm />
     <PageFooter />
   </div>
@@ -52,10 +51,6 @@ export default {
 </script>
 
 <style>
-
-body {
- background-color: #e3e9ec;
-}
 
 .container-fluid {
   margin: 0 auto;
