@@ -29,7 +29,7 @@
 
 </script>
 
-<style>
+<style scoped>
 body {
   background-color: #e3e9ec;
 }

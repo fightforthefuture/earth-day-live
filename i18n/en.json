@@ -6,7 +6,35 @@
     "title": "Strike, divest, and vote to save humanity and our planet.",
     "subtitle1": "On April 22-24, the 50th anniversary of Earth Day, millions of people around the world are going online for a three-day mobilization to stop the climate emergency.",
     "subtitle2": "Join us for three days of action — from teach-ins, musical performances, divestment, and more. All you need is an internet connection.",
-    "subtitle3": "Together, we can transform our world into one that is not only safe and sustainable, but flourishes for generations to come."
+    "subtitle3": "Together, we can transform our world into one that is not only safe and sustainable, but flourishes for generations to come.",
+    "nav": {
+      "participants": "Participants",
+      "theThreeDays": "The Three Days",
+      "getInvolved": "Get Involved",
+      "faqs": "FAQs"
+    },
+    "participants": {
+      "title": "Participants",
+      "featuring": "Featuring"
+    },
+    "theThreeDays": {
+      "title": "The Three Days",
+      "description": "Earth Day Live will feature a three-day livestream where millions of people can join activists, celebrities, musicians, and more in an epic celebration of our planet. There will be overarching themes about coronavirus relief & mutual aid, equity & justice at the frontlines of the climate fight and The Green New Deal - but each day will also have a a specific focus.",
+      "tab1Title": "April 22",
+      "tab1Description": "On the 50th anniversary of Earth Day, we will demonstrate our collective power and unity through community building and storytelling. This first day will focus on amplifying the voice of youth climate activist who are leading the movement to halt the climate crisis.",
+      "tab2Title": "April 23",
+      "tab2Description": "Led by Stop the Money Pipeline Coalition, during this day of action we are calling for a global reset. We want to reprogram the economy so that it works for people and the planet, not polluters and politicians.",
+      "tab3Title": "April 24",
+      "tab3Description": "The final day will focus on the urgency of political change through a nationwide youth voter registration day. We need leaders who will address this existential threat, and for this to happen, we need people to show up at the polls this year and vote for the future of the planet."
+    },
+    "getInvolved": {
+      "title": "Get Involved",
+      "description": "Anyone with an internet connection can join Earth Day Live. We've got a widget to add to your website, social media graphics, banner ads - you name it!",
+      "buttonText": "Get the resources"
+    },
+    "faqs": {
+      "title": "FAQs"
+    }
   },
   "getInvolved": {
     "title": "Spread the word to help save the world.",

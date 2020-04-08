@@ -1,6 +1,6 @@
 <template>
-  <div class="container splash-page-signup-form-container">
-    <div class="col-md-8 offset-md-2">
+  <div class="container-fluid splash-page-signup-form-container">
+    <div class="col-md-6 offset-md-3">
       <div class="splash-page-signup-form-wrapper">
         <div id='can-form-area-digital-earth-day'>
         </div>
@@ -55,13 +55,17 @@ export default {
 </script>
 
 <style>
+  .splash-page-signup-form-container {
+    background-color: #e3e9ec;
+    padding-bottom: 100px;
+    display: flex;
+  }
   .splash-page-signup-form-wrapper {
     margin-top: -100px;
     background-color: #190825;
     padding: 20px;
     color: #fff;
     text-align: center;
-    margin-bottom: 100px;
   }
 
   .splash-page-disclaimer {
