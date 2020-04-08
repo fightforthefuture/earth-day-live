@@ -47,7 +47,8 @@
 
 <style scoped>
   #faqs {
-    background-color: #fff;
+    background-color: #190825;
+    color: #fff;
     padding: 75px 20px;
     text-align: center;
   }
@@ -58,7 +59,7 @@
   }
 
   .btn-secondary {
-    color: #000;
+    color: #fff;
     background: none;
     border: none;
   }
@@ -72,8 +73,14 @@
     border: none;
     box-shadow: none;
   }
+  .card {
+    border: none;
+  }
 
-  .card-text {
+  .card-body {
     text-align: justify;
+    background-color: #190825;
+    color: #fff;
+    border: none;
   }
 </style>
