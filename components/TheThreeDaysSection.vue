@@ -68,7 +68,7 @@
 
 <style>
   #the-three-days {
-    background-color: #fff;
+    background-color: #e3e9ec;
     padding: 75px 20px;
     text-align: center;
   }

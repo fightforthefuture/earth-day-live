@@ -5,9 +5,33 @@
         {{ translate.title }}
       </h1>
       <img class="separator" src="~assets/images/separator.jpg" :alt="$t('getInvolved.common.separatorAlt')" />
-      <p class="description">
-        {{ translate.description }}
-      </p>
+      <div>
+        <b-button v-b-toggle.collapse-1>
+          <h3>{{ translate.faq1Question }}</h3>
+        </b-button>
+        <b-collapse id="collapse-1" class="mt-2">
+          <b-card>
+            <p class="card-text">
+              {{ translate.faq1AnswerA }}
+            </p>
+            <p class="card-text">
+              {{ translate.faq1AnswerB }}
+            </p>
+          </b-card>
+        </b-collapse>
+      </div>
+      <div>
+        <b-button v-b-toggle.collapse-2>
+          <h3>{{ translate.faq2Question }}</h3>
+        </b-button>
+        <b-collapse id="collapse-2" class="mt-2">
+          <b-card>
+            <p class="card-text">
+              {{ translate.faq2Answer }}
+            </p>
+          </b-card>
+        </b-collapse>
+      </div>
     </div>
   </section>
 </template>
@@ -31,5 +55,25 @@
   .section-title {
     text-align: center;
     text-transform: uppercase;
+  }
+
+  .btn-secondary {
+    color: #000;
+    background: none;
+    border: none;
+  }
+
+  .btn-secondary:hover {
+    background-image: url('~assets/images/separator.jpg');
+    background-repeat: no-repeat;
+    background-position: center bottom;
+  }
+  .btn-secondary:focus {
+    border: none;
+    box-shadow: none;
+  }
+
+  .card-text {
+    text-align: justify;
   }
 </style>

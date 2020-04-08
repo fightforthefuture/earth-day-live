@@ -33,7 +33,12 @@
       "buttonText": "Get the resources"
     },
     "faqs": {
-      "title": "FAQs"
+      "title": "FAQs",
+      "faq1Question": "Why Earth Day Live?",
+      "faq1AnswerA": "This is a monumental time in history. We are being forced to slow down, to pause, to re-evaluate our life paths, our purpose, and our connections to each other and the broader world around us. This moment presents a special opportunity to not only unite our movement around a shared common vision for a better future for humankind, but to welcome in organizers, friends, family and community members who have not been interested in being an active part of the climate movement. The world moves so fast. We may never get another change like this to bring so many people together to demand a future that works for all of us.",
+      "faq1AnswerB": "These are scary times. Many have lost jobs, loved ones, and are uncertain what the future looks like. Environmental, worker, and health protections are being rolled back, worsening the crisis. Now more than ever is the moment to come together and demand a just response to the pandemic and the climate crisis. In times of great turmoil, movements have been able to fundamentally transform society in ways that were never thought possible. The New Deal was born out of sustained protest and pressure during the Great Depression. Everyday people relentlessly advocated for the policies that brought the U.S. out of crisis, winning the support of FDR. This is our moment to bring forth the vision of the future we want to see. Livestreams are an opportunity to build community, educate, and propose solutions. We can bring hope, joy, and honesty in a time when so many are overwhelmed and isolated.",
+      "faq2Question": "How does the livestream work?",
+      "faq2Answer": "The livestream will be available to viewers through all social media platforms. A participant can visit Facebook, Instagram, Twitter, etc, and plug into the live stream directly from the social media platform of their choosing. This will likely be the primary way most viewers will watch the livestream. Viewers will be able to share the livestream directly to their followers and friends through their social media channels. Additionally, viewers will be able to watch the livestream from earthdaylive2020.org. Ideally, this is the primary location we hope to drive participants to, so shared promotion to the Earth Day Live website is appreciated! We’re leveraging external third-party applications to stream the content dynamically and support the bandwidth to have hundreds of thousands of viewers watching the content for the 3 consecutive days."
     }
   },
   "getInvolved": {
