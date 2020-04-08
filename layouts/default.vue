@@ -5,7 +5,7 @@
 </template>
 
 <script>
-
+import { smoothScrollToElement } from '~/assets/js/helpers'
 export default {
   head() {
     return {
@@ -22,9 +22,17 @@ export default {
         { hid: 'twitter:site', property: 'twitter:site', content: '@usclimatestrike' },
         { hid: 'twitter:title', property: 'twitter:title', content: 'Will you join Earth Day Live?' },
         { hid: 'twitter:url', property: 'twitter:title', content: 'https://www.earthdaylive2020.org' },
+      ],
+      script: [
+        { src: 'https://www.googletagmanager.com/gtag/js?id=UA-162257314-1'}
       ]
     }
   },
+  mounted() {
+    if (this.$route.hash) {
+      smoothScrollToElement(this.$route.hash, 500)
+    }
+  }
 }
 </script>
 

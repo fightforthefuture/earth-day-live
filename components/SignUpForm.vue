@@ -1,5 +1,5 @@
 <template>
-  <div class="container">
+  <div class="container splash-page-signup-form-container">
     <div class="col-md-8 offset-md-2">
       <div class="splash-page-signup-form-wrapper">
         <div id='can-form-area-digital-earth-day'>
