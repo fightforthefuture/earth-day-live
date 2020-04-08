@@ -7,9 +7,9 @@
         <div class="bottom-arrrow"></div>
       </b-col>
       <b-col cols="12" md="4" class="share-icons-wrapper">
-        <img class="share-icon" src="~assets/images/facebook.svg" :alt="translate.facebook" />
-        <img class="share-icon" src="~assets/images/twitter.svg" :alt="translate.twitter" />
-        <img class="share-icon" src="~assets/images/linkedin.svg" :alt="translate.linkedIn" />
+        <img class="share-icon" src="~assets/images/facebook.svg" :alt="translate.facebook" @click.prevent="rerouteClick('share_button share-facebook left mr15 js-facebook_link')"/>
+        <img class="share-icon" src="~assets/images/twitter.svg" :alt="translate.twitter" @click.prevent="rerouteClick('share_button share-twitter left mr15 js-twitter_link ')"/>
+        <img class="share-icon" src="~assets/images/linkedin.svg" :alt="translate.linkedIn" onclick="window.open('https://www.linkedin.com/sharing/share-offsite/?url=http%3A%2F%2Fearthdaylive2020.org', 'linkedin', 'width=450,height=475,left='+(screen.availWidth/2-375)+',top='+(screen.availHeight/2-150)+'')"/>
       </b-col>
     </b-row>
   </b-container>
@@ -21,6 +21,11 @@
       data() {
         return { translate: this.$t('getInvolved.signUpShare') }
       },
+      methods: {
+          rerouteClick(elementClass) {
+            document.getElementsByClassName(elementClass)[0].click();
+          }
+      }
     }
 </script>
 
