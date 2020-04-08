@@ -97,6 +97,7 @@ export default {
 
   .widget-code-wrapper {
     margin-bottom: 20px;
+    margin-left: 0;
   }
 
   .widget-code {
