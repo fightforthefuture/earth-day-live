@@ -9,6 +9,7 @@
         <span class="featuring">{{ translate.featuring }}</span>
         {{ translate.participantList }}
       </h2>
+      <h5>{{ translate.moreSoon }}</h5>
     </div>
   </section>
 </template>

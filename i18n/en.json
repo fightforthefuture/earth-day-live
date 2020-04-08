@@ -16,7 +16,8 @@
     "participants": {
       "title": "Participants",
       "featuring": "Featuring",
-      "participantList": "Joaquin Phoenix, Moby, Talib Kweli, Matt McGorry, Ilyasah Shabazz, Patricia Arquette, Tim Heidecker, Rosanna Arquette"
+      "participantList": "Joaquin Phoenix, Moby, Talib Kweli, Matt McGorry, Ilyasah Shabazz, Patricia Arquette, Tim Heidecker, Rosanna Arquette",
+      "moreSoon": "And many more to be announced soon!"
     },
     "theThreeDays": {
       "title": "The Three Days",
@@ -132,5 +133,7 @@
       "linkedIn": "Share on LinkedIn"
     }
   },
-  "footer": "Made with \u2764 for the future of humanity and our planet."
+  "footer": {
+    "madeWithLove": "Made with \u2764 for the future of humanity and our planet."
+  }
 }

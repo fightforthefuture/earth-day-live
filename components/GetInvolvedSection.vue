@@ -8,12 +8,10 @@
       <p class="description">
         {{ translate.description }}
       </p>
-      <nuxt-link to="/get-involved">
-        <button class="get-involved-button">
-          {{ translate.buttonText }}
-          <img class="circle-arrow" src="~assets/images/circle-arrow.svg" :alt="$t('getInvolved.common.arrowAlt')" />
-        </button>
-      </nuxt-link>
+      <button class="get-involved-button" @click="goTo('/get-involved')">
+        {{ translate.buttonText }}
+        <img class="circle-arrow" src="~assets/images/circle-arrow.svg" :alt="$t('getInvolved.common.arrowAlt')" />
+      </button>
     </div>
 
   </section>
@@ -25,6 +23,11 @@
     data() {
       return { translate: this.$t('home.getInvolved') }
     },
+    methods: {
+      goTo(url) {
+        window.location.href = url
+      },
+    }
   }
 </script>
 

@@ -53,7 +53,7 @@
     import { faFistRaised } from '@fortawesome/free-solid-svg-icons'
 
     export default {
-        name: "TheThreeDaysSection",
+      name: "TheThreeDaysSection",
       data() {
         return { translate: this.$t('home.theThreeDays') }
       },
