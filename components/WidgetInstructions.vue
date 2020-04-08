@@ -4,7 +4,7 @@
       {{ translate.instructionsDescription }}
     </p>
     <div class="widget-instructions-list">
-      <b-list-group horizontal="lg">
+      <b-list-group horizontal="xl">
         <b-list-group-item class="flex-fill" @click="goToInstructions('https://docs.google.com/document/d/1NEt5JgIKmDqxc7uq56Cfz1TDtgkj7Zq5rre6qn5RW1o/')">
           {{ translate.wordpress }}
           <img class="arrow-side" src="~assets/images/arrow-side.svg" :alt="$t('getInvolved.common.arrowAlt')" />
@@ -78,7 +78,7 @@
     padding-bottom: 4px;
   }
 
-  @media only screen and (max-width: 992px) {
+  @media (min-width: 767px) {
     .list-group-item {
       border-top: 1px solid #fff;
     }
