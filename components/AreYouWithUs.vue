@@ -42,7 +42,9 @@ export default {
   .separator {
     margin: auto;
   }
-
+  #are-you-with-us .splash-page-signup-form-container {
+    background: #f8f8f8;
+  }
   #are-you-with-us .splash-page-signup-form-wrapper {
     margin-top: 50px;
     margin-bottom: 0;

@@ -52,13 +52,14 @@ html {
 h1,
 h2,
 h3,
-h4 {
+h4,
+h5 {
   font-family: titling-gothic-fb, sans-serif;
 }
 
 p {
   font-family: neue-haas-grotesk-display, sans-serif;
-  font-size: 1.2em;
+  font-size: 1.3em;
 }
 a {
   color: #fd6f37;

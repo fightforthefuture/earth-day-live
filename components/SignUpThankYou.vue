@@ -7,7 +7,7 @@
         <div class="registration-pledge">
           <h3 class="registration-pledge-title">{{ translate.registerNotSureTitle }}</h3>
           <p class="registration-pledge-description">{{ translate.registerNotSureDescription1 }} <span>{{ translate.registerNotSureDescription2 }}</span></p>
-          <button class="register-not-sue-button" @click="scrollTo('#check-registration')">
+          <button class="register-not-sure-button" @click="scrollTo('#check-registration')">
             {{ translate.registerNotSureButton }}
             <img class="circle-arrow" src="~assets/images/circle-arrow.svg" :alt="$t('getInvolved.common.arrowAlt')" />
           </button>
@@ -111,7 +111,7 @@ button {
   margin-bottom: 50px;
 }
 
-.register-not-sue-button {
+.register-not-sure-button {
   background-image: linear-gradient(to right, #f26146 0%, #fb722c 35%, #f65b5a 65%, #f85371 100%);
 }
 

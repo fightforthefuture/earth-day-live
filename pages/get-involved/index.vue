@@ -3,7 +3,9 @@
     <GetInvolvedNav />
     <div class="container-fluid get-involved-container">
       <div>
-        <logo />
+        <a @click="goTo('/')" class="get-involved-logo">
+          <logo />
+        </a>
         <div class="col-md-8 offset-md-2">
           <h1 class="title">
             {{ $t('getInvolved.title') }}
@@ -51,6 +53,11 @@
       AreYouWithUs,
       SignUpForm, //eslint-disable-line
     },
+    methods: {
+      goTo(url) {
+        window.location.href = url
+      },
+    }
   }
 
 </script>
@@ -89,6 +96,10 @@
     margin-top: -500px;
     text-align: center;
   }
+  .get-involved-logo:hover {
+    cursor: pointer;
+  }
+
   .white-separator {
     width: 80%;
     background-color: #fff;

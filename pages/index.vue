@@ -1,6 +1,7 @@
 <template>
   <div>
-    <div class="container-fluid">
+    <HomePageNav />
+    <div class="container-fluid header-container">
       <div>
         <logo />
         <div class="col-md-6 offset-md-3">
@@ -23,6 +24,10 @@
     </div>
     <SignUpForm />
     <RegisterToVoteForm />
+    <ParticipantsSection />
+    <TheThreeDaysSection />
+    <GetInvolvedSection />
+    <FAQsSection />
     <PageFooter />
   </div>
 </template>
@@ -31,8 +36,12 @@
 import Logo from '~/components/Logo.vue'
 import SignUpForm from '~/components/SignUpForm.vue'
 import PageFooter from '~/components/PageFooter.vue'
-import CheckMyRegistrationForm from '~/components/CheckMyRegistrationForm.vue'
 import RegisterToVoteForm from '~/components/RegisterToVoteForm.vue'
+import HomePageNav from "../components/homePageNav";
+import ParticipantsSection from "../components/ParticipantsSection";
+import TheThreeDaysSection from "../components/TheThreeDaysSection";
+import GetInvolvedSection from "../components/GetInvolvedSection";
+import FAQsSection from "../components/FAQsSection";
 
 export default {
   data() {
@@ -41,18 +50,22 @@ export default {
     }
   },
   components: {
+    HomePageNav,
     Logo,
     SignUpForm,
+    RegisterToVoteForm,
+    FAQsSection,
+    GetInvolvedSection,
+    TheThreeDaysSection,
+    ParticipantsSection,
     PageFooter,
-    CheckMyRegistrationForm,
-    RegisterToVoteForm
   }
 }
 </script>
 
 <style>
 
-.container-fluid {
+.header-container {
   margin: 0 auto;
   display: flex;
   justify-content: center;
@@ -83,5 +96,13 @@ export default {
   color: #fff;
   word-spacing: 5px;
   padding-bottom: 20px;
+}
+.separator {
+  margin: 30px;
+}
+
+.description {
+  text-align: justify;
+  margin-bottom: 30px;
 }
 </style>

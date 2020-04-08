@@ -15,6 +15,6 @@
 }
 
 .logo-earth-day-live {
-  max-width:250px;
+  max-width: 250px;
 }
 </style>
