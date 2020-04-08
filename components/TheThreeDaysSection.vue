@@ -12,25 +12,34 @@
         <b-tabs content-class="mt-3" justified>
           <b-tab active>
             <template v-slot:title class="tab tab-1">
-              <div class="tab-name">April 22</div>
+              <div class="tab-name">{{ translate.tab1Title }}</div>
               <div class="tab-active-triangle"></div>
             </template>
+            <font-awesome-layers class="fa-2x">
+              <font-awesome-icon icon="fist-raised"/>
+            </font-awesome-layers>
             <h3>Earth Day and Youth Climate Strikes</h3>
             <p>{{ translate.tab1Description }}</p>
           </b-tab>
           <b-tab>
             <template v-slot:title class="tab tab-2">
-              <div class="tab-name">April 22</div>
+              <div class="tab-name">{{ translate.tab2Title }}</div>
               <div class="tab-active-triangle"></div>
             </template>
+            <font-awesome-layers class="fa-2x">
+              <font-awesome-icon icon="piggy-bank"/>
+            </font-awesome-layers>
             <h3>Divestment and Climate Financing</h3>
             <p> {{ translate.tab2Description }}</p>
           </b-tab>
-          <b-tab title="April 24" class="tab tab-3">
+          <b-tab>
             <template v-slot:title class="tab tab-3">
-              <div class="tab-name">April 4</div>
+              <div class="tab-name">{{ translate.tab3Title }}</div>
               <div class="tab-active-triangle"></div>
             </template>
+            <font-awesome-layers class="fa-2x">
+              <font-awesome-icon icon="vote-yea"/>
+            </font-awesome-layers>
             <h3>Voter Registration and Political Engagement</h3>
             <p>{{ translate.tab3Description }}</p>
           </b-tab>
@@ -41,11 +50,19 @@
 </template>
 
 <script>
+    import { faFistRaised } from '@fortawesome/free-solid-svg-icons'
+
     export default {
         name: "TheThreeDaysSection",
       data() {
         return { translate: this.$t('home.theThreeDays') }
       },
+      computed: {
+        faFistRaised() {
+          return faFistRaised
+        }
+      },
+
     }
 </script>
 
@@ -117,11 +134,15 @@
     background-color: #190825;
     margin-top: 0 !important;
     padding: 30px 40px;
+    text-align: center;
+  }
+
+  #the-three-days .tab-content p {
     text-align: justify;
   }
 
   #the-three-days .tab-content h3 {
-    text-align: center;
+    padding-top: 20px;
     padding-bottom: 20px;
   }
 

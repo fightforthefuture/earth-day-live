@@ -41,7 +41,14 @@ export default {
   ** Nuxt.js dev-modules
   */
   buildModules: [
+    '@nuxtjs/fontawesome',
   ],
+
+  fontawesome: {
+    icons: {
+      solid: ['faFistRaised', 'faPiggyBank', 'faVoteYea'],
+    }
+  },
   /*
   ** Nuxt.js modules
   */
