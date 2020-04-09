@@ -7,7 +7,7 @@
         <div class="registration-pledge">
           <h3 class="registration-pledge-title">{{ translate.registerNotSureTitle }}</h3>
           <p class="registration-pledge-description">{{ translate.registerNotSureDescription1 }} <span>{{ translate.registerNotSureDescription2 }}</span></p>
-          <button class="register-not-sure-button" @click="handleRegisterNotSureClick">
+          <button class="btn register-not-sure-button" @click="handleRegisterNotSureClick">
             {{ translate.registerNotSureButton }}
             <img class="circle-arrow" src="~assets/images/circle-arrow.svg" :alt="$t('getInvolved.common.arrowAlt')" />
           </button>
@@ -17,7 +17,7 @@
         <div class="registration-pledge">
           <h3 class="registration-pledge-title">{{ translate.registeredTitle }}</h3>
           <p class="registration-pledge-description">{{ translate.registeredDescription1 }} <span>{{ translate.registeredDescription2 }}</span></p>
-          <button class="registered-button" @click="handleRegisteredClick">
+          <button class="btn registered-button" @click="handleRegisteredClick">
             {{ translate.registeredButton }}
             <img class="circle-green-arrow" src="~assets/images/circle-green-arrow.svg" :alt="$t('getInvolved.common.arrowAlt')" />
           </button>

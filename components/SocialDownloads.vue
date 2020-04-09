@@ -9,7 +9,7 @@
         {{ translate.description }}
       </p>
 
-      <button class="social-downloads-button" @click="goToSocialDownloads">
+      <button class="btn social-downloads-button" @click="goToSocialDownloads">
         {{ translate.download }}
         <img class="circle-arrow" src="~assets/images/circle-arrow.svg" :alt="$t('getInvolved.common.arrowAlt')" />
       </button>

@@ -1,6 +1,6 @@
 <template>
   <div>
-    <button class="im-ready-button" @click.prevent="scrollTo('#website-banner')">
+    <button class="btn im-ready-button" @click.prevent="scrollTo('#website-banner')">
       {{ translate.readyButton }}
     </button>
     <div class="arrow-down-wrapper">
