@@ -5,9 +5,7 @@
         <div id='can-form-area-digital-earth-day'>
         </div>
         <p class="splash-page-disclaimer">
-          {{ translate.disclaimer1 }}
-          <i>{{ translate.disclaimer2 }}</i>
-          {{ translate.disclaimer3 }}
+          {{ translate.disclaimer1 }}<i>{{ translate.disclaimer2 }}</i>{{ translate.disclaimer3 }}
         </p>
       </div>
     </div>
@@ -71,6 +69,16 @@ export default {
   .splash-page-disclaimer {
     font-size: 0.75em;
     margin-top: -10px;
+  }
+
+  #can_embed_form div,
+  #can_embed_form small,
+  #can_embed_form a {
+    font-family: neue-haas-grotesk-display, sans-serif !important;
+  }
+
+  #can_embed_form a {
+    color: #fd6f37 !important;
   }
 
   #can-form-area-digital-earth-day {
