@@ -23,7 +23,9 @@
       </div>
     </div>
     <SignUpForm />
+    <SignUpThankYou />
     <RegisterToVoteForm />
+    <TripleYourVote />
     <ParticipantsSection />
     <TheThreeDaysSection />
     <GetInvolvedSection />
@@ -42,6 +44,8 @@ import ParticipantsSection from "../components/ParticipantsSection";
 import TheThreeDaysSection from "../components/TheThreeDaysSection";
 import GetInvolvedSection from "../components/GetInvolvedSection";
 import FAQsSection from "../components/FAQsSection";
+import SignUpThankYou from "../components/SignUpThankYou";
+import TripleYourVote from "../components/TripleYourVote";
 
 export default {
   data() {
@@ -50,6 +54,8 @@ export default {
     }
   },
   components: {
+    TripleYourVote,
+    SignUpThankYou,
     HomePageNav,
     Logo,
     SignUpForm,

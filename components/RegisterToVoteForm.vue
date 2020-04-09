@@ -1,18 +1,16 @@
 <template>
-  <b-container id="register-to-vote">
-    <b-row>
-      <b-col md="8" offset-md="2">
-        <h1 class="section-title">
-          {{ translate.title}}
-        </h1>
-        <img class="separator" src="~assets/images/separator.jpg" :alt="$t('getInvolved.common.separatorAlt')" />
-        <p class="description">
-          {{ translate.description }}
-        </p>
-      </b-col>
-      <iframe id="rtv-iframe" src="https://www.earthdaylive2020.org/ovr-index.html" @load="onIframeLoad"></iframe>
-    </b-row>
-  </b-container>
+  <section id="register-to-vote">
+    <div class="col-md-6 offset-md-3 register-to-vote-wrapper">
+      <h1 class="section-title">
+        {{ translate.title}}
+      </h1>
+      <img class="separator" src="~assets/images/separator.jpg" :alt="$t('getInvolved.common.separatorAlt')" />
+      <p class="description">
+        {{ translate.description }}
+      </p>
+      <iframe id="rtv-iframe" src="https://register.rockthevote.com/registrants/new?partner=38367&preview_custom_assets=" @load="onIframeLoad"></iframe>
+    </div>
+  </section>
 </template>
 
 <script>
@@ -27,9 +25,12 @@
     },
     methods: {
       onIframeLoad() {
-        iFrameResize({ log: true }, '#rtv-iframe')
+        iFrameResize({
+          log: false,
+          heightCalculationMethod: 'bodyScroll'
+        }, '#rtv-iframe')
       }
-    }
+    },
   }
 </script>
 
@@ -37,9 +38,14 @@
 
   #register-to-vote {
     text-align: center;
+    background-color: #f8f8f8;
+    padding: 40px 0;
+    display: none;
   }
+
   .section-title {
     text-align: center;
+    text-transform: uppercase;
   }
   .section-title,
   .description,
@@ -48,7 +54,8 @@
   }
 
   #rtv-iframe {
-    width: 100%;
+    width: 1px;
+    min-width: 100%;
     border: none;
   }
 </style>
