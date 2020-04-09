@@ -48,14 +48,12 @@
       },
       methods: {
         handleRegisterNotSureClick() {
-          document.querySelector('.signup-thank-you-wrapper').style.display = 'none'
           document.getElementById('register-to-vote').style.display = 'block'
           document.getElementById('triple-your-vote').style.display = 'block'
 
           smoothScrollToElement('#register-to-vote', 500)
         },
         handleRegisteredClick() {
-          document.querySelector('.signup-thank-you-wrapper').style.display = 'none'
           document.getElementById('triple-your-vote').style.display = 'block'
           smoothScrollToElement('#triple-your-vote', 500)
         }
