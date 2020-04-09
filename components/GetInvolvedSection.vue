@@ -8,7 +8,7 @@
       <p class="description">
         {{ translate.description }}
       </p>
-      <button class="get-involved-button" @click="goTo('/get-involved')">
+      <button class="get-involved-button" @click="goTo('/get-involved/')">
         {{ translate.buttonText }}
         <img class="circle-arrow" src="~assets/images/circle-arrow.svg" :alt="$t('getInvolved.common.arrowAlt')" />
       </button>
