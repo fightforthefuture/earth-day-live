@@ -49,7 +49,9 @@
   },
   "tripleYourVote": {
     "title": "Triple Your Vote",
-    "description": "Lorem Ipsum Why you should do this",
+    "description1": "Thanks for being registered to vote - you're awesome :) The next step to remind your friends to vote in 2020 because now more than ever, we need out leaders to fight for our planet.",
+    "description2": "Can we count on you to remind three friends to vote?",
+    "textCta": "Text [KEYWORD] to [NUMBER] now to get started.",
     "tripleYourVoteImage": "Text and triple your vote"
   },
   "getInvolved": {
