@@ -6,7 +6,22 @@
         </h1>
         <img class="separator" src="~assets/images/separator.jpg" :alt="$t('getInvolved.common.separatorAlt')" />
         <p class="description">
-          {{ $t('getInvolved.whatsHappening.description') }}
+          {{ translate.descriptionA }}
+        </p>
+        <ul>
+          <li>
+            {{ translate.descriptionB }}
+          </li>
+          <li>
+            {{ translate.descriptionC }}
+          </li>
+          <li>
+            {{ translate.descriptionD }}
+          </li>
+        </ul>
+
+        <p class="description">
+          {{ translate.descriptionE }}
         </p>
       </div>
     </section>
@@ -14,7 +29,10 @@
 
 <script>
 export default {
-  name: "WhatsHappening.vue"
+  name: "WhatsHappening.vue",
+  data() {
+    return { translate: this.$t('getInvolved.whatsHappening') }
+  },
 }
 </script>
 
@@ -28,6 +46,12 @@ export default {
 .section-title {
   text-align: center;
   text-transform: uppercase;
+}
+
+li {
+  font-family: neue-haas-grotesk-display, sans-serif;
+  text-align: left;
+  font-size: 1.3em;
 }
 
 </style>
