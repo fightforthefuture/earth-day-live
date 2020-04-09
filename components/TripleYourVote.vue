@@ -12,7 +12,7 @@
           </p>
         </b-col>
         <b-col cols="6">
-          <img class="triple-your-vote-image" src="~assets/images/EDL-Vote-tripling.png" :alt="translate.tripleYourVoteImage" />
+          <img class="triple-your-vote-image" src="~assets/images/EDL-Vote-Tripling.png" :alt="translate.tripleYourVoteImage" />
         </b-col>
       </b-row>
     </div>

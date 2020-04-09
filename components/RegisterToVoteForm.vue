@@ -8,7 +8,7 @@
       <p class="description">
         {{ translate.description }}
       </p>
-      <iframe id="rtv-iframe" src="https://register.rockthevote.com/registrants/new?partner=38367&preview_custom_assets=" @load="onIframeLoad"></iframe>
+      <iframe id="rtv-iframe" src="https://register.rockthevote.com/registrants/new?partner=38367" @load="onIframeLoad"></iframe>
     </div>
   </section>
 </template>
