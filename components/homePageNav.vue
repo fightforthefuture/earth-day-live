@@ -15,7 +15,7 @@
   import { smoothScrollToElement } from '~/assets/js/helpers'
 
   export default {
-    name: "homePageNav",
+    name: "HomePageNav",
     data() {
       return { translate: this.$t('home.nav') }
       },

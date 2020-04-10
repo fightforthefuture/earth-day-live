@@ -5,9 +5,7 @@
         <div id='can-form-area-rsvp-for-earth-day-live'>
         </div>
         <p class="splash-page-disclaimer">
-          {{ translate.disclaimer1 }}
-          <i>{{ translate.disclaimer2 }}</i>
-          {{ translate.disclaimer3 }}
+          {{ translate.disclaimer1 }}<i>{{ translate.disclaimer2 }}</i>{{ translate.disclaimer3 }}
         </p>
       </div>
     </div>

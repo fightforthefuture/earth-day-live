@@ -90,5 +90,6 @@
 
 .share-icon {
   max-width: 45px;
+  cursor: pointer;
 }
 </style>
