@@ -39,13 +39,13 @@ import Logo from '~/components/Logo.vue'
 import SignUpForm from '~/components/SignUpForm.vue'
 import PageFooter from '~/components/PageFooter.vue'
 import RegisterToVoteForm from '~/components/RegisterToVoteForm.vue'
-import HomePageNav from "../components/HomePageNav";
-import ParticipantsSection from "../components/ParticipantsSection";
-import TheThreeDaysSection from "../components/TheThreeDaysSection";
-import GetInvolvedSection from "../components/GetInvolvedSection";
-import FAQsSection from "../components/FAQsSection";
-import SignUpThankYou from "../components/SignUpThankYou";
-import TripleYourVote from "../components/TripleYourVote";
+import HomePageNav from "~/components/HomePageNav";
+import ParticipantsSection from "~/components/ParticipantsSection";
+import TheThreeDaysSection from "~/components/TheThreeDaysSection";
+import GetInvolvedSection from "~/components/GetInvolvedSection";
+import FAQsSection from "~/components/FAQsSection";
+import SignUpThankYou from "~/components/SignUpThankYou";
+import TripleYourVote from "~/components/TripleYourVote";
 
 export default {
   data() {
