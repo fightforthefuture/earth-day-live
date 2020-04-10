@@ -39,7 +39,7 @@
     text-align: center;
     background-color: #f8f8f8;
     padding: 40px 0;
-
+    display: none;
   }
   .triple-your-vote-image {
     max-width: 100%;
