@@ -27,9 +27,8 @@ describe('Index page', () => {
 
   test('contains 3 subtitle classes within the h4 elements', () => {
     const subtitles = wrapper.findAll('h4');
-    expect(subtitles.length).toBe(3);
+    expect(subtitles.length).toBe(2);
     expect(subtitles.at(0).classes('subtitle')).toBe(true);
     expect(subtitles.at(1).classes('subtitle')).toBe(true);
-    expect(subtitles.at(2).classes('subtitle')).toBe(true);
   });
 })

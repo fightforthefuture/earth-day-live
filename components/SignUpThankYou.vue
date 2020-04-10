@@ -79,6 +79,7 @@
   -webkit-text-fill-color: transparent;
   margin-bottom: 20px;
 }
+
 .registration-pledge-wrapper {
   padding: 50px;
 }
