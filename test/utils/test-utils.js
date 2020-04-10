@@ -1,6 +1,6 @@
 /* eslint-disable no-restricted-modules */
 import { BootstrapVue } from "bootstrap-vue";
-import { createLocalVue, shallowMount, mount } from "@vue/test-utils";
+import { createLocalVue, shallowMount, mount, RouterLinkStub } from "@vue/test-utils";
 import en from "../../i18n/en.json";
 
 const getValFromPath = (path) => {
@@ -23,6 +23,9 @@ const customShallowMount = (component, options) => {
   return shallowMount(component, {
     localVue,
     mocks,
+    stubs: {
+      NuxtLink: RouterLinkStub
+    },
     ...options
   });
 };

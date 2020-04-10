@@ -1,18 +1,22 @@
 <template>
   <footer class="page-footer">
-
     <b-container>
       <b-row>
-        <b-col col-md="8">
+        <b-col cols="12" lg="4">
           <img class="earth-day-live-full-lockup" src="~/assets/images/earth-day-live-full-lockup.png" alt="Earth Day Live" />
         </b-col>
-        <b-col col-md="8" class="footer-side-right">
+        <b-col cols="12" lg="4" class="press">
           <p>{{translate.press}}</p>
           <p>
             <a href="mailto:media@strikewithus.org">media@strikewithus.org</a><br>
             <a href="mailto:media@strikewithus.org">press@stopthemoneypipeline.com</a>
           </p>
           <p></p>
+        </b-col>
+        <b-col cols="12" lg="4" class="privacy-policy">
+          <nuxt-link to="/privacy/">
+            <p>{{ translate.privacyPolicy }}</p>
+          </nuxt-link>
         </b-col>
       </b-row>
       <b-row>
@@ -57,7 +61,13 @@
   color: #fff;
 }
 
-.footer-side-right {
-  margin-bottom: 20px;
+.privacy-policy {
+  margin-top: auto;
+  margin-bottom: auto;
+  padding-bottom: 20px;
+}
+
+.press {
+  padding-bottom: 20px;
 }
 </style>
