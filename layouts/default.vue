@@ -74,6 +74,14 @@ a:hover {
   color: #190825;
 }
 
+.btn {
+  border-radius: 0;
+}
+
+.btn:hover {
+  color: #fff;
+}
+
 *,
 *:before,
 *:after {

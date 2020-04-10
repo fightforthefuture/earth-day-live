@@ -18,7 +18,7 @@
           </code>
         </div>
         <div class="col-md-3 widget-code-button-wrapper">
-          <button @click="showWidget">
+          <button class="btn" @click="showWidget">
             {{ translate.tryIt }}
             <img class="circle-arrow" src="~assets/images/circle-arrow.svg" :alt="$t('getInvolved.common.arrowAlt')" />
           </button>

@@ -10,7 +10,7 @@
     "nav": {
       "participants": "Participants",
       "theThreeDays": "The Three Days",
-      "getInvolved": "Get Involved",
+      "getInvolved": "Spread the Word",
       "faqs": "FAQs"
     },
     "participants": {
@@ -30,8 +30,8 @@
       "tab3Description": "The final day will focus on the urgency of political change through a nationwide youth voter registration day. We need leaders who will address this existential threat, and for this to happen, we need people to show up at the polls this year and vote for the future of the planet."
     },
     "getInvolved": {
-      "title": "Get Involved",
-      "description": "Anyone with an internet connection can join Earth Day Live. We've got a widget to add to your website, social media graphics, banner ads - you name it!",
+      "title": "Spread the Word",
+      "description": "What to help Earth Day Live reach every corner of the internet? We've got a widget to add to your website, social media graphics, banner ads and more. Get the word out to everyone you know!",
       "buttonText": "Get the resources"
     },
     "faqs": {
@@ -42,6 +42,17 @@
       "faq2Question": "How does the livestream work?",
       "faq2Answer": "The livestream will be available to viewers through all social media platforms. A participant can visit Facebook, Instagram, Twitter, etc, and plug into the live stream directly from the social media platform of their choosing. This will likely be the primary way most viewers will watch the livestream. Viewers will be able to share the livestream directly to their followers and friends through their social media channels. Additionally, viewers will be able to watch the livestream from earthdaylive2020.org. Ideally, this is the primary location we hope to drive participants to, so shared promotion to the Earth Day Live website is appreciated! We’re leveraging external third-party applications to stream the content dynamically and support the bandwidth to have hundreds of thousands of viewers watching the content for the 3 consecutive days."
     }
+  },
+  "registerToVote": {
+    "title": "Register to vote for our planet",
+    "description": "The importance of voting lorum ipsum lorum ipsum lorum ipsum. Voter registration time takes an average of two minutes or less to complete."
+  },
+  "tripleYourVote": {
+    "title": "Triple Your Vote",
+    "description1": "Thanks for being registered to vote - you're awesome :) The next step to remind your friends to vote in 2020 because now more than ever, we need out leaders to fight for our planet.",
+    "description2": "Can we count on you to remind three friends to vote?",
+    "textCta": "Text earthvote to 56525 now to get started.",
+    "tripleYourVoteImage": "Text and triple your vote"
   },
   "getInvolved": {
     "title": "Spread the word to help save the world.",
@@ -123,12 +134,12 @@
       "description": "It couldn't be more important to vote for the future of our planet in 2020. If we all take that pledge, we can help save the world. So, are you registered to vote?",
       "registerNotSureTitle": "Hmmm...",
       "registerNotSureDescription1": "I'll vote for the future of the planet but",
-      "registerNotSureDescription2": "I might not be registered.",
-      "registerNotSureButton": "Check Registration",
+      "registerNotSureDescription2": "I'm not registered.",
+      "registerNotSureButton": "Register to vote",
       "registeredTitle": "Yes!",
       "registeredDescription1": "I'll vote for the future of the planet and",
       "registeredDescription2": "I'm already registered.",
-      "registeredButton": "Invite a friend"
+      "registeredButton": "Invite your friends"
     },
     "signUpShare": {
       "subTitle": "Can you share with your friends:",

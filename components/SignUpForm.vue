@@ -2,7 +2,7 @@
   <div class="container-fluid splash-page-signup-form-container">
     <div class="col-md-6 offset-md-3">
       <div class="splash-page-signup-form-wrapper">
-        <div id='can-form-area-digital-earth-day'>
+        <div id='can-form-area-rsvp-for-earth-day-live'>
         </div>
         <p class="splash-page-disclaimer">
           {{ translate.disclaimer1 }}<i>{{ translate.disclaimer2 }}</i>{{ translate.disclaimer3 }}
@@ -18,7 +18,7 @@ export default {
   head () {
     return {
       script: [
-        { src: 'https://actionnetwork.org/widgets/v3/form/digital-earth-day?format=js&source=widget' }
+        { src: 'https://actionnetwork.org/widgets/v3/form/rsvp-for-earth-day-live?format=js&source=widget' }
       ],
       link: [
         { rel: 'stylesheet', href: 'https://actionnetwork.org/css/style-embed-v3.css' }
@@ -81,11 +81,11 @@ export default {
     color: #fd6f37 !important;
   }
 
-  #can-form-area-digital-earth-day {
+  #can-form-area-rsvp-for-earth-day-live {
     border: none !important;
     background-color: #190825;
   }
-  #can-form-area-digital-earth-day #can_embed_form {
+  #can-form-area-rsvp-for-earth-day-live #can_embed_form {
     border: none !important;
     background-color: #190825 !important;
   }
@@ -97,7 +97,7 @@ export default {
   #can_embed_form_inner h4:nth-child(2) {
     color: #fff !important;
     font-family: titling-gothic-fb, sans-serif !important;
-    text-transform: none !important;
+    text-transform: uppercase !important;
     font-size: 1.6em !important;
   }
 
@@ -157,15 +157,15 @@ export default {
     color: #fff !important;
   }
 
-  #can-form-area-digital-earth-day #can_embed_form #can_thank_you {
+  #can-form-area-rsvp-for-earth-day-live #can_embed_form #can_thank_you {
     background-color: #190825 !important;
   }
 
-  #can-form-area-digital-earth-day #can_embed_form #can_thank_you h1 {
+  #can-form-area-rsvp-for-earth-day-live #can_embed_form #can_thank_you h1 {
     font-family: titling-gothic-fb, sans-serif !important;
   }
 
-  #can-form-area-digital-earth-day #can_embed_form .can_thank_you-block h4 {
+  #can-form-area-rsvp-for-earth-day-live #can_embed_form .can_thank_you-block h4 {
     color: #fff !important;
     font-family: neue-haas-grotesk-display, sans-serif !important;
   }
