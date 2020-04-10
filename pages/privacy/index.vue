@@ -1,6 +1,5 @@
 <template>
   <div>
-    <HomePageNav />
     <div class="container-fluid header-container">
       <div>
         <a @click="goTo('/')" class="privacy-logo">
@@ -81,14 +80,12 @@
 </template>
 
 <script>
-    import HomePageNav from '~/components/HomePageNav'
     import Logo from '~/components/Logo'
     import PageFooter from "~/components/PageFooter";
     export default {
       name: "index",
       components: {
         PageFooter,
-        HomePageNav,
         Logo
       },
       methods: {
