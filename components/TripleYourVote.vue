@@ -10,12 +10,12 @@
           <p class="description">
             {{ translate.description1 }}
           </p>
-          <p class="description">
-            <strong>{{ translate.description2 }}</strong>
-          </p>
           <h2 class="text-cta">
             {{ translate.textCta }}
           </h2>
+          <p class="description">
+            <strong>{{ translate.description2 }}</strong>
+          </p>
         </b-col>
         <b-col cols="6">
           <img class="triple-your-vote-image" src="~assets/images/EDL-Vote-Tripling.png" :alt="translate.tripleYourVoteImage" />

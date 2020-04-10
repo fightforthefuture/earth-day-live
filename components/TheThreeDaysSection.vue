@@ -18,7 +18,7 @@
             <font-awesome-layers class="fa-2x">
               <font-awesome-icon icon="fist-raised"/>
             </font-awesome-layers>
-            <h3>Earth Day and Youth Climate Strikes</h3>
+            <h3>{{ translate.tab1SubTitle }}</h3>
             <p>{{ translate.tab1Description }}</p>
           </b-tab>
           <b-tab>
@@ -29,7 +29,7 @@
             <font-awesome-layers class="fa-2x">
               <font-awesome-icon icon="piggy-bank"/>
             </font-awesome-layers>
-            <h3>Divestment and Climate Financing</h3>
+            <h3>DIVEST - Divestment and Climate Financing</h3>
             <p> {{ translate.tab2Description }}</p>
           </b-tab>
           <b-tab>
@@ -40,7 +40,7 @@
             <font-awesome-layers class="fa-2x">
               <font-awesome-icon icon="vote-yea"/>
             </font-awesome-layers>
-            <h3>Voter Registration and Political Engagement</h3>
+            <h3>VOTE - Voter Registration and Political Engagement</h3>
             <p>{{ translate.tab3Description }}</p>
           </b-tab>
         </b-tabs>

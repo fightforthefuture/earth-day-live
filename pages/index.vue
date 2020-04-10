@@ -16,9 +16,6 @@
           <h4 class="subtitle">
             {{ translate.subtitle2 }}
           </h4>
-          <h4 class="subtitle">
-            {{ translate.subtitle3 }}
-          </h4>
         </div>
       </div>
     </div>

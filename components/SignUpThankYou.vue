@@ -2,11 +2,12 @@
   <div class="container signup-thank-you-wrapper">
     <h1 class="signup-thank-you-title">{{ translate.title }}</h1>
     <p>{{ translate.description }}</p>
+    <h2> {{ translate.areYouRegistered }}</h2>
     <div class="row registration-pledge-wrapper">
       <div class="col-md-6 registration-pledge-col">
         <div class="registration-pledge">
           <h3 class="registration-pledge-title">{{ translate.registerNotSureTitle }}</h3>
-          <p class="registration-pledge-description">{{ translate.registerNotSureDescription1 }} <span>{{ translate.registerNotSureDescription2 }}</span></p>
+          <p class="registration-pledge-description register-not-sure-description">{{ translate.registerNotSureDescription1 }}<br>{{ translate.registerNotSureDescription2 }}</p>
           <button class="btn register-not-sure-button" @click="handleRegisterNotSureClick">
             {{ translate.registerNotSureButton }}
             <img class="circle-arrow" src="~assets/images/circle-arrow.svg" :alt="$t('getInvolved.common.arrowAlt')" />
@@ -16,7 +17,7 @@
       <div class="col-md-6 registration-pledge-col">
         <div class="registration-pledge">
           <h3 class="registration-pledge-title">{{ translate.registeredTitle }}</h3>
-          <p class="registration-pledge-description">{{ translate.registeredDescription1 }} <span>{{ translate.registeredDescription2 }}</span></p>
+          <p class="registration-pledge-description">{{ translate.registeredDescription1 }}</p>
           <button class="btn registered-button" @click="handleRegisteredClick">
             {{ translate.registeredButton }}
             <img class="circle-green-arrow" src="~assets/images/circle-green-arrow.svg" :alt="$t('getInvolved.common.arrowAlt')" />
@@ -68,7 +69,7 @@
   padding: 50px;
   color: #fff;
   text-align: center;
-  display: none; /*Comment this out for local dev / testing */
+  display: none;
 }
 
 .signup-thank-you-title {
@@ -76,6 +77,7 @@
   background: -webkit-linear-gradient(right, #f26146, #f47d3a, #f8d233, #cbdb2a, #88c656);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
+  margin-bottom: 20px;
 }
 .registration-pledge-wrapper {
   padding: 50px;

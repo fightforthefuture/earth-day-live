@@ -4,9 +4,9 @@
   },
   "home": {
     "title": "Strike, divest, and vote to save humanity and our planet.",
-    "subtitle1": "On April 22-24, the 50th anniversary of Earth Day, millions of people around the world are going online for a three-day mobilization to stop the climate emergency.",
-    "subtitle2": "Join us for three days of action — from teach-ins, musical performances, divestment, and more. All you need is an internet connection.",
-    "subtitle3": "Together, we can transform our world into one that is not only safe and sustainable, but flourishes for generations to come.",
+    "subtitle1": "From April 22, the 50th anniversary of Earth Day, to April 24, activists, performers, thought leaders, and artists will come together for an empowering, inspiring, and communal three day livestream mobilization.",
+    "subtitle2": "The fights against the coronavirus and the climate crisis go hand-in-hand, and as we work to flatten the curve of this pandemic, we must strive toward the longer term goal of building a society rooted in sustainability and justice.",
+    "subtitle3": "",
     "nav": {
       "participants": "Participants",
       "theThreeDays": "The Three Days",
@@ -21,17 +21,20 @@
     },
     "theThreeDays": {
       "title": "The Three Days",
-      "description": "Earth Day Live will feature a three-day livestream where millions of people can join activists, celebrities, musicians, and more in an epic celebration of our planet. There will be overarching themes about coronavirus relief & mutual aid, equity & justice at the frontlines of the climate fight and The Green New Deal - but each day will also have a a specific focus.",
+      "description": "Earth Day Live will feature a three-day livestream where millions of people can join activists, celebrities, musicians, and more in an epic moment of community and hope for the future.",
       "tab1Title": "April 22",
-      "tab1Description": "On the 50th anniversary of Earth Day, we will demonstrate our collective power and unity through community building and storytelling. This first day will focus on amplifying the voice of youth climate activist who are leading the movement to halt the climate crisis.",
+      "tab1SubTitle": "STRIKE - Earth Day and Youth Climate Strikes",
+      "tab1Description": "On the 50th anniversary of Earth Day, we will demonstrate our collective power and unity through community building and storytelling. This first day will focus on amplifying the voice of indigenous leaders and youth climate activists who are leading the movement to halt the climate crisis.",
       "tab2Title": "April 23",
+      "tab2SubTitle": "DIVEST - Divestment and Climate Financing",
       "tab2Description": "Led by Stop the Money Pipeline Coalition, during this day of action we are calling for a global reset. We want to reprogram the economy so that it works for people and the planet, not polluters and politicians.",
       "tab3Title": "April 24",
-      "tab3Description": "The final day will focus on the urgency of political change through a nationwide youth voter registration day. We need leaders who will address this existential threat, and for this to happen, we need people to show up at the polls this year and vote for the future of the planet."
+      "tab3SubTitle": "VOTE - Voter Registration and Political Engagement",
+      "tab3Description": "We need leaders who will address this existential threat, and for this to happen, we need people to show up at the polls this year and vote for the future of the planet. So the final day will focus on the urgency of political change through a nationwide youth voter registration day."
     },
     "getInvolved": {
       "title": "Spread the Word",
-      "description": "What to help Earth Day Live reach every corner of the internet? We've got a widget to add to your website, social media graphics, banner ads and more. Get the word out to everyone you know!",
+      "description": "What to help Earth Day Live reach every corner of the internet? We've got a widget to add to your website, social media graphics, banner ads, and more. Get the word out to everyone you know!",
       "buttonText": "Get the resources"
     },
     "faqs": {
@@ -39,19 +42,19 @@
       "faq1Question": "Why Earth Day Live?",
       "faq1AnswerA": "This is a monumental time in history. We are being forced to slow down, to pause, to re-evaluate our life paths, our purpose, and our connections to each other and the broader world around us. This moment presents a special opportunity to not only unite our movement around a shared common vision for a better future for humankind, but to welcome in organizers, friends, family and community members who have not been interested in being an active part of the climate movement. The world moves so fast. We may never get another change like this to bring so many people together to demand a future that works for all of us.",
       "faq1AnswerB": "These are scary times. Many have lost jobs, loved ones, and are uncertain what the future looks like. Environmental, worker, and health protections are being rolled back, worsening the crisis. Now more than ever is the moment to come together and demand a just response to the pandemic and the climate crisis. In times of great turmoil, movements have been able to fundamentally transform society in ways that were never thought possible. The New Deal was born out of sustained protest and pressure during the Great Depression. Everyday people relentlessly advocated for the policies that brought the U.S. out of crisis, winning the support of FDR. This is our moment to bring forth the vision of the future we want to see. Livestreams are an opportunity to build community, educate, and propose solutions. We can bring hope, joy, and honesty in a time when so many are overwhelmed and isolated.",
-      "faq2Question": "How does the livestream work?",
-      "faq2Answer": "The livestream will be available to viewers through all social media platforms. A participant can visit Facebook, Instagram, Twitter, etc, and plug into the live stream directly from the social media platform of their choosing. This will likely be the primary way most viewers will watch the livestream. Viewers will be able to share the livestream directly to their followers and friends through their social media channels. Additionally, viewers will be able to watch the livestream from earthdaylive2020.org. Ideally, this is the primary location we hope to drive participants to, so shared promotion to the Earth Day Live website is appreciated! We’re leveraging external third-party applications to stream the content dynamically and support the bandwidth to have hundreds of thousands of viewers watching the content for the 3 consecutive days."
+      "faq2Question": "How can I view the livestream?",
+      "faq2Answer": "The Earth Day Live stream will be viewable on this website, and will be the full user experience. In addition, it will be simulcast across major streaming platforms such as Facebook Live, YouTube, Instagram, Twitter and Twitch to engage with broader audiences. Partner organizations and an extensive network of major websites will be embedding the livestream as well."
     }
   },
   "registerToVote": {
     "title": "Register to vote for our planet",
-    "description": "The importance of voting lorum ipsum lorum ipsum lorum ipsum. Voter registration time takes an average of two minutes or less to complete."
+    "description": "We need to bring in a new generation of elected officials who understand the climate crises and who are prepared to take the necessary action to address it urgently. Register to vote now to ensure your voice is heard this November."
   },
   "tripleYourVote": {
     "title": "Triple Your Vote",
-    "description1": "Thanks for being registered to vote - you're awesome :) The next step to remind your friends to vote in 2020 because now more than ever, we need out leaders to fight for our planet.",
+    "description1": "Thanks for being registered to vote - you're awesome :) The next step to remind your friends to vote too. We need everyone to join us this year if we’re going to save our futures.",
     "description2": "Can we count on you to remind three friends to vote?",
-    "textCta": "Text earthvote to 56525 now to get started.",
+    "textCta": "Text \"earthvote\" to 56525 now to get started.",
     "tripleYourVoteImage": "Text and triple your vote"
   },
   "getInvolved": {
@@ -131,15 +134,16 @@
     },
     "signUpThankYou": {
       "title": "Thanks for joining Earth Day Live!",
-      "description": "It couldn't be more important to vote for the future of our planet in 2020. If we all take that pledge, we can help save the world. So, are you registered to vote?",
-      "registerNotSureTitle": "Hmmm...",
-      "registerNotSureDescription1": "I'll vote for the future of the planet but",
-      "registerNotSureDescription2": "I'm not registered.",
+      "description": "During this critical election year, each of us must use our voice and our vote to protect our lives and futures.",
+      "areYouRegistered": "Are you registered to vote?",
+      "registerNotSureTitle": "Not yet!",
+      "registerNotSureDescription1": "No worries. We got you.",
+      "registerNotSureDescription2": "It’s easy!",
       "registerNotSureButton": "Register to vote",
-      "registeredTitle": "Yes!",
-      "registeredDescription1": "I'll vote for the future of the planet and",
-      "registeredDescription2": "I'm already registered.",
-      "registeredButton": "Invite your friends"
+      "registeredTitle": "Yes I am!",
+      "registeredDescription1": "Fantastic! Now do this one simple thing to triple the impact of your vote.",
+      "registeredDescription2": "",
+      "registeredButton": "Triple your vote"
     },
     "signUpShare": {
       "subTitle": "Can you share with your friends:",
@@ -149,6 +153,7 @@
     }
   },
   "footer": {
+    "press": "Press:",
     "madeWithLove": "Made with \u2764 for the future of humanity and our planet."
   }
 }

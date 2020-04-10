@@ -7,7 +7,11 @@
           <img class="earth-day-live-full-lockup" src="~/assets/images/earth-day-live-full-lockup.png" alt="Earth Day Live" />
         </b-col>
         <b-col col-md="8" class="footer-side-right">
-          <p>Media: <a href="mailto:press@stopthemoneypipeline.com">press@stopthemoneypipeline.com</a></p>
+          <p>{{translate.press}}</p>
+          <p>
+            <a href="mailto:media@strikewithus.org">media@strikewithus.org</a><br>
+            <a href="mailto:media@strikewithus.org">press@stopthemoneypipeline.com</a>
+          </p>
           <p></p>
         </b-col>
       </b-row>
@@ -54,7 +58,6 @@
 }
 
 .footer-side-right {
-  line-height: 120px;
-  text-align: center;
+  margin-bottom: 20px;
 }
 </style>
