@@ -1,4 +1,4 @@
-import HomePageNav from '../components/HomePageNav'
+import HomePageNav from '~/components/HomePageNav'
 import { mount } from './utils/test-utils'
 import sinon from 'sinon'
 
