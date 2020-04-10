@@ -24,9 +24,9 @@
     <div class="are-you-with-us-signup-wrapper">
       <div class="col-md-8 offset-md-2">
         <hr class="white-separator">
-        <Logo />
       </div>
     </div>
+    <PageFooter />
   </div>
 </template>
 
@@ -40,6 +40,7 @@
   import SocialDownloads from '~/components/SocialDownloads.vue'
   import AreYouWithUs from '~/components/AreYouWithUs.vue'
   import SignUpForm from '~/components/SignUpForm.vue'
+  import PageFooter from '~/components/PageFooter'
 
   export default {
     components: {
@@ -52,6 +53,7 @@
       SocialDownloads,
       AreYouWithUs,
       SignUpForm, //eslint-disable-line
+      PageFooter,
     },
     methods: {
       goTo(url) {
@@ -92,7 +94,7 @@
     -moz-background-size: cover;
     -o-background-size: cover;
     background-size: cover;
-    padding-top: 500px;
+    padding-top: 400px;
     margin-top: -500px;
     text-align: center;
   }
