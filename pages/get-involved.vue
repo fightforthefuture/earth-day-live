@@ -66,28 +66,9 @@
 
 <style>
   .container-fluid.get-involved-container {
-    margin: 0 auto;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    text-align: center;
-    background: url('~assets/images/earth-day-live-gradient.jpg') no-repeat center center fixed;
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    -o-background-size: cover;
-    background-size: cover;
     padding-bottom: 50px;
   }
 
-  .title {
-    margin: 0 auto;
-    font-family: titling-gothic-fb, sans-serif;
-    display: block;
-    font-weight: 300;
-    color: #fff;
-    letter-spacing: 1px;
-    padding-bottom: 50px;
-  }
   .are-you-with-us-signup-wrapper {
     background: url('~assets/images/earth-day-live-gradient.jpg') no-repeat center center fixed;
     -webkit-background-size: cover;

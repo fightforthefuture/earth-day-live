@@ -8,7 +8,7 @@ export default ({ app }) => {
     locale: "en",  // Default locale
     fallbackLocale: "en",  // The locale to use if the current locale can't be found
     messages: {
-      en: require("~/i18n/en.json")
+      en: require("~/locales/en.json")
     }
   });
 };
