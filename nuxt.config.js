@@ -50,12 +50,17 @@ export default {
       solid: ['faFistRaised', 'faPiggyBank', 'faVoteYea'],
     }
   },
+  facebook: {
+    track: 'PageView',
+    pixelId: '528654107852878',
+  },
   /*
   ** Nuxt.js modules
   */
   modules: [
     // Doc: https://bootstrap-vue.js.org
     'bootstrap-vue/nuxt',
+    'nuxt-facebook-pixel-module',
     [
       'nuxt-i18n',
       {
