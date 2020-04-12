@@ -1,13 +1,18 @@
 <template>
   <div>
     <HomePageNav />
-    <div class="container-fluid header-container">
+    <div class="container-fluid header-container rsvp-container">
       <div>
         <logo />
         <div class="col-md-8 offset-md-2">
           <h1 class="title">
-            {{ translate.title }}
+            {{ translate.rsvpPageTitle }}
           </h1>
+        </div>
+        <div class="col-md-6 offset-md-3">
+          <h4 class="subtitle">
+            {{ translate.rsvpPageSubtitle }}
+          </h4>
         </div>
       </div>
     </div>
@@ -72,6 +77,11 @@ export default {
   -o-background-size: cover;
   background-size: cover;
   padding-bottom: 130px;
+}
+
+.rsvp-container .logo-eclipse,
+.rsvp-container .logo-earth-day-live {
+  max-width: 150px;
 }
 
 .title {
