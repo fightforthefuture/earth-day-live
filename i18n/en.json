@@ -149,7 +149,8 @@
       "subTitle": "Can you share with your friends:",
       "facebook": "Share on Facebook",
       "twitter": "Share on Twitter",
-      "linkedIn": "Share on LinkedIn"
+      "linkedIn": "Share on LinkedIn",
+      "copyLink": "Share the link"
     }
   },
   "footer": {

@@ -10,23 +10,27 @@
         <img class="share-icon" src="~assets/images/facebook.svg" :alt="translate.facebook" @click.prevent="rerouteClick('share_button share-facebook left mr15 js-facebook_link')"/>
         <img class="share-icon" src="~assets/images/twitter.svg" :alt="translate.twitter" @click.prevent="rerouteClick('share_button share-twitter left mr15 js-twitter_link ')"/>
         <img class="share-icon" src="~assets/images/linkedin.svg" :alt="translate.linkedIn" onclick="window.open('https://www.linkedin.com/sharing/share-offsite/?url=http%3A%2F%2Fearthdaylive2020.org', 'linkedin', 'width=450,height=475,left='+(screen.availWidth/2-375)+',top='+(screen.availHeight/2-150)+'')"/>
+        <button class="link-icon-box" v-clipboard:copy="earthdayliveLink" v-clipboard:success="showSuccessAlert"><img class="share-icon link-icon" src="~assets/images/link.svg" :alt="translate.copyLink" ></button>
       </b-col>
     </b-row>
   </b-container>
 </template>
 
 <script>
-    export default {
-        name: "SignUpShare",
-      data() {
-        return { translate: this.$t('getInvolved.signUpShare') }
-      },
-      methods: {
-          rerouteClick(elementClass) {
-            document.getElementsByClassName(elementClass)[0].click();
-          }
-      }
+export default {
+  name: "SignUpShare",
+  data() {
+    return { translate: this.$t('getInvolved.signUpShare'), earthdayliveLink: "earthdaylive2020.org", copySucceeded: null }
+  },
+  methods: {
+    rerouteClick(elementClass) {
+      document.getElementsByClassName(elementClass)[0].click();
+    },
+    showSuccessAlert() {
+      alert('Added the link to your clipboard')
     }
+  }
+}
 </script>
 
 <style scoped>
@@ -43,6 +47,21 @@
   border-right: 10px solid transparent;
 }
 
+.link-icon-box {
+    background-color: #463057;
+    border-radius: 50%;
+    width: 45px;
+    height: 46px;
+    margin: 2px;
+    border: none;
+}
+
+.link-icon {
+    width: 35px;
+    height: 35px;
+    padding: 4px;
+    margin: -2px;
+}
 
 .right-arrrow {
   position: absolute;

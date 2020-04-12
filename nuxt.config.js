@@ -36,6 +36,7 @@ export default {
   */
   plugins: [
     { src: '~plugins/gtag.js', mode: 'client' },
+    { src: '~plugins/clipboardCopy.js' }
   ],
   /*
   ** Nuxt.js dev-modules
