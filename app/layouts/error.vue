@@ -17,7 +17,7 @@
 
 <script>
   import Logo from '../components/Logo'
-  import PageFooter from '../components/PageFooter.vue'
+  import PageFooter from '../components/PageFooter'
 
   export default {
     props: ['error'],
