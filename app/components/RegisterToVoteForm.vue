@@ -16,6 +16,25 @@
 <script>
   import iFrameResize from 'iframe-resizer/js/iframeResizer'
 
+  function getRtvIframeUrl() {
+    const urlParams = new URLSearchParams(window.location.search)
+
+    const sourceParam = urlParams.get('source')
+    const trackingParam = urlParams.get('tracking')
+
+    let url = 'https://register.rockthevote.com/registrants/new?partner=38367'
+
+    if (sourceParam) {
+      url += `&source=${sourceParam}`
+    }
+
+    if (trackingParam) {
+      url += `&tracking=${trackingParam}`
+    }
+
+    return url
+  }
+
   export default {
     name: "RegisterToVoteForm",
     data() {
@@ -31,6 +50,9 @@
         }, '#rtv-iframe')
       }
     },
+    mounted() {
+      document.getElementById('rtv-iframe').src = getRtvIframeUrl()
+    }
   }
 </script>
 
