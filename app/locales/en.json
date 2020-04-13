@@ -36,7 +36,8 @@
       "tab3Description": "We need leaders who will address this existential threat, and for this to happen, we need people to show up at the polls this year and vote for the future of the planet. So the final day will focus on the urgency of political change through a nationwide youth voter registration day."
     },
     "localLivestreams": {
-      "title": "Find livestreams local to you"
+      "title": "Find a local Livestream",
+      "description": "Some Lorum Ipsum about local livestreams"
     },
     "getInvolved": {
       "title": "Spread the Word",
