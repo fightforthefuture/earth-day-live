@@ -25,7 +25,7 @@ export default {
     ]
   },
   loading: { color: '#e3e9ec' },
-  css: ['./app/assets/style.css'],
+  // css: ['./app/assets/style.css'],
   modern: 'true',
   /*
   ** Plugins to load before mounting the App
