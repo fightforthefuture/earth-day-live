@@ -48,6 +48,10 @@
       "faq2Answer": "The Earth Day Live stream will be viewable on this website, and will be the full user experience. In addition, it will be simulcast across major streaming platforms such as Facebook Live, YouTube, Instagram, Twitter and Twitch to engage with broader audiences. Partner organizations and an extensive network of major websites will be embedding the livestream as well."
     }
   },
+  "checkMyRegistration": {
+    "title": "Are you registered to vote?",
+    "description": "We need to bring in a new generation of elected officials who understand the climate crises and who are prepared to take the necessary action to address it urgently. Register to vote now to ensure your voice is heard this November."
+  },
   "registerToVote": {
     "title": "Register to vote for our planet",
     "description": "We need to bring in a new generation of elected officials who understand the climate crises and who are prepared to take the necessary action to address it urgently. Register to vote now to ensure your voice is heard this November."

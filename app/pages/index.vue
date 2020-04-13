@@ -21,6 +21,7 @@
     </div>
     <SignUpForm />
     <SignUpThankYou />
+    <CheckMyRegistrationForm />
     <RegisterToVoteForm />
     <TripleYourVote />
     <ParticipantsSection />
@@ -43,6 +44,7 @@ import GetInvolvedSection from "~/components/GetInvolvedSection";
 import FAQsSection from "~/components/FAQsSection";
 import SignUpThankYou from "~/components/SignUpThankYou";
 import TripleYourVote from "~/components/TripleYourVote";
+import CheckMyRegistrationForm from "~/components/CheckMyRegistrationForm";
 
 export default {
   data() {
@@ -51,6 +53,7 @@ export default {
     }
   },
   components: {
+    CheckMyRegistrationForm,
     TripleYourVote,
     SignUpThankYou,
     HomePageNav,
