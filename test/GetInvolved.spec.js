@@ -1,5 +1,5 @@
 import { shallowMount } from './utils/test-utils'
-import getInvolved from '../pages/get-involved/index.vue'
+import getInvolved from '../app/pages/get-involved.vue'
 
 let wrapper = null;
 

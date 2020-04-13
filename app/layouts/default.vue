@@ -5,7 +5,7 @@
 </template>
 
 <script>
-import { smoothScrollToElement } from '~/assets/js/helpers'
+import { smoothScrollToElement } from '../assets/js/helpers'
 export default {
   head() {
     return {
