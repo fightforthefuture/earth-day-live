@@ -53,10 +53,22 @@
           document.getElementById('triple-your-vote').style.display = 'block'
 
           smoothScrollToElement('#register-to-vote', 500)
+
+          this.$gtag('event', 'registered_not_sure_button_click',
+            {
+              'event_category': 'voter_registration',
+              'event_label': 'registered_not_sure_button',
+            })
         },
         handleRegisteredClick() {
           document.getElementById('triple-your-vote').style.display = 'block'
           smoothScrollToElement('#triple-your-vote', 500)
+
+          this.$gtag('event', 'registered_button_click',
+            {
+              'event_category': 'voter_registration',
+              'event_label': 'registered_button',
+            })
         }
       }
     }

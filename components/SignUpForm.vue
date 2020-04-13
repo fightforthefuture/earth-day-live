@@ -43,6 +43,12 @@ export default {
     })
 
     document.addEventListener('can_embed_submitted', () => {
+      console.log(this.$root.context.app)
+      this.$gtag('event', 'rsvp_form_submitted',
+        {
+          'event_category': 'sign',
+          'event_label': 'action_network_form',
+        })
       document.querySelectorAll('.splash-page-disclaimer').forEach((disclaimer) => {
         disclaimer.style.display = 'none'
       })

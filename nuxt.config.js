@@ -35,7 +35,6 @@ export default {
   ** Plugins to load before mounting the App
   */
   plugins: [
-    { src: '~plugins/gtag.js', mode: 'client' },
     { src: '~plugins/clipboardCopy.js' }
   ],
   /*
@@ -50,6 +49,16 @@ export default {
       solid: ['faFistRaised', 'faPiggyBank', 'faVoteYea'],
     }
   },
+  'google-gtag': {
+    id: 'UA-162257314-1',
+    config: {
+      anonymize_ip: true,
+      send_page_view: false, // might be necessary to avoid duplicated page track on page reload
+      optimize_id: 'GTM-TS3VMMV',
+    },
+    debug: true, // enable to track in dev mode
+    disableAutoPageTrack: false, // disable if you don't want to track each page route with router.afterEach(...).
+  },
   facebook: {
     track: 'PageView',
     pixelId: '528654107852878',
@@ -60,6 +69,7 @@ export default {
   modules: [
     // Doc: https://bootstrap-vue.js.org
     'bootstrap-vue/nuxt',
+    '@nuxtjs/google-gtag',
     'nuxt-facebook-pixel-module',
     [
       'nuxt-i18n',
