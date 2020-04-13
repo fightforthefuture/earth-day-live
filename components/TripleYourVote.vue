@@ -19,6 +19,9 @@
         </b-col>
         <b-col cols="12" md="6">
           <img class="triple-your-vote-image" src="~assets/images/EDL-Vote-Tripling.png" :alt="translate.tripleYourVoteImage" />
+          <p class="description-small">
+            {{ translate.description3 }} <nuxt-link to="/privacy/">{{ translate.privacy}}</nuxt-link> {{ translate.description4 }}
+          </p>
         </b-col>
       </b-row>
     </div>
@@ -41,8 +44,13 @@
     padding: 40px 0;
     display: none;
   }
+
   .triple-your-vote-image {
     max-width: 100%;
+  }
+
+  .description-small {
+    font-size: 0.8em;
   }
 
   .section-title {

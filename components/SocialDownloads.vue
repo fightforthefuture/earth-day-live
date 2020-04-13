@@ -15,10 +15,10 @@
       </button>
       <div class="row">
         <div class="col-md-6">
-          <img class="social-downloads-mockup" src="~assets/images/instagram-post-mockup.png" :alt="translate.postAlt">
+          <img class="social-downloads-mockup" src="~assets/images/EDL-instagram-post.png" :alt="translate.postAlt">
         </div>
         <div class="col-md-6">
-          <img class="social-downloads-mockup" src="~assets/images/instagram-story-mockup.png" :alt="translate.storyAlt">
+          <img class="social-downloads-mockup" src="~assets/images/EDL-instagram-story.png" :alt="translate.storyAlt">
         </div>
       </div>
     </div>

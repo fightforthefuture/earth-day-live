@@ -18,7 +18,7 @@
     "participants": {
       "title": "Participants",
       "featuring": "Featuring",
-      "participantList": "Joaquin Phoenix, Moby, Talib Kweli, Matt McGorry, Ilyasah Shabazz, Patricia Arquette, Tim Heidecker, Rosanna Arquette",
+      "participantList": "Joaquin Phoenix, Moby, Jason Mraz, Lil Dicky, Lisa Edelstein, Patrisse Cullors, Ndaba Mandela, Angelique Kidjo, Talib Kweli, Bill McKibben, Matt McGorry, Ilyasah Shabazz, Patricia Arquette, Laurie Anderson, Tim Heidecker, Rosanna Arquette",
       "moreSoon": "And many more to be announced soon!"
     },
     "theThreeDays": {
@@ -56,6 +56,9 @@
     "title": "Triple Your Vote",
     "description1": "Thanks for being registered to vote - you're awesome :) The next step is to remind your friends to vote too. We need everyone to join us this year if we’re going to save our futures.",
     "description2": "Can we count on you to remind three friends to vote?",
+    "description3": "You will receive periodic updates. Msg & data rates apply. Reply STOP to unsubscribe or HELP for help. See our",
+    "privacy": "Privacy Policy",
+    "description4": "for more information.",
     "textCta": "Text \"earthvote\" to 56525 now to get started.",
     "tripleYourVoteImage": "Text and triple your vote"
   },
@@ -80,7 +83,7 @@
       "scrollDownAlt": "Scroll Down"
     },
     "whatsHappening": {
-      "descriptionA": "It’s more important now than ever to unite and support each other. That’s why, on the 50th anniversary of Earth Day, we’re launching a massive livestream from April 22-24 where you can join activists, celebrities, musicians, and more in an epic celebration of our planet. Together, we’ll:",
+      "descriptionA": "It’s more important now than ever to unite and support each other. That’s why, on the 50th anniversary of Earth Day, we’re launching a massive livestream from April 22-24 where you can join activists, celebrities, musicians, and more in an epic moment of community and hope for our future. Together, we’ll:",
       "descriptionB": "Drive donations to benefit the COVID-19 relief effort",
       "descriptionC": "Call on world leaders to take emergency action to build a more sustainable and just world",
       "descriptionD": "Inspire millions to pledge to vote for our future.",

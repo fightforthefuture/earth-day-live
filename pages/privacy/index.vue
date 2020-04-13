@@ -15,7 +15,7 @@
     <b-container class="policy-container">
       <b-col>
         <p><strong>Last Updated:  April 10, 2020</strong></p>
-        <p>This Privacy Policy explains how information about you is collected, used and disclosed by US Climate Strike Coalition (a project of March On) (the “Organization,” “we,” or “us”) when you use the Earth Day Live website and other online services that link to this Privacy Policy (collectively, the “Site”).</p>
+        <p>This Privacy Policy explains how information about you is collected, used and disclosed by US Climate Strike Coalition (a project of Future Coalition / March On) (the “Organization,” “we,” or “us”) when you use the Earth Day Live website and other online services that link to this Privacy Policy (collectively, the “Site”).</p>
         <p>We may change this Privacy Policy from time to time.  If we make changes, we will notify you by revising the date at the top of the policy and, in some cases, we may provide you with additional notice (such as adding a statement to our homepage or sending you an email notification).  We encourage you to review the Privacy Policy whenever you access the Site to stay informed about our information practices and the ways you can help protect your privacy.</p>
         <h3>Collection of Information</h3>
         <h5>Information You Provide to Us</h5>
