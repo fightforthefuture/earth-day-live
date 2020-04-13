@@ -8,6 +8,7 @@
         </b-nav-item>
         <b-nav-item id="participants-nav" @click.prevent="scrollTo('#participants')">{{ translate.participants }}</b-nav-item>
         <b-nav-item id="three-days-nav" @click.prevent="scrollTo('#the-three-days')">{{ translate.theThreeDays }}</b-nav-item>
+        <b-nav-item id="local-livestreams-nav" @click.prevent="scrollTo('#local-livestreams')">{{ translate.localLivestreams }}</b-nav-item>
         <b-nav-item id="get-involved-nav" @click.prevent="scrollTo('#get-involved')">{{ translate.getInvolved }}</b-nav-item>
         <b-nav-item id="faqs-nav" @click.prevent="scrollTo('#faqs')">{{ translate.faqs }}</b-nav-item>
       </b-navbar-nav>

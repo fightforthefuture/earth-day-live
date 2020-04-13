@@ -12,6 +12,7 @@
     "nav": {
       "participants": "Participants",
       "theThreeDays": "The Three Days",
+      "localLivestreams": "Local Livestreams",
       "getInvolved": "Spread the Word",
       "faqs": "FAQs"
     },
@@ -33,6 +34,9 @@
       "tab3Title": "April 24",
       "tab3SubTitle": "VOTE - Voter Registration and Political Engagement",
       "tab3Description": "We need leaders who will address this existential threat, and for this to happen, we need people to show up at the polls this year and vote for the future of the planet. So the final day will focus on the urgency of political change through a nationwide youth voter registration day."
+    },
+    "localLivestreams": {
+      "title": "Find livestreams local to you"
     },
     "getInvolved": {
       "title": "Spread the Word",
