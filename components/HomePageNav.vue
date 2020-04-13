@@ -3,6 +3,9 @@
     <b-navbar-toggle target="nav-collapse" id="hamburger-button"></b-navbar-toggle>
     <b-collapse id="nav-collapse" is-nav>
       <b-navbar-nav class="container">
+        <b-nav-item id="home-icon-nav" @click="goTo('/')">
+          <img class="nav-logo-eclipse" src="~/assets/images/earth-day-live-eclipse.png" alt="Eclipse" />
+        </b-nav-item>
         <b-nav-item id="participants-nav" @click.prevent="scrollTo('#participants')">{{ translate.participants }}</b-nav-item>
         <b-nav-item id="three-days-nav" @click.prevent="scrollTo('#the-three-days')">{{ translate.theThreeDays }}</b-nav-item>
         <b-nav-item id="get-involved-nav" @click.prevent="scrollTo('#get-involved')">{{ translate.getInvolved }}</b-nav-item>
@@ -26,7 +29,10 @@
         setTimeout(() => {
           location.hash = hash
         }, duration)
-      }
+      },
+      goTo(url) {
+        window.location.href = url
+      },
     }
     }
 </script>
@@ -55,6 +61,10 @@
 
   .navbar-nav {
     padding: 0 15px;
+  }
+
+  .nav-logo-eclipse {
+    max-width: 30px;
   }
 
   .navbar a {
