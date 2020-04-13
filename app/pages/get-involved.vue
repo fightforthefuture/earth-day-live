@@ -31,15 +31,15 @@
 </template>
 
 <script>
-  import GetInvolvedNav from '~/components/GetInvolvedNav.vue'
-  import Logo from '~/components/Logo.vue'
-  import ImReadyButton from '~/components/ImReadyButton.vue'
-  import WhatsHappening from '~/components/WhatsHappening.vue'
-  import WebsiteBanner from '~/components/WebsiteBanner.vue'
-  import BannerAds from '~/components/BannerAds.vue'
-  import SocialDownloads from '~/components/SocialDownloads.vue'
-  import AreYouWithUs from '~/components/AreYouWithUs.vue'
-  import SignUpForm from '~/components/SignUpForm.vue'
+  import GetInvolvedNav from '~/components/GetInvolvedNav'
+  import Logo from '~/components/Logo'
+  import ImReadyButton from '~/components/ImReadyButton'
+  import WhatsHappening from '~/components/WhatsHappening'
+  import WebsiteBanner from '~/components/WebsiteBanner'
+  import BannerAds from '~/components/BannerAds'
+  import SocialDownloads from '~/components/SocialDownloads'
+  import AreYouWithUs from '~/components/AreYouWithUs'
+  import SignUpForm from '~/components/SignUpForm'
   import PageFooter from '~/components/PageFooter'
 
   export default {
@@ -65,6 +65,7 @@
 </script>
 
 <style>
+
   .container-fluid.get-involved-container {
     margin: 0 auto;
     display: flex;
@@ -79,15 +80,6 @@
     padding-bottom: 50px;
   }
 
-  .title {
-    margin: 0 auto;
-    font-family: titling-gothic-fb, sans-serif;
-    display: block;
-    font-weight: 300;
-    color: #fff;
-    letter-spacing: 1px;
-    padding-bottom: 50px;
-  }
   .are-you-with-us-signup-wrapper {
     background: url('~assets/images/earth-day-live-gradient.jpg') no-repeat center center fixed;
     -webkit-background-size: cover;

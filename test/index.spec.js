@@ -1,5 +1,5 @@
 import { shallowMount } from './utils/test-utils'
-import index from '../pages/index.vue'
+import index from '../app/pages/index.vue'
 
 let wrapper = null;
 

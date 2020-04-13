@@ -29,10 +29,10 @@
 </template>
 
 <script>
-import Logo from '~/components/Logo.vue'
-import SignUpForm from '~/components/SignUpForm.vue'
-import PageFooter from '~/components/PageFooter.vue'
-import RegisterToVoteForm from '~/components/RegisterToVoteForm.vue'
+import Logo from '~/components/Logo'
+import SignUpForm from '~/components/SignUpForm'
+import PageFooter from '~/components/PageFooter'
+import RegisterToVoteForm from '~/components/RegisterToVoteForm'
 import HomePageNav from "~/components/HomePageNav";
 import ParticipantsSection from "~/components/ParticipantsSection";
 import TheThreeDaysSection from "~/components/TheThreeDaysSection";

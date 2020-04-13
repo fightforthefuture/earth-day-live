@@ -53,7 +53,7 @@
 
 <script>
 import { smoothScrollToElement } from '~/assets/js/helpers'
-import WidgetInstructions from '~/components/WidgetInstructions.vue'
+import WidgetInstructions from '~/components/WidgetInstructions'
 
 export default {
   name: "WebsiteBanner",

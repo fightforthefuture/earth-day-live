@@ -1,0 +1,11 @@
+/* Shared CSS */
+
+.title {
+  margin: 0 auto;
+  font-family: titling-gothic-fb, sans-serif;
+  display: block;
+  font-weight: 300;
+  color: #fff;
+  letter-spacing: 1px;
+  padding-bottom: 50px;
+}

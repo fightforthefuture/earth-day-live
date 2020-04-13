@@ -1,6 +1,6 @@
 
 export default {
-  mode: 'universal',
+  srcDir: './app',
   generate: {
     fallback: true
   },
@@ -9,33 +9,29 @@ export default {
   */
   head: {
     title: 'Earth Day Live',
+    htmlAttrs: {
+      lang: 'en',
+    },
     meta: [
       { charset: 'utf-8' },
       { name: 'viewport', content: 'width=device-width, initial-scale=1' },
+      { name: 'theme-color', content: '#e3e9ec' },
+      { name: 'application-name', content: 'Earth Day Live' },
       { hid: 'description', name: 'description', content: process.env.npm_package_description || '' }
     ],
     link: [
       { rel: 'icon', type: 'image/x-icon', href: '/favicon.ico' },
       { rel: 'stylesheet', href: 'https://use.typekit.net/kgg8gke.css' },
-    ],
-    htmlAttrs: {
-      lang: 'en',
-    }
+    ]
   },
-  /*
-  ** Customize the progress-bar color
-  */
-  loading: { color: '#fff' },
-  /*
-  ** Global CSS
-  */
-  css: [
-  ],
+  loading: { color: '#e3e9ec' },
+  css: ['./app/assets/style.css'],
+  modern: 'true',
   /*
   ** Plugins to load before mounting the App
   */
   plugins: [
-    { src: '~plugins/clipboardCopy.js' }
+    { src: './plugins/clipboardCopy.js' }
   ],
   /*
   ** Nuxt.js dev-modules
@@ -81,8 +77,8 @@ export default {
           locale: "en",  // Default locale
           fallbackLocale: "en",
           messages: {
-            en: require("./i18n/en.json"),
-            es: require("./i18n/es.json")
+            en: require("./app/locales/en.json"),
+            es: require("./app/locales/es.json")
           }
         }
       }
@@ -95,7 +91,10 @@ export default {
     /*
     ** You can extend webpack config here
     */
-    extend (config, ctx) {
+    extend(config, ctx) {
+      if (ctx.isDev) {
+          config.devtool = ctx.isClient ? 'source-map' : 'inline-source-map';
+      }
     }
   }
 }
