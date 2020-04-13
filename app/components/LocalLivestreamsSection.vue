@@ -5,6 +5,11 @@
         {{ translate.title }}
       </h1>
       <img class="separator" src="~assets/images/separator.jpg" :alt="$t('getInvolved.common.separatorAlt')" />
+      <p class="description">
+        {{ translate.description }}
+      </p>
+    </div>
+    <div class="col-md-8 offset-md-2">
       <iframe class="map-of-livestreams" src="https://wearemarchon.github.io/strikewithus/"></iframe>
     </div>
   </section>
@@ -23,7 +28,7 @@
 
   #local-livestreams {
     background-color: #f8f8f8;
-    padding: 75px 20px;
+    padding: 40px 0;
     text-align: center;
   }
 
@@ -33,8 +38,8 @@
   }
 
   .map-of-livestreams {
-    width: 600px;
-    height: 400px;
+    width: 100%;
+    height: 700px;
     border: none;
   }
 </style>
