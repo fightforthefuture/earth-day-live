@@ -1,7 +1,7 @@
 /* eslint-disable no-restricted-modules */
 import { BootstrapVue } from "bootstrap-vue";
 import { createLocalVue, shallowMount, mount, RouterLinkStub } from "@vue/test-utils";
-import en from "../../i18n/en.json";
+import en from "../../app/locales/en.json";
 
 const getValFromPath = (path) => {
   let val = { ...en };

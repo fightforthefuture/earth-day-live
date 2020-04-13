@@ -1,5 +1,5 @@
 import { shallowMount } from './utils/test-utils'
-import getInvolved from '../pages/get-involved/index.vue'
+import getInvolved from '../app/pages/get-involved.vue'
 
 let wrapper = null;
 
@@ -19,6 +19,6 @@ describe('Get Involved page', () => {
   test('contains a h1 with class title', () => {
     const title = wrapper.find('h1');
     expect(title.classes('title')).toBe(true)
-    expect(title.text()).toContain("Spread the word to help save the world.")
+    expect(title.text()).toContain("Spread the word.")
   });
 })

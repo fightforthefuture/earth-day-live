@@ -1,5 +1,6 @@
 
 export default {
+  srcDir: './app',
   generate: {
     fallback: true
   },
@@ -24,13 +25,13 @@ export default {
     ]
   },
   loading: { color: '#e3e9ec' },
-  css: ['~/assets/style.css'],
+  css: ['./app/assets/style.css'],
   modern: 'true',
   /*
   ** Plugins to load before mounting the App
   */
   plugins: [
-    { src: '~plugins/clipboardCopy.js' }
+    { src: './plugins/clipboardCopy.js' }
   ],
   /*
   ** Nuxt.js dev-modules
@@ -76,8 +77,8 @@ export default {
           locale: "en",  // Default locale
           fallbackLocale: "en",
           messages: {
-            en: require("./locales/en.json"),
-            es: require("./locales/es.json")
+            en: require("./app/locales/en.json"),
+            es: require("./app/locales/es.json")
           }
         }
       }

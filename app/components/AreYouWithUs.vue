@@ -16,7 +16,7 @@
 </template>
 
 <script>
-import SignUpForm from '~/components/SignUpForm.vue'
+import SignUpForm from './SignUpForm'
 export default {
   name: "AreYouWithUs",
   data() {

@@ -1,4 +1,4 @@
-import GetInvolvedNav from '../components/GetInvolvedNav'
+import GetInvolvedNav from '../app/components/GetInvolvedNav'
 import { mount } from './utils/test-utils'
 import sinon from 'sinon'
 
