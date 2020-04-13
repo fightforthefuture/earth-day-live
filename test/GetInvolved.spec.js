@@ -19,6 +19,6 @@ describe('Get Involved page', () => {
   test('contains a h1 with class title', () => {
     const title = wrapper.find('h1');
     expect(title.classes('title')).toBe(true)
-    expect(title.text()).toContain("Spread the word.")
+    expect(title.text()).toContain("Spread the word to help save the world.")
   });
 })
