@@ -3,9 +3,7 @@
     <b-navbar-toggle target="nav-collapse" id="hamburger-button"></b-navbar-toggle>
     <b-collapse id="nav-collapse" is-nav>
       <b-navbar-nav class="container">
-        <b-nav-item id="home-icon-nav" @click="goTo('/')">
-          <img class="nav-logo-eclipse" src="~/assets/images/earth-day-live-eclipse.png" alt="Eclipse" />
-        </b-nav-item>
+        <b-nav-item id="home-icon-nav" @click="goTo('/')">{{ translate.home }}</b-nav-item>
         <b-nav-item id="whats-happening-nav" @click.prevent="scrollTo('#whats-happening')">{{ $t('common.whatsHappening') }}</b-nav-item>
         <b-nav-item id="website-banner-nav" @click.prevent="scrollTo('#website-banner')">{{ translate.websiteBanner }}</b-nav-item>
         <b-nav-item id="banner-ads-nav" @click.prevent="scrollTo('#banner-ads')">{{ translate.bannerAds }}</b-nav-item>

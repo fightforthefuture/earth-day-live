@@ -10,6 +10,7 @@
     "rsvpPageTitle": "A three day livestream to save humanity and our planet.",
     "rsvpPageSubtitle": "Featuring Joaquin Phoenix, Moby, Jason Mraz, Lil Dicky, Talib Kweli, Matt McGorry, Ilyasah Shabazz and many more!",
     "nav": {
+      "home": "Home",
       "participants": "Participants",
       "theThreeDays": "The Three Days",
       "localLivestreams": "Local Livestreams",
@@ -83,6 +84,7 @@
       "arrowAlt": "Arrow"
     },
     "nav": {
+      "home": "Home",
       "websiteBanner": "Website Banner",
       "bannerAds": "Banner Ads",
       "socialDownloads": "Social Downloads",
