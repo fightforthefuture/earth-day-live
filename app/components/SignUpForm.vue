@@ -182,6 +182,16 @@ export default {
     font-family: neue-haas-grotesk-display, sans-serif !important;
   }
 
+  #can-form-area-rsvp-for-earth-day-live #can_embed_form span.can_select {
+    font-weight: 700 !important;
+    padding: 0 20px !important;
+    font-size: 1.2em !important;
+  }
+
+  #can-form-area-rsvp-for-earth-day-live #can_embed_form .can_select span.can_selectInner {
+    color: #190825 !important;
+  }
+
   @media only screen and (max-width: 600px) {
     #can_embed_form #can_embed_form_inner #form_col2,
     #can_embed_form #can_embed_form_inner #form_col1 {
