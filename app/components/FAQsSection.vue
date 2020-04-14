@@ -65,9 +65,7 @@
   }
 
   .btn-secondary:hover {
-    background-image: url('~assets/images/separator.jpg');
-    background-repeat: no-repeat;
-    background-position: center bottom;
+    text-decoration: underline;
   }
   .btn-secondary:focus {
     border: none;
