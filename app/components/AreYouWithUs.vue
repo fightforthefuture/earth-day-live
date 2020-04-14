@@ -30,7 +30,7 @@ export default {
 
 <style>
   #are-you-with-us {
-    background-color: #f8f8f8;
+    background-color: #efefef;
     text-align: center;
     padding: 75px 20px;
   }
@@ -43,7 +43,7 @@ export default {
     margin: auto;
   }
   #are-you-with-us .splash-page-signup-form-container {
-    background: #f8f8f8;
+    background: #efefef;
   }
   #are-you-with-us .splash-page-signup-form-wrapper {
     margin-top: 50px;
