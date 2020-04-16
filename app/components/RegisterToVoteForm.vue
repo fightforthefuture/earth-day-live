@@ -32,7 +32,6 @@
       url += `&tracking=${trackingParam}`
     }
 
-    console.log('test')
     const emailCookie = outerThis.$cookie.get('form-email')
     const zipcodeCookie = outerThis.$cookie.get('form-zip_code')
     if (emailCookie !== null) {
