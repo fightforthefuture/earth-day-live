@@ -70,7 +70,7 @@
 
 <style>
   .splash-page-signup-form-container {
-    background-color: #f8f8f8;
+    background-color: #e3e9ec;
     padding-bottom: 100px;
     display: flex;
   }

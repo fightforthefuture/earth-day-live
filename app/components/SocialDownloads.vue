@@ -41,7 +41,7 @@ export default {
 
 <style scoped>
   #social-downloads {
-    background-color: #f8f8f8;
+    background-color: #efefef;
     padding: 75px 20px;
     text-align: center;
   }

@@ -33,7 +33,7 @@
 
 <style scoped>
   #get-involved {
-    background-color: #efefef;
+    background-color: #f8f8f8;
     padding: 75px 20px;
     text-align: center;
   }

@@ -2,7 +2,7 @@
   <div>
     <GetInvolvedNav />
     <div class="container-fluid get-involved-container">
-      <div class="get-involved-title-details">
+      <div>
         <a @click="goTo('/')" class="get-involved-logo">
           <logo />
         </a>
@@ -15,9 +15,6 @@
           <ImReadyButton />
         </div>
       </div>
-      <video loop muted autoplay poster="~assets/images/earth-day-live-gradient.jpg" class="video-background">
-        <source src="~assets/images/animated-background.mp4" type="video/mp4">
-      </video>
     </div>
     <WhatsHappening />
     <WebsiteBanner />
@@ -69,28 +66,18 @@
 
 <style>
 
-  .video-background {
-    position:fixed;
-    z-index: -1;
-  }
-
   .container-fluid.get-involved-container {
     margin: 0 auto;
     display: flex;
     justify-content: center;
     align-items: center;
     text-align: center;
+    background: url('~assets/images/earth-day-live-gradient.jpg') no-repeat center center fixed;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
     background-size: cover;
     padding-bottom: 50px;
-    width:100vw;
-    height: 75vh;
-  }
-
-  .get-involved-title-details {
-    position: static;
   }
 
   .are-you-with-us-signup-wrapper {
