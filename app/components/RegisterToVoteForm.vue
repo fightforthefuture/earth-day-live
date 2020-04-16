@@ -42,6 +42,11 @@
       url += `&home_zip_code=${zipcodeCookie}`
     }
 
+    const locale = outerThis.$i18n.locale
+    if (locale === 'es') {
+      url += `&locale=${locale}`
+    }
+
     return url
   }
 
