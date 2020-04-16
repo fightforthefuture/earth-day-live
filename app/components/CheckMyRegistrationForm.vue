@@ -23,8 +23,24 @@
 
 <script>
     import iFrameResize from 'iframe-resizer/js/iframeResizer'
-    function handleMessage(event) {
-      console.log(event)
+    function receiveMessage(event) {
+
+      var iframeHost = 'https://am-i-registered-to-vote.org/futurecoalition';
+
+      // This is to ensure against XSS vulnerabilities
+      if (event.origin.lastIndexOf(iframeHost, 0) !== 0) return;
+
+      // This is a check to ensure the event is deliberately received for the Future Coalition iFrame
+      if (!event.data.FUTURE_COALITION) return;
+
+      switch (event.data.status) {
+        case 'registered':
+        // handle registered flow
+        case 'notRegistered' | 'registrationCheckFailed':
+        // handle not registered / registration unsure flow
+        default:
+        // Handle default case
+      }
     }
     export default {
       name: "CheckMyRegistrationForm",
@@ -42,7 +58,7 @@
         }
       },
       mounted() {
-        window.addEventListener('message', handleMessage)
+        window.addEventListener('message', receiveMessage)
       }
     }
 </script>
