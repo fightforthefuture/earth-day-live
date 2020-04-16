@@ -47,11 +47,17 @@
     },
     "faqs": {
       "title": "FAQs",
-      "faq1Question": "Why Earth Day Live?",
-      "faq1AnswerA": "This is a monumental time in history. We are being forced to slow down, to pause, to re-evaluate our life paths, our purpose, and our connections to each other and the broader world around us. This moment presents a special opportunity to not only unite our movement around a shared common vision for a better future for humankind, but to welcome in organizers, friends, family and community members who have not been interested in being an active part of the climate movement. The world moves so fast. We may never get another change like this to bring so many people together to demand a future that works for all of us.",
-      "faq1AnswerB": "These are scary times. Many have lost jobs, loved ones, and are uncertain what the future looks like. Environmental, worker, and health protections are being rolled back, worsening the crisis. Now more than ever is the moment to come together and demand a just response to the pandemic and the climate crisis. In times of great turmoil, movements have been able to fundamentally transform society in ways that were never thought possible. The New Deal was born out of sustained protest and pressure during the Great Depression. Everyday people relentlessly advocated for the policies that brought the U.S. out of crisis, winning the support of FDR. This is our moment to bring forth the vision of the future we want to see. Livestreams are an opportunity to build community, educate, and propose solutions. We can bring hope, joy, and honesty in a time when so many are overwhelmed and isolated.",
-      "faq2Question": "How can I view the livestream?",
-      "faq2Answer": "The Earth Day Live stream will be viewable on this website, and will be the full user experience. In addition, it will be simulcast across major streaming platforms such as Facebook Live, YouTube, Instagram, Twitter and Twitch to engage with broader audiences. Partner organizations and an extensive network of major websites will be embedding the livestream as well."
+      "faqsList": [{
+        "question": "Why Earth Day Live?",
+        "answers": [
+          "This is a monumental time in history. We are being forced to slow down, to pause, to re-evaluate our life paths, our purpose, and our connections to each other and the broader world around us. This moment presents a special opportunity to not only unite our movement around a shared common vision for a better future for humankind, but to welcome in organizers, friends, family and community members who have not been interested in being an active part of the climate movement. The world moves so fast. We may never get another change like this to bring so many people together to demand a future that works for all of us.",
+          "These are scary times. Many have lost jobs, loved ones, and are uncertain what the future looks like. Environmental, worker, and health protections are being rolled back, worsening the crisis. Now more than ever is the moment to come together and demand a just response to the pandemic and the climate crisis. In times of great turmoil, movements have been able to fundamentally transform society in ways that were never thought possible. The New Deal was born out of sustained protest and pressure during the Great Depression. Everyday people relentlessly advocated for the policies that brought the U.S. out of crisis, winning the support of FDR. This is our moment to bring forth the vision of the future we want to see. Livestreams are an opportunity to build community, educate, and propose solutions. We can bring hope, joy, and honesty in a time when so many are overwhelmed and isolated."
+        ]}, {
+        "question": "How can I view the livestream?",
+        "answers": [
+          "The Earth Day Live stream will be viewable on this website, and will be the full user experience. In addition, it will be simulcast across major streaming platforms such as Facebook Live, YouTube, Instagram, Twitter and Twitch to engage with broader audiences. Partner organizations and an extensive network of major websites will be embedding the livestream as well."
+        ]}
+      ]
     }
   },
   "vote": {
