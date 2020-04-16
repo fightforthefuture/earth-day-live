@@ -16,6 +16,35 @@
 <script>
   import iFrameResize from 'iframe-resizer/js/iframeResizer'
 
+  function getRtvIframeUrl(outerThis) {
+    const urlParams = new URLSearchParams(window.location.search)
+
+    const sourceParam = urlParams.get('source')
+    const trackingParam = urlParams.get('tracking')
+
+    let url = 'https://register.rockthevote.com/registrants/new?partner=38367'
+
+    if (sourceParam) {
+      url += `&source=${sourceParam}`
+    }
+
+    if (trackingParam) {
+      url += `&tracking=${trackingParam}`
+    }
+
+    const emailCookie = outerThis.$cookie.get('form-email')
+    const zipcodeCookie = outerThis.$cookie.get('form-zip_code')
+    if (emailCookie !== null) {
+       url += `&email_address=${emailCookie}`
+    }
+
+    if (zipcodeCookie !== null) {
+      url += `&home_zip_code=${zipcodeCookie}`
+    }
+
+    return url
+  }
+
   export default {
     name: "RegisterToVoteForm",
     data() {
@@ -31,11 +60,13 @@
         }, '#rtv-iframe')
       }
     },
+    mounted() {
+      document.getElementById('rtv-iframe').src = getRtvIframeUrl(this)
+    }
   }
 </script>
 
 <style scoped>
-
   #register-to-vote {
     text-align: center;
     background-color: #f8f8f8;

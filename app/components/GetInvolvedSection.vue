@@ -57,6 +57,7 @@
     background-image: linear-gradient(to right, #f26146 0%, #fb722c 35%, #f65b5a 65%, #f85371 100%);
   }
   .circle-arrow {
-     max-width: 30px;
+    max-width: 30px;
+    margin-left: 10px;
    }
 </style>

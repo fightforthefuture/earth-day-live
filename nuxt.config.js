@@ -31,7 +31,8 @@ export default {
   ** Plugins to load before mounting the App
   */
   plugins: [
-    { src: './plugins/clipboardCopy.js' }
+    { src: './plugins/clipboardCopy.js' },
+    { src: './plugins/cookie.js' }
   ],
   /*
   ** Nuxt.js dev-modules

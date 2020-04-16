@@ -13,48 +13,58 @@
 </template>
 
 <script>
-export default {
-  name: 'SignUpForm',
-  head () {
-    return {
-      script: [
-        { src: 'https://actionnetwork.org/widgets/v3/form/rsvp-for-earth-day-live?format=js&source=widget' }
-      ],
-      link: [
-        { rel: 'stylesheet', href: 'https://actionnetwork.org/css/style-embed-v3.css' }
-      ]
-    }
-  },
-  data() {
-    return { translate: this.$t('getInvolved.signUpForm') }
-  },
-  mounted() {
-    document.addEventListener('can_embed_loaded', () => {
-      const optInGroups = document.getElementById('d_sharing').querySelectorAll('li')
+ export default {
+     name: 'SignUpForm',
+     head () {
 
-      if (optInGroups.length > 1) {
-        const optInText = optInGroups[1].querySelectorAll('label')[0].innerText
-        const partnerGroupName = optInText.replace('Opt in to updates from ', '')
-        const partnerDisclaimer = document.createElement('p')
-        partnerDisclaimer.classList.add('splash-page-disclaimer')
-        partnerDisclaimer.innerHTML = `You may receive updates from <i>${partnerGroupName}</i>, who shared this form with you.`
-        document.querySelector('.splash-page-signup-form-wrapper').appendChild(partnerDisclaimer)
-      }
-    })
+         return {
+             script: [
+                 { src: 'https://actionnetwork.org/widgets/v3/form/rsvp-for-earth-day-live?format=js&source=widget' }
+             ],
+             link: [
+                 { rel: 'stylesheet', href: 'https://actionnetwork.org/css/style-embed-v3.css' }
+             ]
+         }
+     },
+     data() {
+         return { translate: this.$t('getInvolved.signUpForm') }
+     },
+     mounted() {
+         document.addEventListener('can_embed_loaded', () => {
+             const optInGroups = document.getElementById('d_sharing').querySelectorAll('li')
 
-    document.addEventListener('can_embed_submitted', () => {
-      console.log(this.$root.context.app)
-      this.$gtag('event', 'rsvp_form_submitted',
-        {
-          'event_category': 'sign',
-          'event_label': 'action_network_form',
-        })
-      document.querySelectorAll('.splash-page-disclaimer').forEach((disclaimer) => {
-        disclaimer.style.display = 'none'
-      })
-    })
-  }
-}
+             if (optInGroups.length > 1) {
+                 const optInText = optInGroups[1].querySelectorAll('label')[0].innerText
+                 const partnerGroupName = optInText.replace('Opt in to updates from ', '')
+                 const partnerDisclaimer = document.createElement('p')
+                 partnerDisclaimer.classList.add('splash-page-disclaimer')
+                 partnerDisclaimer.innerHTML = `You may receive updates from <i>${partnerGroupName}</i>, who shared this form with you.`
+                 document.querySelector('.splash-page-signup-form-wrapper').appendChild(partnerDisclaimer)
+             }
+
+             // Have to listen for change event instead of catching data in 'can_embed_submitted' event because
+             // the form element is removed from the page before that event is fired
+             const outerThis = this;
+             document.getElementById('form-email').onchange = function() {
+                 outerThis.$cookie.set('form-email', this.value, 60)
+             }
+             document.getElementById('form-zip_code').onchange = function() {
+                 outerThis.$cookie.set('form-zip_code', this.value, 60)
+             }
+         })
+
+         document.addEventListener('can_embed_submitted', () => {
+             this.$gtag('event', 'rsvp_form_submitted',
+                        {
+                            'event_category': 'sign',
+                            'event_label': 'action_network_form',
+             })
+             document.querySelectorAll('.splash-page-disclaimer').forEach((disclaimer) => {
+                 disclaimer.style.display = 'none'
+             })
+         })
+     }
+ }
 
 </script>
 
@@ -182,11 +192,20 @@ export default {
     font-family: neue-haas-grotesk-display, sans-serif !important;
   }
 
+  #can-form-area-rsvp-for-earth-day-live #can_embed_form span.can_select {
+    font-weight: 700 !important;
+    padding: 0 20px !important;
+    font-size: 1.2em !important;
+  }
+
+  #can-form-area-rsvp-for-earth-day-live #can_embed_form .can_select span.can_selectInner {
+    color: #190825 !important;
+  }
+
   @media only screen and (max-width: 600px) {
     #can_embed_form #can_embed_form_inner #form_col2,
     #can_embed_form #can_embed_form_inner #form_col1 {
       width: 100% !important;
     }
   }
-
 </style>
