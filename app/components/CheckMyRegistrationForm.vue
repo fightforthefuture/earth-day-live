@@ -9,7 +9,7 @@
         {{ translate.description }}
       </p>
       <iframe id="rtf-cmr-iframe"
-              src="https://am-i-registered-to-vote.org/futurecoalition/"
+              src="https://am-i-registered-to-vote.org/futurecoalition/?cons_email=cons_email"
               class="rtf-cmr-iframe"
               scrolling="no"
               frameborder="0"
@@ -23,7 +23,9 @@
 
 <script>
     import iFrameResize from 'iframe-resizer/js/iframeResizer'
-
+    function handleMessage(event) {
+      console.log(event)
+    }
     export default {
       name: "CheckMyRegistrationForm",
       data() {
@@ -39,6 +41,9 @@
           }, '#rtf-cmr-iframe')
         }
       },
+      mounted() {
+        window.addEventListener('message', handleMessage)
+      }
     }
 </script>
 
