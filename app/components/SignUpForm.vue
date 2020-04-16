@@ -46,10 +46,10 @@
              // the form element is removed from the page before that event is fired
              const outerThis = this;
              document.getElementById('form-email').onchange = function() {
-                 outerThis.$cookie.set('form-email', this.value, 10)
+                 outerThis.$cookie.set('form-email', this.value, 60)
              }
              document.getElementById('form-zip_code').onchange = function() {
-                 outerThis.$cookie.set('form-zip_code', this.value, 10)
+                 outerThis.$cookie.set('form-zip_code', this.value, 60)
              }
          })
 
