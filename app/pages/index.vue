@@ -1,24 +1,7 @@
 <template>
   <div>
     <HomePageNav />
-    <div class="container-fluid header-container">
-      <div>
-        <logo />
-        <div class="col-md-6 offset-md-3">
-          <h1 class="title">
-            {{ translate.title }}
-          </h1>
-        </div>
-        <div class="col-md-6 offset-md-3">
-          <h4 class="subtitle">
-            {{ translate.subtitle1 }}
-          </h4>
-          <h4 class="subtitle">
-            {{ translate.subtitle2 }}
-          </h4>
-        </div>
-      </div>
-    </div>
+    <MaestroLivestream />
     <SignUpForm />
     <SignUpThankYou />
     <RegisterToVoteForm />
@@ -33,7 +16,6 @@
 </template>
 
 <script>
-import Logo from '~/components/Logo'
 import SignUpForm from '~/components/SignUpForm'
 import PageFooter from '~/components/PageFooter'
 import RegisterToVoteForm from '~/components/RegisterToVoteForm'
@@ -45,6 +27,7 @@ import GetInvolvedSection from "~/components/GetInvolvedSection";
 import FAQsSection from "~/components/FAQsSection";
 import SignUpThankYou from "~/components/SignUpThankYou";
 import TripleYourVote from "~/components/TripleYourVote";
+import MaestroLivestream from "../components/MaestroLivestream";
 
 export default {
   data() {
@@ -53,10 +36,10 @@ export default {
     }
   },
   components: {
+    MaestroLivestream,
     TripleYourVote,
     SignUpThankYou,
     HomePageNav,
-    Logo,
     SignUpForm,
     RegisterToVoteForm,
     FAQsSection,
@@ -82,7 +65,10 @@ export default {
   -moz-background-size: cover;
   -o-background-size: cover;
   background-size: cover;
-  padding-bottom: 130px;
+  padding-right: 0px;
+  padding-left: 0px;
+  padding-top: 0px;
+  padding-bottom: 0px;
 }
 .title {
   padding-bottom: 30px;
