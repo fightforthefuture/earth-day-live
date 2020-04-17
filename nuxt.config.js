@@ -72,7 +72,16 @@ export default {
       'nuxt-i18n',
       {
         strategy: "prefix_except_default",
-        locales: ["en", "es"],
+        locales: [
+          {
+            code: 'en',
+            name: 'English'
+          },
+          {
+            code: 'es',
+            name: 'Español'
+          },
+        ],
         defaultLocale: "en",  // The locale to use if the current locale can't be found
         vueI18n: {
           locale: "en",  // Default locale

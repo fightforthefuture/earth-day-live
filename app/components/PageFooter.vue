@@ -2,10 +2,16 @@
   <footer class="page-footer">
     <b-container>
       <b-row>
-        <b-col cols="12" lg="4">
+        <b-col cols="12" lg="3">
           <img class="earth-day-live-full-lockup" src="~/assets/images/earth-day-live-full-lockup.png" alt="Earth Day Live" />
         </b-col>
-        <b-col cols="12" lg="4" class="press">
+        <b-col cols="12" lg="3" class="language-switcher">
+          <nuxt-link
+            v-for="locale in availableLocales"
+            :key="locale.code"
+            :to="switchLocalePath(locale.code)">{{ locale.name }}</nuxt-link>
+        </b-col>
+        <b-col cols="12" lg="3" class="press">
           <p>{{translate.press}}</p>
           <p>
             <a href="mailto:media@strikewithus.org">media@strikewithus.org</a><br>
@@ -13,7 +19,7 @@
           </p>
           <p></p>
         </b-col>
-        <b-col cols="12" lg="4" class="privacy-policy">
+        <b-col cols="12" lg="3" class="privacy-policy">
           <nuxt-link to="/privacy/">
             <p>{{ translate.privacyPolicy }}</p>
           </nuxt-link>
@@ -25,7 +31,6 @@
         </b-col>
       </b-row>
     </b-container>
-
   </footer>
 </template>
 
@@ -35,6 +40,12 @@
     data() {
       return { translate: this.$t('footer') }
     },
+    computed: {
+      availableLocales () {
+        return this.$i18n.locales.filter(i => i.code !== this.$i18n.locale)
+      }
+    }
+
   }
 </script>
 
@@ -61,6 +72,7 @@
   color: #fff;
 }
 
+.language-switcher,
 .privacy-policy {
   margin-top: auto;
   margin-bottom: auto;
@@ -69,5 +81,9 @@
 
 .press {
   padding-bottom: 20px;
+}
+
+.language-switcher {
+  font-size: 1.2em;
 }
 </style>
