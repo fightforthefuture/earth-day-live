@@ -23,6 +23,9 @@
           <nuxt-link to="/privacy/">
             <p>{{ translate.privacyPolicy }}</p>
           </nuxt-link>
+          <nuxt-link to="/terms/">
+            <p>{{ translate.termsPolicy }}</p>
+          </nuxt-link>
         </b-col>
       </b-row>
       <b-row>
