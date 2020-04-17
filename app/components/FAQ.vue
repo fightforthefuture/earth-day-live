@@ -5,7 +5,7 @@
     </b-button>
     <b-collapse :id="collapse_id" class="mt-2">
       <b-card>
-        <p class="card-text" v-for="(answer, index) in this.answers">
+        <p class="card-text" v-for="(answer, index) in this.answers" v-bind:key="index">
           {{ answer }}
         </p>
       </b-card>

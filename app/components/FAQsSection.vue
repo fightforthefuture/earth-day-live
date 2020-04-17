@@ -5,7 +5,7 @@
         {{ title }}
       </h1>
       <img class="separator" src="~assets/images/separator.jpg" :alt="$t('getInvolved.common.separatorAlt')" />
-      <div v-for="(item, index) in faqsList">
+      <div v-for="(item, index) in faqsList" v-bind:key="index">
         <FAQ
           v-bind:question="item.question"
           v-bind:answers="item.answers"
