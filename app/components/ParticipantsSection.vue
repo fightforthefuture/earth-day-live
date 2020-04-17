@@ -1,6 +1,6 @@
 <template>
   <section id="participants">
-    <div class="col-md-6 offset-md-3">
+    <div class="col-md-8 offset-md-2">
       <h1 class="section-title">
         {{ translate.title }}
       </h1>
@@ -35,6 +35,7 @@
     text-align: center;
     text-transform: uppercase;
   }
+
   .featuring {
     background: -webkit-linear-gradient(right, #f26146, #f47d3a, #f8d233, #cbdb2a, #88c656);
     -webkit-background-clip: text;
