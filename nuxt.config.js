@@ -33,7 +33,7 @@ export default {
   plugins: [
     { src: './plugins/clipboardCopy.js' },
     { src: './plugins/cookie.js' },
-    { src: './plugins/snap.js', mode: 'client' }
+    { src: './plugins/snap.js'}
   ],
   /*
   ** Nuxt.js dev-modules
