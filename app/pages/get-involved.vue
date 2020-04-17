@@ -15,9 +15,6 @@
           <ImReadyButton />
         </div>
       </div>
-      <video loop muted autoplay poster="~assets/images/earth-day-live-gradient.jpg" class="video-background">
-        <source src="~assets/images/animated-background.mp4" type="video/mp4">
-      </video>
     </div>
     <WhatsHappening />
     <WebsiteBanner />
@@ -68,11 +65,6 @@
 </script>
 
 <style>
-  .video-background {
-    position: fixed;
-    z-index: -1;
-    height: 300vh;
-  }
 
   .container-fluid.get-involved-container {
     margin: 0 auto;
@@ -80,8 +72,12 @@
     justify-content: center;
     align-items: center;
     text-align: center;
+    background: url('~assets/images/earth-day-live-gradient.jpg') no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
     padding-bottom: 50px;
-    overflow: hidden;
   }
 
   .are-you-with-us-signup-wrapper {
