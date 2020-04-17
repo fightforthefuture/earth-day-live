@@ -22,6 +22,9 @@ export default {
     link: [
       { rel: 'icon', type: 'image/x-icon', href: '/favicon.ico' },
       { rel: 'stylesheet', href: 'https://use.typekit.net/kgg8gke.css' },
+    ],
+    script: [
+      { src: '/js/pixel.js' }
     ]
   },
   loading: { color: '#e3e9ec' },
