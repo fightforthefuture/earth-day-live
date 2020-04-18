@@ -20,6 +20,7 @@
     <WebsiteBanner />
     <BannerAds />
     <SocialDownloads />
+    <WebsiteParticipants />
     <AreYouWithUs />
     <div class="are-you-with-us-signup-wrapper">
       <div class="col-md-8 offset-md-2">
@@ -38,9 +39,11 @@
   import WebsiteBanner from '~/components/WebsiteBanner'
   import BannerAds from '~/components/BannerAds'
   import SocialDownloads from '~/components/SocialDownloads'
+  import WebsiteParticipants from '~/components/WebsiteParticipants'
   import AreYouWithUs from '~/components/AreYouWithUs'
   import SignUpForm from '~/components/SignUpForm'
   import PageFooter from '~/components/PageFooter'
+
 
   export default {
     components: {
@@ -51,6 +54,7 @@
       WebsiteBanner,
       BannerAds,
       SocialDownloads,
+      WebsiteParticipants,
       AreYouWithUs,
       SignUpForm, //eslint-disable-line
       PageFooter,

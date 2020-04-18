@@ -8,6 +8,7 @@
         <b-nav-item id="website-banner-nav" @click.prevent="scrollTo('#website-banner')">{{ translate.websiteBanner }}</b-nav-item>
         <b-nav-item id="banner-ads-nav" @click.prevent="scrollTo('#banner-ads')">{{ translate.bannerAds }}</b-nav-item>
         <b-nav-item id="social-downloads-nav" @click.prevent="scrollTo('#social-downloads')">{{ translate.socialDownloads }}</b-nav-item>
+        <b-nav-item id="website-participants-nav" @click.prevent="scrollTo('#website-participants')">{{ $t('home.nav.participants') }}</b-nav-item>
         <b-nav-item id="are-you-with-us-nav" @click.prevent="scrollTo('#are-you-with-us')">{{ translate.withUs }}</b-nav-item>
       </b-navbar-nav>
     </b-collapse>
