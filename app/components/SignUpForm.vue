@@ -78,7 +78,7 @@
     display: flex;
   }
   .splash-page-signup-form-wrapper {
-    margin-top: 100px;
+    margin-top: -100px;
     background-color: #190825;
     padding: 20px;
     color: #fff;
