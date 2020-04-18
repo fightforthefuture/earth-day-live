@@ -15,6 +15,9 @@
 <script>
  export default {
      name: 'SignUpForm',
+     props: {
+       isRsvpPage: Boolean
+     },
      head () {
        const actionNetworkFormPath = this.$i18n.locale === 'es'
          ? 'dia-de-la-tierra-2020-2'
@@ -57,13 +60,14 @@
          })
 
          document.addEventListener('can_embed_submitted', () => {
-             this.$gtag('event', 'rsvp_form_submitted',
-                        {
-                            'event_category': 'sign',
-                            'event_label': 'action_network_form',
-             })
-             document.querySelectorAll('.splash-page-disclaimer').forEach((disclaimer) => {
-                 disclaimer.style.display = 'none'
+           document.querySelectorAll('.splash-page-disclaimer').forEach((disclaimer) => {
+             disclaimer.style.display = 'none'
+           })
+           const formSubmittedAction = this.isRsvpPage ? 'rsvp_form_submitted_rsvp_page' : 'rsvp_form_submitted'
+           this.$gtag('event', formSubmittedAction,
+             {
+               'event_category': 'sign',
+               'event_label': 'action_network_form',
              })
          })
      }
