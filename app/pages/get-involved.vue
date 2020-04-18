@@ -44,7 +44,6 @@
   import SignUpForm from '~/components/SignUpForm'
   import PageFooter from '~/components/PageFooter'
 
-
   export default {
     components: {
       GetInvolvedNav,
