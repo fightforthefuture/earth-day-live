@@ -1,6 +1,6 @@
 <template>
   <section id="participants">
-    <div class="col-md-8 offset-md-2">
+    <div class="col-lg-8 offset-lg-2">
       <h1 class="section-title">
         {{ translate.title }}
       </h1>

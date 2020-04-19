@@ -10,7 +10,7 @@
       </div>
       <div class="row">
         <div class="col">
-          <p>{{event.description}}</p>
+          <p class="event-description">{{event.description}}</p>
         </div>
       </div>
     </div>
@@ -37,13 +37,24 @@
 
   .apr22 {
     color: #f47d3a;
+    padding: 20px 0 0 5px;
+    margin-bottom: 0;
   }
-  
+
   .apr23 {
     color: #95c552;
+    padding: 20px 0 0 5px;
+    margin-bottom: 0;
   }
-  
+
   .apr24 {
     color: #e671a4;
+    padding: 20px 0 0 5px;
+    margin-bottom: 0;
+  }
+
+  .event-description {
+    padding: 0 5px 0 5px;
+    font-size: 1.2em;
   }
 </style>

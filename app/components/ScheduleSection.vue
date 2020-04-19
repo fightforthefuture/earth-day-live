@@ -1,42 +1,46 @@
-<template id="schedule-container">
-  <div class="container">
-    <div class="text-center" id="schedule">
-      <div class="row" style="margin: auto">
-        <div class="col" id="schedule-top-right-corner">
+<template>
+  <section id="schedule">
+    <div class="col-lg-8 offset-lg-2">
+      <div class="text-center" id="schedule-wrapper">
+        <div class="row" style="margin: auto">
+          <div class="col" id="schedule-top-right-corner">
+          </div>
+          <div class="col date-box" id="april-22">
+            <h2>April 22nd</h2>
+          </div>
+          <div class="col date-box" id="april-23">
+            <h2>April 23rd</h2>
+          </div>
+          <div class="col date-box" id="april-24">
+            <h2>April 24th</h2>
+          </div>
         </div>
-        <div class="col date-box" id="april-22">
-          <h2>April 22nd</h2>
+        <div class="row text-left" v-for="(time, index) in TIMESLOTS" v-bind:key="index" style="margin: auto">
+          <div class="col">
+            <h2 class="hour">{{time}}</h2>
+            <h3 class="est">EST</h3>
+          </div>
+          <HourOfEvents
+            v-bind:events=eventsOnThe22nd[time]
+            v-bind:index="index"
+            date="april-22"
+          />
+          <HourOfEvents
+            v-bind:events=eventsOnThe23rd[time]
+            v-bind:index="index"
+            date="april-23"
+          />
+          <HourOfEvents
+            v-bind:events=eventsOnThe24th[time]
+            v-bind:index="index"
+            date="april-24"
+          />
         </div>
-        <div class="col date-box" id="april-23">
-          <h2>April 23rd</h2>
-        </div>
-        <div class="col date-box" id="april-24">
-          <h2>April 24th</h2>
-        </div>
-      </div>
-      <div class="row text-left" v-for="(time, index) in TIMESLOTS" v-bind:key="index" style="margin: auto">
-        <div class="col">
-          <h2 id="hour">{{time}}</h2>
-          <h3 id="est">EST</h3>
-        </div>
-        <HourOfEvents 
-          v-bind:events=eventsOnThe22nd[time]
-          v-bind:index="index" 
-          date="april-22"
-        />
-        <HourOfEvents 
-          v-bind:events=eventsOnThe23rd[time]
-          v-bind:index="index" 
-          date="april-23"
-        />
-        <HourOfEvents 
-          v-bind:events=eventsOnThe24th[time] 
-          v-bind:index="index" 
-          date="april-24"
-        />
       </div>
     </div>
-  </div>
+  </section>
+
+
 </template>
 
 <script>
@@ -60,12 +64,18 @@
 
 <style scoped>
   #schedule {
+    background-color: #f8f8f8;
+  }
+
+  #schedule-wrapper {
     background-color: #240e34;
     color: #f8f8f8;
   }
 
   .container {
     background-color: #f8f8f8;
+    padding-left: 0;
+    padding-right: 0;
   }
 
   #times-and-descriptions {
@@ -75,7 +85,7 @@
   #schedule-top-right-corner {
     background-color: #f8f8f8;
   }
-  
+
   #april-22 {
     background-image: linear-gradient(to right, #f26146, #fb722c, #f65b5a, #f85371);
   }
@@ -93,9 +103,16 @@
     padding-top: 1.5%;
     padding-bottom: 1.5%;
   }
+  .hour {
+    padding: 10px 0 0 0;
+  }
 
-  #hour,
-  #est {
+  .est {
+    font-size: 1.3em;
+  }
+
+  .hour,
+  .est {
     background: linear-gradient(to right, #88c656, #cbdb2a, #f8d233, #f47d3a, #f26146);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
