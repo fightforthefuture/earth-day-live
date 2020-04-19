@@ -2,8 +2,8 @@
   <div class="container-fluid splash-page-signup-form-container">
     <div class="col-md-6 offset-md-3">
       <div class="splash-page-signup-form-wrapper">
-        <div id='can-form-area-rsvp-for-earth-day-live'>
-        </div>
+        <div v-if="$i18n.locale === 'es'" id="can-form-area-dia-de-la-tierra-2020-2"></div>
+        <div v-else id="can-form-area-rsvp-for-earth-day-live"></div>
         <p class="splash-page-disclaimer">
           {{ translate.disclaimer1 }}<i>{{ translate.disclaimer2 }}</i>{{ translate.disclaimer3 }}
         </p>
@@ -15,16 +15,22 @@
 <script>
  export default {
      name: 'SignUpForm',
+     props: {
+       isRsvpPage: Boolean
+     },
      head () {
+       const actionNetworkFormPath = this.$i18n.locale === 'es'
+         ? 'dia-de-la-tierra-2020-2'
+         : 'rsvp-for-earth-day-live'
 
-         return {
-             script: [
-                 { src: 'https://actionnetwork.org/widgets/v3/form/rsvp-for-earth-day-live?format=js&source=widget' }
-             ],
-             link: [
-                 { rel: 'stylesheet', href: 'https://actionnetwork.org/css/style-embed-v3.css' }
-             ]
-         }
+       return {
+           script: [
+               { src: `https://actionnetwork.org/widgets/v3/form/${actionNetworkFormPath}?format=js&source=widget` }
+           ],
+           link: [
+               { rel: 'stylesheet', href: 'https://actionnetwork.org/css/style-embed-v3.css' }
+           ]
+       }
      },
      data() {
          return { translate: this.$t('getInvolved.signUpForm') }
@@ -54,13 +60,14 @@
          })
 
          document.addEventListener('can_embed_submitted', () => {
-             this.$gtag('event', 'rsvp_form_submitted',
-                        {
-                            'event_category': 'sign',
-                            'event_label': 'action_network_form',
-             })
-             document.querySelectorAll('.splash-page-disclaimer').forEach((disclaimer) => {
-                 disclaimer.style.display = 'none'
+           document.querySelectorAll('.splash-page-disclaimer').forEach((disclaimer) => {
+             disclaimer.style.display = 'none'
+           })
+           const formSubmittedAction = this.isRsvpPage ? 'rsvp_form_submitted_rsvp_page' : 'rsvp_form_submitted'
+           this.$gtag('event', formSubmittedAction,
+             {
+               'event_category': 'sign',
+               'event_label': 'action_network_form',
              })
          })
      }
@@ -97,11 +104,14 @@
     color: #fd6f37 !important;
   }
 
-  #can-form-area-rsvp-for-earth-day-live {
+  #can-form-area-rsvp-for-earth-day-live,
+  #can-form-area-dia-de-la-tierra-2020-2 {
     border: none !important;
     background-color: #190825;
   }
-  #can-form-area-rsvp-for-earth-day-live #can_embed_form {
+
+  #can-form-area-rsvp-for-earth-day-live #can_embed_form,
+  #can-form-area-dia-de-la-tierra-2020-2 #can_embed_form {
     border: none !important;
     background-color: #190825 !important;
   }
@@ -172,16 +182,16 @@
   #can_embed_form .international_link {
     color: #fff !important;
   }
-
-  #can-form-area-rsvp-for-earth-day-live #can_embed_form #can_thank_you {
+  #can-form-area-rsvp-for-earth-day-live #can_embed_form #can_thank_you,
+  #can-form-area-dia-de-la-tierra-2020-2 #can_embed_form #can_thank_you {
     background-color: #190825 !important;
   }
-
-  #can-form-area-rsvp-for-earth-day-live #can_embed_form #can_thank_you h1 {
+  #can-form-area-rsvp-for-earth-day-live #can_embed_form #can_thank_you h1,
+  #can-form-area-dia-de-la-tierra-2020-2 #can_embed_form #can_thank_you h1 {
     font-family: titling-gothic-fb, sans-serif !important;
   }
-
-  #can-form-area-rsvp-for-earth-day-live #can_embed_form .can_thank_you-block h4 {
+  #can-form-area-rsvp-for-earth-day-live #can_embed_form .can_thank_you-block h4,
+  #can-form-area-dia-de-la-tierra-2020-2 #can_embed_form .can_thank_you-block h4 {
     color: #fff !important;
     font-family: neue-haas-grotesk-display, sans-serif !important;
   }
@@ -191,13 +201,13 @@
     color: #fff !important;
     font-family: neue-haas-grotesk-display, sans-serif !important;
   }
-
+  #can-form-area-rsvp-for-earth-day-live #can_embed_form span.can_select,
   #can-form-area-rsvp-for-earth-day-live #can_embed_form span.can_select {
     font-weight: 700 !important;
     padding: 0 20px !important;
     font-size: 1.2em !important;
   }
-
+  #can-form-area-rsvp-for-earth-day-live #can_embed_form .can_select span.can_selectInner,
   #can-form-area-rsvp-for-earth-day-live #can_embed_form .can_select span.can_selectInner {
     color: #190825 !important;
   }

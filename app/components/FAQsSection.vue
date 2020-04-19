@@ -2,45 +2,33 @@
   <section id="faqs">
     <div class="col-md-6 offset-md-3">
       <h1 class="section-title">
-        {{ translate.title }}
+        {{ title }}
       </h1>
       <img class="separator" src="~assets/images/separator.jpg" :alt="$t('getInvolved.common.separatorAlt')" />
-      <div>
-        <b-button v-b-toggle.collapse-1>
-          <h3>{{ translate.faq1Question }}</h3>
-        </b-button>
-        <b-collapse id="collapse-1" class="mt-2">
-          <b-card>
-            <p class="card-text">
-              {{ translate.faq1AnswerA }}
-            </p>
-            <p class="card-text">
-              {{ translate.faq1AnswerB }}
-            </p>
-          </b-card>
-        </b-collapse>
-      </div>
-      <div>
-        <b-button v-b-toggle.collapse-2>
-          <h3>{{ translate.faq2Question }}</h3>
-        </b-button>
-        <b-collapse id="collapse-2" class="mt-2">
-          <b-card>
-            <p class="card-text">
-              {{ translate.faq2Answer }}
-            </p>
-          </b-card>
-        </b-collapse>
+      <div v-for="(item, index) in faqsList" v-bind:key="index">
+        <FAQ
+          v-bind:question="item.question"
+          v-bind:answers="item.answers"
+          v-bind:index="index"
+        />
       </div>
     </div>
   </section>
 </template>
 
 <script>
+  import FAQ from '~/components/FAQ'
+
   export default {
-    name: "FAQsSection",
+    name: 'FAQsSection',
+    components: {
+      FAQ
+    },
     data() {
-      return { translate: this.$t('home.faqs') }
+      return {
+        title: this.$t('home.faqs.title'),
+        faqsList: this.$t('home.faqs.faqsList')
+      }
     },
   }
 </script>
@@ -56,29 +44,5 @@
   .section-title {
     text-align: center;
     text-transform: uppercase;
-  }
-
-  .btn-secondary {
-    color: #fff;
-    background: none;
-    border: none;
-  }
-
-  .btn-secondary:hover {
-    text-decoration: underline;
-  }
-  .btn-secondary:focus {
-    border: none;
-    box-shadow: none;
-  }
-  .card {
-    border: none;
-  }
-
-  .card-body {
-    text-align: justify;
-    background-color: #190825;
-    color: #fff;
-    border: none;
   }
 </style>

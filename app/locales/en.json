@@ -8,7 +8,7 @@
     "subtitle2": "The fights against the coronavirus and the climate crisis go hand-in-hand, and as we work to flatten the curve of this pandemic, we must strive toward the longer term goal of building a society rooted in sustainability and justice.",
     "subtitle3": "",
     "rsvpPageTitle": "A three day livestream to save humanity and our planet.",
-    "rsvpPageSubtitle": "Featuring Joaquin Phoenix, Moby, Jason Mraz, Lil Dicky, Talib Kweli, Matt McGorry, Ilyasah Shabazz and many more!",
+    "rsvpPageSubtitle": "Featuring Alexandria Ocasio-Cortez, Moby, Jason Mraz, Lil Dicky, Talib Kweli, Joaquin Phoenix, Matt McGorry, Ilyasah Shabazz and many more!",
     "nav": {
       "home": "Home",
       "participants": "Participants",
@@ -20,7 +20,7 @@
     "participants": {
       "title": "Participants",
       "featuring": "Featuring",
-      "participantList": "Aimee Mann, Al Gore, Angelique Kidjo, Bill McKibben, David Wallace Wells, Ilyasah Shabazz, Jason Mraz, Joaquin Phoenix, John Kerry, Lil Dicky, Luke Baines, Madame Gandhi, Margaret Klein Salamon, Mary Heglar, Matt McGorry, Moby, Mustafa Santiago Ali, Nahko The Bear, Ndaba Mandela, Patricia Arquette, Patrisse Cullors, ?uestlove, Reverend Dr. William Barber II, Rosanna Arquette, Stacey Abrams, Talib Kweli, Tim Heidecker",
+      "participantList": "Adam Gardner (Guster) • Al Gore • Alex Macnicoll • Alexandria Ocasio-Cortez • Aloe Blacc • Alyssa Milano • Amanda Palmer • Amber Valletta • Angela Rye • Angelique Kidjo • Ani DiFranco • Bill McKibben • Chef Alejandra Schrader • Chef Dominique Crenn • Chelsea Handler • Cody Simpson • Daniel Fernandez • David Wallace Wells • Devandra Barnhart • DJ Spooky • Dr Michael Greger • Dr. Sweta Chakraborty • Ed Begley Jr. • Emily Wells • Graham Riley • Ilyasah Shabazz • Jack Johnson • Jameela Jamil • Jason Mraz • Joaquin Phoenix • Kathryn Budig • Kirsten Vangsness • KT Tunstall • Lil Dicky • Lisa Edelstein • Local Natives • Louie Schwartzberg • Luke Baines • Madame Gandhi • Margaret Klein Salamon • Mark Ruffalo • Mary Heglar • Matt McGorry • Megan Boone • Michael Franti • Moby • Monica Dogra • Mumu Fresh • Mustafa Santiago Ali • Nahko Bear • Ndaba Mandela • NUKA • Other Lives • Patricia Arquette • Patrisse Cullors • Questlove • Rachel Ray • Rep. Lauren Underwood • Rep. Ted Lieu • Reverend Dr. William Barber II • Robby Romero • Rosanna Arquette • Russell Brand • Secretary John Kerry • Sharon Carpenter • Shepard Fairey • Siva • Smiles Davis • Soul Clap • Stacey Abrams • Stella McCartney • Talib Kweli • Tank and the Bangas • The Both -w- Aimee Mann and Ted Leo • Tim Heidecker • Tony Revolori • Vote Party • Will Anderson (Parachute)",
       "moreSoon": "And many more to be announced soon!"
     },
     "theThreeDays": {
@@ -47,11 +47,34 @@
     },
     "faqs": {
       "title": "FAQs",
-      "faq1Question": "Why Earth Day Live?",
-      "faq1AnswerA": "This is a monumental time in history. We are being forced to slow down, to pause, to re-evaluate our life paths, our purpose, and our connections to each other and the broader world around us. This moment presents a special opportunity to not only unite our movement around a shared common vision for a better future for humankind, but to welcome in organizers, friends, family and community members who have not been interested in being an active part of the climate movement. The world moves so fast. We may never get another change like this to bring so many people together to demand a future that works for all of us.",
-      "faq1AnswerB": "These are scary times. Many have lost jobs, loved ones, and are uncertain what the future looks like. Environmental, worker, and health protections are being rolled back, worsening the crisis. Now more than ever is the moment to come together and demand a just response to the pandemic and the climate crisis. In times of great turmoil, movements have been able to fundamentally transform society in ways that were never thought possible. The New Deal was born out of sustained protest and pressure during the Great Depression. Everyday people relentlessly advocated for the policies that brought the U.S. out of crisis, winning the support of FDR. This is our moment to bring forth the vision of the future we want to see. Livestreams are an opportunity to build community, educate, and propose solutions. We can bring hope, joy, and honesty in a time when so many are overwhelmed and isolated.",
-      "faq2Question": "How can I view the livestream?",
-      "faq2Answer": "The Earth Day Live stream will be viewable on this website, and will be the full user experience. In addition, it will be simulcast across major streaming platforms such as Facebook Live, YouTube, Instagram, Twitter and Twitch to engage with broader audiences. Partner organizations and an extensive network of major websites will be embedding the livestream as well."
+      "faqsList": [{
+        "question": "Why Earth Day Live?",
+        "answers": [
+          "This is a monumental time in history. We are being forced to slow down, to pause, to re-evaluate our life paths, our purpose, and our connections to each other and the broader world around us. This moment presents a special opportunity to not only unite our movement around a shared common vision for a better future for humankind, but to welcome in organizers, friends, family and community members who have not been interested in being an active part of the climate movement. The world moves so fast. We may never get another change like this to bring so many people together to demand a future that works for all of us.",
+          "These are scary times. Many have lost jobs, loved ones, and are uncertain what the future looks like. Environmental, worker, and health protections are being rolled back, worsening the crisis. Now more than ever is the moment to come together and demand a just response to the pandemic and the climate crisis. In times of great turmoil, movements have been able to fundamentally transform society in ways that were never thought possible. The New Deal was born out of sustained protest and pressure during the Great Depression. Everyday people relentlessly advocated for the policies that brought the U.S. out of crisis, winning the support of FDR. This is our moment to bring forth the vision of the future we want to see. Livestreams are an opportunity to build community, educate, and propose solutions. We can bring hope, joy, and honesty in a time when so many are overwhelmed and isolated."
+        ]}, {
+        "question": "How can I view the livestream?",
+        "answers": [
+          "The Earth Day Live stream will be viewable on this website, and will be the full user experience. In addition, it will be simulcast across major streaming platforms such as Facebook Live, YouTube, Instagram, Twitter and Twitch to engage with broader audiences. Partner organizations and an extensive network of major websites will be embedding the livestream as well."
+        ]}, {
+        "question": "What’s on the program?",
+        "answers": [
+          "Earth Day Live is three days of action packed content that will inspire, empower, educate. Grounding the three days in the need for community, hope, and togetherness during such a difficult time, the three days will still follow a similar theme as the original Earth Day Strikes.",
+          "On Wednesday, April 22, the kick off of Earth Day Live, we will demonstrate our collective power and unity through community building and storytelling. Originally a day of mass mobilization, we are leaning into healing and togetherness to provide comfort and inspiration during this time of unknown. As with all three days, we are using this platform to lift up the stories and voices of frontline, Indigenous, and POC leaders.",
+          "On the second day, Thursday, April 23, we will target financial institutions across the country, calling for a global reset. We want to reprogram the economy so that it works for people and planet, not polluters and politicians. As we work to rebuild from the damage COVID-19 has done, we will be offering actions and explanations in how this can be done in a sustainable and equitable way.",
+          "On the third day, Friday, April 24, we will focus on the urgency of political change through a nationwide youth voter registration day. We’ll be using this day as an opportunity to train youth organizers on using digital, relational voter registration tools, and calling on elected officials to support the youth climate strike demands."
+        ]}, {
+        "question": "Who is behind Earth Day Live?",
+        "answers": [
+          "The US Climate Strike Coalition and Stop The Money Pipeline Coalition, who together are made up of over 500 organizations, have come together to organize Earth Day Live.",
+          "The US Climate Strike Coalition is a coalition of over 400 organizations that formed ahead of the September 20, 2019 climate strikes. Led by the leading youth-led climate organizations in the US, the coalition works intergenerationally and collaboratively to coordinate the Climate Strikes in the US.",
+          "Stop the Money Pipeline is a coalition of over 100 climate, environmental and Indigneous rights groups that is demanding that the financial sector stops funding the fossil fuel industry and deforestation, and starts respecting Indigenous sovereignty and human rights."
+        ]}, {
+        "question": "How did Earth Day Live come to be?",
+        "answers": [
+          "Since January, organizers across the country have been planning what was to be the largest climate strike in history-- a three consecutive day strike beginning on April 22, the 50th Anniversary of Earth Day, and going through April 24. We were expecting this to be our largest strike but due to COVID-19, we of course needed to pivot our plans and take Earth Day 2020 digital. After conversations with hundreds of organizers and partners from across the country, we decided to build Earth Day Live. We have been working tirelessly over the last month to begin to reimagine what social movements can look like in the digital age and how we can still, despite all of the uncertainty and despair in the world, continue to build our movement to fight for a safe and just future for generations to come."
+        ]}
+      ]
     }
   },
   "checkMyRegistration": {
@@ -64,7 +87,7 @@
       "registerToVote": "Register To Vote",
       "tripleYourVote": "Triple Your Vote"
     },
-    "title": "Register to Vote for our Planet",
+    "title": "Register to Vote for the future",
     "subtitle": "We need to bring in a new generation of elected officials who understand the climate crises and who are prepared to take the necessary action to address it urgently. Register to vote now to ensure your voice is heard this November."
   },
   "registerToVote": {
@@ -181,6 +204,7 @@
   "footer": {
     "press": "Press:",
     "privacyPolicy": "Privacy Policy",
+    "termsPolicy": "Terms of Use",
     "madeWithLove": "Made with \u2764 for the future of humanity and our planet."
   }
 }

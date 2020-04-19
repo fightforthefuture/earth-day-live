@@ -3,7 +3,7 @@
     <b-navbar-toggle target="nav-collapse" id="hamburger-button"></b-navbar-toggle>
     <b-collapse id="nav-collapse" is-nav>
       <b-navbar-nav class="container">
-        <b-nav-item id="home-nav" @click="goTo('/')">{{ translate.home }}</b-nav-item>
+        <b-nav-item id="home-nav" @click="goTo(localePath('/'))">{{ translate.home }}</b-nav-item>
         <b-nav-item id="website-banner-nav" @click.prevent="scrollTo('#triple-your-vote')">{{ translate.tripleYourVote }}</b-nav-item>
       </b-navbar-nav>
     </b-collapse>

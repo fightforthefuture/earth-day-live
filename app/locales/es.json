@@ -1,9 +1,206 @@
 {
-  "home": {
-    "title": "Protesta, desinvierte y vota para salvar a la humanidad y a nuestro planeta.",
-    "subtitle1": "Desde el 22 hasta el 24 de abril, que es el 50º aniversario del Día de la Tierra, millones de personas alrededor del mundo estarán en línea virtualmente para una movilización de tres días para poner un paro a la crisis ambiental.",
-    "subtitle2": "Unetenos para tres días de acción — desde enseñanzas, presentaciones musicales, desinversiones , hasta más. Lo único que necesitas es una conexión a internet.",
-    "subtitle3": "Juntos, podemos transformar nuestro mundo a uno que no tan sólo sea sano y sostenible, pero que también florezca para las generaciones que vendrán después de nosotros."
+  "common": {
+    "whatsHappening": "¿Qué está pasando?"
   },
-  "footer": "Hecho con \u2764 por el futuro de nuestro planeta."
+  "home": {
+    "title": "Protesta, desinvierte y vota por nuestro futuro.",
+    "subtitle1": "Desde el 22 de abril, que es el 50º del Día de la Tierra, hasta el 24 de abril, activistas, celebridades, líderes de pensamiento y artistas se juntarán para una movilización por transmisión en vivo que sea empoderadora, inspiradora y comunitaria durante tres días seguidos.",
+    "subtitle2": "Las luchas en contra del coronavirus y la crisis climática van de mano a mano, y de la misma manera en que trabajamos para aplanar la curva de esta pandemia, debemos esforzarnos para llegar a la meta de largo plazo de construir una sociedad basada en la sostenibilidad y la justicia.",
+    "subtitle3": "",
+    "rsvpPageTitle": "Una transmisión en vivo de tres días para salvar a la humanidad y a nuestro planeta.",
+    "rsvpPageSubtitle": "¡Presentando a Joaquin Phoenix, Moby, Jason Mraz, Lil Dicky, Talib Kweli, Matt McGorry, Ilyasah Shabazz y a muchos más!",
+    "nav": {
+      "home": "Hogar",
+      "participants": "Participantes",
+      "theThreeDays": "Los tres días",
+      "localLivestreams": "Transmisiones locales",
+      "getInvolved": "Difunde la palabra",
+      "faqs": "Preguntas frecuentes"
+    },
+    "participants": {
+      "title": "Participantes",
+      "featuring": "Presentando",
+      "participantList": "Al Gore, Amanda Palmer, Amber Valletta, Angela Rye, Angelique Kidjo, Bill McKibben, Chef Alexandra Shrader, Chef Dominique Crenn, Daniel Fernandez, DJ Spooky, Dr Michael Greger, Dr. Sweta Chakraborty, Ed Begley Jr., Emily Wells, Ilyasah Shabazz, Jason Mraz, Joaquin Phoenix, Kathryn Budig, Laurie Anderson, Leonardo DiCaprio, Lil Dicky, Lisa Edelstein, Louie Schwartzberg, Luke Baines, Madame Gandhi, Matt McGorry, Megan Boone, Michael Franti, Moby, Monica Dogra, Mustafa Santiago Ali, Nahko, Ndaba Mandela, Patricia Arquette, Patrisse Cullors, Rep. Lauren Underwood, Rep. Ted Lieu, Reverend Barber/Reverend Liz, Robby Romero, Rosanna Arquette, Secretary John Kerry, Sharon Carpenter, Shepard Fairey, Soul Clap, Stacey Abrams, Talib Kweli, The Both -w- Aimee Mann an Ted Leo, Tim Heidecker, Tony Revolori.",
+      "moreSoon": "¡Y muchos más serán anunciados próximamente!"
+    },
+    "theThreeDays": {
+      "title": "Los tres días",
+      "description": "El Día de la Tierra en Vivo consistirá de una transmisión de tres días donde millones de personas podrán unirse a activistas, celebridades, músicos, y mucho más es un momento épico de comunidad y de esperanza para el futuro.",
+      "tab1Title": "22 de Abril",
+      "tab1SubTitle": "PROTESTA - El Día de la Tierra y los Movimientos Climáticos de la Juventud",
+      "tab1Description": "El 50º aniversario del Día de la Tierra, demostraremos nuestro poder colectivo y nuestra unidad a través de la construcción de comunidad y el cuento de historias. Este primer día se concentrará en amplificar las voces de los líderes jóvenes activistas e indígenas quienes lideran al movimiento para ponerle un paro a la crisis climática.",
+      "tab2Title": "23 de Abril",
+      "tab2SubTitle": "DESINVIERTE - Desinvestimiento y Financiamiento Climático",
+      "tab2Description": "Liderados por Stop the Money Pipeline Coalition, durante este día llamaremos por un reseteo global. Queremos reprogramar la economía para que trabaje para las personas y el planeta, no para contaminadores y políticos.",
+      "tab3Title": "24 de Abril",
+      "tab3SubTitle": "VOTA - Registración de Votantes y Compromiso Civil",
+      "tab3Description": "Necesitamos líderes quienes atiendan esta crisis existencial, y para que esto pase, necesitamos que las personas asistan a los centros de votación este año y que voten por el futuro del planeta. Así que el último día se concentrará en la urgencia para un cambio político a través de un día nacional de registración de jóvenes votantes."
+    },
+    "localLivestreams": {
+      "title": "Encuentra una transmisión local",
+      "description": "Cientos de organizadores jóvenes, activistas de la justicia ambiental, y comunidades de vanguardia también estarán dirigiendo transmisiones locales para el Día de la Tierra. Encuentra una transmisión cerca de ti y haz clic para unirte."
+    },
+    "getInvolved": {
+      "title": "Difunde la Palabra",
+      "description": "¿Quieres ayudar a que el Día de la Tierra en Vivo llegue a todas las esquinas del internet? Tenemos un widget que puedes añadir a tu sitio web, gráficos para las redes sociales, publicidades, y más. ¡Difunde la palabra a todos los que conozcas!",
+      "buttonText": "Obtén los recursos"
+    },
+    "faqs": {
+      "title": "Preguntas frecuentes",
+      "faqsList": [{
+        "question": "¿Por qué el Día de la Tierra?",
+        "answers": [
+          "Este es un momento monumental en la historia. Nos vemos forzados a desacelerar, pausar, reevaluar el camino de nuestras vidas, nuestro propósito, y nuestras conexiones con las personas y el mundo a nuestro alrededor. Este momento presenta una oportunidad especial para no tan sólo unir nuestro movimiento alrededor de una visión común para un futuro mejor para la humanidad, pero también para bienvenir a organizadores, amigos, familia y miembros de nuestras comunidades quienes no han estado interesados en ser partes activas del movimiento climático. El mundo se mueve tan rápido. Tal vez nunca tengamos otra oportunidad para traer a tantas personas juntas y demandar un futuro que funcione para todos nosotros.",
+          "Estos son tiempos oscuros. Muchos han perdido sus trabajos, a sus seres queridos, y no saben qué les depara el futuro. Protecciones ambientales, laborales y de salud están siendo reducidas, agravando la crisis. Ahora más que nunca es el momento de unirnos y demandar una respuesta justa a la pandemia y a la crisis climática. En tiempos de gran agitación, movimientos han sido capaces de transformar fundamentalmente la sociedad en maneras que nunca se habían creído posible. El Trato Nuevo nació dado a las protesta y presión sostenida durante la Gran Depresión. Cada día las personas arduamente abogaban por las políticas que sacaron a los Estados Unidos fuera de la crisis, ganando el apoyo de FDR. Este es nuestro momento de traer a la luz la visión del futuro que queremos ver.  Las transmisiones son una oportunidad para construir comunidad, educar y proponer soluciones. Podemos traer esperanza, alegría, y honestidad durante un tiempo durante el cual tantas personas están abrumadas y aisladas."
+        ]}, {
+        "question": "¿Cómo puedo ver la transmisión?",
+        "answers": [
+          "La transmisión del Día de la Tierra en Vivo será visible en este sitio web, y será la máxima experiencia del usuario. Adicionalmente, será transmitida simultáneamente a través de varias plataformas como Facebook, Youtube, Instagram, Twitter y Twitch para alcanzar a una audiencia más amplia. Organizaciones aliadas y una red extensiva de sitios web de renombre también estarán transmitiendo la programación."
+        ]}, {
+        "question": "¿Qué habrá en la programación?",
+        "answers": [
+          "El Día de la Tierra en Vivo es un contenido lleno de acción que va a inspirar, empoderar y educar. Basando los tres día en la necesidad de comunidad, esperanza, y solidaridad durante estos tiempos difíciles, los tres día aún seguirán un tema similar al de los Movimientos del Día de la Tierra originales.",
+          "El miércoles 22 de abril, el inicio del Día de la Tierra en Vivo, vamos a demostrar nuestro poder colectivo y nuestra unidad a través de la construcción de comunidad y el cuento de historias. Aunque originalmente iba a ser un día de movilización masiva, nos estamos inclinando a la sanación y a la solidaridad para proveer comodidad e inspiración durante estos tiempos inciertos. Como cada uno de los tres días, vamos a escuchar las historias de líderes indígenas y de personas de color.",
+          "El segundo día, jueves 23 de abril, nos concentramos en las instituciones financieras a lo largo del país, llamando por un reseteo mundial. Queremos reprogramar la economía para que trabaje para las personas y el planeta, no para contaminadores y políticos. Como trabajamos para reconstruir por el daño que el COVID-19 ha causado, estaremos ofreciendo acciones y explicaciones sobre cómo se puede hacer esto de una manera sostenible y equitativa.",
+          "El tercer día, viernes 24 de abril, nos vamos a concentrar en la urgencia de un cambio político a través de una campaña nacional dirigida por la juventud para registrar a votantes, incluyendo un desafío digital y relacional para ver cuál región del país puede registrar más votantes, y también llamaremos a oficiales electos para que apoyen nuestras demandas."
+        ]}, {
+        "question": "¿Quién está detrás del Día de la Tierra en Vivo?",
+        "answers": [
+          "La coalición de US Climate Strike y la de Stop The Money Pipeline Coalition, que juntas consisten de más de 500 organizaciones que se han reunido para organizar el Día de la Tierra en Vivo.",
+          "La coalición de US Climate Strike está compuesta de 400 organizaciones que se formaron para los movimientos ambientales del 20 de septiembre del 2019. Dirigida por las principales organizaciones climáticas lideradas por la juventud de los Estados Unidos, la coalición trabaja intergeneracionalmente, y colaborativamente para coordinar los movimientos climáticos en los Estados Unidos.",
+          "La coalición de Stop the Money Pipeline es una organización de más de 100 grupos climáticos, ambientales y de derechos indígenas que demanda que el sector financiero deje de financiar la industria del combustible fósil y la deforestación, y empiece a respetar la soberanía indigena y los derechos humanos."
+        ]}, {
+        "question": "¿Qué dio luz al Día de la Tierra en Vivo?",
+        "answers": [
+          "Desde enero, organizadores a lo largo del país habían estado planeando el movimiento climático más grande de la historia - un movimiento de tres días consecutivos empezando el 22 de abril, el 50ºaniversario del Día de la Tierra, hasta el 24 de abril. Queríamos que esta fuera nuestra movilización más grande, pero debido al COVID-19, por supuesto debemos cambiar nuestros planes y mover el Día de la Tierra 2020 al mundo digital. Después de conversaciones con cientos de organizadores y socios a lo largo del país, decidimos construir el Día de la Tierra en Vivo. Hemos estado trabajando sin descanso el último mes para comenzar a reimaginar cómo se ven los movimientos sociales en la era digital y cómo podemos, a pesar de toda la incertidumbre y desesperación en el mundo, continuar construyendo nuestro movimiento para luchar por un futuro seguro y justo para las generaciones adelante."
+        ]}
+      ]
+    }
+  },
+  "vote": {
+    "nav": {
+      "home": "Hogar",
+      "registerToVote": "Regístrate Para Votar",
+      "tripleYourVote": "Triplica Tu Voto"
+    },
+    "title": "Regístrate Para Votar Por Nuestro Planeta",
+    "subtitle": "Necesitamos traer a una nueva generación de oficiales electos quienes entiendan la crisis climática y quienes estén preparados para realizar las acciones necesarias urgentemente. Regístrate para votar ahora para asegurarte de que tu voz sea oída este Noviembre."
+  },
+  "registerToVote": {
+    "title": "Regístrate Para Votar Por Nuestro Planeta",
+    "description": "Necesitamos traer a una nueva generación de oficiales electos quienes entiendan la crisis climática y quienes estén preparados para realizar las acciones necesarias urgentemente. Regístrate para votar ahora para asegurarte de que tu voz sea oída este Noviembre."
+  },
+  "tripleYourVote": {
+    "title": "Triplica Your Vote",
+    "description1": "Gracias por registrarte para votar - eres genial :) El próximo paso es recordarle a tus amigos para que voten también. Necesitamos que todos se nos unan este año si queremos salvar nuestro futuro.",
+    "description2": "¿Podemos contar contigo para que le recuerdes a tres de tus amigos para que voten?",
+    "description3": "Recibirás noticias periódicas. Cobros por msg & data rates aplican. Responde STOP para dejar de estar suscrito o HELP para recibir ayuda. Vea nuestra",
+    "privacy": "Póliza de Privacidad",
+    "description4": "para más información.",
+    "textCta": "Textea \"earthvote\" al 56525 ahora para empezar.",
+    "tripleYourVoteImage": "Textea and triplica tu voto"
+  },
+  "getInvolved": {
+    "title": "Difunde la palabra para ayudar a salvar al mundo.",
+    "common": {
+      "separatorAlt": "Separator",
+      "arrowAlt": "Arrow"
+    },
+    "nav": {
+      "home": "Hogar",
+      "websiteBanner": "Estandarte del Sitio",
+      "bannerAds": "Publicidades del Estandarte",
+      "socialDownloads": "Descargas Sociales",
+      "withUs": "¿Estás con nosotros?"
+    },
+    "logo": {
+      "eclipseAlt": "Eclipse",
+      "edlAlt": "Día de la Tierra en Vivo"
+    },
+    "readyButton": {
+      "readyButton": "Estoy Listo",
+      "scrollDownAlt": "Scroll Down"
+    },
+    "whatsHappening": {
+      "descriptionA": "Es más importante ahora que nunca que nos unamos y apoyemos el uno al otro. Por eso, en el aniversario 50 del Día de la Tierra, lanzaremos una transmisión en vivo masiva desde el 22 hasta el 24 de abril donde puedes unirte a activistas, celebridades, músicos, y más en un momento épico de comunidad y esperanza para nuestro futuro. Junto, vamos a:",
+      "descriptionB": "Dirigir donaciones en beneficio del esfuerzo para el alivio por el COVID-19",
+      "descriptionC": "Demandar a líderes mundiales a que tomen acciones de emergencia para construir un mundo más sostenible y justo",
+      "descriptionD": "Inspirar a millones de personas a que se comprometan a votar por nuestro futuro.",
+      "descriptionE": "Por 5o años, hemos estado perdiendo la batalla por nuestro planeta. Pero podemos hacer este el siglo en que salvamos al mundo — empezando el Día de la Tierra. Aquí está cómo puedes difundir la palabra y agrandar esto lo más posible."
+    },
+    "websiteBanner": {
+      "title": "Añade nuestro estandarte",
+      "body1": "Difunde la palabra sobre el Día de la Tierra en Vivo con un pequeño, pero poderoso, estandarte. ¡El Día de la Tierra, expande el estandarte a pantalla completa para que tu sitio web se una a la movilización!",
+      "body2": "Simplemente añade esta línea de JavaScript a cualquier página en tu sitio web para unirte al Día de la Tierra en Vivo:",
+      "tryIt": "Pruébalo",
+      "instructionsDescription": "También tenemos instrucciones sobre cómo instalar el widget en plataformas comunes de sitios web::",
+      "wordpress": "WordPress",
+      "squarespace": "Squarespace",
+      "tumblr": "Tumblr",
+      "shopify": "Shopify",
+      "demo": "demo",
+      "center1": "El widget aparecerá en tu página como un pie de página cerrable cómo lo ves aquí",
+      "center2": "Entonces el 22 de abril, el widget puede expandirse para mostrar que tu sitio apoya el Día de la Tierra en Vivo",
+      "center3": "Una superposición cerrable está incluida como parte del widget",
+      "body3": {
+        "preLink": "Visita nuestra",
+        "linkText": "página de GitHub",
+        "postLink": "para aprender cómo puedes personalizar la experiencia del usuario o el comportamiento del widget. Por favor siéntete libre de crear tu propia forma personalizada de crear conciencia sobre el Día de la Tierra en Vivo en tu sitio web."
+      },
+      "body4": {
+        "preLink": "Si usas tu sitio para difundir la palabra de cualquier forma, por favor déjanos saber alI",
+        "linkText": "llenar el formulario abajo",
+        "postLink": ". Esto es muy importante para que podamos ayudar a amplificar tu impacto y movilizar mientras más gente posible a ayudar a ponerle un paro a la crisis climática."
+      }
+    },
+    "bannerAds": {
+      "title": "Use estas publicidades de estandarte",
+      "description": "¿Diriges un sitio web o blog? Usa estas publicidades de estandarte para difundir la palabra sobre el Día de la Tierra en Vivo. Hay muchos",
+      "linkText": "tamaños de publicidades de las que elegir aquí",
+      "smallAlt": "¿Listo para ayudar a salvar el mundo? (Banner Ad 600x628)",
+      "largeAlt": "¿Listo para ayudar a salvar el mundo? (Banner Ad 970x90)"
+    },
+    "socialDownloads": {
+      "title": "Difunde la palabra",
+      "description": "¿Usas las redes sociales? Comparte estos gráficos del Día de la Tierra en tu esquina del internet para difundir la palabra.",
+      "download": "Descarga ahora",
+      "postAlt": "Publicación de Instagram",
+      "storyAlt": "Historia de Instagram"
+    },
+    "withUs": {
+      "title": "¿Estás con nosotros?",
+      "description": "Juntos, podemos transformar nuestro mundo a uno que no tan sólo sea seguro y sostenible, si que también prospere para las generaciones adelante."
+    },
+    "signUpForm": {
+      "disclaimer1": "Puede que recibas notificaciones de",
+      "disclaimer2": " US Climate Strike",
+      "disclaimer3": ", el patrocinador de este formulario"
+    },
+    "signUpThankYou": {
+      "title": "¡Gracias por unirte al Día de la Tierra en Vivo!",
+      "description": "Durante este año crítico de elecciones, cada uno de nosotros debe usar su voz y tomar acción para proteger nuestras vidas y nuestros futuros.",
+      "areYouRegistered": "¿Estás registrado para votar?",
+      "registerNotSureTitle": "¡Aún no!",
+      "registerNotSureDescription1": "No te preocupes. Nosotros te ayudamos.",
+      "registerNotSureDescription2": "¡Es fácil!",
+      "registerNotSureButton": "Registrate para votar",
+      "registeredTitle": "Sí, lo estoy",
+      "registeredDescription1": "¡Fantástico! Ahora haz esta simple cosa para triplicar el impacto de tu voto",
+      "registeredDescription2": "",
+      "registeredButton": "Triplica tu voto"
+    },
+    "signUpShare": {
+      "subTitle": "Lo puedes compartir con tus amigos:",
+      "facebook": "Compartir por Facebook",
+      "twitter": "Compartir por Twitter",
+      "linkedIn": "Compartir por LinkedIn",
+      "copyLink": "Compartir el enlace"
+    }
+  },
+  "footer": {
+    "press": "Presiona:",
+    "termsPolicy": "Términos de uso",
+    "privacyPolicy": "Póliza de privacidad",
+    "madeWithLove": "Hecho con \u2764 para el futuro de la humanidad y de nuestro planeta.."
+  }
 }

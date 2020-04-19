@@ -3,11 +3,12 @@
     <b-navbar-toggle target="nav-collapse" id="hamburger-button"></b-navbar-toggle>
     <b-collapse id="nav-collapse" is-nav>
       <b-navbar-nav class="container">
-        <b-nav-item id="home-icon-nav" @click="goTo('/')">{{ translate.home }}</b-nav-item>
+        <b-nav-item id="home-icon-nav" @click="goTo(localePath('/'))">{{ translate.home }}</b-nav-item>
         <b-nav-item id="whats-happening-nav" @click.prevent="scrollTo('#whats-happening')">{{ $t('common.whatsHappening') }}</b-nav-item>
         <b-nav-item id="website-banner-nav" @click.prevent="scrollTo('#website-banner')">{{ translate.websiteBanner }}</b-nav-item>
         <b-nav-item id="banner-ads-nav" @click.prevent="scrollTo('#banner-ads')">{{ translate.bannerAds }}</b-nav-item>
         <b-nav-item id="social-downloads-nav" @click.prevent="scrollTo('#social-downloads')">{{ translate.socialDownloads }}</b-nav-item>
+        <b-nav-item id="website-participants-nav" @click.prevent="scrollTo('#website-participants')">{{ $t('home.nav.participants') }}</b-nav-item>
         <b-nav-item id="are-you-with-us-nav" @click.prevent="scrollTo('#are-you-with-us')">{{ translate.withUs }}</b-nav-item>
       </b-navbar-nav>
     </b-collapse>

@@ -22,6 +22,9 @@ export default {
     link: [
       { rel: 'icon', type: 'image/x-icon', href: '/favicon.ico' },
       { rel: 'stylesheet', href: 'https://use.typekit.net/kgg8gke.css' },
+    ],
+    script: [
+      { src: '/js/pixel.js' }
     ]
   },
   loading: { color: '#e3e9ec' },
@@ -32,7 +35,7 @@ export default {
   */
   plugins: [
     { src: './plugins/clipboardCopy.js' },
-    { src: './plugins/cookie.js' }
+    { src: './plugins/cookie.js' },
   ],
   /*
   ** Nuxt.js dev-modules
@@ -72,7 +75,16 @@ export default {
       'nuxt-i18n',
       {
         strategy: "prefix_except_default",
-        locales: ["en", "es"],
+        locales: [
+          {
+            code: 'en',
+            name: 'English'
+          },
+          {
+            code: 'es',
+            name: 'Español'
+          },
+        ],
         defaultLocale: "en",  // The locale to use if the current locale can't be found
         vueI18n: {
           locale: "en",  // Default locale

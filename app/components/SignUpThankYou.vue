@@ -35,6 +35,9 @@
 
     export default {
       name: "SignUpThankYou",
+      props: {
+        isRsvpPage: Boolean
+      },
       components: {
         SignUpShare
       },
@@ -54,7 +57,8 @@
 
           smoothScrollToElement('#register-to-vote', 500)
 
-          this.$gtag('event', 'registered_not_sure_button_click',
+          const buttonClickAction = this.isRsvpPage ? 'registered_not_sure_button_click_rsvp_page' : 'registered_not_sure_button_click'
+          this.$gtag('event', buttonClickAction,
             {
               'event_category': 'voter_registration',
               'event_label': 'registered_not_sure_button',
@@ -64,7 +68,8 @@
           document.getElementById('triple-your-vote').style.display = 'block'
           smoothScrollToElement('#triple-your-vote', 500)
 
-          this.$gtag('event', 'registered_button_click',
+          const buttonClickAction = this.isRsvpPage ? 'registered_button_click_rsvp_page' : 'registered_button_click'
+          this.$gtag('event', buttonClickAction,
             {
               'event_category': 'voter_registration',
               'event_label': 'registered_button',

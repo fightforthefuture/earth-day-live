@@ -16,8 +16,8 @@
         </div>
       </div>
     </div>
-    <SignUpForm />
-    <SignUpThankYou />
+    <SignUpForm v-bind:is-rsvp-page="true" />
+    <SignUpThankYou v-bind:is-rsvp-page="true" />
     <RegisterToVoteForm />
     <TripleYourVote />
     <ParticipantsSection />

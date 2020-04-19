@@ -15,14 +15,12 @@
           <ImReadyButton />
         </div>
       </div>
-      <video loop muted autoplay poster="~assets/images/earth-day-live-gradient.jpg" class="video-background">
-        <source src="~assets/images/animated-background.mp4" type="video/mp4">
-      </video>
     </div>
     <WhatsHappening />
     <WebsiteBanner />
     <BannerAds />
     <SocialDownloads />
+    <WebsiteParticipants />
     <AreYouWithUs />
     <div class="are-you-with-us-signup-wrapper">
       <div class="col-md-8 offset-md-2">
@@ -41,6 +39,7 @@
   import WebsiteBanner from '~/components/WebsiteBanner'
   import BannerAds from '~/components/BannerAds'
   import SocialDownloads from '~/components/SocialDownloads'
+  import WebsiteParticipants from '~/components/WebsiteParticipants'
   import AreYouWithUs from '~/components/AreYouWithUs'
   import SignUpForm from '~/components/SignUpForm'
   import PageFooter from '~/components/PageFooter'
@@ -54,6 +53,7 @@
       WebsiteBanner,
       BannerAds,
       SocialDownloads,
+      WebsiteParticipants,
       AreYouWithUs,
       SignUpForm, //eslint-disable-line
       PageFooter,
@@ -68,11 +68,6 @@
 </script>
 
 <style>
-  .video-background {
-    position: fixed;
-    z-index: -1;
-    height: 300vh;
-  }
 
   .container-fluid.get-involved-container {
     margin: 0 auto;
@@ -80,8 +75,12 @@
     justify-content: center;
     align-items: center;
     text-align: center;
+    background: url('~assets/images/earth-day-live-gradient.jpg') no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
     padding-bottom: 50px;
-    overflow: hidden;
   }
 
   .are-you-with-us-signup-wrapper {

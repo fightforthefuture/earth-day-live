@@ -18,12 +18,9 @@
           </h4>
         </div>
       </div>
-      <video loop muted autoplay poster="~assets/images/earth-day-live-gradient.jpg" class="video-background">
-        <source src="~assets/images/animated-background.mp4" type="video/mp4">
-      </video>
     </div>
-    <SignUpForm />
-    <SignUpThankYou />
+    <SignUpForm v-bind:is-rsvp-page="false"/>
+    <SignUpThankYou v-bind:is-rsvp-page="false"/>
     <CheckMyRegistrationForm />
     <RegisterToVoteForm />
     <TripleYourVote />
@@ -77,22 +74,19 @@ export default {
 
 <style>
 
-.video-background {
-  position: fixed;
-  z-index: -1;
-  height: 300vh;
-}
-
 .header-container {
   margin: 0 auto;
   display: flex;
   justify-content: center;
   align-items: center;
   text-align: center;
+  background: url('~assets/images/earth-day-live-gradient.jpg') no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
   padding-bottom: 130px;
-  overflow: hidden;
 }
-
 .title {
   padding-bottom: 30px;
 }
