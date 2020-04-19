@@ -6,17 +6,17 @@
           <div class="col" id="schedule-top-right-corner">
           </div>
           <div class="col date-box" id="april-22">
-            <h2>April 22nd</h2>
+            <h2>April 22</h2>
           </div>
           <div class="col date-box" id="april-23">
-            <h2>April 23rd</h2>
+            <h2>April 23</h2>
           </div>
           <div class="col date-box" id="april-24">
-            <h2>April 24th</h2>
+            <h2>April 24</h2>
           </div>
         </div>
         <div class="row text-left" v-for="(time, index) in TIMESLOTS" v-bind:key="index" style="margin: auto">
-          <div class="col">
+          <div class="col schedule-hour">
             <h2 class="hour">{{time}}</h2>
             <h3 class="est">EST</h3>
           </div>
@@ -53,7 +53,7 @@
     },
     data() {
       return {
-        TIMESLOTS: ["10:00am", "11:00am", "12:00pm", "1:00pm", "2:00pm", "3:00pm", "4:00pm", "5:00pm", "6:00pm", "7:00pm", "8:00pm", "9:00pm", "10:00pm"],
+        TIMESLOTS: ["8:00am", "9:00am", "10:00am", "11:00am", "12:00pm", "1:00pm", "2:00pm", "3:00pm", "4:00pm", "5:00pm", "6:00pm", "7:00pm", "8:00pm"],
         eventsOnThe22nd: this.$t('home.events.april-22'),
         eventsOnThe23rd: this.$t('home.events.april-23'),
         eventsOnThe24th: this.$t('home.events.april-24')
@@ -116,5 +116,16 @@
     background: linear-gradient(to right, #88c656, #cbdb2a, #f8d233, #f47d3a, #f26146);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
+  }
+
+  @media (max-width: 767px) {
+    #schedule-top-right-corner,
+    .schedule-hour {
+      display: none;
+    }
+
+    .date-box h2 {
+      font-size: 1.2em;
+    }
   }
 </style>

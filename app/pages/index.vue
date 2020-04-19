@@ -24,7 +24,6 @@
     <RegisterToVoteForm />
     <TripleYourVote />
     <ParticipantsSection />
-    <ScheduleSection />
     <TheThreeDaysSection />
     <LocalLivestreamsSection />
     <GetInvolvedSection />
@@ -38,15 +37,14 @@ import Logo from '~/components/Logo'
 import SignUpForm from '~/components/SignUpForm'
 import PageFooter from '~/components/PageFooter'
 import RegisterToVoteForm from '~/components/RegisterToVoteForm'
-import HomePageNav from "~/components/HomePageNav";
-import ParticipantsSection from "~/components/ParticipantsSection";
-import ScheduleSection from "~/components/ScheduleSection";
-import TheThreeDaysSection from "~/components/TheThreeDaysSection";
-import LocalLivestreamsSection from "~/components/LocalLivestreamsSection";
-import GetInvolvedSection from "~/components/GetInvolvedSection";
-import FAQsSection from "~/components/FAQsSection";
-import SignUpThankYou from "~/components/SignUpThankYou";
-import TripleYourVote from "~/components/TripleYourVote";
+import HomePageNav from "~/components/HomePageNav"
+import ParticipantsSection from "~/components/ParticipantsSection"
+import TheThreeDaysSection from "~/components/TheThreeDaysSection"
+import LocalLivestreamsSection from "~/components/LocalLivestreamsSection"
+import GetInvolvedSection from "~/components/GetInvolvedSection"
+import FAQsSection from "~/components/FAQsSection"
+import SignUpThankYou from "~/components/SignUpThankYou"
+import TripleYourVote from "~/components/TripleYourVote"
 
 export default {
   data() {
@@ -66,7 +64,6 @@ export default {
     TheThreeDaysSection,
     LocalLivestreamsSection,
     ParticipantsSection,
-    ScheduleSection,
     PageFooter,
   }
 }

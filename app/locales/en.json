@@ -47,70 +47,73 @@
     },
     "events": {
       "april-22": {
-        "10:00am": [
+        "8:00am": [
           {
-           "eventTime": "10:00",
-           "description": "Some event on the 22nd that is not real and now I'm just typing"
+           "eventTime": "8:00",
+           "description": "Indigenous Elders Opening Ceremony"
          }, {
-            "eventTime": "10:30",
-            "description": "Some event on the 22nd that is not real and now I'm just typing"
+            "eventTime": "8:20",
+            "description": "Dave Matthews Performance"
+          }, {
+            "eventTime": "8:25",
+            "description": "Yoga with Nicole Cardoza"
           }
         ],
-        "11:00am": [
+        "9:00am": [
           {
-             "eventTime": "11:00",
+             "eventTime": "9:00",
              "description": "Some event on the 22nd that is not real and now I'm just typing"
            },
            {
-              "eventTime": "11:30",
+              "eventTime": "9:30",
               "description": "Some event on the 22nd that is not real and now I'm just typing"
             },
             {
-               "eventTime": "11:45",
+               "eventTime": "9:45",
                "description": "Some event on the 22nd that is not real and now I'm just typing"
              }
         ]
       },
 
       "april-23": {
-        "10:00am": [
+        "8:00am": [
           {
-           "eventTime": "10:00",
+           "eventTime": "8:00",
            "description": "Some event on the 23rd that is not real and now I'm just typing"
          }, {
-            "eventTime": "10:30",
+            "eventTime": "8:30",
             "description": "Some event on the 23rd that is not real and now I'm just typing"
           }
         ],
-        "11:00am": [
+        "9:00am": [
           {
-             "eventTime": "11:00",
+             "eventTime": "9:00",
              "description": "Some event on the 23rd that is not real and now I'm just typing"
            },
            {
-              "eventTime": "11:30",
+              "eventTime": "9:30",
               "description": "Some event on the 23rd that is not real and now I'm just typing"
             }
         ]
       },
 
       "april-24": {
-        "10:00am": [
+        "8:00am": [
           {
-           "eventTime": "10:00",
+           "eventTime": "8:00",
            "description": "Some event on the 24th that is not real and now I'm just typing"
          }, {
-            "eventTime": "10:30",
+            "eventTime": "8:30",
             "description": "Some event on the 24th that is not real and now I'm just typing"
           }
         ],
-        "11:00am": [
+        "9:00am": [
           {
-             "eventTime": "11:00",
+             "eventTime": "9:00",
              "description": "Some event on the 24th that is not real and now I'm just typing"
            },
            {
-              "eventTime": "11:30",
+              "eventTime": "9:30",
               "description": "Some event on the 24th that is not real and now I'm just typing"
             }
         ]
