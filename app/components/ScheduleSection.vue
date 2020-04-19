@@ -1,0 +1,103 @@
+<template id="schedule-container">
+  <div class="container">
+    <div class="text-center" id="schedule">
+      <div class="row" style="margin: auto">
+        <div class="col" id="schedule-top-right-corner">
+        </div>
+        <div class="col date-box" id="april-22">
+          <h2>April 22nd</h2>
+        </div>
+        <div class="col date-box" id="april-23">
+          <h2>April 23rd</h2>
+        </div>
+        <div class="col date-box" id="april-24">
+          <h2>April 24th</h2>
+        </div>
+      </div>
+      <div class="row text-left" v-for="(time, index) in TIMESLOTS" v-bind:key="index" style="margin: auto">
+        <div class="col">
+          <h2 id="hour">{{time}}</h2>
+          <h3 id="est">EST</h3>
+        </div>
+        <HourOfEvents 
+          v-bind:events=eventsOnThe22nd[time]
+          v-bind:index="index" 
+          date="april-22"
+        />
+        <HourOfEvents 
+          v-bind:events=eventsOnThe23rd[time]
+          v-bind:index="index" 
+          date="april-23"
+        />
+        <HourOfEvents 
+          v-bind:events=eventsOnThe24th[time] 
+          v-bind:index="index" 
+          date="april-24"
+        />
+      </div>
+    </div>
+  </div>
+</template>
+
+<script>
+  import HourOfEvents from '~/components/HourOfEvents'
+
+  export default {
+    name: "ScheduleSection",
+    components: {
+      HourOfEvents
+    },
+    data() {
+      return {
+        TIMESLOTS: ["10:00am", "11:00am", "12:00pm", "1:00pm", "2:00pm", "3:00pm", "4:00pm", "5:00pm", "6:00pm", "7:00pm", "8:00pm", "9:00pm", "10:00pm"],
+        eventsOnThe22nd: this.$t('home.events.april-22'),
+        eventsOnThe23rd: this.$t('home.events.april-23'),
+        eventsOnThe24th: this.$t('home.events.april-24')
+      }
+    },
+  }
+</script>
+
+<style scoped>
+  #schedule {
+    background-color: #240e34;
+    color: #f8f8f8;
+  }
+
+  .container {
+    background-color: #f8f8f8;
+  }
+
+  #times-and-descriptions {
+    padding-top: 5%;
+  }
+
+  #schedule-top-right-corner {
+    background-color: #f8f8f8;
+  }
+  
+  #april-22 {
+    background-image: linear-gradient(to right, #f26146, #fb722c, #f65b5a, #f85371);
+  }
+
+  #april-23 {
+    background-image: linear-gradient(to right, #88c656, #c3b449, #95c552, #88c656);
+  }
+
+  #april-24 {
+    background-image: linear-gradient(to right, #ec688d, #e671a4, #cd79b1, #ec688d);
+  }
+
+
+  .date-box {
+    padding-top: 1.5%;
+    padding-bottom: 1.5%;
+  }
+
+  #hour,
+  #est {
+    background: linear-gradient(to right, #88c656, #cbdb2a, #f8d233, #f47d3a, #f26146);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+  }
+</style>

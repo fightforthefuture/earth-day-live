@@ -45,6 +45,77 @@
       "description": "Want to help Earth Day Live reach every corner of the internet? We've got a widget to add to your website, social media graphics, banner ads, and more. Get the word out to everyone you know!",
       "buttonText": "Get the resources"
     },
+    "events": {
+      "april-22": {
+        "10:00am": [
+          {
+           "eventTime": "10:00",
+           "description": "Some event on the 22nd that is not real and now I'm just typing"
+         }, {
+            "eventTime": "10:30",
+            "description": "Some event on the 22nd that is not real and now I'm just typing"
+          }
+        ],
+        "11:00am": [
+          {
+             "eventTime": "11:00",
+             "description": "Some event on the 22nd that is not real and now I'm just typing"
+           },
+           {
+              "eventTime": "11:30",
+              "description": "Some event on the 22nd that is not real and now I'm just typing"
+            },
+            {
+               "eventTime": "11:45",
+               "description": "Some event on the 22nd that is not real and now I'm just typing"
+             }
+        ]
+      },
+
+      "april-23": {
+        "10:00am": [
+          {
+           "eventTime": "10:00",
+           "description": "Some event on the 23rd that is not real and now I'm just typing"
+         }, {
+            "eventTime": "10:30",
+            "description": "Some event on the 23rd that is not real and now I'm just typing"
+          }
+        ],
+        "11:00am": [
+          {
+             "eventTime": "11:00",
+             "description": "Some event on the 23rd that is not real and now I'm just typing"
+           },
+           {
+              "eventTime": "11:30",
+              "description": "Some event on the 23rd that is not real and now I'm just typing"
+            }
+        ]
+      },
+
+      "april-24": {
+        "10:00am": [
+          {
+           "eventTime": "10:00",
+           "description": "Some event on the 24th that is not real and now I'm just typing"
+         }, {
+            "eventTime": "10:30",
+            "description": "Some event on the 24th that is not real and now I'm just typing"
+          }
+        ],
+        "11:00am": [
+          {
+             "eventTime": "11:00",
+             "description": "Some event on the 24th that is not real and now I'm just typing"
+           },
+           {
+              "eventTime": "11:30",
+              "description": "Some event on the 24th that is not real and now I'm just typing"
+            }
+        ]
+      }
+    },
     "faqs": {
       "title": "FAQs",
       "faqsList": [{

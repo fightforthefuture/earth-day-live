@@ -24,6 +24,7 @@
     <RegisterToVoteForm />
     <TripleYourVote />
     <ParticipantsSection />
+    <ScheduleSection />
     <TheThreeDaysSection />
     <LocalLivestreamsSection />
     <GetInvolvedSection />
@@ -39,6 +40,7 @@ import PageFooter from '~/components/PageFooter'
 import RegisterToVoteForm from '~/components/RegisterToVoteForm'
 import HomePageNav from "~/components/HomePageNav";
 import ParticipantsSection from "~/components/ParticipantsSection";
+import ScheduleSection from "~/components/ScheduleSection";
 import TheThreeDaysSection from "~/components/TheThreeDaysSection";
 import LocalLivestreamsSection from "~/components/LocalLivestreamsSection";
 import GetInvolvedSection from "~/components/GetInvolvedSection";
@@ -64,6 +66,7 @@ export default {
     TheThreeDaysSection,
     LocalLivestreamsSection,
     ParticipantsSection,
+    ScheduleSection,
     PageFooter,
   }
 }
