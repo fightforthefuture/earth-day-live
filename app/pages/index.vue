@@ -88,11 +88,6 @@ export default {
   justify-content: center;
   align-items: center;
   text-align: center;
-  /* background: url('~assets/images/earth-day-live-gradient.jpg') no-repeat center center fixed;
-  -webkit-background-size: cover;
-  -moz-background-size: cover;
-  -o-background-size: cover;
-  background-size: cover; */
   padding-bottom: 130px;
   overflow: hidden;
 }
