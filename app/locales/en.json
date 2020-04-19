@@ -79,7 +79,9 @@
   },
   "checkMyRegistration": {
     "title": "Are you registered to vote?",
-    "description": "We need to bring in a new generation of elected officials who understand the climate crises and who are prepared to take the necessary action to address it urgently. Register to vote now to ensure your voice is heard this November."
+    "description": "We need to bring in a new generation of elected officials who understand the climate crises and who are prepared to take the necessary action to address it urgently. Register to vote now to ensure your voice is heard this November.",
+    "registerNowButton": "Register Now",
+    "tripleYourVoteButton": "Triple Your Vote"
   },
   "vote": {
     "nav": {
