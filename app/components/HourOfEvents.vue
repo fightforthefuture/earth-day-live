@@ -1,7 +1,7 @@
 <template>
   <div class="col">
     <div class="row" v-for="(event, index) in this.events" v-bind:key="index">
-      <div class="row">
+      <div class="row event-time">
         <div class="col">
           <h5 :class="classObject">
             {{event.eventTime}}
@@ -56,5 +56,9 @@
   .event-description {
     padding: 0 5px 0 5px;
     font-size: 1.2em;
+  }
+
+  .event-time {
+    width: 100%;
   }
 </style>

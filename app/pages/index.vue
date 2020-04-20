@@ -24,6 +24,7 @@
     <RegisterToVoteForm />
     <TripleYourVote />
     <ParticipantsSection />
+    <ScheduleSection />
     <TheThreeDaysSection />
     <LocalLivestreamsSection />
     <GetInvolvedSection />
@@ -45,6 +46,7 @@ import GetInvolvedSection from "~/components/GetInvolvedSection"
 import FAQsSection from "~/components/FAQsSection"
 import SignUpThankYou from "~/components/SignUpThankYou"
 import TripleYourVote from "~/components/TripleYourVote"
+import ScheduleSection from "~/components/ScheduleSection";
 
 export default {
   data() {
@@ -64,6 +66,7 @@ export default {
     TheThreeDaysSection,
     LocalLivestreamsSection,
     ParticipantsSection,
+    ScheduleSection,
     PageFooter,
   }
 }

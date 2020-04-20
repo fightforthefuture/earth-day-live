@@ -57,65 +57,548 @@
           }, {
             "eventTime": "8:25",
             "description": "Yoga with Nicole Cardoza"
+          }, {
+            "eventTime": "8:55",
+            "description": "Greater Chaco Coalition Panel"
           }
         ],
         "9:00am": [
           {
-             "eventTime": "9:00",
-             "description": "Some event on the 22nd that is not real and now I'm just typing"
-           },
-           {
-              "eventTime": "9:30",
-              "description": "Some event on the 22nd that is not real and now I'm just typing"
-            },
-            {
-               "eventTime": "9:45",
-               "description": "Some event on the 22nd that is not real and now I'm just typing"
-             }
+            "eventTime": "9:15",
+            "description": "Participant Segment with Katie Fahey"
+          }, {
+            "eventTime": "9:25",
+            "description": "Message from Chelsea Handler"
+          }, {
+            "eventTime": "9:40",
+            "description": "United Methodist Women"
+          }
+        ],
+        "10:00am": [
+          {
+            "eventTime": "10:00",
+            "description": "Facing the Climate Emergency: Panel discussion"
+          }, {
+            "eventTime": "10:45",
+            "description": "Closer Look at Nature"
+          }
+        ],
+        "11:00am": [
+          {
+            "eventTime": "11:00",
+            "description": "Mixed Media: A Panel On Just Representation by Extinction Rebellion Youth United States"
+          }, {
+            "eventTime": "11:30",
+            "description": "Music from Nahko Bear"
+          }, {
+            "eventTime": "11:35",
+            "description": "Getting to the Roots of the Green New Deal"
+          }, {
+            "eventTime": "11:55",
+            "description": "Angelique Kidjo, Linda Perry, and others"
+          }
+        ],
+        "12:00pm": [
+          {
+            "eventTime": "12:10",
+            "description": "Por La Tierra - A Spoken Word Piece"
+          }, {
+            "eventTime": "12:15",
+            "description": "Cyril the Sorcerer"
+          }, {
+            "eventTime": "12:20",
+            "description": "Our House is On Fire: how two Miami youth climate leaders are making change"
+          }, {
+            "eventTime": "12:30",
+            "description": "Energizing a Youth Climate Movement"
+          }, {
+            "eventTime": "12:35",
+            "description": "Artists as allies panel with Matt McGorry"
+          }, {
+            "eventTime": "12:55",
+            "description": "Stories from the Earth"
+          }
+        ],
+        "1:00pm": [
+          {
+            "eventTime": "1:00",
+            "description": "Jane Fonda Interview"
+          }, {
+            "eventTime": "1:30",
+            "description": "Jason Mraz performance"
+          }, {
+            "eventTime": "1:45",
+            "description": "In conversation with Jamie Margolin"
+          }
+        ],
+        "2:00pm": [
+          {
+            "eventTime": "2:00",
+            "description": "Changing the Narrative: A Conversation on Activism, Climate Change and Frontline Communities with Rev. Dr. William Barber, Rev. Dr. Liz Theoharis and Andrea Manning"
+          }, {
+            "eventTime": "2:20",
+            "description": "Panel with Joaquin Phoenix & Moby: The Link Between Covid 19 & Climate Emergency"
+          }
+        ],
+        "3:00pm": [
+          {
+            "eventTime": "3:00",
+            "description": "Vegan cooking with Alejandra Schrader"
+          }, {
+            "eventTime": "3:25",
+            "description": "We Rise Video Premiere"
+          }, {
+            "eventTime": "3:30",
+            "description": "When Kids Fear Rain: A Conversation on Climate Disasters"
+          }, {
+            "eventTime": "3:35",
+            "description": "Patricia Arquette with Robby Romero"
+          }
+        ],
+        "4:00pm": [
+          {
+            "eventTime": "4:05",
+            "description": "Together We Thrive: What it Means to Make Intentional Space for Young People of Color"
+          }, {
+            "eventTime": "4:20",
+            "description": "Women Leaders on the Climate Frontlines with Sharon Carpenter, Luke Baines and Oxfam"
+          }, {
+            "eventTime": "4:45",
+            "description": "Honoring Healthcare Heroes: Lisa Edelstein Interviews Frontline Healthcare Workers"
+          }
+        ],
+        "5:00pm": [
+          {
+            "eventTime": "5:00",
+            "description": "Hip Hop performance: Water Rites featuring Frontline Detroit and Michigan Environmental Justice Coalition"
+          }, {
+            "eventTime": "5:20",
+            "description": "The Social Good Club Segment: “New Normal of Activism”"
+          }, {
+            "eventTime": "5:50",
+            "description": "SEIU Panel: Tales on unions, corporate greed and exploiting the environment and labor  w/ Mary Kay"
+          }
+        ],
+        "6:00pm": [
+          {
+            "eventTime": "6:10",
+            "description": "Youth and Elders Panel- Sunrise Movement"
+          }, {
+            "eventTime": "6:40",
+            "description": "Meditation Moment"
+          }, {
+            "eventTime": "6:45",
+            "description": "Panel: Artists, Covid 19 and Climate Emergency"
+          }
+        ],
+        "7:00pm": [
+          {
+            "eventTime": "7:05",
+            "description": "Trash is for tossers: a conversation with Lauren Singer and Chasten Harmon about minimizing your environmental footprint"
+          }, {
+            "eventTime": "7:25",
+            "description": "A message from Lil' Dicky"
+          }, {
+            "eventTime": "7:30",
+            "description": "Madame Gandhi DJ dance break"
+          }
+        ],
+        "8:00pm": [
+          {
+            "eventTime": "8:00",
+            "description": "DJ Questlove"
+          }
         ]
       },
 
       "april-23": {
         "8:00am": [
           {
-           "eventTime": "8:00",
-           "description": "Some event on the 23rd that is not real and now I'm just typing"
-         }, {
-            "eventTime": "8:30",
-            "description": "Some event on the 23rd that is not real and now I'm just typing"
+            "eventTime": "8:00",
+            "description": "Greeting by Arjun & Adam Neville"
+          }, {
+            "eventTime": "8:05",
+            "description": "Interfaith Call for Care and Resilience"
+          }, {
+            "eventTime": "8:40",
+            "description": "Michael Franti"
+          }, {
+            "eventTime": "8:50",
+            "description": "Yoga with Gustavo Padron"
           }
         ],
         "9:00am": [
           {
-             "eventTime": "9:00",
-             "description": "Some event on the 23rd that is not real and now I'm just typing"
-           },
-           {
-              "eventTime": "9:30",
-              "description": "Some event on the 23rd that is not real and now I'm just typing"
-            }
+            "eventTime": "9:15",
+            "description": "A Message from Norman and Lynn Lear"
+          }, {
+            "eventTime": "9:20",
+            "description": "Stories from the Earth"
+          }, {
+            "eventTime": "9:25",
+            "description": "JPMorgan Chase and the Frontlines of Resistance"
+          }, {
+            "eventTime": "9:50",
+            "description": "Message from Rebekah Hinojosa"
+          }, {
+            "eventTime": "9:53",
+            "description": "Blackness, Feminism, and Climate Emergency   Conversation with Patrisse Cullors and Ilyasah Shabazz"
+          }
+        ],
+        "10:00am": [
+          {
+            "eventTime": "10:10",
+            "description": "Musical guest Aloe Blacc"
+          }, {
+            "eventTime": "10:20",
+            "description": "Thich Naht Hahn Poem"
+          }, {
+            "eventTime": "10:25",
+            "description": "Music from Tim Heidecker"
+          }, {
+            "eventTime": "10:30",
+            "description": "BlackRock: The financial giant and our power to make it tackle the climate emergency"
+          }
+        ],
+        "11:00am": [
+          {
+            "eventTime": "11:00",
+            "description": "Importance of Green Stimulus with Mark Ruffalo"
+          }, {
+            "eventTime": "11:30",
+            "description": "Interview at BlackRock HQ"
+          }, {
+            "eventTime": "11:40",
+            "description": "How Wall Street is Fueling Rainforest Destruction And The Climate Crisis"
+          }
+        ],
+        "12:00pm": [
+          {
+            "eventTime": "12:00",
+            "description": "Music Break with Siva Kaneswaran"
+          }, {
+            "eventTime": "12:05",
+            "description": "Message from Rosanna Arquette"
+          }, {
+            "eventTime": "12:07",
+            "description": "The Both: Aimee Mann & Ted Leo"
+          }, {
+            "eventTime": "12:15",
+            "description": "Messages from Erica Chenoweth, Ronen Rubenstein and Amber Tamblyn"
+          }, {
+            "eventTime": "12:30",
+            "description": "Big banks, the Gwich'in Nation, & the fight to protect the Arctic Refuge"
+          }, {
+            "eventTime": "12:45",
+            "description": "Let's Takeover Over Chase - Online"
+          }, {
+            "eventTime": "12:50",
+            "description": "Why It’s Time to Take on the Big Banks"
+          }
+        ],
+        "1:00pm": [
+          {
+            "eventTime": "1:00",
+            "description": "Jane Fonda interview"
+          }, {
+            "eventTime": "1:30",
+            "description": "Higher Education: Complicit or Leaders in Climate"
+          }
+        ],
+        "2:00pm": [
+          {
+            "eventTime": "2:00",
+            "description": "Stop the Money Pipeline Political Town Hall"
+          }, {
+            "eventTime": "2:45",
+            "description": "Fossil Fuel Resistance video"
+          }, {
+            "eventTime": "2:55",
+            "description": "Youth vs Apocalypse video: Covid 19"
+          }
+        ],
+        "3:00pm": [
+          {
+            "eventTime": "3:00",
+            "description": "Indigenous Women Divestment Delegation"
+          }, {
+            "eventTime": "3:15",
+            "description": "Cooking with Chef Dominique Crenn"
+          }, {
+            "eventTime": "3:30",
+            "description": "Virtual Choir with the Peace Poets"
+          }, {
+            "eventTime": "3:50",
+            "description": "Music Break with Local Natives"
+          }
+        ],
+        "4:00pm": [
+          {
+            "eventTime": "4:00",
+            "description": "Interview and Chase card cutting with a Superstorm Sandy survivor"
+          }, {
+            "eventTime": "4:05",
+            "description": "Smiles Davis musical performance"
+          }, {
+            "eventTime": "4:10",
+            "description": "Spoken Word Monica Dogra"
+          }, {
+            "eventTime": "4:15",
+            "description": "Panel: Indigenous Leaders On The Frontlines of Fossil Fuel Resistance"
+          }, {
+            "eventTime": "4:55",
+            "description": "Ziggy Marley musical performance"
+          }
+        ],
+        "5:00pm": [
+          {
+            "eventTime": "5:00",
+            "description": "Money Matters: Youth & Elders Unite a Fossil Free Future"
+          }, {
+            "eventTime": "5:20",
+            "description": "Song For the Climate"
+          }, {
+            "eventTime": "5:23",
+            "description": "Music Break With Amanda Palmer"
+          }, {
+            "eventTime": "5:28",
+            "description": "Participant message from Paul Watson"
+          }, {
+            "eventTime": "5:30",
+            "description": "Panel: Youth Climate Activism in the Global South: Allyship, Solidarity, and Movement Building"
+          }
+        ],
+        "6:00pm": [
+          {
+            "eventTime": "6:00",
+            "description": "Message from Xiye Bastida"
+          }, {
+            "eventTime": "6:05",
+            "description": "The Social Good Club Daily Conversation"
+          }, {
+            "eventTime": "6:40",
+            "description": "Insure Our Future, Not Fossil Fuels"
+          }, {
+            "eventTime": "6:55",
+            "description": "Ani DiFranco musical performance"
+          }
+        ],
+        "7:00pm": [
+          {
+            "eventTime": "7:00",
+            "description": "Women on the Frontlines of the Climate and COVID-19 Crises: Struggles and Solutions"
+          }, {
+            "eventTime": "7:35",
+            "description": "Staying Unified During a Crisis in Philadelphia"
+          }, {
+            "eventTime": "7:45",
+            "description": "Lissie musical performance"
+          }
+        ],
+        "8:00pm": [
+          {
+            "eventTime": "8:00",
+            "description": "Party w/ DJ Beverly Bond"
+          }, {
+            "eventTime": "9:00",
+            "description": "Party W/ DJ Talib Kweli"
+          }
         ]
       },
 
       "april-24": {
         "8:00am": [
           {
-           "eventTime": "8:00",
-           "description": "Some event on the 24th that is not real and now I'm just typing"
-         }, {
+            "eventTime": "8:00",
+            "description": "Parliament of the world's religions"
+          }, {
             "eventTime": "8:30",
-            "description": "Some event on the 24th that is not real and now I'm just typing"
+            "description": "Jack Johnson musical performance"
+          }, {
+            "eventTime": "8:35",
+            "description": "Yoga with Kathryn Budig"
           }
         ],
         "9:00am": [
           {
-             "eventTime": "9:00",
-             "description": "Some event on the 24th that is not real and now I'm just typing"
-           },
-           {
-              "eventTime": "9:30",
-              "description": "Some event on the 24th that is not real and now I'm just typing"
-            }
+            "eventTime": "9:05",
+            "description": "Stories from the Earth"
+          }, {
+            "eventTime": "9:10",
+            "description": "Packing a Punch: Pass Your Own Damn Bill panel"
+          }, {
+            "eventTime": "9:40",
+            "description": "Message from Stella McCartney"
+          }, {
+            "eventTime": "9:45",
+            "description": "Building Power By Lowering the Voting Age"
+          }
+        ],
+        "10:00am": [
+          {
+            "eventTime": "10:00",
+            "description": "This Land is Our Land"
+          }, {
+            "eventTime": "10:05",
+            "description": "Emily Wells musical performance"
+          }, {
+            "eventTime": "10:15",
+            "description": "NRDC Discussion  with Gina McCarthy (NRDC), Annie Leonard (Greenpeace), Ayana Elizabeth Johnson (Ocean Collctive)"
+          }, {
+            "eventTime": "10:35",
+            "description": "John Kerry Panel with Youth Activists Sophie & Shiv"
+          }
+        ],
+        "11:00am": [
+          {
+            "eventTime": "11:00",
+            "description": "Dark Waters Segment with Mark Ruffalo"
+          }, {
+            "eventTime": "11:30",
+            "description": "Hit First, Hit Hardest: Why Communities of Color Are On The Frontlines of Modern Day Crises"
+          }
+        ],
+        "12:00pm": [
+          {
+            "eventTime": "12:00",
+            "description": "Tank and the Bangas"
+          }, {
+            "eventTime": "12:10",
+            "description": "Visualizing Political Empowerment: How Artists Impact Social Justice and Civic Engagement"
+          }, {
+            "eventTime": "12:30",
+            "description": ""
+          }, {
+            "eventTime": "12:40",
+            "description": "Climate change from space-- Conversation between Achilles and Dr Danielle Wood"
+          }, {
+            "eventTime": "12:50",
+            "description": "Chef José Andrés-- World Central Kitchen"
+          }, {
+            "eventTime": "12:55",
+            "description": "Jane Fonda Interview"
+          }
+        ],
+        "1:00pm": [
+          {
+            "eventTime": "1:25",
+            "description": "Cody Simpson song & message"
+          }, {
+            "eventTime": "1:30",
+            "description": "Claim Your Power at the Ballot Box: How to Overcome Barriers to Voting"
+          }, {
+            "eventTime": "1:55",
+            "description": "Rachel Ray cooking"
+          }
+        ],
+        "2:00pm": [
+          {
+            "eventTime": "2:10",
+            "description": "Other Lives musical performance"
+          }, {
+            "eventTime": "2:15",
+            "description": "Water Security and the Climate Crisis"
+          }, {
+            "eventTime": "2:35",
+            "description": "Service Workers’ Story Slam to Demand Action"
+          }, {
+            "eventTime": "2:55",
+            "description": "Tom Steyer"
+          }
+        ],
+        "3:00pm": [
+          {
+            "eventTime": "3:00",
+            "description": "Being a Disabled activist"
+          }, {
+            "eventTime": "3:15",
+            "description": "Stacey Abrams"
+          }, {
+            "eventTime": "3:20",
+            "description": "Mid Day Meditation with Glo Meditation Teacher"
+          }, {
+            "eventTime": "3:25",
+            "description": "Panel: Union of Concerned Scientists"
+          }, {
+            "eventTime": "3:50",
+            "description": "Al Gore"
+          }, {
+            "eventTime": "3:55",
+            "description": "Nuka music performance"
+          }
+
+        ],
+        "4:00pm": [
+          {
+            "eventTime": "4:00",
+            "description": "Immigration Justice is Climate Justice: United We Dream"
+          }, {
+            "eventTime": "4:10",
+            "description": "Mumu Fresh"
+          }, {
+            "eventTime": "4:15",
+            "description": "Saving our Oceans through Indigenous Stewardship"
+          }, {
+            "eventTime": "4:35",
+            "description": "Dave Matthews performance"
+          }, {
+            "eventTime": "4:40",
+            "description": "Spill the Tea with Rep. Alexandria Ocasio-Cortez"
+          }
+        ],
+        "5:00pm": [
+          {
+            "eventTime": "5:00",
+            "description": "Vote Party"
+          }, {
+            "eventTime": "5:30",
+            "description": "The People's Bailout"
+          }, {
+            "eventTime": "5:50",
+            "description": "Call Your Senator"
+          }
+        ],
+        "6:00pm": [
+          {
+            "eventTime": "6:10",
+            "description": "Adam Gardner from Guster "
+          }, {
+            "eventTime": "6:20",
+            "description": "California Youth vs Big Oil"
+          }, {
+            "eventTime": "6:30",
+            "description": "Message and song from Kirsten Vangsness"
+          }, {
+            "eventTime": "6:32",
+            "description": "Angela Rye"
+          }, {
+            "eventTime": "6:35",
+            "description": "Will Anderson of Parachute"
+          }, {
+            "eventTime": "6:40",
+            "description": "The Census: The Game Behind the Game"
+          }
+        ],
+        "7:00pm": [
+          {
+            "eventTime": "7:00",
+            "description": "Barbara Boxer"
+          }, {
+            "eventTime": "7:03",
+            "description": "KT Tunstall"
+          }, {
+            "eventTime": "7:08",
+            "description": "Maxi Priest performance"
+          }, {
+            "eventTime": "7:15",
+            "description": "Song From Broadway youth"
+          }, {
+            "eventTime": "7:20",
+            "description": "Closing Ceremony"
+          },  {
+            "eventTime": "7:40",
+            "description": "Soul Clap DJ set"
+          }
         ]
       }
     },
