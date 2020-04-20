@@ -1,6 +1,13 @@
 <template>
   <section id="schedule">
     <div class="col-lg-8 offset-lg-2">
+      <h1 class="section-title">
+        {{ translate.title }}
+      </h1>
+      <p class="disclaimer">
+        {{ translate.disclaimer }}
+      </p>
+      <img class="separator" src="~assets/images/separator.jpg" :alt="$t('getInvolved.common.separatorAlt')" />
       <div class="text-center" id="schedule-wrapper">
         <div class="row" style="margin: auto">
           <div class="col" id="schedule-top-right-corner">
@@ -69,7 +76,8 @@
         TIMESLOTS: ["8:00am", "9:00am", "10:00am", "11:00am", "12:00pm", "1:00pm", "2:00pm", "3:00pm", "4:00pm", "5:00pm", "6:00pm", "7:00pm", "8:00pm"],
         eventsOnThe22nd: this.$t('home.events.april-22'),
         eventsOnThe23rd: this.$t('home.events.april-23'),
-        eventsOnThe24th: this.$t('home.events.april-24')
+        eventsOnThe24th: this.$t('home.events.april-24'),
+        translate: this.$t('home.events')
       }
     },
     methods: {
@@ -105,8 +113,15 @@
 </script>
 
 <style scoped>
+
   #schedule {
     background-color: #f8f8f8;
+    padding: 75px 20px;
+    text-align: center;
+  }
+
+  .disclaimer {
+    text-align: center;
   }
 
   #schedule-wrapper {

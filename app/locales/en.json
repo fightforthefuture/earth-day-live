@@ -12,6 +12,7 @@
     "nav": {
       "home": "Home",
       "participants": "Participants",
+      "schedule": "Schedule",
       "theThreeDays": "The Three Days",
       "localLivestreams": "Local Livestreams",
       "getInvolved": "Spread the Word",
@@ -46,6 +47,8 @@
       "buttonText": "Get the resources"
     },
     "events": {
+      "title": "Schedule*",
+      "disclaimer": "*Times subject to change",
       "april-22": {
         "8:00am": [
           {
