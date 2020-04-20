@@ -7,12 +7,15 @@
           </div>
           <div class="col date-box" id="april-22">
             <h2 @click="handleScheduleDateBoxClick($event)">April 22</h2>
+            <div class="date-box-active-triangle"></div>
           </div>
           <div class="col date-box" id="april-23">
             <h2 @click="handleScheduleDateBoxClick($event)">April 23</h2>
+            <div class="date-box-active-triangle"></div>
           </div>
           <div class="col date-box" id="april-24">
             <h2 @click="handleScheduleDateBoxClick($event)">April 24</h2>
+            <div class="date-box-active-triangle"></div>
           </div>
         </div>
         <div class="row text-left" v-for="(time, index) in TIMESLOTS" v-bind:key="index" style="margin: auto">
@@ -72,18 +75,25 @@
     methods: {
       handleScheduleDateBoxClick(event) {
         const clicked = event.target.parentNode.id
+        document.querySelectorAll('.date-box-active-triangle').forEach((element) => {
+          element.style.display = 'none'
+        })
+
         switch(clicked) {
           case'april-22':
+            document.querySelector('#april-22 .date-box-active-triangle').style.display = 'block'
             showElements(document.querySelectorAll('.col.apr22'))
             hideElements(document.querySelectorAll('.col.apr23'))
             hideElements(document.querySelectorAll('.col.apr24'))
             break
           case'april-23':
+            document.querySelector('#april-23 .date-box-active-triangle').style.display = 'block'
             hideElements(document.querySelectorAll('.col.apr22'))
             showElements(document.querySelectorAll('.col.apr23'))
             hideElements(document.querySelectorAll('.col.apr24'))
             break
           case 'april-24':
+            document.querySelector('#april-24 .date-box-active-triangle').style.display = 'block'
             hideElements(document.querySelectorAll('.col.apr22'))
             hideElements(document.querySelectorAll('.col.apr23'))
             showElements(document.querySelectorAll('.col.apr24'))
@@ -169,6 +179,20 @@
     .col.apr23.inactivecol,
     .col.apr24.inactivecol {
       display:none;
+    }
+
+    .date-box-active-triangle {
+      display:none;
+      width: 0;
+      height: 0;
+      border-bottom: 10px solid #190825;
+      border-left: 10px solid transparent;
+      border-right: 10px solid transparent;
+      margin: 5px auto -10px auto;
+    }
+
+    #april-22 .date-box-active-triangle {
+      display: block;
     }
   }
 </style>
