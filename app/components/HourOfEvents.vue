@@ -4,7 +4,7 @@
       <div class="row event-time">
         <div class="col">
           <h5 :class="classObject">
-            {{event.eventTime}}<span class="am-or-pm">{{amOrPm}}</span>
+            {{event.eventTime}}<span class="am-or-pm" v-if="event.eventTime">{{amOrPm}}</span>
           </h5>
         </div>
       </div>
@@ -63,6 +63,7 @@
   .event-description {
     padding: 0 5px 0 5px;
     font-size: 1.2em;
+    margin-bottom: 0;
   }
 
   .event-time {
