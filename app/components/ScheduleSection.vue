@@ -6,13 +6,13 @@
           <div class="col" id="schedule-top-right-corner">
           </div>
           <div class="col date-box" id="april-22">
-            <h2>April 22</h2>
+            <h2 @click="handleScheduleDateBoxClick($event)">April 22</h2>
           </div>
           <div class="col date-box" id="april-23">
-            <h2>April 23</h2>
+            <h2 @click="handleScheduleDateBoxClick($event)">April 23</h2>
           </div>
           <div class="col date-box" id="april-24">
-            <h2>April 24</h2>
+            <h2 @click="handleScheduleDateBoxClick($event)">April 24</h2>
           </div>
         </div>
         <div class="row text-left" v-for="(time, index) in TIMESLOTS" v-bind:key="index" style="margin: auto">
@@ -39,12 +39,22 @@
       </div>
     </div>
   </section>
-
-
 </template>
 
 <script>
   import HourOfEvents from '~/components/HourOfEvents'
+
+  function showElements(elements) {
+    elements.forEach((element) => {
+      element.classList.remove('inactivecol')
+    });
+  }
+
+  function hideElements(elements) {
+    elements.forEach((element) => {
+      element.classList.add('inactivecol')
+    });
+  }
 
   export default {
     name: "ScheduleSection",
@@ -59,6 +69,28 @@
         eventsOnThe24th: this.$t('home.events.april-24')
       }
     },
+    methods: {
+      handleScheduleDateBoxClick(event) {
+        const clicked = event.target.parentNode.id
+        switch(clicked) {
+          case'april-22':
+            showElements(document.querySelectorAll('.col.apr22'))
+            hideElements(document.querySelectorAll('.col.apr23'))
+            hideElements(document.querySelectorAll('.col.apr24'))
+            break
+          case'april-23':
+            hideElements(document.querySelectorAll('.col.apr22'))
+            showElements(document.querySelectorAll('.col.apr23'))
+            hideElements(document.querySelectorAll('.col.apr24'))
+            break
+          case 'april-24':
+            hideElements(document.querySelectorAll('.col.apr22'))
+            hideElements(document.querySelectorAll('.col.apr23'))
+            showElements(document.querySelectorAll('.col.apr24'))
+            break
+        }
+      }
+    }
   }
 </script>
 
@@ -103,6 +135,7 @@
     padding-top: 1.5%;
     padding-bottom: 1.5%;
   }
+
   .hour {
     padding: 10px 0 0 0;
   }
@@ -126,6 +159,16 @@
 
     .date-box h2 {
       font-size: 1.2em;
+    }
+
+    .date-box h2:hover {
+      cursor:pointer;
+    }
+
+    .col.apr22.inactivecol,
+    .col.apr23.inactivecol,
+    .col.apr24.inactivecol {
+      display:none;
     }
   }
 </style>

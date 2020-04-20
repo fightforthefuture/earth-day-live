@@ -1,10 +1,10 @@
 <template>
-  <div class="col">
+  <div class="col" :class="classObject">
     <div class="row" v-for="(event, index) in this.events" v-bind:key="index">
       <div class="row event-time">
         <div class="col">
           <h5 :class="classObject">
-            {{event.eventTime}}
+            {{event.eventTime}}<span class="am-or-pm">{{amOrPm}}</span>
           </h5>
         </div>
       </div>
@@ -22,32 +22,39 @@
     name: "HourOfEvents",
     props: ['events', 'index', 'date'],
     computed: {
-  classObject: function () {
-    return {
-      apr22: this.date === 'april-22',
-      apr23: this.date === 'april-23',
-      apr24: this.date === 'april-24'
-    }
-  }
-},
+      classObject() {
+        return {
+          apr22: this.date === 'april-22',
+          apr23: this.date === 'april-23',
+          apr24: this.date === 'april-24',
+          inactivecol: this.date === 'april-23' || this.date === 'april-24',
+        }
+      },
+      amOrPm() {
+        if (this.index > 3) {
+          return 'pm'
+        }
+        return 'am'
+      }
+  },
 }
 </script>
 
 <style scoped>
 
-  .apr22 {
+  h5.apr22 {
     color: #f47d3a;
     padding: 20px 0 0 5px;
     margin-bottom: 0;
   }
 
-  .apr23 {
+  h5.apr23 {
     color: #95c552;
     padding: 20px 0 0 5px;
     margin-bottom: 0;
   }
 
-  .apr24 {
+  h5.apr24 {
     color: #e671a4;
     padding: 20px 0 0 5px;
     margin-bottom: 0;
@@ -60,5 +67,17 @@
 
   .event-time {
     width: 100%;
+  }
+
+  @media (min-width: 768px) {
+    .am-or-pm {
+      display: none;
+    }
+  }
+
+  @media (max-width: 767px) {
+    h5 {
+      font-size: 1.5em;
+    }
   }
 </style>
