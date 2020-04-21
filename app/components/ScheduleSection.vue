@@ -127,6 +127,7 @@
   #schedule-wrapper {
     background-color: #240e34;
     color: #f8f8f8;
+    padding-bottom: 40px;
   }
 
   .container {
@@ -153,6 +154,10 @@
 
   #april-24 {
     background-image: linear-gradient(to right, #ec688d, #e671a4, #cd79b1, #ec688d);
+  }
+
+  .schedule-hour {
+    padding: 10px 20px;
   }
 
 
@@ -208,6 +213,12 @@
 
     #april-22 .date-box-active-triangle {
       display: block;
+    }
+
+    .col.apr22,
+    .col.apr23,
+    .col.apr24 {
+      padding: 10px;
     }
   }
 </style>

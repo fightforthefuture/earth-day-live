@@ -62,7 +62,7 @@
 
   .event-description {
     padding: 0 5px 0 5px;
-    font-size: 1.2em;
+    font-size: 1.1em;
     margin-bottom: 0;
   }
 
@@ -79,6 +79,14 @@
   @media (max-width: 767px) {
     h5 {
       font-size: 1.5em;
+    }
+
+    .event-time {
+      padding: 0 20px 0 15px;
+    }
+
+    .event-description {
+      padding: 0 20px 0 20px;
     }
   }
 </style>
