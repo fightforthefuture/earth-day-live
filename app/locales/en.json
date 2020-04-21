@@ -393,6 +393,7 @@
         ],
         "7:00pm": [
           {
+            "eventTime": "7:00",
             "description": "Insure Our Future, Not Fossil Fuels"
           }, {
             "eventTime": "7:30",
