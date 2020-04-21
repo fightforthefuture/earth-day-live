@@ -189,8 +189,9 @@
         "6:00pm": [
           {
             "eventTime": "6:00",
-            "description": "The Social Good Club: New Normal of Activism (Nadia Nazar, Adam Mckay, Kip Andersen, Jameela Jamil)"
-          }, {
+            "description": "Social Good Club: Activating New Normals in Our Own Lives (Louis Cole, iJustine, Peter Diamandis, Anjali Mitra)"
+          },
+          {
             "description": "Zazie Beetz Performance"
           }, {
             "eventTime": "6:30",
@@ -392,9 +393,6 @@
         ],
         "7:00pm": [
           {
-            "eventTime": "7:00",
-            "description": "Social Good Club: The New Normal (Louis Cole, iJustine, Peter Diamandis, Anjali Mitra)"
-          }, {
             "description": "Insure Our Future, Not Fossil Fuels"
           }, {
             "eventTime": "7:30",
@@ -459,7 +457,7 @@
           }, {
             "description": "Musical Performance by Emily Wells"
           }, {
-            "description": "The Evolution of the Climate Justice Movement with Gina McCarthy, Ayana Elizabeth Johnson, and Annie Leonard"
+            "description": "Leading Environmental Advocates Reflect on 50 years of Progress and the Path Forward with Gina McCarthy, Ayana Elizabeth Johnson, and Annie Leonard"
           }, {
             "eventTime": "11:30",
             "description": "In Conversation: Secretary John Kerry and Youth Climate Actvists (Shiv Soin, Sophie Anderson)"
@@ -544,7 +542,7 @@
             "eventTime": "5:30",
             "description": "Musical Performance by Dave Matthews"
           }, {
-            "description": "Spill The Tea with AOC (Rep. Alexandria Ocasio-Cortez, Saad Amer)"
+            "description": "Spill The Tea with AOC: A Conversation on the Green New Deal (Rep. Alexandria Ocasio-Cortez, Saad Amer)"
           }, {
             "description": "Vote Party (Saad Amer, Vanessa Wruble, Alex MacNicoll, James Wenz, Melody Klingenfuss)"
           }
