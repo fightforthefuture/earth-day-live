@@ -55,7 +55,7 @@
   }
   .petition-signup-form-wrapper {
     background-color: #190825;
-    padding: 20px;
+    padding: 20px 20px 100px 20px;
     color: #fff;
     text-align: center;
     width: 100%;
