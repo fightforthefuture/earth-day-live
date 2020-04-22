@@ -35,7 +35,6 @@ export default {
   */
   plugins: [
     { src: './plugins/clipboardCopy.js' },
-    { src: './plugins/cookie.js' },
   ],
   /*
   ** Nuxt.js dev-modules

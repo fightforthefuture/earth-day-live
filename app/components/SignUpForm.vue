@@ -54,19 +54,9 @@
                  partnerDisclaimer.innerHTML = `You may receive updates from <i>${partnerGroupName}</i>, who shared this form with you.`
                  document.querySelector('.splash-page-signup-form-wrapper').appendChild(partnerDisclaimer)
              }
-
-             // Have to listen for change event instead of catching data in 'can_embed_submitted' event because
-             // the form element is removed from the page before that event is fired
-             const outerThis = this;
-             document.getElementById('form-email').onchange = function() {
-                 outerThis.$cookie.set('form-email', this.value, 60)
-             }
-             document.getElementById('form-zip_code').onchange = function() {
-                 outerThis.$cookie.set('form-zip_code', this.value, 60)
-             }
          })
 
-         document.addEventListener('can_embed_submitted', () => {
+         document.addEventListener('canembed_submitted', () => {
            document.querySelectorAll('.splash-page-disclaimer').forEach((disclaimer) => {
              disclaimer.style.display = 'none'
            })
