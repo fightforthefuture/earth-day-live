@@ -75,11 +75,17 @@
           }, {
             "description": "Dear Mother Earth. Love, Your Children (Maggie Munday Odom, Q Sharaf, Lily Hi’ilani Kim-Dela Cruz, Mounira Elsamra, Molly Francis, Joao Rodrigues Victor, Calling from Maine, Saphira Rosen, Bella Callery)"
           }, {
-            "description": "We The Planet Spotlight (Xiye Bastida)"
+            "description": "Musical Performance by Jesse Jo Stark"
           }, {
-            "description": "Gender Justice is Climate Justice Interfaith Service (Rev. Dionne P. Boissière, Elizabeth Chun Hye Lee)"
+            "description": "Imagine the Future (Xiye Bastida)"
+          }, {
+            "description": "Cooking with Natalie Portman"
           }, {
             "eventTime": "10:30",
+            "description": "Defending the Defenders"
+          }, {
+            "description": "Message from Danni Washington"
+          }, {
             "description": "Climate Therapy: Facing the Climate Emergency (Margaret Klein Salamon, PhD, David Wallace-Wells, Mary Annaïse Heglar)"
           }
         ],
@@ -99,7 +105,7 @@
             "eventTime": "12:00",
             "description": "Musical Performance by Nahko Bear"
           }, {
-            "description": "Message from The Social Good Club (Kati Morton, Mario Rigby, Haifa Beseisso, Elle Mills, Luke Korns, Matt Santoro, Roberto Blake, Borja Vázquez (Luzu), Gabbie Hanna, Amanda DuPont, Kristen Zarrabi, Justine Ezarik, Louis Cole, Raya Encheva, Peter Diamandis)"
+            "description": "Message from The Social Good Club - Inspiration in Isolation (Kati Morton, Mario Rigby, Haifa Beseisso, Elle Mills, Luke Korns, Matt Santoro, Roberto Blake, Borja Vázquez (Luzu), Gabbie Hanna, Amanda DuPont, Kristen Zarrabi, Justine Ezarik, Louis Cole, Raya Encheva, Peter Diamandis)"
           }, {
             "description": "Getting to the Roots of the Green New Deal with Zero Hour (Khristen Hamilton, Ethan Wright, Zeena Abdulkarim, Zanagee Artis)"
           }, {
@@ -135,18 +141,17 @@
         "2:00pm": [
           {
             "eventTime": "2:00",
-            "description": "Blackness, Feminism, and the Climate Emergency - Part 1 (Ilyasah Shabazz, Khristen Hamilton, Kym Allen)"
+            "description": "Youth Climate Strike Coalition Demands Overview (Esperanza Garcia Soledad, Kaylah Brathwaite, Naina Agrawal-Hardin)"
           }, {
-            "description": "Blackness, Feminism, and the Climate Emergency - Part 2 (Kym Allen, Khristen Hamilton, Patrisse Cullors)"
+            "description": "Blackness, Feminism, and the Climate Emergency with Ilyasah Shabazz (Khristen Hamilton, Kym Allen)"
           }, {
-            "eventTime": "2:30",
-            "description": "Youth Climate Strike Coalition Demands Overview (Naina Agrawal-Hardin)"
+            "description": "Blackness, Feminism, and the Climate Emergency with Patrisse Cullors (Kym Allen, Khristen Hamilton, Patrisse Cullors)"
+          }, {
+            "eventTime": "2:30"
           }, {
             "description": "Message and Musical Performance by Rain Phoenix"
           }, {
             "description": "Earth Uprising Spotlight"
-          }, {
-            "description": "Message from Faith Spotted Eagle"
           }
         ],
         "3:00pm": [
@@ -154,8 +159,10 @@
             "eventTime": "3:00",
             "description": "Changing the Narrative: A Conversation on Activism, Climate Change, and Frontline Communities (Reverend William J. Barber II, Rev. Dr. Liz Theoharis, Andrea Manning)"
           }, {
-            "description": "Musical Performance by Willa Amai"
+            "description": "Message from Roger Waters"
           }, {
+            "description": "Roger Waters performs John Prine"
+          },{
             "eventTime": "3:30",
             "description": "The Link Between COVID-19 & The Climate Emergency (Moby , Joaquin Phoenix, Dr. Sweta Chakraborty, Dr. Michael Greger, Haile Thomas)"
           }
@@ -163,7 +170,7 @@
         "4:00pm": [
           {
             "eventTime": "4:00",
-            "description": "Cocina Saludable Para un Planeta Saludable: Un segmento de cocina a base de plantas con Alejandra Schrader y Oxfam // Healthy Cooking For a Healthy Planet: A Plant-Based Cooking Segment with Alejandra Schrader and Oxfam (Cristina Garcia)"
+            "description": "Cooking with Rachael Ray"
           }, {
             "description": "We Rise Music Video Premiere (Ashlyn Woods, Aditi Anand, Iris Zhan, Gabrielle Zwi, Laís Santoro, Kori Malia, Andrea Manning, Arielle Martinez Cohen, Kendall Kieras, Ishi Shah, Nick Diaz)"
           }, {
@@ -181,7 +188,7 @@
             "description": "Women Leaders on the Climate Frontlines with Sharon Carpenter, Luke Baines, and Oxfam (Sharon Carpenter, Luke Baines, Ana Maria Mendez Libby, Ruth Santiago)"
           }, {
             "eventTime": "5:30",
-            "description": "Mark Ruffalo segment (Mark Favors, Vic Barrett)"
+            "description": "Participant Presents: A Conversation with Mark Ruffalo and Mark Favors on the Frontline of the Pandemic and Vic Barrett on Climate Justice."
           }, {
             "description": "Dark Waters Follow-Up with Rob Bilott (Mark Ruffalo)"
           }
@@ -192,14 +199,14 @@
             "description": "Social Good Club: Activating New Normals in Our Own Lives (Louis Cole, iJustine, Peter Diamandis, Anjali Mitra)"
           },
           {
-            "description": "Zazie Beetz Performance"
+            "description": "Message from Zazie Beets"
           }, {
             "eventTime": "6:30",
             "description": "Meditation Momement with Seane Corn"
           }, {
             "description": "Message from Lil Dicky"
           }, {
-            "description": "United in the Fight: Making the Connections Between the Labor and Climate Justice Movements (Mary Kay, Kate Walton, Renata Kamakura, Adriana Alvarez, Ernesto Garnica)"
+            "description": "United in the Fight: Making the Connections Between the Labor and Climate Justice Movements (Mary Kay Henry, Kate Walton, Renata Kamakura, Adriana Alvarez, Ernesto Garnica)"
           }
         ],
         "7:00pm": [
@@ -221,7 +228,7 @@
             "description": "Trash is for Tossers: A Conversation About Minimizing Your Environmental Footprint (Lauren Singer, Chasten Harmon)"
           }, {
             "eventTime": "8:30",
-            "description": "Madame Ghandi Performs"
+            "description": "Madame Ghandi Performance"
           }
         ],
         "9:00pm": [
