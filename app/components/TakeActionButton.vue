@@ -4,6 +4,7 @@
     display: block;
     text-align: right;
     padding-bottom: 10px;
+    padding-right: 7px;
   }
 
   .take-action-button {
