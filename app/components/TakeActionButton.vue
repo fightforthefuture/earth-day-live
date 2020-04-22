@@ -2,8 +2,8 @@
 .take-action-button-wrapper {
   background-color: #190825;
   display: block;
-  text-align: center;
-  padding: 0 10px 10px;
+  text-align: right;
+  padding-bottom: 10px;
 }
 
 .take-action-button {
