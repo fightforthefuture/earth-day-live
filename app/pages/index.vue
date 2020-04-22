@@ -5,7 +5,7 @@
     <MaestroLivestream />
     <SignUpForm v-bind:is-rsvp-page="false"/>
     <SignUpThankYou v-bind:is-rsvp-page="false"/>
-    <RegisterToVoteForm id="register" />
+    <RegisterToVoteForm />
     <TripleYourVote />
     <ParticipantsSection />
     <ScheduleSection />

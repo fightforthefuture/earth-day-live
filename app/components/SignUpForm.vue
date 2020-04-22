@@ -1,5 +1,5 @@
 <template>
-  <div class="container-fluid splash-page-signup-form-container">
+  <div class="container-fluid splash-page-signup-form-container" id="signup">
     <div class="col-md-6 offset-md-3">
       <h1 class="section-title">
         {{ translate.title }}
