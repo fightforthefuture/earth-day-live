@@ -720,12 +720,14 @@
       "description": "Together, we can transform our world into one that is not only safe and sustainable, but flourishes for generations to come."
     },
     "signUpForm": {
+      "title": "Thanks for watching Earth Day Live! Will you take the next step?",
+      "description": "We need to bring in a new generation of elected officials who understand the climate crises and who are prepared to take the necessary action to address it urgently. Pledge to vote for our future now and make your voice heard.",
       "disclaimer1": "You may receive updates from",
       "disclaimer2": " US Climate Strike",
       "disclaimer3": ", the sponsor of this form"
     },
     "signUpThankYou": {
-      "title": "Thanks for joining Earth Day Live!",
+      "title": "Thanks for pledging to vote for the future!",
       "description": "During this critical election year, each of us must use our voice and take action to protect our lives and futures.",
       "areYouRegistered": "Are you registered to vote?",
       "registerNotSureTitle": "Not yet!",
