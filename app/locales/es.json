@@ -203,6 +203,9 @@
       "copyLink": "Compartir el enlace"
     }
   },
+  "takeActionButton": {
+    "buttonText": "Tomar medidas ahora"
+  },
   "footer": {
     "press": "Presiona:",
     "termsPolicy": "Términos de uso",

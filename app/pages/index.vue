@@ -1,10 +1,11 @@
 <template>
   <div>
     <HomePageNav />
+    <TakeActionButton />
     <MaestroLivestream />
     <SignUpForm v-bind:is-rsvp-page="false"/>
     <SignUpThankYou v-bind:is-rsvp-page="false"/>
-    <RegisterToVoteForm />
+    <RegisterToVoteForm id="register" />
     <TripleYourVote />
     <ParticipantsSection />
     <ScheduleSection />
@@ -30,6 +31,7 @@ import FAQsSection from "~/components/FAQsSection"
 import SignUpThankYou from "~/components/SignUpThankYou"
 import TripleYourVote from "~/components/TripleYourVote"
 import ScheduleSection from "~/components/ScheduleSection"
+import TakeActionButton from "~/components/TakeActionButton"
 
 export default {
   data() {
@@ -51,6 +53,7 @@ export default {
     LocalLivestreamsSection,
     ParticipantsSection,
     PageFooter,
+    TakeActionButton,
   }
 }
 </script>

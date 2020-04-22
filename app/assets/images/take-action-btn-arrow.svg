@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="53" height="53" viewBox="0 0 53 53">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: #fff;
+      }
+
+      .cls-2 {
+        fill: #e58175;
+        fill-rule: evenodd;
+      }
+    </style>
+  </defs>
+  <circle class="cls-1" cx="26.5" cy="26.5" r="26.5"/>
+  <path id="Shape_1_copy" data-name="Shape 1 copy" class="cls-2" d="M744.97,204.524L734.944,194.5a1.433,1.433,0,0,1,2.026-2.026L746,201.5l9.031-9.03a1.433,1.433,0,0,1,2.026,2.026L747,204.524A1.452,1.452,0,0,1,744.97,204.524Z" transform="translate(-719 -170)"/>
+</svg>

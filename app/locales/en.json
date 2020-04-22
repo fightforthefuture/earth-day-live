@@ -754,6 +754,9 @@
       "copyLink": "Share the link"
     }
   },
+  "takeActionButton": {
+    "buttonText": "Take Action Now"
+  },
   "footer": {
     "press": "Press:",
     "privacyPolicy": "Privacy Policy",
