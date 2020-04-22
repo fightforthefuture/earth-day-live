@@ -20,6 +20,11 @@
     100%);
   }
 
+  .take-action-button:hover {
+    cursor:pointer;
+    color: #fff;
+  }
+
   .take-action-button img {
     height: 20px;
     margin-left: 10px;

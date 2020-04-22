@@ -22,24 +22,24 @@
   #maestro-player-iframe {
     width: 100%;
     border: none;
-    height: 800px;
+    height: 750px;
   }
 
   @media (max-width: 365px) {
     #maestro-player-iframe {
-      height: 550px;
+      height: 530px;
     }
   }
 
   @media (min-width: 366px) and (max-width: 380px) {
     #maestro-player-iframe {
-      height: 550px;
+      height: 530px;
     }
   }
 
   @media (min-width: 381px) and (max-width: 420px) {
     #maestro-player-iframe {
-      height: 620px;
+      height: 600px;
     }
   }
 
