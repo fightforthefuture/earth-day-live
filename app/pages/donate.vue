@@ -16,40 +16,40 @@
             {{translate.description2}}
           </h5>
         </div>
-      </div>
-    </div>
-    <div class="container logo-container">
-      <div class="col-md-8 offset-md-2">
-        <div class="row logo-row">
-          <div class="col-6">
-            <a href="https://www.doctorswithoutborders.org/" target="__blank">
-              <img class="donate-logo" src="~/assets/images/dwb-logo.png" alt="Doctors Without Borders" />
-            </a>
-
-          </div>
-          <div class="col-6">
-            <a href="https://www.feedingamerica.org/" target="__blank">
-            <img class="donate-logo" src="~/assets/images/fa-logo.png" alt="Feeding America" />
-            </a>
-          </div>
-        </div>
-        <div class="row logo-row">
-          <div class="col-6">
-            <a href="https://www.feedingamerica.org/" target="__blank">
-              <img class="donate-logo" src="~/assets/images/ef-logo.jpg" alt="Emergent Fund" />
-            </a>
-          </div>
-          <div class="col-6">
-            <a href="https://www.feedingamerica.org/" target="__blank">
-              <img class="donate-logo" src="~/assets/images/ien-logo.png" alt="Indigenous Environmental Network" />
-            </a>
+        <div class="col-md-8 offset-md-2">
+          <div class="row logo-row">
+            <div class="col-3 logo-col">
+              <a href="https://www.doctorswithoutborders.org/" target="__blank">
+                <img class="donate-logo" src="~/assets/images/feedingamerica_reverse.png" alt="Feeding America" />
+              </a>
+            </div>
+            <div class="col-3 logo-col">
+              <a href="https://www.feedingamerica.org/" target="__blank">
+                <img class="donate-logo" src="~/assets/images/Medecins_Sans_Frontieres_reverse.png" alt="Doctors Without Borders" />
+              </a>
+            </div>
+            <div class="col-3 logo-col">
+              <a href="https://www.feedingamerica.org/" target="__blank">
+                <img class="donate-logo" src="~/assets/images/ef-logo-yellow.png" alt="Emergent Fund" />
+              </a>
+            </div>
+            <div class="col-3 logo-col">
+              <a href="https://www.feedingamerica.org/" target="__blank">
+                <img class="donate-logo" src="~/assets/images/ien-logo-reverse.png" alt="Indigenous Environmental Network" />
+              </a>
+            </div>
           </div>
         </div>
       </div>
     </div>
     <div class="container-fluid">
-      <div class="col-md-6 offset-md-3 act-blue-wrapper">
+      <div class="col-lg-6 offset-lg-3 act-blue-wrapper">
         <div class="act-blue-token " data-ab-form data-ab-token="31BvGG5jv8rDN8LFqpXQ1Fw2">
+        </div>
+        <div id="act-blue-thanks">
+          <h2 class="title">
+            {{ translate.thanksTitle }}
+          </h2>
         </div>
       </div>
     </div>
@@ -91,6 +91,8 @@
 
   .earth-day-live-full-lockup {
     max-width: 200px;
+    margin-top: 10px;
+    margin-bottom: 10px;
   }
 
   .header-container {
@@ -104,6 +106,7 @@
     -moz-background-size: cover;
     -o-background-size: cover;
     background-size: cover;
+    padding-bottom: 130px;
   }
 
   .title {
@@ -126,6 +129,7 @@
   .act-blue-wrapper {
     height: 640px;
     margin-bottom: 100px;
+    margin-top: -100px;
   }
 
   .donate-logo {
@@ -134,12 +138,15 @@
     padding: 20px 0;
   }
 
-  .logo-container {
-    margin-bottom: 20px;
-  }
 
   .logo-row {
     text-align: center;
+  }
+
+  .logo-col {
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
   }
 
   /* The following CSS must be deployed separately for the ActBlue form iframe */
