@@ -135,7 +135,7 @@
   }
 
   .logo-container {
-    margin-bottom: 40px;
+    margin-bottom: 20px;
   }
 
   .logo-row {
