@@ -19,22 +19,22 @@
         <div class="col-md-8 offset-md-2">
           <div class="row logo-row">
             <div class="col-3 logo-col">
-              <a href="https://www.doctorswithoutborders.org/" target="__blank">
+              <a href="https://www.feedingamerica.org/" target="__blank">
                 <img class="donate-logo" src="~/assets/images/feedingamerica_reverse.png" alt="Feeding America" />
               </a>
             </div>
             <div class="col-3 logo-col">
-              <a href="https://www.feedingamerica.org/" target="__blank">
+              <a href="https://www.doctorswithoutborders.org/" target="__blank">
                 <img class="donate-logo" src="~/assets/images/Medecins_Sans_Frontieres_reverse.png" alt="Doctors Without Borders" />
               </a>
             </div>
             <div class="col-3 logo-col">
-              <a href="https://www.feedingamerica.org/" target="__blank">
+              <a href="https://www.emergentfund.net/" target="__blank">
                 <img class="donate-logo" src="~/assets/images/ef-logo-yellow.png" alt="Emergent Fund" />
               </a>
             </div>
             <div class="col-3 logo-col">
-              <a href="https://www.feedingamerica.org/" target="__blank">
+              <a href="https://www.ienearth.org/" target="__blank">
                 <img class="donate-logo" src="~/assets/images/ien-logo-reverse.png" alt="Indigenous Environmental Network" />
               </a>
             </div>
