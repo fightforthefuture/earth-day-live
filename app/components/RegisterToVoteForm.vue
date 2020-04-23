@@ -8,7 +8,7 @@
       <p class="description">
         {{ translate.description }}
       </p>
-      <iframe id="rtv-iframe" src="https://register.rockthevote.com/registrants/new?partner=38367" @load="onIframeLoad"></iframe>
+      <iframe id="rtv-iframe" src="https://register.rockthevote.com/?partner=38367" @load="onIframeLoad"></iframe>
     </div>
   </section>
 </template>
@@ -22,7 +22,7 @@
     const sourceParam = urlParams.get('source')
     const trackingParam = urlParams.get('tracking')
 
-    let url = 'https://register.rockthevote.com/registrants/new?partner=38367'
+    let url = 'https://register.rockthevote.com/?partner=38367'
 
     if (sourceParam) {
       url += `&source=${sourceParam}`
