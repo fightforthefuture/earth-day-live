@@ -678,7 +678,9 @@
     "title": "Are you registered to vote?",
     "description": "We need to bring in a new generation of elected officials who understand the climate crises and who are prepared to take the necessary action to address it urgently. Register to vote now to ensure your voice is heard this November.",
     "registerNowButton": "Register Now",
-    "tripleYourVoteButton": "Triple Your Vote"
+    "tripleYourVoteButton": "Triple Your Vote",
+    "notRegisteredTitle": "Oh no! We couldn't find any record that matches. You can register now below.",
+    "registeredTitle": "Congratulations! Our records show that you are registered to vote. You're awesome."
   },
   "vote": {
     "nav": {

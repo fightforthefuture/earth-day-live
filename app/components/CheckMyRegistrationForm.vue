@@ -16,13 +16,15 @@
               @load="onIframeLoad"
       >
       </iframe>
-      <div id="registered-cta" class="registration-check-complete">
+      <div id="not-registered-cta" class="registration-check-complete">
+        <h3 class="registration-check-complete-title">{{ translate.notRegisteredTitle }}</h3>
         <button class="btn register-not-sure-button" @click="handleNotRegisteredClick">
           {{ translate.registerNowButton }}
           <img class="circle-arrow" src="~assets/images/circle-arrow.svg" :alt="$t('getInvolved.common.arrowAlt')" />
         </button>
       </div>
-      <div id="not-registered-cta" class="registration-check-complete">
+      <div id="registered-cta" class="registration-check-complete">
+        <h3 class="registration-check-complete-title">{{ translate.registeredTitle }}</h3>
         <button class="btn registered-button" @click="handleRegisteredClick">
           {{ translate.tripleYourVoteButton }}
           <img class="circle-green-arrow" src="~assets/images/circle-green-arrow.svg" :alt="$t('getInvolved.common.arrowAlt')" />
@@ -40,7 +42,7 @@
 
     function receiveMessage(event) {
 
-      var iframeHost = 'https://am-i-registered-to-vote.org/futurecoalition';
+      var iframeHost = 'https://am-i-registered-to-vote.org';
 
       // This is to ensure against XSS vulnerabilities
       if (event.origin.lastIndexOf(iframeHost, 0) !== 0) return;
@@ -56,7 +58,9 @@
               'event_category': 'voter_registration',
               'event_label': 'rsc_form',
             })
-        case 'notRegistered' | 'registrationCheckFailed':
+        case 'notRegistered':
+        case 'registrationCheckFailed':
+          document.getElementById('rtf-cmr-iframe').style.display ='none'
           document.getElementById('not-registered-cta').style.display = 'block'
           this.$gtag('event', 'check_and_not_registered',
             {
@@ -138,6 +142,11 @@
     margin-top: -10px;
     padding-top: 20px;
     background-color: #190825;
+    color: #fff;
+  }
+
+  .registration-check-complete-title {
+    padding: 20px;
   }
 
   button {
@@ -166,5 +175,10 @@
   .circle-green-arrow {
     max-width: 30px;
     margin-left: 10px;
+  }
+
+  #registered-cta,
+  #not-registered-cta {
+    display: none;
   }
 </style>

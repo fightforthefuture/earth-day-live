@@ -26,8 +26,9 @@
   import Logo from '~/components/Logo'
   import PageFooter from '~/components/PageFooter'
   import RegisterToVoteForm from '~/components/RegisterToVoteForm'
-  import TripleYourVote from '~/components/TripleYourVote';
+  import TripleYourVote from '~/components/TripleYourVote'
   import VoteNav from '~/components/VoteNav'
+  import CheckMyRegistrationForm from "~/components/CheckMyRegistrationForm"
 
   export default {
     data() {
@@ -36,6 +37,7 @@
       }
     },
     components: {
+      CheckMyRegistrationForm,
       VoteNav,
       Logo,
       RegisterToVoteForm,
