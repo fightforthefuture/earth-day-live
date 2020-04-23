@@ -247,37 +247,36 @@
           }, {
             "eventTime": "9:30",
             "description": "Musical Performance by Michael Franti"
-          }, {
-            "description": "Message from Kerri Russel"
-          }, {
-            "description": "Morning Flow with Gustavo Padron"
-          }
-        ],
+          }],
         "10:00am": [
           {
             "eventTime": "10:00",
+            "description": "Message from Kerri Russel"
+          }, {
+            "description": "Morning Flow with Gustavo Padron"
+          }, {
+            "eventTime": "10:30",
             "description": "Message from Norman and Lyn Lear"
           }, {
             "description": "Stories from the Earth (Lyla June Johnston)"
-          }, {
-            "eventTime": "10:30",
-            "description": "Chase, Climate Destruction & the Frontlines of Resistance (Bill McKibben, Freda Huson, Tara Houska, Joye Braun)"
-          }, {
-            "description": "Message from Bekah Hinojosa"
-          }, {
-            "description": "Musical Performance by Aloe Blacc"
-          }, {
-            "description": "Thich Naht Hahn Poem (Devendra Banhart)"
+          },{
+            "description": "Chase, Climate Destruction & the Frontlines of Resistance (Bill McKibben, Tara Houska, Joye Braun)"
           }
         ],
         "11:00am": [
           {
             "eventTime": "11:00",
-            "description": "Tim Heidecker Performance"
+            "description": "Message from Bekah Hinojosa"
+          },  {
+            "description": "Musical Performance by Aloe Blacc"
           }, {
-            "eventTime": "11:30",
+            "description": "Thich Naht Hahn Poem (Devendra Banhart)"
+          }, {
+            "description": "TIm Heidecker Performance (Roberta Giordano, Gaurav Madan)"
+          }, {
             "description": "Meditation Moment with Elena Brower"
           }, {
+            "eventTime": "11:30",
             "description": "Wall Street, Rainforest Destruction, and the Climate Crisis (Hana Heineken, Pendle Marshall-Hallmark, Helena Gualinga)"
           }, {
             "description": "Musical Performance by Siva Kaneswaran"
@@ -300,26 +299,26 @@
             "description": "How Mass Movements Win with Erica Chenoweth"
           }, {
             "description": "Message from Ronen Rubinstein"
-          }
-        ],
-        "1:00pm": [
-          {
-            "eventTime": "1:00",
+          },{
             "description": "Message from Patrisse Cullors"
           }, {
             "description": "Message from Amber Tamblyn"
-          }, {
-            "description": "Big banks, the Gwich'in Nation, and the fight to protect the Arctic Refuge (Lena Moffitt, Bernadette Demientieff, Councillor Cheryl Charlie)"
+          }
+        ],
+        "1:00pm": [
+           {
+             "eventTime": "1:00",
+             "description": "Big banks, the Gwich'in Nation, and the fight to protect the Arctic Refuge (Lena Moffitt, Bernadette Demientieff, Councillor Cheryl Charlie)"
           }, {
             "description": "Let's Takeover Over Chase - Online"
           }, {
             "description": "Youth vs. Apocalypse: No One Is Disposable Music VIdeo Release"
           }, {
-            "eventTime": "1:30",
             "description": "Gardening with Amber Valletta"
           }, {
             "description": "Message from Gabriel and Ini"
           }, {
+            "eventTime": "1:30",
             "description": "Being a Disabled Activist (Izzy Laderman, Alexia Leclercq, Doran Walters)"
           }, {
             "description": "Message from Kat Taylor intro to Higher Education Panel"
@@ -330,42 +329,44 @@
         "2:00pm": [
           {
             "eventTime": "2:00",
-            "description": "Fossil Fuel Resistance: Spotlight on Pipeline Fights"
+            "description": "A Pandemic Doesn't Stop Big Oil: Pipeline Construction Across Turtle Island"
           }, {
             "description": "Message and Musical Performance with Kelcey Ayer from the Local Natives"
           }, {
-            "eventTime": "2:30",
             "description": "What Does The Coronavirus Teach us About the Climate Crisis?"
           }, {
             "description": "Indigenous Women Divestment Delegation (Michelle Cook, Osprey Orielle Lake)"
           }, {
+            "eventTime": "2:30",
             "description": "Message from Emily Robinson"
           }, {
             "description": "Message from Marisol Rivera, 14-year-old Superstorm Sandy survivor"
           }, {
-            "description": "Stop The Money Pipeline Song Mongtage"
+            "description": "Poetry with Dominique Crenn"
+          }, {
+            "description": "Participant presents: A message from Paul Watson, Marine wildlife conservationist on the ecology of viruses"
+          }, {
+            "description": "Marina Performance"
+          }, {
+            "description": "Message from the Frontlines with Tamara Toles O'Laughlin"
+          },  {
+            "description": "Message from The Social Good Club - Imagining New Normals (Louis Cole, Raya Encheva, Kati Morton, Mario Rigby, Haifa Beseisso, Elle Mills, Luke Korns, Matt Santoro, Roberto Blake, Borja Vázquez (Luzu), Gabbie Hanna, Amanda DuPont, Kristen Zarrabi)"
+          }, {
+            "description": "Stop The Money Pipeline Song Montage"
           }
         ],
         "3:00pm": [
           {
             "eventTime": "3:00",
-            "description": "Stop The Money Pipleline Political Townhall (Rep. Rashida Tlaib, Sen. Jeff Merkley, Rep. Katie Porter, Rep. Ilhan Omar (TBC))"
+            "description": "Stop The Money Pipleline Political Townhall (Jamie Henn, Moira Birss, Iris Zahn, Tara Houska, Bolaji Olagbegi, Sulakshana, Rep. Rashida Tlaib, Sen. Ed Markey, Sen. Jeff Merkley)"
           }, {
             "eventTime": "3:30",
-            "description": "Cooking with Dominique Crenn"
-          }, {
-            "description": "Marina Performance"
-          }, {
-            "description": "Message from the Frontlines with Tamara Toles O'Laughlin"
+            "description": "Money Matters: Youth and Elders Unite for A Fossil-Free Future (Lolita Jackson, Hridesh Singh, Anna Seigel, Lynne Nittler, Clara Vondrich)"
           }
         ],
         "4:00pm": [
           {
             "eventTime": "4:00",
-            "description": "Money Matters: Youth and Elders Unite for A Fossil-Free Future (Lolita Jackson, Hridesh Singh, Anna Seigel, Lynne Nittler, Clara Vondrich)"
-          }, {
-            "description": "Message from The Social Good Club - Imagining New Normals (Louis Cole, Raya Encheva, Kati Morton, Mario Rigby, Haifa Beseisso, Elle Mills, Luke Korns, Matt Santoro, Roberto Blake, Borja Vázquez (Luzu), Gabbie Hanna, Amanda DuPont, Kristen Zarrabi)"
-          }, {
             "description": "BlackRock: Making the financial giant tackle the climate emergency (Luke Korns, Matt Santoro, Roberto Blake, Borja Vázquez (Luzu), Gabbie Hanna, Amanda DuPont, Kristen Zarrabi)"
           },{
             "description": "Virtual Choir with the Peace Poets (Lu Aya, Frank Lopez)"
@@ -379,8 +380,6 @@
         "5:00pm": [
           {
             "eventTime": "5:00",
-            "description": "Participant presents: A message from Paul Watson, Marine wildlife conservationist on the ecology of viruses"
-          }, {
             "description": "Monica Dogra Spoken Word Poem"
           },{
             "description": "Indigenous Leaders On The Frontlines of Fossil Fuel Resistance (Samantha Arechiga, Makasa Looking Horse, Ta'kaiya Blaney, Jasilyn Charger)"
@@ -390,7 +389,7 @@
           }, {
             "description": "Amanda Palmer Performance"
           }, {
-            "description": "Earth From Above-- Conversation between Chille Bergstrom and Dr Shawna Pandya"
+            "description": "Earth From Above -- Conversation between Chille Bergstrom and Dr Shawna Pandya"
           }
         ],
         "6:00pm": [
@@ -398,41 +397,45 @@
             "eventTime": "6:00",
             "description": "Musical Performance by Ziggy Marley"
           }, {
-            "description": "Youth Pledge Video"
+            "description": "Youth Pledge Video - \"Divest!\""
           }, {
             "description": "Message from Xiye Bastida from Chase's HQ"
           }, {
             "description": "Musical Performance by Mumu Fresh"
           }, {
-            "eventTime": "6:30",
             "description": "Social Good Club: Using Storying Telling to Accelerate Change (Louis Cole, Sophia Esperanza, Kip Andersen, Nadia Nazar)"
+          }, {
+            "eventTime": "6:30",
+            "description": "Insure Our Future, Not Fossil Fuels"
           }
         ],
         "7:00pm": [
           {
             "eventTime": "7:00",
-            "description": "Insure Our Future, Not Fossil Fuels"
-          }, {
             "description": "Musical Performance by Ani DiFranco"
           }, {
             "description": "Women on the Frontlines of the Climate and COVID-19 Crises: Struggles and Solutions (Monique Verdin, Jacqui Patterson, Rupa Marya, Casey Camp Horinek, Osprey Orielle Lake)"
           }, {
             "eventTime": "7:30",
-            "description": "Women on the Frontlines of the Climate and COVID-19 Crises: Struggles and Solutions (Continued)"
+            "description": "Staying Unified During a Crisis in Philadelphia (Lorraine Ruppert, Mitch Chanin, Dwight Dunston, Montgomery Ogden, Cameron Powell, Avery Broughton, Enya Xiang)"
+          }, {
+            "description": "A message from Dallas Goldtooth"
+          }, {
+            "description": "A message from Doctors Without Borders"
           }
         ],
         "8:00pm": [
           {
             "eventTime": "8:00",
-            "description": "Staying Unified During a Crisis in Philadelphia (Lorraine Ruppert, Mitch Chanin, Dwight Dunston, Montgomery Ogden, Cameron Powell, Avery Broughton, Enya Xiang)"
-          }, {
             "description": "Lissie Musical Performance"
           }, {
             "description": "Save the Post Office! Save Our Democracy (Debby Szeredy, Cortney “CJ” Jenkins, Teresa Marie Oller, Tamara Twinn)"
           }, {
             "eventTime": "8:30",
-            "description": "Promise to Keep Striking from the Peace Poets"
+            "description": "Evan Greer Musical Performance"
           }, {
+            "description": "Promise to Keep Striking from the Peace Poets"
+          },{
             "description": "Message from Reverend Lennox Yearwood"
           }
         ],
@@ -518,8 +521,6 @@
             "eventTime": "2:30",
             "description": "Message from Troian Bellisario"
           }, {
-            "description": "Chef José Andrés Spotlight on World Central Kitchen"
-          }, {
             "description": "Will Amai Performs"
           }
         ],
@@ -531,19 +532,19 @@
             "eventTime": "2:30",
             "description": "Musical Performance and Message, Cody Simpson"
           }, {
-            "description": "Vegan cooking segment with Alejandra Schrader"
+            "description": "Plant-based cooking segment with Alejandra Schrader"
+          }, {
+            "description": "Water Security and the Climate Crisis (Anna Day, Alex Cornell du Houx, Mariam Solaimankhail )"
           }
         ],
         "3:00pm": [
           {
             "eventTime": "3:00",
-            "description": "Water Security and the Climate Crisis (Anna Day, Alex Cornell du Houx, Mariam Solaimankhail )"
-          }, {
             "description": "Musical Performance by Other Lives"
           }, {
-            "eventTime": "3:30",
             "description": "Service Workers Story Slam To Demand Action (Saru Jayaraman, Treya Lam, Heather Mankedick, Sarah May, Guadalupe A., Fred Shaw, Ali Baker)"
           }, {
+            "eventTime": "3:30",
             "description": "From Standing Rock to Black Lives Matter to Climate Strikes: What It's Like to Lead a Movement (Jamie Margolin, Nupol Kiazolu, Jasilyn Charger)"
           }
         ],
@@ -554,14 +555,14 @@
           }, {
             "description": "Message from Stacey Abrams"
           }, {
+            "description": "Immigration Justice is Climate Justice (Juliana Macedo do Nascimento, Josue De Luna Navarro)"
+          }, {
             "description": "Endangering Generations: How Climate Change is Putting Our Kids at Risk (Jonah Gottlieb, Genna Reed, Dr. Mustafa Santiago Ali, Dr. Mona Hanna-Attisha, Levi Draheim, Nsedu Obot Witherspoon, MPH)"
           }, {
             "eventTime": "4:30",
             "description": "Message from Al Gore"
           }, {
             "description": "Musical Performance by Nuka"
-          }, {
-            "description": "Immigration Justice is Climate Justice (Juliana Macedo do Nascimento, Josue De Luna Navarro)"
           }, {
             "description": "Musical Performance by Mumu Fresh"
           }
@@ -571,9 +572,9 @@
             "eventTime": "5:00",
             "description": "Restoring Indigenous Ocean Stewardship to California's Central Coast (Katherine O'Dea, Valentin Lopez, Alexii Sigona, Steven Pratt)"
           }, {
-            "eventTime": "5:30",
             "description": "Spill the Tea with AOC: A Conversation on the Green New Deal "
-          }, {
+          },{
+            "eventTime": "5:30",
             "description": "Vote Party"
           }
         ],
@@ -582,27 +583,23 @@
              "eventTime": "6:00",
              "description": "Musical Performance by Dave Matthews"
            }, {
-            "description": "Message from Tom Steyer"
-          }, {
             "eventTime": "6:30",
             "description": "The People's Bailout: What a Just COVID-19 Response Should Look Like"
-          }, {
-            "description": "How to Advocate to Congress for a Green Future (Charlie Jiang, Sanah Niazi)"
           }
         ],
         "7:00pm": [
           {
             "eventTime": "7:00",
-            "description": "Musical Performance & Message by Adam Gardner from Guster"
+            "description": "How to Advocate to Congress for a Green Future (Charlie Jiang, Sanah Niazi)"
           }, {
+            "eventTime": "7:00",
+            "description": "Musical Performance & Message by Adam Gardner from Guster"
+          },{
             "description": "Musical Performance by Kirsten Vangsness"
           }, {
             "description": "Message from Angela Rye"
           }, {
             "description": "Musical Performance by Will Anderson of Parachute"
-          }, {
-            "eventTime": "7:30",
-            "description": "The Census: The Game Behind The Game (Justin Kwasa, Rachel Spector, Nicole Morales)"
           }, {
             "description": "Message from Barbara Boxer"
           }, {
@@ -618,22 +615,24 @@
         "8:00pm": [
           {
             "eventTime": "8:00",
-            "description": "The Kids of the Broadway Green Alliance Musical Performance - Led by Sydney Lucas and over 30 of Broadway's youngest performers (Sydney Lucas, Brock Lucas, Oscar Williams, Cole Williams, Rowan Williams, Stone Williams, Arlo Williams, Poppy Williams, Zell Steele Morrow, Madilyn Morrow, Alexander Bello, Mehret Marsh, Anthony Rosenthal, Jeremy Villas, Nicky Torchia, Jake Katzman, Sway Bathia, Samuel Li Weintraub, Gregory Ye, Bella Ye, Jace Chen, Jaxon Chen, George Holly Smithyman)"
+            "description": "The Census: The Game Behind The Game (Justin Kwasa, Rachel Spector, Nicole Morales)"
           }, {
+            "description": "The Kids of the Broadway Green Alliance Musical Performance - Led by Sydney Lucas and over 30 of Broadway's youngest performers (Sydney Lucas, Brock Lucas, Oscar Williams, Cole Williams, Rowan Williams, Stone Williams, Arlo Williams, Poppy Williams, Zell Steele Morrow, Madilyn Morrow, Alexander Bello, Mehret Marsh, Anthony Rosenthal, Jeremy Villas, Nicky Torchia, Jake Katzman, Sway Bathia, Samuel Li Weintraub, Gregory Ye, Bella Ye, Jace Chen, Jaxon Chen, George Holly Smithyman)"
+          },{
             "description": "Message from Riz Ahmed"
           },{
             "description": "COVID Testing in LA with Dylan Penn"
           }, {
+            "eventTime": "8:30",
             "description": "Closing Ceremony"
           }, {
-            "eventTime": "8:30",
-            "description": "Soul Clap DJ set"
+            "description": "Dance Party with Soul Clap"
           }
         ],
         "9:00pm": [
           {
             "eventTime": "9:00",
-            "description": "Dance Party w/ DJ Sofi Tukker"
+            "description": "Dance Party with DJ Sofi Tukker"
           },  {
             "description": "Dance Party with DJ Blondish"
           },{
