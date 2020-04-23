@@ -272,7 +272,7 @@
           }, {
             "description": "Thich Naht Hahn Poem (Devendra Banhart)"
           }, {
-            "description": "TIm Heidecker Performance (Roberta Giordano, Gaurav Madan)"
+            "description": "Tim Heidecker Performance"
           }, {
             "description": "Meditation Moment with Elena Brower"
           }, {
@@ -321,7 +321,7 @@
             "eventTime": "1:30",
             "description": "Being a Disabled Activist (Izzy Laderman, Alexia Leclercq, Doran Walters)"
           }, {
-            "description": "Message from Kat Taylor intro to Higher Education Panel"
+            "description": "Message from Kat Taylor"
           }, {
             "description": "Higher Education: Complicit or Leaders in Climate (Kyle Rosenthal, Ari Bortman, Marley Wiest, Abby Kleiman, Laís Santoro, Elly Ren, Sydney Barron, Calistra Triantis)"
           }
@@ -387,7 +387,7 @@
             "eventTime": "5:30",
             "description": "A Song for the Climate from 9-year-old, Emunah"
           }, {
-            "description": "Amanda Palmer Performance"
+            "description": "Performance by Amanda Palmer"
           }, {
             "description": "Earth From Above -- Conversation between Chille Bergstrom and Dr Shawna Pandya"
           }
@@ -470,7 +470,7 @@
             "description": "Packing a Punch: Pass Your Own Damn Bill (Anissa Pemberton, Hridesh Singh, Jade Lozada)"
           }, {
             "eventTime": "10:30",
-            "Description": "Packing a Punch: Pass Your Own Damn Bill (Continued)"
+            "description": "Packing a Punch: Pass Your Own Damn Bill (Continued)"
           }
         ],
         "11:00am": [
@@ -495,7 +495,7 @@
             "eventTime": "12:00",
             "description": "1 Minute Meditation (Lisa Brooks)"
           }, {
-            "description": "PHUM VIPHURIT Musical Performance"
+            "description": "Musical Performance by Phum Viphurit"
           },{
             "description": "Jumaane Williams Message"
           }, {
@@ -514,14 +514,14 @@
             "eventTime": "1:00",
             "description": "There's No Such Thing as Not Voting with Eric Liu"
           }, {
-            "description": "BrockHampton Performs"
+            "description": "Brockhampton Performs"
           },{
             "description": "Claim Your Power At The Ballot Box: How To Overcome Barriers To Voting (D'Aungillique Jackson, Evan Malbrough, Amaya Fox, Tamia Fowlkes)"
           }, {
             "eventTime": "2:30",
             "description": "Message from Troian Bellisario"
           }, {
-            "description": "Will Amai Performs"
+            "description": "Musical Performance by Willa Amai"
           }
         ],
         "2:00pm": [
@@ -617,7 +617,7 @@
             "eventTime": "8:00",
             "description": "The Census: The Game Behind The Game (Justin Kwasa, Rachel Spector, Nicole Morales)"
           }, {
-            "description": "The Kids of the Broadway Green Alliance Musical Performance - Led by Sydney Lucas and over 30 of Broadway's youngest performers (Sydney Lucas, Brock Lucas, Oscar Williams, Cole Williams, Rowan Williams, Stone Williams, Arlo Williams, Poppy Williams, Zell Steele Morrow, Madilyn Morrow, Alexander Bello, Mehret Marsh, Anthony Rosenthal, Jeremy Villas, Nicky Torchia, Jake Katzman, Sway Bathia, Samuel Li Weintraub, Gregory Ye, Bella Ye, Jace Chen, Jaxon Chen, George Holly Smithyman)"
+            "description": "The Kids of the Broadway Green Alliance Musical Performance - Led by Sydney Lucas and over 30 of Broadway's youngest performers"
           },{
             "description": "Message from Riz Ahmed"
           },{
@@ -632,9 +632,9 @@
         "9:00pm": [
           {
             "eventTime": "9:00",
-            "description": "Dance Party with DJ Sofi Tukker"
+            "description": "Dance Party with Sofi Tukker"
           },  {
-            "description": "Dance Party with DJ Blondish"
+            "description": "Dance Party with Blondish"
           },{
             "eventTime": "9:30",
             "description": "Dance Party with Flying Lotus"
