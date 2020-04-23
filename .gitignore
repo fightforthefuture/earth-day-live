@@ -88,3 +88,7 @@ sw.*
 
 # Vim swap files
 *.swp
+
+# testing
+app/static/act-blue-form.css
+app/static/notindex.html

@@ -745,6 +745,10 @@
       "copyLink": "Share the link"
     }
   },
+  "donate": {
+    "title": "Donate to COVID-19 Relief",
+    "description": "All proceeds go to XYZ"
+  },
   "footer": {
     "press": "Press:",
     "privacyPolicy": "Privacy Policy",
