@@ -32,9 +32,9 @@
       },
       amOrPm() {
         if (this.index > 2) {
-          return 'pm EST'
+          return 'pm EDT'
         }
-        return 'am EST'
+        return 'am EDT'
       }
   },
 }

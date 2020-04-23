@@ -32,16 +32,6 @@
       url += `&tracking=${trackingParam}`
     }
 
-    const emailCookie = outerThis.$cookie.get('form-email')
-    const zipcodeCookie = outerThis.$cookie.get('form-zip_code')
-    if (emailCookie !== null) {
-       url += `&email_address=${emailCookie}`
-    }
-
-    if (zipcodeCookie !== null) {
-      url += `&home_zip_code=${zipcodeCookie}`
-    }
-
     const locale = outerThis.$i18n.locale
     if (locale === 'es') {
       url += `&locale=${locale}`
