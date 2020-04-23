@@ -4,14 +4,46 @@
       <div>
         <img class="earth-day-live-full-lockup" src="~/assets/images/earth-day-live-full-lockup.png" alt="Earth Day Live" />
         <div class="col-md-8 offset-md-2">
-          <h1 class="title">
+          <h2 class="title">
             {{ translate.title }}
-          </h1>
+          </h2>
         </div>
         <div class="col-md-8 offset-md-2">
-          <h4 class="subtitle">
+          <h5 class="subtitle">
             {{ translate.description }}
-          </h4>
+          </h5>
+          <h5 class="subtitle">
+            {{translate.description2}}
+          </h5>
+        </div>
+      </div>
+    </div>
+    <div class="container logo-container">
+      <div class="col-md-8 offset-md-2">
+        <div class="row logo-row">
+          <div class="col-6">
+            <a href="https://www.doctorswithoutborders.org/" target="__blank">
+              <img class="donate-logo" src="~/assets/images/dwb-logo.png" alt="Doctors Without Borders" />
+            </a>
+
+          </div>
+          <div class="col-6">
+            <a href="https://www.feedingamerica.org/" target="__blank">
+            <img class="donate-logo" src="~/assets/images/fa-logo.png" alt="Feeding America" />
+            </a>
+          </div>
+        </div>
+        <div class="row logo-row">
+          <div class="col-6">
+            <a href="https://www.feedingamerica.org/" target="__blank">
+              <img class="donate-logo" src="~/assets/images/ef-logo.jpg" alt="Emergent Fund" />
+            </a>
+          </div>
+          <div class="col-6">
+            <a href="https://www.feedingamerica.org/" target="__blank">
+              <img class="donate-logo" src="~/assets/images/ien-logo.png" alt="Indigenous Environmental Network" />
+            </a>
+          </div>
         </div>
       </div>
     </div>
@@ -72,7 +104,6 @@
     -moz-background-size: cover;
     -o-background-size: cover;
     background-size: cover;
-    padding-bottom: 130px;
   }
 
   .title {
@@ -89,15 +120,28 @@
     font-weight: 300;
     color: #fff;
     word-spacing: 5px;
-    padding-bottom: 60px;
+    padding-bottom: 30px;
   }
 
   .act-blue-wrapper {
     height: 640px;
-    margin-top: -140px;
     margin-bottom: 100px;
   }
-  
+
+  .donate-logo {
+    width: 100%;
+    max-width: 200px;
+    padding: 20px 0;
+  }
+
+  .logo-container {
+    margin-bottom: 40px;
+  }
+
+  .logo-row {
+    text-align: center;
+  }
+
   /* The following CSS must be deployed separately for the ActBlue form iframe */
   /* html, body {
     margin: 0px;
@@ -226,5 +270,5 @@
   p.smalltext {
     color: white;
   } */
-  
+
 </style>
