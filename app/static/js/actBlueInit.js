@@ -1,8 +1,9 @@
-(function(e){
+(function(e, t){
   e.actBlueConfig = {
-    styleSheetHref: "https://stage.earthdaylive2020.org/donate/main.css"
+    styleSheetHref: "https://stage.earthdaylive2020.org/donate/main.css",
+    onContribute: function(contribution) {
+      t.getElementById('act-blue-token').style.display = 'none'
+      t.getElementById('act-blue-thanks').style.display = 'block'
+    }
   };
-  e.actBlueConfig = {onContribute: function(contribution) {
-	   e.location.href = "https://stage.earthdaylive2020.org/donation-thank-you/"
-  }};
-})(window);
+})(window, document);

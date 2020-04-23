@@ -44,12 +44,17 @@
     </div>
     <div class="container-fluid">
       <div class="col-lg-6 offset-lg-3 act-blue-wrapper">
-        <div class="act-blue-token " data-ab-form data-ab-token="31BvGG5jv8rDN8LFqpXQ1Fw2">
+        <div id="act-blue-token" class="act-blue-token" data-ab-form data-ab-token="31BvGG5jv8rDN8LFqpXQ1Fw2">
         </div>
         <div id="act-blue-thanks">
           <h2 class="title">
             {{ translate.thanksTitle }}
           </h2>
+          <p>{{ translate.thanksDescription }}</p>
+          <button class="btn thanks-button" @click="goTo(localePath('/'))">
+            {{ translate.thanksButtonText }}
+            <img class="circle-arrow" src="~assets/images/circle-arrow.svg" :alt="$t('getInvolved.common.arrowAlt')" />
+          </button>
         </div>
       </div>
     </div>
@@ -69,7 +74,11 @@
     components: {
       PageFooter,
     },
-
+    methods: {
+      goTo(url) {
+        window.location.href = url
+      },
+    },
     head() {
       return {
         script: [{
@@ -80,7 +89,7 @@
           }
         ],
       }
-    }
+    },
   }
 </script>
 
@@ -147,6 +156,20 @@
     display: flex;
     align-items: center;
     flex-wrap: wrap;
+  }
+
+  button {
+    text-transform: uppercase;
+    color: #fff;
+    padding: 20px 40px;
+    font-weight: 700;
+    font-size: 1.5em;
+    margin-bottom: 50px;
+    background-image: linear-gradient(to right, #f26146 0%, #fb722c 35%, #f65b5a 65%, #f85371 100%);
+  }
+
+  button:hover {
+    background-image: linear-gradient(to right, #f26146 0%, #fb722c 35%, #f65b5a 65%, #f85371 100%);
   }
 
   /* The following CSS must be deployed separately for the ActBlue form iframe */

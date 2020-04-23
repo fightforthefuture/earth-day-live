@@ -799,11 +799,10 @@
   "donate": {
     "title": "The Climate Strike Coalition and the Stop The Money Pipeline Coalition are proud to support COVID-19 community relief efforts",
     "description": "Every dollar raised will go towards supporting the extraordinary work of organizations that are providing direct and critical support to communities affected by the COVID-19 pandemic. Our collective coalition of over 500 organizations believe the groups below need and deserve our support.",
-    "description2": "Together with your support, we are pleased to be fundraising for:"
-  },
-  "donation-thank-you": {
-    "title": "Thank you for your contribution!",
-    "subtitle": "UPDATE THIS SUBTITLE"
+    "description2": "Together with your support, we are pleased to be fundraising for:",
+    "thanksTitle": "Thanks for your contribution!",
+    "thanksDescription": "You're part of a movement supporting the extraordinary work of organizations providing critical COVID-19 relief efforts.",
+    "thanksButtonText": "Join the Livestream"
   },
   "takeActionButton": {
     "buttonText": "Take Action Now"
