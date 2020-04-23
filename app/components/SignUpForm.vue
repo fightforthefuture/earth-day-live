@@ -1,9 +1,16 @@
 <template>
-  <div class="container-fluid splash-page-signup-form-container">
+  <div class="container-fluid splash-page-signup-form-container" id="signup">
     <div class="col-md-6 offset-md-3">
+      <h1 class="section-title">
+        {{ translate.title }}
+      </h1>
+      <img class="separator" src="~assets/images/separator.jpg" :alt="$t('getInvolved.common.separatorAlt')" />
+      <p class="description">
+        {{ translate.description }}
+      </p>
       <div class="splash-page-signup-form-wrapper">
-        <div v-if="$i18n.locale === 'es'" id="can-form-area-dia-de-la-tierra-2020-2"></div>
-        <div v-else id="can-form-area-rsvp-for-earth-day-live"></div>
+        <div v-if="$i18n.locale === 'es'" id="can-form-area-vota-por-nuestro-futuro"></div>
+        <div v-else id="can-form-area-pledge-to-vote-for-the-future"></div>
         <p class="splash-page-disclaimer">
           {{ translate.disclaimer1 }}<i>{{ translate.disclaimer2 }}</i>{{ translate.disclaimer3 }}
         </p>
@@ -20,8 +27,8 @@
      },
      head () {
        const actionNetworkFormPath = this.$i18n.locale === 'es'
-         ? 'dia-de-la-tierra-2020-2'
-         : 'rsvp-for-earth-day-live'
+         ? 'vota-por-nuestro-futuro'
+         : 'pledge-to-vote-for-the-future'
 
        return {
            script: [
@@ -47,19 +54,9 @@
                  partnerDisclaimer.innerHTML = `You may receive updates from <i>${partnerGroupName}</i>, who shared this form with you.`
                  document.querySelector('.splash-page-signup-form-wrapper').appendChild(partnerDisclaimer)
              }
-
-             // Have to listen for change event instead of catching data in 'can_embed_submitted' event because
-             // the form element is removed from the page before that event is fired
-             const outerThis = this;
-             document.getElementById('form-email').onchange = function() {
-                 outerThis.$cookie.set('form-email', this.value, 60)
-             }
-             document.getElementById('form-zip_code').onchange = function() {
-                 outerThis.$cookie.set('form-zip_code', this.value, 60)
-             }
          })
 
-         document.addEventListener('can_embed_submitted', () => {
+         document.addEventListener('canembed_submitted', () => {
            document.querySelectorAll('.splash-page-disclaimer').forEach((disclaimer) => {
              disclaimer.style.display = 'none'
            })
@@ -78,11 +75,11 @@
 <style>
   .splash-page-signup-form-container {
     background-color: #e3e9ec;
-    padding-bottom: 100px;
     display: flex;
+    padding: 75px 20px;
+    text-align: center;
   }
   .splash-page-signup-form-wrapper {
-    margin-top: -100px;
     background-color: #190825;
     padding: 20px;
     color: #fff;
@@ -104,14 +101,14 @@
     color: #fd6f37 !important;
   }
 
-  #can-form-area-rsvp-for-earth-day-live,
-  #can-form-area-dia-de-la-tierra-2020-2 {
+  #can-form-area-pledge-to-vote-for-the-future,
+  #can-form-area-vota-por-nuestro-futuro {
     border: none !important;
     background-color: #190825;
   }
 
-  #can-form-area-rsvp-for-earth-day-live #can_embed_form,
-  #can-form-area-dia-de-la-tierra-2020-2 #can_embed_form {
+  #can-form-area-pledge-to-vote-for-the-future #can_embed_form,
+  #can-form-area-vota-por-nuestro-futuro #can_embed_form {
     border: none !important;
     background-color: #190825 !important;
   }
@@ -182,16 +179,16 @@
   #can_embed_form .international_link {
     color: #fff !important;
   }
-  #can-form-area-rsvp-for-earth-day-live #can_embed_form #can_thank_you,
-  #can-form-area-dia-de-la-tierra-2020-2 #can_embed_form #can_thank_you {
+  #can-form-area-pledge-to-vote-for-the-future #can_embed_form #can_thank_you,
+  #can-form-area-vota-por-nuestro-futuro #can_embed_form #can_thank_you {
     background-color: #190825 !important;
   }
-  #can-form-area-rsvp-for-earth-day-live #can_embed_form #can_thank_you h1,
-  #can-form-area-dia-de-la-tierra-2020-2 #can_embed_form #can_thank_you h1 {
+  #can-form-area-pledge-to-vote-for-the-future #can_embed_form #can_thank_you h1,
+  #can-form-area-vota-por-nuestro-futuro #can_embed_form #can_thank_you h1 {
     font-family: titling-gothic-fb, sans-serif !important;
   }
-  #can-form-area-rsvp-for-earth-day-live #can_embed_form .can_thank_you-block h4,
-  #can-form-area-dia-de-la-tierra-2020-2 #can_embed_form .can_thank_you-block h4 {
+  #can-form-area-pledge-to-vote-for-the-future #can_embed_form .can_thank_you-block h4,
+  #can-form-area-vota-por-nuestro-futuro #can_embed_form .can_thank_you-block h4 {
     color: #fff !important;
     font-family: neue-haas-grotesk-display, sans-serif !important;
   }
@@ -201,14 +198,15 @@
     color: #fff !important;
     font-family: neue-haas-grotesk-display, sans-serif !important;
   }
-  #can-form-area-rsvp-for-earth-day-live #can_embed_form span.can_select,
-  #can-form-area-rsvp-for-earth-day-live #can_embed_form span.can_select {
+
+  #can-form-area-pledge-to-vote-for-the-future #can_embed_form span.can_select,
+  #can-form-area-vota-por-nuestro-futuro #can_embed_form span.can_select {
     font-weight: 700 !important;
     padding: 0 20px !important;
     font-size: 1.2em !important;
   }
-  #can-form-area-rsvp-for-earth-day-live #can_embed_form .can_select span.can_selectInner,
-  #can-form-area-rsvp-for-earth-day-live #can_embed_form .can_select span.can_selectInner {
+  #can-form-area-pledge-to-vote-for-the-future #can_embed_form .can_select span.can_selectInner,
+  #can-form-area-vota-por-nuestro-futuro #can_embed_form .can_select span.can_selectInner {
     color: #190825 !important;
   }
 

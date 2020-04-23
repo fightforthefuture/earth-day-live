@@ -24,7 +24,8 @@ export default {
       { rel: 'stylesheet', href: 'https://use.typekit.net/kgg8gke.css' },
     ],
     script: [
-      { src: '/js/pixel.js' }
+      { src: '/js/snapPixel.js' },
+      { src: '/js/pixie.js' },
     ]
   },
   loading: { color: '#e3e9ec' },
@@ -35,7 +36,6 @@ export default {
   */
   plugins: [
     { src: './plugins/clipboardCopy.js' },
-    { src: './plugins/cookie.js' },
   ],
   /*
   ** Nuxt.js dev-modules
