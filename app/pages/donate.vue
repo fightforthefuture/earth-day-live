@@ -51,9 +51,8 @@
             {{ translate.thanksTitle }}
           </h2>
           <p>{{ translate.thanksDescription }}</p>
-          <button class="btn thanks-button" @click="goTo(localePath('/'))">
+          <button class="btn thanks-button col-8" @click="goTo(localePath('/'))">
             {{ translate.thanksButtonText }}
-            <img class="circle-arrow" src="~assets/images/circle-arrow.svg" :alt="$t('getInvolved.common.arrowAlt')" />
           </button>
         </div>
       </div>
@@ -120,6 +119,7 @@
 
   .title {
     padding-bottom: 30px;
+    text-align: center;
   }
 
   body {
@@ -158,18 +158,28 @@
     flex-wrap: wrap;
   }
 
-  button {
+  button.thanks-button {
     text-transform: uppercase;
     color: #fff;
-    padding: 20px 40px;
+    padding: 10px;
     font-weight: 700;
     font-size: 1.5em;
     margin-bottom: 50px;
     background-image: linear-gradient(to right, #f26146 0%, #fb722c 35%, #f65b5a 65%, #f85371 100%);
+    margin-top: 20px;
   }
 
-  button:hover {
+  button.thanks-button:hover {
     background-image: linear-gradient(to right, #f26146 0%, #fb722c 35%, #f65b5a 65%, #f85371 100%);
+  }
+  
+  #act-blue-thanks {
+    text-align: center;
+    background-color: #240e34;
+    color: #fff;
+    padding-top: 40px;
+    padding-left: 20px;
+    padding-right: 20px;
   }
 
   /* The following CSS must be deployed separately for the ActBlue form iframe */
