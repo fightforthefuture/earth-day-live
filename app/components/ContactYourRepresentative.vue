@@ -23,7 +23,10 @@
           ></b-input>
           <button class="btn thanks-button" @click.prevent="$fetch">
             {{ translate.findYourRepButtonText }}
-            <img class="circle-arrow" src="~assets/images/circle-arrow.svg" :alt="$t('getInvolved.common.arrowAlt')" />
+            <img id="zip-code-button-icon" class="circle-arrow" src="~assets/images/circle-arrow.svg" :alt="$t('getInvolved.common.arrowAlt')" />
+            <font-awesome-layers class="fa fa-spin" id="sync-icon">
+              <font-awesome-icon icon="sync"/>
+            </font-awesome-layers>
           </button>
         </div>
         <div>
@@ -67,9 +70,14 @@
       },
       async fetch() {
         let zipCode = document.getElementById('inline-form-input-zip').value.trim()
+        document.getElementById('zip-code-button-icon').style.display = 'none'
+        document.getElementById('sync-icon').style.display = 'inline-block'
 
         await this.$axios.$get(`https://murmuring-spire-01484.herokuapp.com/https://whoismyrepresentative.com/getall_mems.php?zip=${zipCode}&output=json`, {data: null, ContentType : 'application/json; charset=utf-8'}, )
           .then((response) => {
+
+            document.getElementById('zip-code-button-icon').style.display = 'inline-block'
+            document.getElementById('sync-icon').style.display = 'none'
 
             if (response === '<result message=\'No Data Found\' />' || response === '<result error=\'Invalid input data\' />') {
               document.getElementById('zip-code-error').style.display = 'block'
@@ -101,6 +109,11 @@
   .description {
     padding: 20px 0;
     text-align: justify;
+  }
+
+  #sync-icon {
+    display: none;
+    margin-left: 5px;
   }
 
   #inline-form-input-zip {
