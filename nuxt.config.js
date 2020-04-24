@@ -67,7 +67,7 @@ export default {
   ** Nuxt.js modules
   */
   modules: [
-    // Doc: https://bootstrap-vue.js.org
+    '@nuxtjs/axios',
     'bootstrap-vue/nuxt',
     '@nuxtjs/google-gtag',
     'nuxt-facebook-pixel-module',

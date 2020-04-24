@@ -60,7 +60,6 @@
 
   .navbar-nav {
     padding: 0 15px;
-    max-width: 400px;
   }
 
   .navbar a {
