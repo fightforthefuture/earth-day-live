@@ -136,7 +136,7 @@
   }
 
   .act-blue-wrapper {
-    height: 640px;
+    height: 550px;
     margin-bottom: 100px;
     margin-top: -100px;
   }
@@ -174,6 +174,7 @@
   }
   
   #act-blue-thanks {
+    display: none;
     text-align: center;
     background-color: #240e34;
     color: #fff;
