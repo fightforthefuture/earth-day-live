@@ -1,16 +1,22 @@
 <template>
   <section id="call-script">
     <div class="col-md-6 offset-md-3">
-      <h3>Here is your call script for <span id="call-script-name"></span>. Call them on <span id="call-script-number"></span>.</h3>
+      <h3>Here is your call script for <span id="call-script-name-title"></span>. Call them on <span id="call-script-number"></span>.</h3>
       <img class="separator" src="~assets/images/separator.jpg" :alt="$t('getInvolved.common.separatorAlt')" />
-      <p>{{ translate.script1 }}</p>
+      <p>{{ translate.script1 }} <span id="call-script-name-text"></span>,</p>
       <p>{{ translate.script2 }}</p>
       <p>{{ translate.script3 }}</p>
       <p>{{ translate.script4 }}</p>
       <p>{{ translate.script5 }}</p>
       <p>{{ translate.script6 }}</p>
-      <p>{{ translate.script7 }}</p>
-      <p>{{ translate.script8 }}</p>
+      <ul>
+        <li>{{ translate.script7 }}</li>
+        <li>{{ translate.script8 }}</li>
+        <li>{{ translate.script9 }}</li>
+        <li>{{ translate.script10 }}</li>
+        <li>{{ translate.script11 }}</li>
+      </ul>
+      <p>{{ translate.script12 }}</p>
     </div>
   </section>
 </template>
