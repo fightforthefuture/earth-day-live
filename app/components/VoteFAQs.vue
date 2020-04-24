@@ -18,7 +18,6 @@
             <p>Many states require you to bring an ID to the polls. <a href="https://www.voteriders.org/" target="_blank">VoteRiders</a> knows what ID you can use to vote. Text “EARTH DAY” to 844-338-8743 for 1-on-1 assistance.</p>
 
             <p>COVID-19 has shifted many primary elections. <a href="https://www.vote.org/covid-19/" target="_blank">See if your state is affected.</a></p>
-            </p>
           </b-card>
         </b-collapse>
         <b-button v-b-toggle.collapse-2>
@@ -33,7 +32,6 @@
             <p>Over 1,000 polling places have closed in the last year. Access on college campuses is crucial to increasing youth turnout. Take action with <a href="https://allianceforyouthorganizing.org/plus1thepolls/" target="_blank">+1 the Polls</a>.</p>
 
             <p>Advocate with <a href="https://naacp.org/" target="_blank">NAACP</a> and <a href="https://andrewgoodman.org/" target="_blank">Andrew Goodman Foundation</a>.</p>
-            </p>
           </b-card>
         </b-collapse>
       </div>
