@@ -465,63 +465,72 @@
         "10:00am": [
           {
             "eventTime": "10:00",
-            "description": "Stories from the Earth (Ayisha Siddiqa)"
+            "description": "Message from Kristen Vangsness "
           }, {
+            "description": "Stories from the Earth (Ayisha Siddiqa)"
+          },{
             "description": "Packing a Punch: Pass Your Own Damn Bill (Anissa Pemberton, Hridesh Singh, Jade Lozada)"
           }, {
             "eventTime": "10:30",
-            "description": "Packing a Punch: Pass Your Own Damn Bill (Continued)"
+            "description": "Message from Stella McCartney and Friends"
+          }, {
+            "description": "This Land is Our Land Remix (Monica Garcia-Medina, Bien Minosa)"
+          }, {
+            "description": "Musical Performance by Emily Wells"
           }
         ],
         "11:00am": [
           {
             "eventTime": "11:00",
-            "description": "Message from Stella McCartney and Friends"
-          }, {
-            "description": "Building Power By Lowering The Voting Age (Catie Macauley, Caleb DeBerry, Alik Schier, Noah Friedman-Kassis, Brandon Klugman)"
-          }, {
-            "description": "This Land is Our Land Remix (Monica Garcia-Medina, Bien Minosa)"
-          }, {
-            "description": "Musical Performance by Emily Wells"
-          }, {
-            "eventTime": "11:30",
             "description": "Leading Environmental Advocates Reflect on 50 years of Progress and the Path Forward (Gina McCarthy, Ayana Elizabeth Johnson, Annie Leonard)"
           }, {
+            "eventTime": "11:30",
             "description": "In Conversation: Secretary John Kerry and Youth Climate Activists (Shiv Soin, Sophie Anderson)"
+          }, {
+            "description": "1 Minute Meditation (Lisa Brooks)"
           }
         ],
         "12:00pm": [
           {
             "eventTime": "12:00",
-            "description": "1 Minute Meditation (Lisa Brooks)"
-          }, {
             "description": "Musical Performance by Phum Viphurit"
           },{
-            "description": "Jumaane Williams Message"
+            "description": "Message from Jumaane Williams"
           }, {
-            "description": "Mayor Lightfoot Message and Introduction"
+            "description": "Hit First, Hit Hardest: Why Communities of Color Are On The Frontlines of Modern Day Crises (Mustafa Santiago Ali, Rep. Lauren Underwood, Kaylah Brathwaite, Introduction by Mayor Lori Lightfoot)"
           }, {
-            "description": "Hit First, Hit Hardest: Why Communities of Color Are On The Frontlines of Modern Day Crises (Mustafa Santiago Ali, Rep. Lauren Underwood, Kaylah Brathwaite)"
-          }, {
-            "eventTime": "12:30",
             "description": "Musical Performance by Tank and The Bangas"
           }, {
             "description": "Visualizing Political Empowerment: How Artists Impact Social Justice & Civic Engagement (Luisa Martinez, Jammal Lemy, Ashley Lukashevsky, Santiago X)"
+          }, {
+            "eventTime": "12:30",
+            "description": "Musical Performance by Griffin Oskar"
+          }, {
+            "description": "There's No Such Thing as Not Voting with Eric Liu"
           }
         ],
         "1:00pm": [
           {
             "eventTime": "1:00",
-            "description": "There's No Such Thing as Not Voting with Eric Liu"
+            "description": "Musical Performance by Låpsley"
           }, {
-            "description": "Brockhampton Performs"
-          },{
             "description": "Claim Your Power At The Ballot Box: How To Overcome Barriers To Voting (D'Aungillique Jackson, Evan Malbrough, Amaya Fox, Tamia Fowlkes)"
           }, {
             "eventTime": "2:30",
+            "description": "Message From Dylan Penn, Hopper Penn, and Robin Wright"
+          }, {
+            "description": "Musical Performance by Billy Bragg"
+          },{
             "description": "Message from Troian Bellisario"
           }, {
+            "description": "Chef José Andrés - World Central Kitchen"
+          },{
             "description": "Musical Performance by Willa Amai"
+          }, {
+            "description": "Message from Aisha Tyler and Kristen Vangness"
+          }, {
+            "description": "The Kids of the Broadway Green Alliance Musical Performance - Led by Sydney Lucas and over 30 of Broadway's youngest performers"
+          }
           }
         ],
         "2:00pm": [
@@ -532,19 +541,21 @@
             "eventTime": "2:30",
             "description": "Musical Performance and Message, Cody Simpson"
           }, {
-            "description": "Plant-based cooking segment with Alejandra Schrader"
+            "description": "Building Power By Lowering The Voting Age (Catie Macauley, Caleb DeBerry, Alik Schier, Noah Friedman-Kassis, Brandon Klugman)"
           }, {
-            "description": "Water Security and the Climate Crisis (Anna Day, Alex Cornell du Houx, Mariam Solaimankhail )"
+            "description": "Plant-based cooking segment with Alejandra Schrader"
           }
         ],
         "3:00pm": [
           {
             "eventTime": "3:00",
-            "description": "Musical Performance by Other Lives"
+            "description": "Water Security and the Climate Crisis (Anna Day, Alex Cornell du Houx, Mariam Solaimankhail)"
           }, {
+            "description": "Musical Performance by Other Lives"
+          },  {
+            "eventTime": "3:30",
             "description": "Service Workers Story Slam To Demand Action (Saru Jayaraman, Treya Lam, Heather Mankedick, Sarah May, Guadalupe A., Fred Shaw, Ali Baker)"
           }, {
-            "eventTime": "3:30",
             "description": "From Standing Rock to Black Lives Matter to Climate Strikes: What It's Like to Lead a Movement (Jamie Margolin, Nupol Kiazolu, Jasilyn Charger)"
           }
         ],
@@ -557,45 +568,49 @@
           }, {
             "description": "Immigration Justice is Climate Justice (Juliana Macedo do Nascimento, Josue De Luna Navarro)"
           }, {
+            "eventTime": "4:30",
+            "description": "One Minute Meditation (Lisa Brooks)"
+          }, {
             "description": "Endangering Generations: How Climate Change is Putting Our Kids at Risk (Jonah Gottlieb, Genna Reed, Dr. Mustafa Santiago Ali, Dr. Mona Hanna-Attisha, Levi Draheim, Nsedu Obot Witherspoon, MPH)"
           }, {
-            "eventTime": "4:30",
             "description": "Message from Al Gore"
-          }, {
+          },{
             "description": "Musical Performance by Nuka"
-          }, {
-            "description": "Musical Performance by Mumu Fresh"
           }
         ],
         "5:00pm": [
           {
             "eventTime": "5:00",
+            "description": "No One is Disposable: Youth vs Apocalpyse Music Video Release"
+          }, {
+            "description": "Musical Performance by Mumu Fresh"
+          }, {
             "description": "Restoring Indigenous Ocean Stewardship to California's Central Coast (Katherine O'Dea, Valentin Lopez, Alexii Sigona, Steven Pratt)"
           }, {
-            "description": "Spill the Tea with AOC: A Conversation on the Green New Deal "
-          },{
             "eventTime": "5:30",
-            "description": "Vote Party"
+            "description": "Spill the Tea with AOC: A Conversation on the Green New Deal (Rep. Alexandria Ocasio-Cortez, Saad Amer)"
           }
         ],
         "6:00pm": [
            {
              "eventTime": "6:00",
-             "description": "Musical Performance by Dave Matthews"
+             "description": "Vote Party"
            }, {
             "eventTime": "6:30",
-            "description": "The People's Bailout: What a Just COVID-19 Response Should Look Like"
+            "description": "Musical Performance by Dave Matthews"
+          }, {
+            "description": "Voting, Climate, and Guns (Tatiana Washington, Daphne Frias, Thandiwe Abdullah, Manju Bangalore)"
           }
         ],
         "7:00pm": [
           {
             "eventTime": "7:00",
-            "description": "How to Advocate to Congress for a Green Future (Charlie Jiang, Sanah Niazi)"
+            "description": "The People's Bailout: What a Just COVID-19 Response Should Look Like"
           }, {
-            "eventTime": "7:00",
-            "description": "Musical Performance & Message by Adam Gardner from Guster"
+            "description": "How to Advocate to Congress for a Green Future (Charlie Jiang, Sanah Niazi)"
           },{
-            "description": "Musical Performance by Kirsten Vangsness"
+            "eventTime": "7:30",
+            "description": "Musical Performance & Message by Adam Gardner from Guster"
           }, {
             "description": "Message from Angela Rye"
           }, {
@@ -617,11 +632,7 @@
             "eventTime": "8:00",
             "description": "The Census: The Game Behind The Game (Justin Kwasa, Rachel Spector, Nicole Morales)"
           }, {
-            "description": "The Kids of the Broadway Green Alliance Musical Performance - Led by Sydney Lucas and over 30 of Broadway's youngest performers"
-          },{
             "description": "Message from Riz Ahmed"
-          },{
-            "description": "COVID Testing in LA with Dylan Penn"
           }, {
             "eventTime": "8:30",
             "description": "Closing Ceremony"
