@@ -62,7 +62,8 @@
       methods: {
         handleCallButtonClick() {
           document.getElementById('call-script').style.display = 'block'
-          document.getElementById('call-script-name').innerHTML = this.name
+          document.getElementById('call-script-name-title').innerHTML = this.name
+          document.getElementById('call-script-name-text').innerHTML = this.name
           document.getElementById('call-script-number').innerHTML = this.phone
           smoothScrollToElement('#call-script', 500)
         }
