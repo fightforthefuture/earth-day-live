@@ -9,7 +9,7 @@
       <p>{{ translate.script4 }}</p>
       <p>{{ translate.script5 }}</p>
       <p>{{ translate.script6 }}</p>
-      <ul>
+      <ul class="five-principles">
         <li>{{ translate.script7 }}</li>
         <li>{{ translate.script8 }}</li>
         <li>{{ translate.script9 }}</li>
@@ -41,5 +41,11 @@
   }
   p {
     text-align: justify;
+  }
+
+  .five-principles {
+    font-size: 1.3em;
+    text-align: left;
+    font-family: neue-haas-grotesk-display, sans-serif;
   }
 </style>
