@@ -689,15 +689,16 @@
       "home": "Home",
       "registerToVote": "Register To Vote",
       "tripleYourVote": "Triple Your Vote",
-      "contactYourRepresentative": "Contact Your Representative"
+      "contactYourRepresentative": "Call Your Rep"
     },
     "title": "Register to Vote for the future",
     "subtitle": "We need to bring in a new generation of elected officials who understand the climate crises and who are prepared to take the necessary action to address it urgently. Register to vote now to ensure your voice is heard this November.",
     "contactYourRepresentative": {
-      "title": "Contact Your Representative",
-      "description": "Lorum ipsum",
+      "title": "Call Your Rep: Support the 5 principles of a #PeoplesBailout",
+      "description": "Calling your representative is one of the most effective ways to build public pressure, so call today and demand your representative commit to the Five Principles for just COVID-19 relief and stimulus. While your representatives' staff are unlikely to pick up the phone, the Congressional switchboard remains open and most Members of Congress are diligently monitoring their voicemails, so be sure to leave a message.",
       "findYourRepButtonText": "Search",
-      "callNow": "Call Now",
+      "callNow": "Get your call script",
+      "zipCodeError": "Oh no! No representatives were found for that Zip Code. Please Try again.",
       "scriptTitle": "Here's what you could say",
       "script1": "Hi [REPRESENTATIVE / SENATOR NAME],",
       "script2": "My name is [YOUR FULL NAME], calling from [TOWN/CITY], [STATE].",
@@ -706,7 +707,11 @@
       "script5": "I am urging you to support a People’s Bailout.",
       "script6": "I hope you will lead on coronavirus relief and recovery in line with these 5 principles, supported by hundreds of activists and advocacy organizations:",
       "script7": "First, ensure health the top priority, for all people, with no exceptions.\n\nSecond, provide economic relief directly to the people.\n\nThird, rescue workers and communities, not corporate executives.\n\nFourth, make a down payment on a sustainable economy with a Green New Deal.\n\nFifth, protect our democratic process while protecting each other.",
-      "script8": "On behalf of [MY FAMILY / COMMUNITY], we are counting on you. Thank you."
+      "script8": "On behalf of [MY FAMILY / COMMUNITY], we are counting on you. Thank you.",
+      "scoreCardSource": "League of Conservation Voters Scorecard"
+    },
+    "faqs": {
+      "title": "FAQs"
     }
   },
   "registerToVote": {

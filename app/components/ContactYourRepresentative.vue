@@ -6,22 +6,21 @@
       </h1>
       <img class="separator" src="~assets/images/separator.jpg" :alt="$t('getInvolved.common.separatorAlt')" />
       <p class="description">
-        {{ translate.description }}
-        Date derived from LINK TO SOURCE
+        Calling your representative is one of the most effective ways to build public pressure, so call today and
+        demand your representative commit to the <a href="https://www.fiveprinciples.org/" target="_blank">Five Principles for just COVID-19</a> relief and stimulus.
+        While your representatives' staff are unlikely to pick up the phone, the Congressional switchboard remains open and
+        most Members of Congress are diligently monitoring their voicemails, so be sure to leave a message.
       </p>
 
-      <div class="row">
-        <div class="col-6">
-          <label class="sr-only" for="inline-form-input-zip">Zip / Postal Code</label>
+      <div class="row contact-form">
+        <div class="col-md-6 offset-md-3">
           <b-input
             id="inline-form-input-zip"
-            class="mb-2 mr-sm-2 mb-sm-0 zip-code-input"
+            class="zip-code-input"
             placeholder="Zip Code"
             type="text"
             pattern="[0-9]{5}"
           ></b-input>
-        </div>
-        <div class="col-6">
           <button class="btn thanks-button" @click.prevent="$fetch">
             {{ translate.findYourRepButtonText }}
             <img class="circle-arrow" src="~assets/images/circle-arrow.svg" :alt="$t('getInvolved.common.arrowAlt')" />
@@ -41,7 +40,11 @@
             />
           </div>
         </div>
+        <div id="zip-code-error">
+          <p>{{ translate.zipCodeError }}</p>
+        </div>
       </div>
+      <p id="scorecard-source">*<a href="http://scorecard.lcv.org/sites/scorecard.lcv.org/files/LCV_2019_Scorecard.pdf" target="_blank">{{ translate.scoreCardSource }}</a></p>
     </div>
   </section>
 </template>
@@ -59,14 +62,22 @@
         }
       },
       async mounted() {
-        await this.$axios.$get(`https://cors-anywhere.herokuapp.com/https://stage.earthdaylive2020.org/lcv-data.json`)
+        await this.$axios.$get(`https://murmuring-spire-01484.herokuapp.com/https://stage.earthdaylive2020.org/lcv-data.json`)
           .then((response) => this.lcvData = response)
       },
       async fetch() {
         let zipCode = document.getElementById('inline-form-input-zip').value.trim()
 
-        await this.$axios.$get(`https://cors-anywhere.herokuapp.com/https://whoismyrepresentative.com/getall_mems.php?zip=${zipCode}&output=json`, {data: null, ContentType : 'application/json; charset=utf-8'}, )
+        await this.$axios.$get(`https://murmuring-spire-01484.herokuapp.com/https://whoismyrepresentative.com/getall_mems.php?zip=${zipCode}&output=json`, {data: null, ContentType : 'application/json; charset=utf-8'}, )
           .then((response) => {
+
+            if (response === '<result message=\'No Data Found\' />' || response === '<result error=\'Invalid input data\' />') {
+              document.getElementById('zip-code-error').style.display = 'block'
+            } else {
+              document.getElementById('zip-code-error').style.display = 'none'
+              document.getElementById('scorecard-source').style.display = 'block'
+            }
+
             this.representatives = []
             response.results.forEach((representative) => {
               let lsvRep = this.lcvData.find(lsvRep => lsvRep.name === representative.name)
@@ -87,9 +98,20 @@
     text-align: center;
   }
 
-  .zip-code-input {
-    height: 50px;
+  .description {
+    padding: 20px 0;
+    text-align: justify;
+  }
+
+  #inline-form-input-zip {
+    height: 49px;
     border-radius: 0;
+    width: 50%;
+    display: inline-block;
+    border: none;
+    font-weight: 700;
+    font-size: 1.4em;
+    margin-right: -5px;
   }
 
   button {
@@ -99,8 +121,9 @@
     padding-right: 20px;
     font-weight: 700;
     font-size: 1.4em;
-    margin-bottom: 50px;
     background-image: linear-gradient(to right, #f26146 0%, #fb722c 35%, #f65b5a 65%, #f85371 100%);
+    display: inline-block;
+    margin-bottom: 8px;
   }
 
   button:hover {
@@ -115,6 +138,23 @@
     display: inline-block;
     padding: 10px;
     width: 50%;
+  }
+
+  .contact-form {
+    background-color: #190825;
+    color: #fff;
+    padding: 20px;
+  }
+
+  #zip-code-error {
+    display: none;
+    margin: 20px auto;
+
+  }
+
+  #scorecard-source {
+    display: none;
+    margin-top: 20px;
   }
 
 </style>

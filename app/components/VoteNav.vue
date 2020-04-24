@@ -5,6 +5,8 @@
       <b-navbar-nav class="container">
         <b-nav-item id="home-nav" @click="goTo(localePath('/'))">{{ translate.home }}</b-nav-item>
         <b-nav-item id="website-banner-nav" @click.prevent="scrollTo('#triple-your-vote')">{{ translate.tripleYourVote }}</b-nav-item>
+        <b-nav-item id="contact-your-representative-nav" @click.prevent="scrollTo('#contact-your-representative')">{{ translate.contactYourRepresentative }}</b-nav-item>
+        <b-nav-item id="vote-faqs-nav" @click.prevent="scrollTo('#vote-faqs')">FAQs</b-nav-item>
       </b-navbar-nav>
     </b-collapse>
   </b-navbar>

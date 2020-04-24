@@ -1,7 +1,7 @@
 <template>
   <section id="call-script">
     <div class="col-md-6 offset-md-3">
-      <h3>{{ translate.scriptTitle }}</h3>
+      <h3>Here is your call script for <span id="call-script-name"></span>. Call them on <span id="call-script-number"></span>.</h3>
       <img class="separator" src="~assets/images/separator.jpg" :alt="$t('getInvolved.common.separatorAlt')" />
       <p>{{ translate.script1 }}</p>
       <p>{{ translate.script2 }}</p>

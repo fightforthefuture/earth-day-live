@@ -18,6 +18,9 @@
     </div>
     <RegisterToVoteForm />
     <TripleYourVote />
+    <ContactYourRepresentative />
+    <CallScript/>
+    <VoteFAQs />
     <PageFooter />
   </div>
 </template>
@@ -28,6 +31,9 @@
   import RegisterToVoteForm from '~/components/RegisterToVoteForm'
   import TripleYourVote from '~/components/TripleYourVote'
   import VoteNav from '~/components/VoteNav'
+  import ContactYourRepresentative from '~/components/ContactYourRepresentative'
+  import CallScript from '~/components/CallScript'
+  import VoteFAQs from "../components/VoteFAQs";
 
   export default {
     data() {
@@ -36,6 +42,9 @@
       }
     },
     components: {
+      VoteFAQs,
+      CallScript,
+      ContactYourRepresentative,
       VoteNav,
       Logo,
       RegisterToVoteForm,

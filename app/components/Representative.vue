@@ -8,7 +8,7 @@
       <p>{{ party }}, {{ state }}</p>
 
       <p>Ph: {{ phone }}</p>
-      <h5>Environmental Scorecard:</h5>
+      <h5>Environmental Scorecard*:</h5>
       <div class="row">
         <div class="col-6">
           2019: <span class="score" :class="scoreColor">{{ score }}%</span>
@@ -62,6 +62,8 @@
       methods: {
         handleCallButtonClick() {
           document.getElementById('call-script').style.display = 'block'
+          document.getElementById('call-script-name').innerHTML = this.name
+          document.getElementById('call-script-number').innerHTML = this.phone
           smoothScrollToElement('#call-script', 500)
         }
       }
