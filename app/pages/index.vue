@@ -7,8 +7,8 @@
     <SignUpThankYou v-bind:is-rsvp-page="false"/>
     <RegisterToVoteForm />
     <TripleYourVote />
-    <ParticipantsSection />
     <ScheduleSection />
+    <ParticipantsSection />
     <TheThreeDaysSection />
     <LocalLivestreamsSection />
     <GetInvolvedSection />

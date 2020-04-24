@@ -7,6 +7,11 @@ describe('HomePageNav', () => {
   const wrapper = mount(HomePageNav);
 
   it('should scroll to Participants section when clicking on related nav button', () => {
+    wrapper.find('li#schedule-nav > a').trigger('click');
+    expect(spy.calledWith('#schedule')).toBeTruthy();
+  });
+
+  it('should scroll to Participants section when clicking on related nav button', () => {
     wrapper.find('li#participants-nav > a').trigger('click');
     expect(spy.calledWith('#participants')).toBeTruthy();
   });

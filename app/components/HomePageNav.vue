@@ -4,8 +4,8 @@
     <b-collapse id="nav-collapse" is-nav>
       <b-navbar-nav class="container">
         <b-nav-item id="home-icon-nav" @click="goTo(localePath('/'))">{{ translate.home }}</b-nav-item>
+        <b-nav-item id="schedule-nav" @click.prevent="scrollTo('#schedule')">{{ translate.schedule }}</b-nav-item>
         <b-nav-item id="participants-nav" @click.prevent="scrollTo('#participants')">{{ translate.participants }}</b-nav-item>
-        <b-nav-item id="participants-nav" @click.prevent="scrollTo('#schedule')">{{ translate.schedule }}</b-nav-item>
         <b-nav-item id="three-days-nav" @click.prevent="scrollTo('#the-three-days')">{{ translate.theThreeDays }}</b-nav-item>
         <b-nav-item id="local-livestreams-nav" @click.prevent="scrollTo('#local-livestreams')">{{ translate.localLivestreams }}</b-nav-item>
         <b-nav-item id="get-involved-nav" @click.prevent="scrollTo('#get-involved')">{{ translate.getInvolved }}</b-nav-item>
