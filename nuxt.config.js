@@ -46,7 +46,7 @@ export default {
 
   fontawesome: {
     icons: {
-      solid: ['faFistRaised', 'faPiggyBank', 'faVoteYea', 'faSync'],
+      solid: ['faFistRaised', 'faPiggyBank', 'faVoteYea', 'faSync', 'faEdit'],
     }
   },
   'google-gtag': {
