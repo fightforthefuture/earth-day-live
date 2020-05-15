@@ -1,5 +1,6 @@
 <template>
   <div id="thanks-page">
+    <ThanksNav />
     <div class="container-fluid header-container">
       <div>
         <a href="/">
@@ -12,57 +13,103 @@
         </div>
       </div>
     </div>
-    <div class="col-md-8 offset-md-2">
-      <section id="impact-section">
-        <h4 class="impact-section-title">
+    <section id="video-recap">
+      <div class="col-md-8 offset-md-2">
+        <iframe width="100%" height="600" src="https://www.youtube.com/embed/W8G09g-Z-FU" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+      </div>
+    </section>
+    <section id="impact-section">
+      <div class="col-md-8 offset-md-2">
+        <font-awesome-layers class="fa-2x down-arrow-pink">
+          <font-awesome-icon icon="chevron-down"/>
+        </font-awesome-layers>
+        <h2 class="impact-section-small">
           {{ translate.impact1 }}
-        </h4>
-        <img class="separator" src="~assets/images/separator.jpg" :alt="$t('getInvolved.common.separatorAlt')" />
-        <h3 class="description">
-          {{ translate.impact2 }}
-        </h3>
-        <h1 class="viewer-count">
-          {{ translate.impact3 }}
-        </h1>
-        <div class="row share-icons-wrapper">
-          <div class="col-md-4">
-            <img class="share-icon" src="~assets/images/facebook.svg" alt="Facebook Views" />
-            <p>{{ translate.impact4 }}</p>
-          </div>
-          <div class="col-md-4">
-            <img class="share-icon" src="~assets/images/twitter.svg" alt="Twitch View" />
-            <p>{{ translate.impact5 }}</p>
-          </div>
-          <div class="col-md-4">
-            <img class="share-icon" src="~assets/images/twitter.svg" alt="Twitter View" />
-            <p>{{ translate.impact6 }}</p>
-          </div>
-        </div>
-        <div>
-          <h2>
-            {{ translate.impact7 }}
-          </h2>
-          <img class="separator" src="~assets/images/separator.jpg" :alt="$t('getInvolved.common.separatorAlt')" />
-
-          <h1 class="viewer-count">
-            {{ translate.impact8 }}
-          </h1>
-        </div>
-        <h2>
-          {{ translate.impact9 }}
         </h2>
-        <div>
-          <h1 class="viewer-count">
-            {{ translate.impact10 }}
+        <h1 class="impact-section-large">
+          {{ translate.impact2 }}
+        </h1>
+
+        <h2 class="impact-section-small">
+          {{ translate.impact3 }}
+        </h2>
+        <font-awesome-layers class="fa-2x down-arrow-pink">
+          <font-awesome-icon icon="chevron-down"/>
+        </font-awesome-layers>
+        <h2 class="impact-section-small">
+          {{ translate.impact4 }}
+        </h2>
+        <h1 class="impact-title-event">
+          {{ translate.impact5 }}
+        </h1>
+        <font-awesome-layers class="fa-2x down-arrow-pink">
+          <font-awesome-icon icon="chevron-down"/>
+        </font-awesome-layers>
+        <h2 class="impact-section-small">
+          {{ translate.impact6 }}
+        </h2>
+        <h1 class="impact-title-viewers">
+          {{ translate.impact7 }}
+        </h1>
+        <div class="row impact-social-views-wrapper">
+          <div class="col-md-4">
+            <div class="row">
+              <div class="col-md-3">
+                <img class="share-icon" src="~assets/images/facebook.svg" alt="Facebook Views" />
+              </div>
+              <div class="col-md-9">
+                <h4 class="impact-social-text">{{ translate.impact8 }}</h4>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-4">
+            <div class="row">
+              <div class="col-md-3">
+                <img class="share-icon" src="~assets/images/twitch.png" alt="Twitch Views" />
+              </div>
+              <div class="col-md-9">
+                <h4 class="impact-social-text">{{ translate.impact9 }}</h4>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-4">
+            <div class="row">
+              <div class="col-md-3">
+                <img class="share-icon" src="~assets/images/twitter.svg" alt="Twitter Views" />
+              </div>
+              <div class="col-md-9">
+                <h4 class="impact-social-text">{{ translate.impact10 }}</h4>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <font-awesome-layers class="fa-2x down-arrow-pink">
+        <font-awesome-icon icon="chevron-down"/>
+      </font-awesome-layers>
+      <div class="impact-color-background">
+        <div class="col-md-8 offset-md-2">
+          <h2 class="impact-section-small">
+            {{ translate.impact11 }}
+          </h2>
+          <h1 class="impact-title-actions">
+            {{ translate.impact12 }}
+          </h1>
+          <img class="white-arrow" src="~assets/images/arrow-down.svg" alt="Arrow down" />
+          <h2 class="impact-section-small">
+            {{ translate.impact13 }}
+          </h2>
+          <h1 class="impact-title-pledges">
+            {{ translate.impact14 }}
           </h1>
         </div>
-      </section>
-    </div>
-    <div class="col-md-8 offset-md-2">
-      <section id="media-section">
+      </div>
+    </section>
+    <section id="media-section">
+      <div class="col-md-8 offset-md-2">
         <div>
           <h1>
-            {{ translate.impact11 }}
+            {{ translate.mediaTitle }}
           </h1>
           <img class="separator" src="~assets/images/separator.jpg" :alt="$t('getInvolved.common.separatorAlt')" />
         </div>
@@ -144,19 +191,17 @@
             </p>
           </div>
         </div>
-      </section>
-    </div>
-    <div class="col-md-8 offset-md-2">
-      <section id="next-steps-section">
-        <div>
-          <h1>
-            {{ translate.nextSteps1 }}
-          </h1>
-          <img class="separator" src="~assets/images/separator.jpg" :alt="$t('getInvolved.common.separatorAlt')" />
-          <h4 class="subtitle-black">
-            {{ translate.nextSteps2 }}
-          </h4>
-        </div>
+      </div>
+    </section>
+    <section id="next-steps-section">
+      <div class="col-md-8 offset-md-2">
+        <h1>
+          {{ translate.nextSteps1 }}
+        </h1>
+        <img class="separator" src="~assets/images/separator.jpg" :alt="$t('getInvolved.common.separatorAlt')" />
+        <h4 class="subtitle-black">
+          {{ translate.nextSteps2 }}
+        </h4>
         <div class="row three-days">
           <div class="col-md-4">
             <h1 class="next-steps-day-title">{{ translate.nextSteps3 }}</h1>
@@ -183,8 +228,8 @@
             </button>
           </div>
         </div>
-      </section>
-    </div>
+      </div>
+    </section>
     <section id="thank-you-section">
       <div class="col-md-6 offset-md-3">
         <h1>
@@ -205,6 +250,7 @@
 <script>
   import Logo from '~/components/Logo'
   import PageFooter from '~/components/PageFooter'
+  import ThanksNav from '~/components/ThanksNav'
   export default {
     data() {
       return {
@@ -212,6 +258,7 @@
       }
     },
     components: {
+      ThanksNav,
       Logo,
       PageFooter,
     },
@@ -223,7 +270,7 @@
   }
 </script>
 
-<style scoped>
+<style>
 
   .header-container {
     margin: 0 auto;
@@ -239,25 +286,120 @@
     padding-bottom: 130px;
   }
 
+  #thanks-page .logo-eclipse,
+  #thanks-page .logo-earth-day-live {
+    max-width: 150px;
+  }
+
   .title {
-    padding-bottom: 30px;
+    padding-bottom: 40px;
+    font-size: 4em;
   }
 
   body {
-    background-color: #e3e9ec;
+    background-color: #efefef;
   }
 
   #impact-section {
     text-align: center;
-    background-color: #190825;
-    padding: 40px;
-    color: #fff;
+    padding-top: 40px;
+    padding-bottom: 40px;
+  }
+
+  #video-recap {
     margin-top: -120px;
   }
 
-  .impact-section-title {
-    margin: auto 40px;
+  .down-arrow-pink {
+    color: #ec727e;
+    padding-top: 60px;
+    padding-bottom: 60px;
+  }
+
+  .impact-section-small {
+    font-size: 2.5em;
+    text-transform: uppercase;
+    color: #100c19;
+  }
+
+  .impact-section-large {
+    text-transform: uppercase;
+    font-weight: 800;
+    font-size: 20vw;
+    background: -webkit-linear-gradient(left, #ffde16, #f47d3a, #fb722c, #f65b5a, #f85371);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    line-height: 92%;
+  }
+
+  .impact-title-event {
+    text-transform: uppercase;
+    font-weight: 800;
+    font-size: 6vw;
+    background: -webkit-linear-gradient(45deg, #ec688d, #cd79b1, #cbdb2a, #f26146);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    line-height: 92%;
+  }
+
+  .impact-title-viewers {
+    text-transform: uppercase;
+    font-weight: 800;
+    font-size: 8vw;
+    background: -webkit-linear-gradient(135deg, #ec688d, #cd79b1, #cbdb2a, #f26146);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    line-height: 92%;
+  }
+
+  .impact-social-views-wrapper {
+    background: #fff;
     padding: 20px;
+    text-align: left;
+  }
+
+  .share-icon {
+    max-width: 100%;
+    display: inline-block;
+  }
+
+  .impact-social-text {
+    text-transform: uppercase;
+    display: inline-block;
+  }
+
+  .impact-color-background {
+    background: url('~assets/images/earth-day-live-gradient.jpg') no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    color: #fff;
+    padding-top: 60px;
+    padding-bottom: 60px;
+  }
+
+  .impact-color-background .impact-section-small {
+    color: #fff;
+  }
+
+  .white-arrow {
+    padding-top: 40px;
+    padding-bottom: 40px;
+  }
+
+  .impact-title-actions {
+    text-transform: uppercase;
+    font-weight: 800;
+    font-size: 10vw;
+    line-height: 100%;
+  }
+
+  .impact-title-pledges {
+    text-transform: uppercase;
+    font-weight: 800;
+    font-size: 7vw;
+    line-height: 100%;
   }
 
   .subtitle-black {
@@ -267,29 +409,6 @@
     word-spacing: 5px;
     padding-top: 20px;
     padding-bottom: 20px;
-  }
-
-  .viewer-count {
-    background: -webkit-linear-gradient(right, #f26146, #f47d3a, #f8d233, #cbdb2a, #88c656);
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
-    border: 5px solid;
-    border-image-slice: 1;
-    border-image-source: linear-gradient(to right, #f26146, #f47d3a, #f8d233, #cbdb2a, #88c656);
-    width: 80%;
-    margin: 40px auto;
-    padding: 20px;
-  }
-
-  .share-icons-wrapper {
-    display: flex;
-    justify-content: space-around;
-    padding: 15px 0;
-    margin: auto 40px;
-  }
-
-  .share-icon {
-    max-width: 100px;
   }
 
   #media-section,
