@@ -108,87 +108,182 @@
     <section id="media-section">
       <div class="col-md-8 offset-md-2">
         <div>
-          <h1>
+          <h1 class="section-title">
             {{ translate.mediaTitle }}
           </h1>
-          <img class="separator" src="~assets/images/separator.jpg" :alt="$t('getInvolved.common.separatorAlt')" />
         </div>
         <div class="row">
           <div class="col-md-3">
-            <img class="media-logo" src="~assets/images/media-logos/vice-media-black.svg" alt="Vice" />
-            <p class="media-article-title">
-              <a href="https://www.vice.com/en_us/article/5dmxnn/earth-day-online-activism-what-can-you-do" target="_blank">{{ translate.media1 }}</a>
-            </p>
+            <div class="media-card-wrapper">
+              <img class="media-logo" src="~assets/images/media-logos/vice-media-black.svg" alt="Vice" />
+              <p class="media-article-title">
+                {{ translate.media1 }}
+              </p>
+              <p class="media-title-link">
+                <a href="https://www.vice.com/en_us/article/5dmxnn/earth-day-online-activism-what-can-you-do" target="_blank">
+                  {{ translate.readArticle }}
+                  <img class="circle-arrow" src="~assets/images/circle-arrow.svg" :alt="$t('getInvolved.common.arrowAlt')" />
+                </a>
+              </p>
+            </div>
           </div>
           <div class="col-md-3">
-            <img class="media-logo" src="~assets/images/media-logos/teen-vogue-logo.svg" alt="Teen Vogue" />
+            <div class="media-card-wrapper">
+              <img class="media-logo" src="~assets/images/media-logos/teen-vogue-logo.svg" alt="Teen Vogue" />
             <p class="media-article-title">
-              <a href="https://www.teenvogue.com/story/history-of-earth-day" target="_blank">{{ translate.media2 }}</a>
+              {{ translate.media2 }}
             </p>
+              <p class="media-title-link">
+                <a href="https://www.teenvogue.com/story/history-of-earth-day" target="_blank">
+                  {{ translate.readArticle }}
+                  <img class="circle-arrow" src="~assets/images/circle-arrow.svg" :alt="$t('getInvolved.common.arrowAlt')" />
+                </a>
+              </p>
+            </div>
           </div>
           <div class="col-md-3">
-            <img class="media-logo" src="~assets/images/media-logos/the-verge-logo.png" alt="Vice" />
+            <div class="media-card-wrapper">
+              <img class="media-logo" src="~assets/images/media-logos/the-verge-logo.png" alt="Vice" />
             <p class="media-article-title">
-              <a href="https://www.theverge.com/2020/4/21/21229975/earth-day-50th-anniversary-live-stream" target="_blank">{{ translate.media3 }}</a>
+              {{ translate.media3 }}
             </p>
+              <p class="media-title-link">
+                <a href="https://www.theverge.com/2020/4/21/21229975/earth-day-50th-anniversary-live-stream" target="_blank">
+                  {{ translate.readArticle }}
+                  <img class="circle-arrow" src="~assets/images/circle-arrow.svg" :alt="$t('getInvolved.common.arrowAlt')" />
+                </a>
+              </p>
+            </div>
           </div>
           <div class="col-md-3">
-            <img class="media-logo" src="~assets/images/media-logos/rolling-stone-logo.png" alt="Rolling Stone" />
+            <div class="media-card-wrapper">
+              <img class="media-logo" src="~assets/images/media-logos/rolling-stone-logo.png" alt="Rolling Stone" />
             <p class="media-article-title">
-              <a href="https://www.rollingstone.com/music/music-news/earth-day-live-984959/" target="_blank">{{ translate.media5 }}</a>
+              {{ translate.media5 }}
             </p>
+              <p class="media-title-link">
+                <a href="https://www.rollingstone.com/music/music-news/earth-day-live-984959/" target="_blank">
+                  {{ translate.readArticle }}
+                  <img class="circle-arrow" src="~assets/images/circle-arrow.svg" :alt="$t('getInvolved.common.arrowAlt')" />
+                </a>
+              </p>
+            </div>
           </div>
         </div>
         <div class="row">
           <div class="col-md-3">
-            <img class="media-logo" src="~assets/images/media-logos/nbc-logo.png" alt="NBC" />
+            <div class="media-card-wrapper">
+              <img class="media-logo" src="~assets/images/media-logos/nbc-logo.png" alt="NBC" />
             <p class="media-article-title">
-              <a href="https://www.nbcchicago.com/news/national-international/changing-climate/50th-anniversary-of-earth-day-how-to-celebrate-at-home/2259232/" target="_blank">{{ translate.media4 }}</a>
+              {{ translate.media4 }}
             </p>
+              <p class="media-title-link">
+                <a href="https://www.nbcchicago.com/news/national-international/changing-climate/50th-anniversary-of-earth-day-how-to-celebrate-at-home/2259232/" target="_blank">
+                  {{ translate.readArticle }}
+                  <img class="circle-arrow" src="~assets/images/circle-arrow.svg" :alt="$t('getInvolved.common.arrowAlt')" />
+                </a>
+              </p>
+            </div>
           </div>
           <div class="col-md-3">
-            <img class="media-logo" src="~assets/images/media-logos/refinery-29-logo.png" alt="Refinery 29" />
+            <div class="media-card-wrapper">
+              <img class="media-logo" src="~assets/images/media-logos/refinery-29-logo.png" id="refinery-29-logo" alt="Refinery 29" />
             <p class="media-article-title">
-              <a href="https://www.refinery29.com/en-us/2020/04/9705447/gen-z-activists-earth-day-2020" target="_blank">{{ translate.media6 }}</a>
+              {{ translate.media6 }}
             </p>
+              <p class="media-title-link">
+                <a href="https://www.refinery29.com/en-us/2020/04/9705447/gen-z-activists-earth-day-2020" target="_blank">
+                  {{ translate.readArticle }}
+                  <img class="circle-arrow" src="~assets/images/circle-arrow.svg" :alt="$t('getInvolved.common.arrowAlt')" />
+                </a>
+              </p>
+            </div>
           </div>
           <div class="col-md-3">
-            <img class="media-logo" src="~assets/images/media-logos/mtv-news-logo.png" alt="MTV News" />
+            <div class="media-card-wrapper">
+              <img class="media-logo" src="~assets/images/media-logos/mtv-news-logo.png" alt="MTV News" />
             <p class="media-article-title">
-              <a href="http://www.mtv.com/news/3164059/earth-day-live-youth-climate-strike" target="_blank">{{ translate.media7 }}</a>
+              {{ translate.media7 }}
             </p>
+              <p class="media-title-link">
+                <a href="http://www.mtv.com/news/3164059/earth-day-live-youth-climate-strike" target="_blank">
+                  {{ translate.readArticle }}
+                  <img class="circle-arrow" src="~assets/images/circle-arrow.svg" :alt="$t('getInvolved.common.arrowAlt')" />
+                </a>
+              </p>
+            </div>
           </div>
           <div class="col-md-3">
-            <img class="media-logo" src="~assets/images/media-logos/cbs-logo.svg" alt="CBS" />
+            <div class="media-card-wrapper">
+              <img class="media-logo" src="~assets/images/media-logos/cbs-logo.svg" alt="CBS" />
             <p class="media-article-title">
-              <a href="https://www.cbsnews.com/news/coronavirus-stuck-home-how-to-celebrate-earth-day-digitally/" target="_blank">{{ translate.media8 }}</a>
+              {{ translate.media8 }}
             </p>
+              <p class="media-title-link">
+                <a href="https://www.cbsnews.com/news/coronavirus-stuck-home-how-to-celebrate-earth-day-digitally/" target="_blank">
+                  {{ translate.readArticle }}
+                  <img class="circle-arrow" src="~assets/images/circle-arrow.svg" :alt="$t('getInvolved.common.arrowAlt')" />
+                </a>
+              </p>
+            </div>
           </div>
         </div>
         <div class="row">
           <div class="col-md-3">
-            <img class="media-logo" src="~assets/images/media-logos/mashable-logo.png" alt="Mashable" />
+            <div class="media-card-wrapper">
+              <img class="media-logo" src="~assets/images/media-logos/mashable-logo.png" alt="Mashable" />
             <p class="media-article-title">
-              <a href="https://mashable.com/article/advocacy-organizations-coronavirus/" target="_blank">{{ translate.media9 }}</a>
+              {{ translate.media9 }}
             </p>
+              <p class="media-title-link">
+                <a href="https://mashable.com/article/advocacy-organizations-coronavirus/" target="_blank">
+                  {{ translate.readArticle }}
+                  <img class="circle-arrow" src="~assets/images/circle-arrow.svg" :alt="$t('getInvolved.common.arrowAlt')" />
+                </a>
+              </p>
+            </div>
           </div>
           <div class="col-md-3">
-            <img class="media-logo" src="~assets/images/media-logos/npr-logo.png" alt="NPR" />
+            <div class="media-card-wrapper">
+              <img class="media-logo" src="~assets/images/media-logos/npr-logo.png" alt="NPR" />
             <p class="media-article-title">
-              <a href="https://wamu.org/story/20/04/22/earth-day-at-50-climate-activists-go-digital-amid-pandemic-shutdown/" target="_blank">{{ translate.media10 }}</a>
+              {{ translate.media10 }}
             </p>
+              <p class="media-title-link">
+                <a href="https://wamu.org/story/20/04/22/earth-day-at-50-climate-activists-go-digital-amid-pandemic-shutdown/" target="_blank">
+                  {{ translate.readArticle }}
+                  <img class="circle-arrow" src="~assets/images/circle-arrow.svg" :alt="$t('getInvolved.common.arrowAlt')" />
+                </a>
+              </p>
+            </div>
           </div>
           <div class="col-md-3">
-            <img class="media-logo" src="~assets/images/media-logos/forbes-logo.png" alt="Forbes" />
-            <p class="media-article-title">
-              <a href="https://www.forbes.com/sites/lauratenenbaum/2020/04/20/three-beautiful-ways-to-celebrate-earth-day-from-home" target="_blank">{{ translate.media11 }}</a>
-            </p>
+            <div class="media-card-wrapper">
+              <img class="media-logo" src="~assets/images/media-logos/forbes-logo.png" alt="Forbes" />
+              <p class="media-article-title">
+                {{ translate.media11 }}
+              </p>
+              <p class="media-title-link">
+                <a href="https://www.forbes.com/sites/lauratenenbaum/2020/04/20/three-beautiful-ways-to-celebrate-earth-day-from-home" target="_blank">
+                  {{ translate.readArticle }}
+                  <img class="circle-arrow" src="~assets/images/circle-arrow.svg" :alt="$t('getInvolved.common.arrowAlt')" />
+                </a>
+              </p>
+            </div>
           </div>
           <div class="col-md-3">
-            <img class="media-logo" src="~assets/images/media-logos/the-hill-logo.png" alt="The Hill" />
-            <p class="media-article-title">
-              <a href="https://thehill.com/policy/energy-environment/493951-earth-day-goes-online-amid-coronavirus-pandemic" target="_blank">{{ translate.media12 }}</a>
-            </p>
+            <div class="media-card-wrapper">
+              <img class="media-logo" src="~assets/images/media-logos/the-hill-logo.png" id="the-hill-logo" alt="The Hill" />
+              <p class="media-article-title">
+                {{ translate.media12 }}
+              </p>
+              <p class="media-title-link">
+                <a href="https://thehill.com/policy/energy-environment/493951-earth-day-goes-online-amid-coronavirus-pandemic" target="_blank">
+                  {{ translate.readArticle }}
+                  <img class="circle-arrow" src="~assets/images/circle-arrow.svg" :alt="$t('getInvolved.common.arrowAlt')" />
+                </a>
+              </p>
+            </div>
           </div>
         </div>
       </div>
@@ -418,19 +513,67 @@
     padding-bottom: 60px;
   }
 
+
   #next-steps-section {
     text-align: center;
     padding-bottom: 60px;
   }
+  #media-section .col-md-3 {
+    height: 400px;
+  }
 
-  .media-logo {
-    max-width: 100%;
+  .media-card-wrapper {
+    transition: .10s, transform .10s ease;
+    -moz-transition: .10s, transform .10s ease;
+    -webkit-transition: .10s, transform .10s ease;
+  }
+
+  .media-card-wrapper:hover {
+    -ms-transform: scale(1.1); /* IE 9 */
+    -webkit-transform: scale(1.1); /* Safari */
+    transform: scale(1.1);
+    -moz-box-shadow:    0 0 20px 10px #ccc;
+    -webkit-box-shadow: 0 0 20px 10px #ccc;
+    box-shadow:         0 0 20px 10px #ccc;
+  }
+
+  .media-card-wrapper {
+    background: #fff;
+    padding: 10px;
+    height: 90%;
+    position: relative;
   }
 
   .media-logo {
     padding-top: 40px;
-    padding-bottom: 20px;
+    padding-bottom: 40px;
     max-width: 200px;
+  }
+
+  #the-hill-logo,
+  #refinery-29-logo {
+    width: 70%;
+  }
+
+  .media-article-title {
+    padding-bottom: 20px;
+  }
+
+  .media-title-link {
+    color: #000;
+    text-transform: uppercase;
+    text-decoration: none;
+    position: absolute;
+    width: 100%;
+    bottom: 10px;
+  }
+
+  .media-title-link a {
+    color: #000;
+    text-transform: uppercase;
+    text-decoration: none;
+    font-size: 0.9em;
+    font-weight: 800;
   }
 
   #next-steps-section .three-days {
@@ -494,6 +637,10 @@
 
   #thank-you-section {
     background-color: #efefef;
+  }
+
+  .section-title {
+    padding-bottom: 60px;
   }
 
 
