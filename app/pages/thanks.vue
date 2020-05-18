@@ -56,7 +56,7 @@
           <div class="impact-social-views-top-arrow"></div>
           <div class="col-4">
             <div class="row">
-              <div class="col-md-3 share-icon-wrapper">
+              <div class="col-lg-3 share-icon-wrapper">
                 <img class="share-icon" src="~assets/images/facebook.svg" alt="Facebook Views" />
               </div>
               <div class="col-md-9">
@@ -66,7 +66,7 @@
           </div>
           <div class="col-4">
             <div class="row">
-              <div class="col-md-3 share-icon-wrapper">
+              <div class="col-lg-3 share-icon-wrapper">
                 <img class="share-icon" src="~assets/images/twitch.png" alt="Twitch Views" />
               </div>
               <div class="col-md-9">
@@ -76,7 +76,7 @@
           </div>
           <div class="col-4">
             <div class="row">
-              <div class="col-md-3 share-icon-wrapper">
+              <div class="col-lg-3 share-icon-wrapper">
                 <img class="share-icon" src="~assets/images/twitter.svg" alt="Twitter Views" />
               </div>
               <div class="col-md-9">
@@ -297,7 +297,7 @@
           {{ translate.nextSteps1 }}
         </h1>
         <div class="row three-days">
-          <div class="col-lg-4">
+          <div class="col-xl-4">
             <div class="next-steps-day-wrapper">
               <h1 class="next-steps-day-title next-steps-day-1-title">{{ translate.nextSteps3 }}</h1>
             <p class="next-steps-day-description">{{ translate.nextSteps4 }}</p>
@@ -309,7 +309,7 @@
               </div>
             </div>
           </div>
-          <div class="col-lg-4">
+          <div class="col-xl-4">
             <div class="next-steps-day-wrapper">
               <h1 class="next-steps-day-title next-steps-day-2-title">{{ translate.nextSteps5 }}</h1>
             <p class="next-steps-day-description">{{ translate.nextSteps6 }}</p>
@@ -321,7 +321,7 @@
               </div>
             </div>
           </div>
-          <div class="col-lg-4">
+          <div class="col-xl-4">
             <div class="next-steps-day-wrapper">
               <h1 class="next-steps-day-title next-steps-day-3-title">{{ translate.nextSteps7 }}</h1>
             <p class="next-steps-day-description">{{ translate.nextSteps8 }}</p>
@@ -491,8 +491,12 @@
     transform: rotate(180deg);
   }
 
+  .share-icon-wrapper {
+    text-align: center;
+  }
+
   .share-icon {
-    max-width: 100%;
+    max-width: 85%;
     display: inline-block;
   }
 
@@ -628,7 +632,7 @@
     color: #fff;
     padding: 10px 10px 0 10px;
     position: relative;
-    height: 380px;
+    height: 400px;
   }
 
   .next-steps-button-wrapper {
@@ -741,7 +745,7 @@
     color: #6a6476;
   }
 
-  @media (max-width: 576px) {
+  @media (max-width: 768px) {
 
     #thanks-page .logo-eclipse,
     #thanks-page .logo-earth-day-live {
@@ -770,10 +774,6 @@
 
     .impact-title-viewers {
       font-size: 12vw;
-    }
-
-    .share-icon-wrapper {
-      text-align: center;
     }
 
     .share-icon {
