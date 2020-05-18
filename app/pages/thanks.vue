@@ -301,30 +301,36 @@
             <div class="next-steps-day-wrapper">
               <h1 class="next-steps-day-title next-steps-day-1-title">{{ translate.nextSteps3 }}</h1>
             <p class="next-steps-day-description">{{ translate.nextSteps4 }}</p>
-            <button class="btn next-steps-day-1-button" @click="goTo('https://strikewithus.org/demands/')">
-              {{ translate.nextSteps9 }}
-              <img class="circle-arrow" src="~assets/images/circle-arrow.svg" :alt="$t('getInvolved.common.arrowAlt')" />
-            </button>
+              <div class="next-steps-button-wrapper">
+                <button class="btn next-steps-day-1-button" @click="goTo('https://strikewithus.org/demands/')">
+                  {{ translate.nextSteps9 }}
+                  <img class="circle-arrow" src="~assets/images/circle-arrow.svg" :alt="$t('getInvolved.common.arrowAlt')" />
+                </button>
+              </div>
             </div>
           </div>
           <div class="col-lg-4">
             <div class="next-steps-day-wrapper">
               <h1 class="next-steps-day-title next-steps-day-2-title">{{ translate.nextSteps5 }}</h1>
             <p class="next-steps-day-description">{{ translate.nextSteps6 }}</p>
-            <button class="btn next-steps-day-2-button" @click="goTo('https://stopthemoneypipeline.com/petition/')">
-              {{ translate.nextSteps10 }}
-              <img class="circle-arrow" src="~assets/images/circle-green-arrow.svg" :alt="$t('getInvolved.common.arrowAlt')" />
-            </button>
+              <div class="next-steps-button-wrapper">
+                <button class="btn next-steps-day-2-button" @click="goTo('https://stopthemoneypipeline.com/petition/')">
+                  {{ translate.nextSteps10 }}
+                <img class="circle-arrow" src="~assets/images/circle-green-arrow.svg" :alt="$t('getInvolved.common.arrowAlt')" />
+                </button>
+              </div>
             </div>
           </div>
           <div class="col-lg-4">
             <div class="next-steps-day-wrapper">
               <h1 class="next-steps-day-title next-steps-day-3-title">{{ translate.nextSteps7 }}</h1>
             <p class="next-steps-day-description">{{ translate.nextSteps8 }}</p>
-            <button class="btn next-steps-day-3-button" @click="goTo(localePath('/vote/'))">
-              {{ translate.nextSteps11 }}
-              <img class="circle-arrow" src="~assets/images/circle-arrow.svg" :alt="$t('getInvolved.common.arrowAlt')" />
-            </button>
+              <div class="next-steps-button-wrapper">
+                <button class="btn next-steps-day-3-button" @click="goTo(localePath('/vote/'))">
+                  {{ translate.nextSteps11 }}
+                <img class="circle-arrow" src="~assets/images/circle-arrow.svg" :alt="$t('getInvolved.common.arrowAlt')" />
+              </button>
+              </div>
             </div>
           </div>
         </div>
@@ -339,7 +345,7 @@
         <h3 class="subtitle-black">
           {{ translate.thankyou2 }}
         </h3>
-        <p>{{ translate.thankyou3 }}</p>
+        <p class="thank-you-list">{{ translate.thankyou3 }}</p>
       </div>
     </section>
     <PageFooter />
@@ -621,6 +627,15 @@
     background-color: #190825;
     color: #fff;
     padding: 10px 10px 0 10px;
+    position: relative;
+    height: 380px;
+  }
+
+  .next-steps-button-wrapper {
+    width: 100%;
+    position: absolute;
+    bottom: 0;
+    left: 0;
   }
 
   .next-steps-day-title {
@@ -721,7 +736,26 @@
     font-size: 2em;
   }
 
+  .thank-you-list {
+    font-weight: 600px;
+    color: #6a6476;
+  }
+
   @media (max-width: 576px) {
+
+    #thanks-page .logo-eclipse,
+    #thanks-page .logo-earth-day-live {
+      max-width: 100px;
+    }
+
+    #thanks-page .title {
+      font-size: 2em;
+    }
+
+    #thanks-page .section-title {
+      font-size: 2em;
+    }
+
     .impact-section-large {
       font-size: 35vw;
     }
@@ -789,6 +823,7 @@
 
     .next-steps-day-wrapper {
       margin-bottom: 20px;
+      height: 360px;
     }
 
     #thank-you-section {
