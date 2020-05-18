@@ -15,7 +15,9 @@
     </div>
     <section id="video-recap">
       <div class="col-md-8 offset-md-2">
-        <iframe width="100%" height="600" src="https://www.youtube.com/embed/W8G09g-Z-FU" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+        <div class="video-container">
+          <iframe width="100%" height="600" src="https://www.youtube.com/embed/W8G09g-Z-FU" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+        </div>
       </div>
     </section>
     <section id="impact-section">
@@ -29,7 +31,6 @@
         <h1 class="impact-section-large">
           {{ translate.impact2 }}
         </h1>
-
         <h2 class="impact-section-small">
           {{ translate.impact3 }}
         </h2>
@@ -52,9 +53,10 @@
           {{ translate.impact7 }}
         </h1>
         <div class="row impact-social-views-wrapper">
-          <div class="col-md-4">
+          <div class="impact-social-views-top-arrow"></div>
+          <div class="col-4">
             <div class="row">
-              <div class="col-md-3">
+              <div class="col-md-3 share-icon-wrapper">
                 <img class="share-icon" src="~assets/images/facebook.svg" alt="Facebook Views" />
               </div>
               <div class="col-md-9">
@@ -62,9 +64,9 @@
               </div>
             </div>
           </div>
-          <div class="col-md-4">
+          <div class="col-4">
             <div class="row">
-              <div class="col-md-3">
+              <div class="col-md-3 share-icon-wrapper">
                 <img class="share-icon" src="~assets/images/twitch.png" alt="Twitch Views" />
               </div>
               <div class="col-md-9">
@@ -72,9 +74,9 @@
               </div>
             </div>
           </div>
-          <div class="col-md-4">
+          <div class="col-4">
             <div class="row">
-              <div class="col-md-3">
+              <div class="col-md-3 share-icon-wrapper">
                 <img class="share-icon" src="~assets/images/twitter.svg" alt="Twitter Views" />
               </div>
               <div class="col-md-9">
@@ -88,6 +90,7 @@
         <font-awesome-icon icon="chevron-down"/>
       </font-awesome-layers>
       <div class="impact-color-background">
+        <div class="impact-top-arrow"></div>
         <div class="col-md-8 offset-md-2">
           <h2 class="impact-section-small">
             {{ translate.impact11 }}
@@ -113,7 +116,7 @@
           </h1>
         </div>
         <div class="row">
-          <div class="col-md-3">
+          <div class="col-xl-3">
             <div class="media-card-wrapper">
               <img class="media-logo" src="~assets/images/media-logos/vice-media-black.svg" alt="Vice" />
               <p class="media-article-title">
@@ -127,7 +130,7 @@
               </p>
             </div>
           </div>
-          <div class="col-md-3">
+          <div class="col-xl-3">
             <div class="media-card-wrapper">
               <img class="media-logo" src="~assets/images/media-logos/teen-vogue-logo.svg" alt="Teen Vogue" />
             <p class="media-article-title">
@@ -141,7 +144,7 @@
               </p>
             </div>
           </div>
-          <div class="col-md-3">
+          <div class="col-xl-3">
             <div class="media-card-wrapper">
               <img class="media-logo" src="~assets/images/media-logos/the-verge-logo.png" alt="Vice" />
             <p class="media-article-title">
@@ -155,7 +158,7 @@
               </p>
             </div>
           </div>
-          <div class="col-md-3">
+          <div class="col-xl-3">
             <div class="media-card-wrapper">
               <img class="media-logo" src="~assets/images/media-logos/rolling-stone-logo.png" alt="Rolling Stone" />
             <p class="media-article-title">
@@ -171,7 +174,7 @@
           </div>
         </div>
         <div class="row">
-          <div class="col-md-3">
+          <div class="col-xl-3">
             <div class="media-card-wrapper">
               <img class="media-logo" src="~assets/images/media-logos/nbc-logo.png" alt="NBC" />
             <p class="media-article-title">
@@ -185,7 +188,7 @@
               </p>
             </div>
           </div>
-          <div class="col-md-3">
+          <div class="col-xl-3">
             <div class="media-card-wrapper">
               <img class="media-logo" src="~assets/images/media-logos/refinery-29-logo.png" id="refinery-29-logo" alt="Refinery 29" />
             <p class="media-article-title">
@@ -199,7 +202,7 @@
               </p>
             </div>
           </div>
-          <div class="col-md-3">
+          <div class="col-xl-3">
             <div class="media-card-wrapper">
               <img class="media-logo" src="~assets/images/media-logos/mtv-news-logo.png" alt="MTV News" />
             <p class="media-article-title">
@@ -213,7 +216,7 @@
               </p>
             </div>
           </div>
-          <div class="col-md-3">
+          <div class="col-xl-3">
             <div class="media-card-wrapper">
               <img class="media-logo" src="~assets/images/media-logos/cbs-logo.svg" alt="CBS" />
             <p class="media-article-title">
@@ -229,7 +232,7 @@
           </div>
         </div>
         <div class="row">
-          <div class="col-md-3">
+          <div class="col-xl-3">
             <div class="media-card-wrapper">
               <img class="media-logo" src="~assets/images/media-logos/mashable-logo.png" alt="Mashable" />
             <p class="media-article-title">
@@ -243,7 +246,7 @@
               </p>
             </div>
           </div>
-          <div class="col-md-3">
+          <div class="col-xl-3">
             <div class="media-card-wrapper">
               <img class="media-logo" src="~assets/images/media-logos/npr-logo.png" alt="NPR" />
             <p class="media-article-title">
@@ -257,7 +260,7 @@
               </p>
             </div>
           </div>
-          <div class="col-md-3">
+          <div class="col-xl-3">
             <div class="media-card-wrapper">
               <img class="media-logo" src="~assets/images/media-logos/forbes-logo.png" alt="Forbes" />
               <p class="media-article-title">
@@ -271,7 +274,7 @@
               </p>
             </div>
           </div>
-          <div class="col-md-3">
+          <div class="col-xl-3">
             <div class="media-card-wrapper">
               <img class="media-logo" src="~assets/images/media-logos/the-hill-logo.png" id="the-hill-logo" alt="The Hill" />
               <p class="media-article-title">
@@ -293,11 +296,8 @@
         <h1 class="section-title">
           {{ translate.nextSteps1 }}
         </h1>
-        <h4 class="subtitle-black">
-          {{ translate.nextSteps2 }}
-        </h4>
         <div class="row three-days">
-          <div class="col-md-4">
+          <div class="col-lg-4">
             <div class="next-steps-day-wrapper">
               <h1 class="next-steps-day-title next-steps-day-1-title">{{ translate.nextSteps3 }}</h1>
             <p class="next-steps-day-description">{{ translate.nextSteps4 }}</p>
@@ -307,7 +307,7 @@
             </button>
             </div>
           </div>
-          <div class="col-md-4">
+          <div class="col-lg-4">
             <div class="next-steps-day-wrapper">
               <h1 class="next-steps-day-title next-steps-day-2-title">{{ translate.nextSteps5 }}</h1>
             <p class="next-steps-day-description">{{ translate.nextSteps6 }}</p>
@@ -317,7 +317,7 @@
             </button>
             </div>
           </div>
-          <div class="col-md-4">
+          <div class="col-lg-4">
             <div class="next-steps-day-wrapper">
               <h1 class="next-steps-day-title next-steps-day-3-title">{{ translate.nextSteps7 }}</h1>
             <p class="next-steps-day-description">{{ translate.nextSteps8 }}</p>
@@ -331,8 +331,8 @@
       </div>
     </section>
     <section id="thank-you-section">
-      <div class="col-md-6 offset-md-3">
-        <h1>
+      <div class="col-md-8 offset-md-2">
+        <h1 id="thank-you-title">
           {{ translate.thankyou1 }}
         </h1>
         <img class="separator" src="~assets/images/separator.jpg" :alt="$t('getInvolved.common.separatorAlt')" />
@@ -342,7 +342,6 @@
         <p>{{ translate.thankyou3 }}</p>
       </div>
     </section>
-
     <PageFooter />
   </div>
 </template>
@@ -400,9 +399,23 @@
     background-color: #efefef;
   }
 
+  .video-container {
+    position: relative;
+    padding-bottom: 56.25%; /* 16:9 */
+    height: 0;
+  }
+
+  .video-container iframe {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+  }
+
   #impact-section {
     text-align: center;
-    padding-top: 40px;
+    padding-top: 10px;
     padding-bottom: 40px;
   }
 
@@ -456,6 +469,20 @@
     background: #fff;
     padding: 20px;
     text-align: left;
+    position: relative;
+    margin-top: 20px;
+  }
+
+  .impact-social-views-top-arrow {
+    position: absolute;
+    width: 0;
+    height: 0;
+    top: -20px;
+    right: 50%;
+    border-top: 20px solid #fff;
+    border-right: 20px solid transparent;
+    border-left: 20px solid transparent;
+    transform: rotate(180deg);
   }
 
   .share-icon {
@@ -477,6 +504,7 @@
     color: #fff;
     padding-top: 60px;
     padding-bottom: 60px;
+    position: relative;
   }
 
   .impact-color-background .impact-section-small {
@@ -523,7 +551,8 @@
     text-align: center;
     padding-bottom: 60px;
   }
-  #media-section .col-md-3 {
+
+  #media-section .col-xl-3 {
     height: 400px;
   }
 
@@ -550,9 +579,8 @@
   }
 
   .media-logo {
-    padding-top: 40px;
-    padding-bottom: 40px;
-    max-width: 200px;
+    padding: 40px 10px 30px 10px;
+    max-width: 80%;
   }
 
   #the-hill-logo,
@@ -561,7 +589,12 @@
   }
 
   .media-article-title {
+    padding-left: 20px;
     padding-bottom: 20px;
+    text-align: left;
+    font-size: 1.1em;
+    font-family: titling-gothic-fb, sans-serif;
+    text-decoration: underline;
   }
 
   .media-title-link {
@@ -571,13 +604,15 @@
     position: absolute;
     width: 100%;
     bottom: 10px;
+    text-align: left;
+    padding-left: 20px;
   }
 
   .media-title-link a {
     color: #000;
     text-transform: uppercase;
     text-decoration: none;
-    font-size: 0.9em;
+    font-size: 0.8em;
     font-weight: 800;
   }
 
@@ -658,7 +693,8 @@
 
   .circle-arrow {
     max-width: 25px;
-    margin-left: 10px;
+    margin-left: 5px;
+    padding-bottom: 3px;
   }
 
   #thank-you-section {
@@ -669,16 +705,97 @@
     padding-bottom: 60px;
   }
 
+  #thank-you-title {
+    text-transform: uppercase;
+    font-weight: 800;
+    font-size: 5vw;
+    background: -webkit-linear-gradient(135deg, #ec688d, #cd79b1, #cbdb2a, #f26146);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    line-height: 92%;
+  }
+
+  #thank-you-section .subtitle-black {
+    font-weight: 700;
+    font-size: 2em;
+  }
 
   @media (max-width: 576px) {
-    .share-icons-wrapper,
-    .impact-section-title {
-      margin: 0;
+    .impact-section-large {
+      font-size: 35vw;
     }
 
-    .viewer-count {
-      margin: 0 auto;
-      width: 100%;
+    .impact-section-small {
+      font-size: 2em;
+    }
+
+    .impact-title-event {
+      font-size: 10vw;
+    }
+
+    .impact-title-viewers {
+      font-size: 12vw;
+    }
+
+    .share-icon-wrapper {
+      text-align: center;
+    }
+
+    .share-icon {
+      width: 40px;
+      padding-bottom: 10px;
+    }
+
+    .impact-social-text {
+      font-size: 0.9em;
+      text-align: center;
+    }
+
+    .down-arrow-pink {
+      padding-top: 40px;
+      padding-bottom: 40px;
+    }
+
+    .impact-social-views-wrapper {
+      padding: 20px 5px 20px 5px;
+      margin-right: 5px;
+      margin-left: 5px;
+      margin-top: 30px;
+    }
+
+    .impact-title-actions {
+      font-size: 14vw;
+    }
+
+    .impact-title-pledges {
+      font-size: 10vw;
+    }
+
+    #media-section .col-xl-3 {
+      height: 300px;
+    }
+
+    .media-logo {
+      width: 200px;
+    }
+
+    #refinery-29-logo,
+    #the-hill-logo {
+      width: 45%;
+      padding-top: 20px;
+      padding-bottom: 20px;
+    }
+
+    .next-steps-day-wrapper {
+      margin-bottom: 20px;
+    }
+
+    #thank-you-section {
+      padding-top: 0;
+    }
+
+    #thank-you-title {
+      font-size: 10vw;
     }
   }
 
