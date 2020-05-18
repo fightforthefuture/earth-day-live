@@ -493,6 +493,7 @@
   .impact-social-text {
     text-transform: uppercase;
     display: inline-block;
+    font-size: 1.3em;
   }
 
   .impact-color-background {
@@ -747,7 +748,7 @@
     }
 
     .impact-social-text {
-      font-size: 0.9em;
+      font-size: 0.8em;
       text-align: center;
     }
 
