@@ -86,10 +86,13 @@
           </div>
         </div>
       </div>
-      <font-awesome-layers class="fa-2x down-arrow-pink">
-        <font-awesome-icon icon="chevron-down"/>
-      </font-awesome-layers>
+      <div class="col-md-8 offset-md-2">
+        <font-awesome-layers class="fa-2x down-arrow-pink">
+          <font-awesome-icon icon="chevron-down"/>
+        </font-awesome-layers>
+      </div>
       <div class="impact-color-background">
+        <div class="impact-color-background-top-arrow"></div>
         <div class="impact-top-arrow"></div>
         <div class="col-md-8 offset-md-2">
           <h2 class="impact-section-small">
@@ -431,8 +434,8 @@
 
   .down-arrow-pink {
     color: #ec727e;
-    padding-top: 60px;
-    padding-bottom: 60px;
+    padding-top: 80px;
+    padding-bottom: 80px;
   }
 
   .impact-section-small {
@@ -484,11 +487,12 @@
     width: 0;
     height: 0;
     top: -20px;
-    right: 50%;
+    left: 50%;
     border-top: 20px solid #fff;
     border-right: 20px solid transparent;
     border-left: 20px solid transparent;
     transform: rotate(180deg);
+    margin-left: -20px;
   }
 
   .share-icon-wrapper {
@@ -516,6 +520,18 @@
     padding-top: 60px;
     padding-bottom: 60px;
     position: relative;
+  }
+
+  .impact-color-background-top-arrow {
+    position: absolute;
+    width: 0;
+    height: 0;
+    top: 0;
+    left: 50%;
+    border-top: 20px solid #efefef;
+    border-right: 20px solid transparent;
+    border-left: 20px solid transparent;
+    margin-left: -20px;
   }
 
   .impact-color-background .impact-section-small {
