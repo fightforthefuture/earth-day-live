@@ -290,37 +290,42 @@
     </section>
     <section id="next-steps-section">
       <div class="col-md-8 offset-md-2">
-        <h1>
+        <h1 class="section-title">
           {{ translate.nextSteps1 }}
         </h1>
-        <img class="separator" src="~assets/images/separator.jpg" :alt="$t('getInvolved.common.separatorAlt')" />
         <h4 class="subtitle-black">
           {{ translate.nextSteps2 }}
         </h4>
         <div class="row three-days">
           <div class="col-md-4">
-            <h1 class="next-steps-day-title">{{ translate.nextSteps3 }}</h1>
+            <div class="next-steps-day-wrapper">
+              <h1 class="next-steps-day-title next-steps-day-1-title">{{ translate.nextSteps3 }}</h1>
             <p class="next-steps-day-description">{{ translate.nextSteps4 }}</p>
             <button class="btn next-steps-day-1-button" @click="goTo('https://strikewithus.org/demands/')">
               {{ translate.nextSteps9 }}
               <img class="circle-arrow" src="~assets/images/circle-arrow.svg" :alt="$t('getInvolved.common.arrowAlt')" />
             </button>
+            </div>
           </div>
           <div class="col-md-4">
-            <h1 class="next-steps-day-title">{{ translate.nextSteps5 }}</h1>
+            <div class="next-steps-day-wrapper">
+              <h1 class="next-steps-day-title next-steps-day-2-title">{{ translate.nextSteps5 }}</h1>
             <p class="next-steps-day-description">{{ translate.nextSteps6 }}</p>
             <button class="btn next-steps-day-2-button" @click="goTo('https://stopthemoneypipeline.com/petition/')">
               {{ translate.nextSteps10 }}
               <img class="circle-arrow" src="~assets/images/circle-green-arrow.svg" :alt="$t('getInvolved.common.arrowAlt')" />
             </button>
+            </div>
           </div>
           <div class="col-md-4">
-            <h1 class="next-steps-day-title">{{ translate.nextSteps7 }}</h1>
+            <div class="next-steps-day-wrapper">
+              <h1 class="next-steps-day-title next-steps-day-3-title">{{ translate.nextSteps7 }}</h1>
             <p class="next-steps-day-description">{{ translate.nextSteps8 }}</p>
             <button class="btn next-steps-day-3-button" @click="goTo(localePath('/vote/'))">
               {{ translate.nextSteps11 }}
               <img class="circle-arrow" src="~assets/images/circle-arrow.svg" :alt="$t('getInvolved.common.arrowAlt')" />
             </button>
+            </div>
           </div>
         </div>
       </div>
@@ -576,18 +581,21 @@
     font-weight: 800;
   }
 
-  #next-steps-section .three-days {
+  .next-steps-day-wrapper {
     background-color: #190825;
     color: #fff;
+    padding: 10px 10px 0 10px;
   }
 
   .next-steps-day-title {
-    padding-top: 20px;
-    padding-bottom: 20px;
+    padding: 20px 20px 0 20px;
+    text-align: left;
   }
 
   .next-steps-day-description {
-    padding-bottom: 20px;
+    padding-left: 20px;
+    padding-right: 20px;
+    text-align: left;
   }
 
   .next-steps-day-1-button,
@@ -598,8 +606,26 @@
     padding: 20px 40px;
     font-weight: 700;
     font-size: 1.2rem;
-    margin-bottom: 50px;
-    width: 80%;
+    margin-bottom: 20px;
+    width: 88%;
+  }
+
+  .next-steps-day-1-title {
+    background: -webkit-linear-gradient(right, #f26146, #fb722c, #f65b5a, #f85371);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+  }
+
+  .next-steps-day-2-title {
+    background: -webkit-linear-gradient(right, #88c656, #c3b449, #95c552, #88c656);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+  }
+
+  .next-steps-day-3-title {
+    background: -webkit-linear-gradient(right, #ec688d, #e671a4, #cd79b1, #ec688d);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
   }
 
   .next-steps-day-1-button {
@@ -611,7 +637,7 @@
   }
 
   .next-steps-day-2-button {
-    background-image: linear-gradient(to right,#88c656 0%, #c3b449 35%, #95c552 65%, #88c656 100%);
+    background-image: linear-gradient(to right, #88c656 0%, #c3b449 35%, #95c552 65%, #88c656 100%);
   }
 
   .next-steps-day-2-button img {
