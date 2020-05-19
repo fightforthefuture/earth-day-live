@@ -11,16 +11,16 @@ export default {
     return {
       title: 'Earth Day Live',
       meta: [
-        { hid: 'og:title', property: 'og:title', content: 'Join the Livestream now!' },
-        { hid: 'og:description', property: 'og:description', content: 'On April 22-24, millions around the world are taking to the web to celebrate the 50th anniversary of Earth Day.' },
+        { hid: 'og:title', property: 'og:title', content: 'Earth Day Live 2020' },
+        { hid: 'og:description', property: 'og:description', content: 'On April 22-24, millions around the world took to the web to celebrate the 50th anniversary of Earth Day.' },
         { hid: 'og:image', property: 'og:image', content: 'https://www.earthdaylive2020.org/share.jpg' },
         { hid: 'og:url', property: 'og:url', content: 'https://www.earthdaylive2020.org' },
         { hid: 'og:type', property: 'og:type', content: 'website' },
         { hid: 'twitter:card', property: 'twitter:card', content: 'summary_large_image' },
-        { hid: 'twitter:description', property: 'twitter:description', content: 'On April 22-24, millions around the world are taking to the web to celebrate the 50th anniversary of Earth Day.' },
+        { hid: 'twitter:description', property: 'twitter:description', content: 'On April 22-24, millions around the world took to the web to celebrate the 50th anniversary of Earth Day.' },
         { hid: 'twitter:image', property: 'twitter:image', content: 'https://www.earthdaylive2020.org/share.jpg' },
         { hid: 'twitter:site', property: 'twitter:site', content: '@usclimatestrike' },
-        { hid: 'twitter:title', property: 'twitter:title', content: 'Join the Livestream now!' },
+        { hid: 'twitter:title', property: 'twitter:title', content: 'Earth Day Live 2020' },
         { hid: 'twitter:url', property: 'twitter:title', content: 'https://www.earthdaylive2020.org' },
       ],
       script: [
