@@ -16,7 +16,7 @@
     <section id="video-recap">
       <div class="col-md-8 offset-md-2">
         <div class="video-container">
-          <iframe width="100%" height="600" src="https://www.youtube.com/embed/W8G09g-Z-FU" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+          <iframe width="100%" height="600" src="https://www.youtube.com/embed/videoseries?list=PLtDWMbV70KYAlJyrQmPlc2UF9Zsl_U9fl" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
         </div>
       </div>
     </section>
@@ -569,8 +569,8 @@
   #media-section,
   #thank-you-section {
     text-align: center;
-    padding-top: 60px;
-    padding-bottom: 60px;
+    padding-top: 40px;
+    padding-bottom: 40px;
   }
 
 
